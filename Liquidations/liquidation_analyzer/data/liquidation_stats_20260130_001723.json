@@ -1,0 +1,27 @@
+{
+  "timestamp": "20260130_001723",
+  "total_signatures": 100,
+  "failed_transactions": 75,
+  "success_transactions": 25,
+  "liquidation_transactions": 0,
+  "non_liquidation_transactions": 25,
+  "fetch_failed": 0,
+  "parse_failed": 0,
+  "liquidation_ratio": 0.0,
+  "profit_stats": {
+    "total_profit_usd": 0,
+    "avg_profit_usd": 0,
+    "max_profit_usd": 0,
+    "min_profit_usd": 0,
+    "profitable_count": 0,
+    "unprofitable_count": 0,
+    "profitable_ratio": 0,
+    "total_debt_usd": 0,
+    "total_collateral_value_usd": 0
+  },
+  "price_cache_stats": {
+    "cache_size": 0,
+    "fetch_count": 0,
+    "cache_hits": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-01-29T21:35:13.251244",
+  "protocol": "Kamino",
+  "time_range_days": 7,
+  "total_transactions": 1000,
+  "total_batches": 1,
+  "data_folder": "kamino_data_20260129_213457",
+  "stats_folder": "kamino_stats_20260129_213457",
+  "batch_files": [
+    "kamino_batch_001_of_001.json"
+  ],
+  "statistics_file": "transaction_statistics.json"
+}

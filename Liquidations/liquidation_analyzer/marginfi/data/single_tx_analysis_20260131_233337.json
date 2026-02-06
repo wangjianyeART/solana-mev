@@ -1,0 +1,116 @@
+{
+  "signature": "2mCYQttX6KZtxgR3g5tt1kNgFXL3UQJuQibw5FErJsvNud8ztA1ibZjJ2UVFwf73CT5uUsGaZkCxwJoGQQd1sPsF",
+  "datetime": "2026-01-30T15:37:36",
+  "slot": 396868976,
+  "success": true,
+  "liquidator": "77WRPLVPK5Vx4pPRimwQiqFiBViFvus8vRupP2yig29L",
+  "liquidatee": "99SCzXbyx3ufa4ya4F3WxwTapzQBY1yKgk362LGNe9nS",
+  "uses_flash_loan": true,
+  "flash_loan_amount": 0.0,
+  "flash_loan_token": "",
+  "flash_loan_fee": 0.0,
+  "debt_token": "USDC",
+  "debt_amount": 4.256900000000314,
+  "collateral_token": "EURC",
+  "collateral_received": 3.570434999994177,
+  "gas_fee_sol": 1.9e-05,
+  "gas_fee_usd": 0.00219469,
+  "priority_fee_lamports": 14000,
+  "priority_fee_sol": 1.4e-05,
+  "priority_fee_usd": 0.00161714,
+  "sol_price_used": 115.51,
+  "sol_price_source": "historical",
+  "protocol_fee": 0.0,
+  "protocol_fee_token": "",
+  "gross_profit_usd": -0.5436476000063704,
+  "net_profit_usd": -0.5452647400063704,
+  "liquidator_gains": {
+    "USDC": -4.256900000000314,
+    "EURC": 3.570434999994177
+  },
+  "log_data": {
+    "prices": {},
+    "liquidation_info": {},
+    "is_jupiter_swap": true,
+    "jupiter_swap_output": 4256900,
+    "repay_amount": 0,
+    "raw_important_logs": [
+      "Program log: Instruction: LendingAccountLiquidate",
+      "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 hPRAAAAAAAA="
+    ]
+  },
+  "raw_token_changes": [
+    {
+      "owner": "3uxNepDbmkDNq6JhRja5Z8QwbTrfmkKP8AKZV5chYDGG",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "pre_amount": 14626682.669535,
+      "post_amount": 14626686.704905,
+      "change": 4.035369999706745,
+      "decimals": 6
+    },
+    {
+      "owner": "D9i4VJA8XaY49Rzff71B1uAJmjnuNfUuuZ1BLrjsPqYn",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "pre_amount": 19.644236,
+      "post_amount": 19.759573,
+      "change": 0.11533700000000024,
+      "decimals": 6
+    },
+    {
+      "owner": "9Z49zR1igJGX2THxwJJJt8jZha9HRh2USBpuFfho9qU9",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "pre_amount": 105346.504871,
+      "post_amount": 105346.611064,
+      "change": 0.10619299999962095,
+      "decimals": 6
+    },
+    {
+      "owner": "EbvHdZkL8n5R9qQipCzPzYybWXQZATMnyfSkqJHXw9gU",
+      "mint": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "pre_amount": 258.393987375,
+      "post_amount": 258.430918898,
+      "change": 0.036931523000021116,
+      "decimals": 9
+    },
+    {
+      "owner": "DD3AeAssFvjqTvRTrRAtpfjkBF8FpVKnFuwnMLN9haXD",
+      "mint": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "pre_amount": 53554.128331438,
+      "post_amount": 53554.091399915,
+      "change": -0.036931522998202126,
+      "decimals": 9
+    },
+    {
+      "owner": "77WRPLVPK5Vx4pPRimwQiqFiBViFvus8vRupP2yig29L",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "pre_amount": 41485.463855,
+      "post_amount": 41481.206955,
+      "change": -4.256900000000314,
+      "decimals": 6
+    },
+    {
+      "owner": "EbvHdZkL8n5R9qQipCzPzYybWXQZATMnyfSkqJHXw9gU",
+      "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+      "symbol": "EURC",
+      "pre_amount": 7460.801388,
+      "post_amount": 7457.230953,
+      "change": -3.570434999999634,
+      "decimals": 6
+    },
+    {
+      "owner": "77WRPLVPK5Vx4pPRimwQiqFiBViFvus8vRupP2yig29L",
+      "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+      "symbol": "EURC",
+      "pre_amount": 34000.658173,
+      "post_amount": 34004.228608,
+      "change": 3.570434999994177,
+      "decimals": 6
+    }
+  ]
+}

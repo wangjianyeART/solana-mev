@@ -1,0 +1,173 @@
+# Fast Kamino - Kamino Liquidation MEV Analysis Tool
+
+Quickly fetch, parse, and analyze liquidation transactions from the Kamino lending protocol.
+
+## Features
+
+- **Fetch Data**: Concurrently fetch Kamino liquidation transactions with strict API rate limiting
+- **Parse Data**: Parse Kamino instructions using IDL, extract balance changes and liquidation details
+- **Analyze Data**: Calculate liquidation profits, generate statistical reports
+
+## Project Structure
+
+```
+fast_kamino/
+├── main.py                        # Main entry point, integrates the three-step pipeline
+├── step1_fetch_liquidations_fast.py  # Step 1: Fetch liquidation transactions
+├── step2_batch_parse.py           # Step 2: Batch parse transactions
+├── step3_analyze.py               # Step 3: Analyze liquidation data
+├── kamino_decoder.py              # Kamino IDL decoder
+├── kamino_lending_idl.json        # Kamino IDL definition
+├── .env                           # Environment variable configuration
+└── data/                          # Output data directory
+```
+
+## Installation
+
+1. Configure your Helius API Key:
+
+```bash
+# Edit the .env file
+HELIUS_API_KEY=your_api_key_here
+```
+
+2. Install dependencies (if needed):
+
+```bash
+pip install aiohttp
+```
+
+## Usage
+
+### Full Pipeline
+
+```bash
+# Default: scan 5000 signatures
+python main.py
+
+# Specify scan count
+python main.py --limit 10000
+
+# Specify output directory
+python main.py --limit 5000 --output ./my_data
+
+# Adjust concurrent thread count
+python main.py --limit 5000 --workers 8
+```
+
+### Step-by-Step Execution
+
+```bash
+# Run only step 1 (fetch data)
+python main.py --step 1
+
+# Run only step 2 (parse data)
+python main.py --step 2 --input ./data/liquidations_raw_xxx.json
+
+# Run only step 3 (analyze data)
+python main.py --step 3 --input ./data/liquidations_parsed_xxx.json
+```
+
+### Continue from a Specific Step
+
+```bash
+# Start from step 2 (requires step 1 output)
+python main.py --from 2 --input ./data/liquidations_raw_xxx.json
+
+# Start from step 3 (requires step 2 output)
+python main.py --from 3 --input ./data/liquidations_parsed_xxx.json
+```
+
+### Run Each Step Individually
+
+```bash
+# Step 1: Fetch liquidation transactions
+python step1_fetch_liquidations_fast.py --limit 5000
+
+# Step 2: Batch parse
+python step2_batch_parse.py ./data/liquidations_raw_xxx.json
+
+# Step 3: Analyze data
+python step3_analyze.py ./data/liquidations_parsed_xxx.json
+```
+
+## Output Files
+
+| Step | File Format | Description |
+|------|-------------|-------------|
+| Step 1 | `liquidations_raw_{timestamp}.json` | Raw transaction data |
+| Step 2 | `liquidations_parsed_{timestamp}.json` | Parsed liquidation transactions |
+| Step 3 | `liquidation_analysis_{timestamp}.json` | Analysis report |
+
+## Analysis Report Contents
+
+The analysis report generated in step 3 contains:
+
+- **Statistical Summary**
+  - Liquidator statistics (count, most active liquidators)
+  - Flash loan usage rate
+  - Cost statistics (Gas fees, Priority Fee, flash loan fees)
+  - Profit statistics (total profit, average profit)
+  - Debt/collateral token distribution
+
+- **Per-Liquidation Details**
+  - Signature, time, Slot
+  - Liquidator, liquidatee
+  - Flash loan info
+  - Token changes
+  - Cost breakdown
+  - Profit calculation
+
+## API Rate Limiting
+
+- Default rate: 8 req/sec (Helius free tier limit is 10 req/sec)
+- Uses token bucket algorithm for request rate control
+- Automatic retry on 429 errors
+
+## Price Data
+
+- Primarily uses on-chain oracle prices (parsed from logs)
+- Falls back to Binance historical candlestick prices
+- Last resort: current API price
+
+## Example Output
+
+```
+======================================================================
+                    FAST KAMINO - Liquidation MEV Analysis
+======================================================================
+
+Start time: 2026-01-30 15:00:00
+Scan target: 5000 signatures
+Output directory: ./data
+
+----------------------------------------------------------------------
+[Step 1/3] Fetch Liquidation Transactions
+----------------------------------------------------------------------
+...
+
+----------------------------------------------------------------------
+[Step 2/3] Parse Liquidation Transactions
+----------------------------------------------------------------------
+...
+
+----------------------------------------------------------------------
+[Step 3/3] Analyze Liquidation Data
+----------------------------------------------------------------------
+...
+
+======================================================================
+                         Pipeline Complete
+======================================================================
+
+Statistical Summary:
+  Signatures scanned: 5000
+  Successful transactions: 4500
+  Liquidation transactions: 15
+
+Profit Statistics:
+  Total net profit: $12.3456
+  Average net profit: $0.8230
+
+======================================================================
+```

@@ -1,0 +1,1279 @@
+[
+  {
+    "type": "USDC",
+    "slot": "252308624",
+    "sig": "2KdEHDm8BGEapQSJzdrRi9aNxVoH8u2SvhW1SFRkF5iAZDaZ4xBySqkKppVCQX11VEQHby61rKtvALw6SzPzpN1",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.076128488,
+    "profit": 44.415497999987565,
+    "pool_flow": 1536.0,
+    "leverage": 0.028916339843741905,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308624",
+    "sig": "345GLLuazdTVoVd5APCf3ifBFtcM6Fa43c5wq85BejWB3x4EsUnUM3svieGBaB3V5H8tg7cFxRdw7Da9HeLxG6R1",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0005174640000404906,
+    "profit": 0.00041246400004049064,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308624",
+    "sig": "gPxfNvsocF4JcYhpJyc1bAoCv6tEPjYR7jWxFWdprnmYrm3j5a1QVhNuf5tjDRMGVL8bqeZKhMnBbBVYwbpX86G",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.019668063,
+    "profit": 2.7548030000180006,
+    "pool_flow": 192.0,
+    "leverage": 0.01434793229176042,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308624",
+    "sig": "5RTwDyeTYarbjAef437ADZSxhhrFBppA1rBcbJ4uajHMEAmjAU5uMpvzBmjf4VfU1piZvdaGb3adM1EbEcPwS8u1",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.324e-06,
+    "sol_spent": 8.324e-06,
+    "wsol_gain": 0.0005196670000060521,
+    "profit": 0.0005113430000060522,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308624",
+    "sig": "2XyPZnWA9z8ZhSzkoev32CPBq2WhwEgvxXADq9LSDkich9ZkoHYEae7rPe5hNttCH65uY58R6KTHyoQBz15mUPgZ",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.038e-06,
+    "sol_spent": 8.038e-06,
+    "wsol_gain": 0.0009291519999976572,
+    "profit": 0.0009211139999976572,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "626zz8g9y6jwdBge8iWi3mQSZhvaaxHm1gLCbc46GRup1SRrUgVz9JxjBFG2QTG2TJ5dc9DQNgTr5Y23QX7fxu15",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1e-05,
+    "sol_spent": 1e-05,
+    "wsol_gain": 0.2211289100000613,
+    "profit": 0.2211189100000613,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "63tPPpnjMQ2HN7NpBfmVMEC5xJQqQ9sszsXUzwCAoFDraNEkLZp4By7GTQ266tE4fGwgNNy6ebEaFh79F2NT2eat",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.005463482,
+    "sol_spent": 0.005463482,
+    "wsol_gain": 0.028774800000064715,
+    "profit": 0.023311318000064717,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308630",
+    "sig": "hnv9Emo5b4xYuA4xVpQ9Epo5WZ5Npu2QyQwhyb9cfGPM5gT6vPFjTus49uGLqtr5sssjyBjWyAj6jUEZTbnHj5o",
+    "signers": [
+      "HCMRVfbhtQMRXGS6w4K5a57mwugy5m72VxGFkf3K4nt7",
+      "C3AnpNzNid5dt6qsBg2516vTTKp87wVw7DdnRTwecKfL"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000472817,
+    "profit": 0.009495000005699694,
+    "pool_flow": 241.20448700000998,
+    "leverage": 3.936493936656867e-05,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "ZEwxDE6ERuA8GfXRs9hMGovPF3XdhwG5BCZdJ3khrN61pXsV44s53kBAqkvDbqK3R1s3mthR2QWU357NWtJ1ab4",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.973e-06,
+    "sol_spent": 7.973e-06,
+    "wsol_gain": 0.0001639850000003662,
+    "profit": 0.0001560120000003662,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "4a3vYBBWj625nc485XRRcEKnQFydsF5dZ4AaUqPR733x4NseZfNBeJ9EdaY7ANav5nzeTHXAC2f3ZH8GXX6c3jur",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.487e-06,
+    "sol_spent": 8.487e-06,
+    "wsol_gain": 0.0009326649999934489,
+    "profit": 0.0009241779999934489,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "5Z6D6ioAibBHeiXUTmRuq17kqdrCSaS2ZjCCwBoUhD7WJGvWH8skF4FQozYevqrnfMKsBtiop1XZo8xhnTYrw4fS",
+    "signers": [
+      "HanJiSCHzC1DybeXxRrMzGiD5rY9WAXT6vLtYfqRPNgo"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.893e-06,
+    "sol_spent": 7.893e-06,
+    "wsol_gain": 0.0003154569999992418,
+    "profit": 0.0003075639999992418,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308630",
+    "sig": "63KH6D2794CxykkynpS2Fw9wkt4TEupy1htqMmiigF9eBNcxhqobunekJ7SgXNMuC1Z9FUgPCzrMhnYbLuo47jD7",
+    "signers": [
+      "JUpE8FV2e6zBvfGPFP2UhPu6H5Qqxpdm5azVVV9Qbq2",
+      "3agTtbkPpSd1bbMrMngyanwbNPkfnPPg1sVDkQxkZHM4"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.4999e-05,
+    "profit": 0.08596400000010362,
+    "pool_flow": 450.00054400000954,
+    "leverage": 0.00019103088017622885,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "4wxgCLhx54zLAhXnru3azTuZDbS92pMt3RQ7rGBdghvodVvDoEZrPzAtG7UVWirmtMXthLsH3SCnj3UnfJUk1hCK",
+    "signers": [
+      "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq"
+    ],
+    "num_signers": 1,
+    "sol_cost": 2.8616e-05,
+    "sol_spent": 2.8616e-05,
+    "wsol_gain": 0.006447545999890281,
+    "profit": 0.00641892999989028,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "25RWRoZv6fJVjHh66YagTja9zotJtzBr8TuXBgWTq1KHbd5uU1m6q1LouFFkwCyGof3M26KceDqXKx6tCgpfjMCb",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.487e-06,
+    "sol_spent": 8.487e-06,
+    "wsol_gain": 0.0003614510000033988,
+    "profit": 0.0003529640000033988,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "34bnmqA3jZ72aX9sSToo3GcRRatveaf3Cg3a4wwYpu3dj85go1KZ8CW5iyn8ENAwqHrQUXEmTfKAexSLYyDm1RJC",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.897e-06,
+    "sol_spent": 7.897e-06,
+    "wsol_gain": 9.142800000461193e-05,
+    "profit": 8.353100000461194e-05,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308630",
+    "sig": "5FT5enYuhh7wfqMtxo1F3nC2gToXY7b2jFCrgHp9Gc28KBfNkJYXMnrzKUqYSTAXBgBj9zuj6jqd8cnQBd25Qx4c",
+    "signers": [
+      "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+      "4tYa5JLGJQ9mZMjvZKQ6k1x3UB75b3idSrGBrz9LnCDc"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.2085e-05,
+    "profit": 0.03233200000022407,
+    "pool_flow": 40.0,
+    "leverage": 0.0008083000000056017,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "2N9tpCaWg1tfvPQ5Nk5q4Hp9m8HkirGeFmvdhWkUpNEBiGAz2xB35jxzUMmdzeiAMdaKenESf8pFXaQssFKT8H2P",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 6.414e-06,
+    "sol_spent": 6.414e-06,
+    "wsol_gain": 0.0004849519999972074,
+    "profit": 0.0004785379999972074,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308630",
+    "sig": "2NenioDW9cyMy54cA5MfdDZGzU4dsznffRJDZ7s84kJuX3TdeWU8fj11oZo9yVjcj7U1qdNSkSE2uqwdAPHMyHpd",
+    "signers": [
+      "4kH5sRStQiJKw5VaKuxaEYMSDnh8pSKwf5W33vz6JbHP",
+      "3NPVpzNvLPpyyfAyRFd9QsTuzkb4iPMd7WCrUCWLrsCq"
+    ],
+    "num_signers": 2,
+    "sol_cost": 7.75e-06,
+    "profit": 0.014873000000079628,
+    "pool_flow": 5.368046999996295,
+    "leverage": 0.002770653833710825,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "5oDocvd4U5EL4MLaPZSHPAtT87hfJy9XQXwGYC8GQst3QAMkxtw7H8BspCxSBaSQEv76zeQLjynkxbBM3nnEYzuo",
+    "signers": [
+      "CFLys5L8xjsNQ4j6RDrr4Woe2czP596ReMZpFVvGR5Xq"
+    ],
+    "num_signers": 1,
+    "sol_cost": 6e-06,
+    "sol_spent": 6e-06,
+    "wsol_gain": 0.0010329020000021671,
+    "profit": 0.0010269020000021672,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "5VmiPS8s6moutgC2fKKCo3BHZfVcMmtXgp77W4nNgi3nzKA44tuRV7UPNZcYca2ZCqR81Z9ZwA7964NYZguiqJrs",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.897e-06,
+    "sol_spent": 7.897e-06,
+    "wsol_gain": 0.001027156999995782,
+    "profit": 0.001019259999995782,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308630",
+    "sig": "3vH3NkqZQUQVWJ38TmuiVqXzxCeKmb6zUxevd5vEsNhyvQmoCA2GzaNLfQ8xsTUvSvUAA1jCApknAgdbZbs8cf5V",
+    "signers": [
+      "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.8899e-05,
+    "sol_spent": 1.8899e-05,
+    "wsol_gain": 0.00046019499995963997,
+    "profit": 0.00044129599995963996,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308627",
+    "sig": "33MGiPwU5pZen2oLqjgKLLMEueatbh5hkcfWHBWeJJiKV6qke9KjVt74fwoE9bn7hqdjX7GtPbNvVjV5BxCPYqwm",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.003126536,
+    "sol_spent": 0.003126536,
+    "wsol_gain": 0.006994846999987203,
+    "profit": 0.003868310999987203,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308627",
+    "sig": "51vhngwxa2HhHcWGbYJXcSia6Ln1YHAh6yq8zR99qV89MNjKQDY36MkLyExoXJoVG4Z19T4Dz8P9RpHfaerH26Hh",
+    "signers": [
+      "95PWQYG96KmCvrAy52c8rJBKm85kTtdrbkdNaBaGBAnr",
+      "BVZbvHNgnMBfnynqdB8jbEA5zrhL5TbsygzMDnFhop1c"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.001265642,
+    "profit": 0.5105860000039684,
+    "pool_flow": 200.0,
+    "leverage": 0.002552930000019842,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308627",
+    "sig": "2p1zEW8GnPgNYgbVa6TMZz8x31p6MxKo2sF9Zyv7VVk2NqHoKpuqjNYN3m8VssWSrtRF3cKT5fiTEW96YUuf9Cqz",
+    "signers": [
+      "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.6769e-05,
+    "sol_spent": 1.6769e-05,
+    "wsol_gain": 0.0004252459999634084,
+    "profit": 0.00040847699996340837,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308627",
+    "sig": "2WYTrnkkwCfQ7Ah8iD2e6asBps49YWg7pk3VUWkPidMn6s2PnHabfJatPfgsSnFQbnJt1WYCu5Nh2sivhdrcnZji",
+    "signers": [
+      "777vevJt97Vb5PRdyDBxg489o9ZLKsEKnj8KasG4jrhE",
+      "6L4AMmirq3ToNZfwMCunNGfzLsXTjph4gUXYNGfUgrRb"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.2203e-05,
+    "profit": 0.027710999999726482,
+    "pool_flow": 9.0116449999623,
+    "leverage": 0.003075021264135728,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308627",
+    "sig": "66MBAKumafQu2ecs7mURpjWYYnfQXTe5a6e6FqrGHTLbQvLEhty5YBUabZStyUtx79KBe6pzKCvtFWPJTfuweCFa",
+    "signers": [
+      "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.895e-06,
+    "sol_spent": 7.895e-06,
+    "wsol_gain": 3.5486999991007906e-05,
+    "profit": 2.7591999991007908e-05,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308633",
+    "sig": "4Pbd1J4Y6ktwtZggCPuMecxyBv7DoCknY1Esrks8mRwhssYS7xMKF3EEJeo5ShYfWu18zVPbCNvMYWXr4hZh1PTK",
+    "signers": [
+      "E2siDSJuHzjRHwpXvyxHxgzXecKEGzR7NX5vM6n1f12B"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.2002e-05,
+    "sol_spent": 1.2002e-05,
+    "wsol_gain": 0.008578536000015902,
+    "profit": 0.008566534000015901,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308633",
+    "sig": "4y1iVukFBG9ETDf9fAH8u3StXC2rN33KoKi5uYnCFez98eufY2239KpYLMTTZJ5c8hBJeRzgX6J5dYEneiaJuZqN",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.56e-06,
+    "sol_spent": 7.56e-06,
+    "wsol_gain": 0.0017436689999996702,
+    "profit": 0.0017361089999996702,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308633",
+    "sig": "5HHjUjMZfQNn8tcNWSATkw7p8uiYH3cudZC8q7mAEgRTU2Ss5PBfmyooM3ymgyZRTy1yXUJFDZXfkfv1KM2XDyN4",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+      "2zKTG8QAA9uQvwiQwnoU4EiMQ8dMnhHCwixRyyn2UxzL"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.001005,
+    "profit": 10.977757999993628,
+    "pool_flow": 2065.715808000008,
+    "leverage": 0.005314263441989202,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308633",
+    "sig": "3emeeHXo8DzLyqyvCf6JLfmNp2vhSThLQNrjK1Jg4KeXa9vZxohtKdCxZ711kfLqWG4BK2UUUV5mwjEEdtGwGWh9",
+    "signers": [
+      "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq",
+      "ComputeBudget111111111111111111111111111111"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.22e-05,
+    "profit": 0.03334299998823553,
+    "pool_flow": 12.0,
+    "leverage": 0.002778583332352961,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308633",
+    "sig": "3BPZKK79u6QCP2s4uJh7xjfmFirSfKqpNPiN7Qrhh9HUtM1VWRq3AhPAraYmL2rMpdGPCvDvA4Ca8PgcBJRiXPoB",
+    "signers": [
+      "CmwPTro4ogHPhuG9Dozx1X7KiATNudF1rkem3BQmuPn7",
+      "WnobLgaMRgvnenUyKV89r1JAUwTvpri8pGvXfx9nEYc"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.521e-05,
+    "profit": 0.0731670000000122,
+    "pool_flow": 10.0,
+    "leverage": 0.007316700000001219,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308632",
+    "sig": "2ygxdUr75NyfjTbDfTTjNkttTQcb2Pdh7wgNHRTNo8H3R6nZJwWE9UCA6a3sNzXAmqYNnqnefZtDXHotS9v7j8By",
+    "signers": [
+      "TyrZ6SDVQGdMpnYtAgKGocvi1w1mdffhZENf1knyeqy",
+      "2ixNnBzV8SsxZnXRYtcSPFY1z4hTVzNQHVdkEziGTLwh"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000284403,
+    "profit": 5.380929999999353,
+    "pool_flow": 8091.046229999978,
+    "leverage": 0.0006650474916393312,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308632",
+    "sig": "5CnxRzMNp81DpvnPGy9jTZmkssX1G8wppcVadU5RzKEvQoWp63Nsq7BWvsgzDoN2Shy8QobHWBbZCj7r6GbzDZxZ",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 6.556e-06,
+    "sol_spent": 6.556e-06,
+    "wsol_gain": 8.269499999968843e-05,
+    "profit": 7.613899999968844e-05,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308632",
+    "sig": "M7TZmbY6hvLrJpNSB8iCTVYjtNn7hRbdb1Vwu9yw3BX6xeSc74SdZTYaCm1KRfhMo9CxkANi9ae8EVQQkn5n5NH",
+    "signers": [
+      "4kH5sRStQiJKw5VaKuxaEYMSDnh8pSKwf5W33vz6JbHP",
+      "A2uPywa33jxpAMcDyb1Huo2gytK8u9tVC1VpN8jTY86a"
+    ],
+    "num_signers": 2,
+    "sol_cost": 7.1e-06,
+    "profit": 1.3905610000001616,
+    "pool_flow": 96.16241599999194,
+    "leverage": 0.014460545583632987,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308632",
+    "sig": "4qiMzn2Vp1ErT4x1s7SzYSLRFh8RsP7iyyX6djXUjiMfcqEkbnHjhQWymvVysnWeARbEg713tqpTq8Ut8DX1e5o9",
+    "signers": [
+      "momXXbanL1qHS4q1RPSSv8jam59j1MM2vx1TfQf3e49",
+      "5Zhyg1dvVzsSyGGMBUEsCYbmhxQq3S9d8AcqdeyYMgqM"
+    ],
+    "num_signers": 2,
+    "sol_cost": 5.5e-05,
+    "profit": 0.01184000000000296,
+    "pool_flow": 276.06029199999466,
+    "leverage": 4.288918161400477e-05,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308632",
+    "sig": "4SRseVEARJ5iwNuqj4iGq6CnchBWWYfnzEeDPqnrD8zTX3wi6jxdB8LHDNGm3g7ZC3FzUP9YxjxsPGz623dkrobB",
+    "signers": [
+      "FreyaXYaCwVy86BdNECd7BXnqEvFUbt3p6d2B5eS5zDv",
+      "YeXGX5SHcDWneqpwspYkvs3p4YgsA5nrQZTN5yBD7YH"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.7669e-05,
+    "profit": 0.03788899999926798,
+    "pool_flow": 34.08499900018796,
+    "leverage": 0.0011116033771648062,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308632",
+    "sig": "5ApxcV2NpcAYqBfukRAmxuywBueoDzGVWP3tePsEDsFQCed1HhZU7DdDwvKbRFD5pDSR2dedWPQ692U9x3Rteb6j",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+      "3SAB3HZnMh1VGwa2YoFzJjNBmAVivQjLhEMTFrh7YWnA"
+    ],
+    "num_signers": 2,
+    "sol_cost": 5.638e-06,
+    "profit": 0.014267999999901804,
+    "pool_flow": 150.0,
+    "leverage": 9.511999999934536e-05,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "2qCbGvNb4VRSsEjGQqKAhuRXknAVmbk6pw4vydNoaBt6iPtLQiv1chBpY8H4or2oeXyKFxQD5KHdzQCN3czhcyDY",
+    "signers": [
+      "CmwPTro4ogHPhuG9Dozx1X7KiATNudF1rkem3BQmuPn7",
+      "GpmFrbiGKSp6kyaHAFzxrycCqFBHCWtEGorkDShEiUp9"
+    ],
+    "num_signers": 2,
+    "sol_cost": 5.303e-06,
+    "profit": 0.012976999999864347,
+    "pool_flow": 1.0,
+    "leverage": 0.012976999999864347,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308623",
+    "sig": "2uuGmED9aSXamSEbsozR2ULAkHZvphm6bgYCmGRx4MrGhZQt4oSa4yN17hXppkqU8wY86PxYxVojrohUMzpfhBFu",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0002460800001244934,
+    "profit": 0.00014108000012449338,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "ngR3obuS4BGFDjpfEqHHBrtJ5rWFCCsK2xGVbP1XVPVKAVKk3tE9mNfzaCszPvHfZmaVmZSVhyT1BA65K12HvoN",
+    "signers": [
+      "9VFVuLnYkJ2Gyb79FNyBio4e4jciKefAH3BesCiuPxKr",
+      "1zG7FhqSPtgw4ErqALdKzTSLR9VKNK556PCtfuACEJe"
+    ],
+    "num_signers": 2,
+    "sol_cost": 6.1e-06,
+    "profit": 0.98738400000002,
+    "pool_flow": 49.855358000000706,
+    "leverage": 0.019804972616985442,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "EH18YfTG2qiEcyiuAy9D8GrDEXujXLzc6GkQDArvEsswqUy5dLCJh7M1Fp1tfsvmn5ueQoXX9bMb7JmrZbYpSLj",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+      "5RxrCig1GSvZGCcYRA42tYfAqt9ey3gc7813m1zcvDR4"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.4912e-05,
+    "profit": 0.8171350000000075,
+    "pool_flow": 149.99127100000624,
+    "leverage": 0.005447883697178441,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "4oYcDntdZczvgvxgyyWXsCKrT5Z7jXGGva9tQeG7kKUHMLecGYodMwxe5T1PAEmZFw1LAfu58FYdzSgpL3YSrNeW",
+    "signers": [
+      "bobCPc5nqVoX7r8gKzCMPLrKjFidjnSCrAdcYGCH2Ye",
+      "3Z4k6Pj8XNg2GpYsw4GbvwhPaagcm2gLC545W5LPUC8B"
+    ],
+    "num_signers": 2,
+    "sol_cost": 2.9835e-05,
+    "profit": 6.266964000009466,
+    "pool_flow": 187.5,
+    "leverage": 0.03342380800005049,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "2WSavz6qQJufw3iwxoZDi558sEdSXNGwUpTYeeFar78uJ6Qn17nkjXwbbiAGFsJU5mG5cR9QSwSsZNLLGL3qmL5E",
+    "signers": [
+      "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+      "ESfG1y84fdd2z5RF9ULh5deQTZ9KdWkRN6eyNwTHbYxJ"
+    ],
+    "num_signers": 2,
+    "sol_cost": 7.897e-06,
+    "profit": 0.020207999999911408,
+    "pool_flow": 79.9877659999911,
+    "leverage": 0.00025263863476214174,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308623",
+    "sig": "5FugzMFCgKYzqjpqVNmqyuqf8DfshF8Dfy7ZE5Axxe2X9PP9hYv4WUpGJVTV5K45fQF4UavScmntbcuE2vYHm34Q",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+      "BBU8t3ecTHsqCWXAR3Nc9s5UqaZP5zdUJ4N5ukWSQHh"
+    ],
+    "num_signers": 2,
+    "sol_cost": 6.7146e-05,
+    "profit": 0.10258299999986775,
+    "pool_flow": 13.340262999998231,
+    "leverage": 0.007689728455869375,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308623",
+    "sig": "3CvcCduE5gCXmNmFYyBaomSt4vc6qrcbymGAWNWsvzcLz9sWDizg3fMHvrCvPiDPMqwmg6LT5z9YK4qJihxu6MBF",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.00393803,
+    "sol_spent": 0.00393803,
+    "wsol_gain": 0.007461926999894786,
+    "profit": 0.0035238969998947853,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308625",
+    "sig": "5PU2aKq8o68u71doPPvi1RLi5fu11Bemyhb3VmLHGQ2HSt4o5VTMDgY8YVcChZ5fqjd7EYv1qgoS5NWVf3DuUjtZ",
+    "signers": [
+      "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+      "4ybsPdMHz2VfKQvLbWHJAvkcDRtdp6STNHC41SKofWYi"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000509229,
+    "profit": 1.8665739999851212,
+    "pool_flow": 200.0,
+    "leverage": 0.009332869999925606,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308625",
+    "sig": "33Ugu2gk3hFq1s9sD5WonQJLiimPCZd3JC1YYPy4SzLMSsEfQtMu9YATwmqwMBDWkP2KMsEs7zqj9NdcWiMv9sF3",
+    "signers": [
+      "HanJiSCHzC1DybeXxRrMzGiD5rY9WAXT6vLtYfqRPNgo"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.0786e-05,
+    "sol_spent": 1.0786e-05,
+    "wsol_gain": 0.0017894360000028087,
+    "profit": 0.0017786500000028086,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308625",
+    "sig": "3w6WdXSavbXKQzvFpYSFmd9zL9XaEPd2NK4HKe7jho6Amho1t8FLEp9S5S3vtbvGrHTsTvXWuHCTFdgpaMRfisz",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.03689835,
+    "profit": 4.40545799996471,
+    "pool_flow": 2047.9952919998905,
+    "leverage": 0.002151107484071768,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308625",
+    "sig": "39Xk3DXiFXpVYBmwx3eAXDrj65FU3MT3ACo8zdnGkcNwNp62NthgVasGouCGfUPr3JLUGy8WTWmFaQyuHofWGztC",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.006552422,
+    "profit": 3.022906000027433,
+    "pool_flow": 768.0,
+    "leverage": 0.0039360755208690534,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308625",
+    "sig": "2i81jqprW7zP3gumrQLF1UBqcXFkZNJk1niiXjUN8Dz8B149xHGBnC94Spipo3HVaA1qyENe46cph9vdW4sJTGdZ",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.004460174,
+    "sol_spent": 0.004460174,
+    "wsol_gain": 0.010138919999917562,
+    "profit": 0.005678745999917562,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDT",
+    "slot": "252308625",
+    "sig": "5R5EBcEnLxaMa1zLR8e7N6ZS5o5FNSq73vdXZDAgkTzHsFnTEgtXmDbgCxZBJkgmcWsnnmHsRtJ7LxYbj3aoQsZc",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+      "USDHyeagFLn8Ct6JfQ7CAV9aoecKjwWmWXL6oNNoL7W"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.00345458,
+    "profit": 0.8896309999981895,
+    "pool_flow": 202.08942600000046,
+    "leverage": 0.004402165009851567,
+    "profit_unit": "USDT"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "57NgphDhymdgcajWWBbKZiHzC1HuZ5EjCHpTr2AsmWGcfYfA1jL7JTandtte91pPJTNXEjgQiH6HLrbdoEJTwASh",
+    "signers": [
+      "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.00013936,
+    "sol_spent": 0.00013936,
+    "wsol_gain": 0.00624390999996649,
+    "profit": 0.006104549999966491,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "21jMU35TYw2P8fFM9dauryLRnQFNDUhf4UkmRHGrudu9Uo228LTEWpku4L3a5CLcFGerHfuZHDX5oKCYRRZHDMs7",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.003428958999847964,
+    "profit": 0.003323958999847964,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "5jk5RTAEsWVt8p8mGfN4v9BGtS3vbcDfFKTKEtz6pLrZQM2V1di1r14afhMoKhFk7A7gvTD9KgxdFBRc79fW7VGx",
+    "signers": [
+      "H3SsPcVhZWhRyupU87Hn95WrJaYdz4rWNpdaiS4BSwmm",
+      "2FWJR7ixmpA9GxRGrSghg9vuZ4S6Mevb1t6EheB1iWeb"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.55e-05,
+    "profit": 0.6916920000003302,
+    "pool_flow": 160.0,
+    "leverage": 0.0043230750000020635,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "527utCzmi8JL9c4Ni7cKjCEpct1TycD7b5S3mirF4gFPwhYFSTaiMV26DVPnvLNiq7MVQ4RJZV8pgG3Qwrse7oDJ",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.22e-05,
+    "sol_spent": 1.22e-05,
+    "wsol_gain": 0.001643035000142845,
+    "profit": 0.0016308350001428451,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "8RqR4aaLLemvqS8i6rFwQWr3LQN1TkSUzbDTbHoXRCnwCp4hd8Emtf3EqChrbsCf9NqgxDUHALpnmGLiEPiagFk",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.020708380999999998,
+    "profit": 2.875623000029009,
+    "pool_flow": 192.0,
+    "leverage": 0.014977203125151087,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "3EDQWf9Um2F2AYLzLoJTfQ4Jdra3irffHoVTeebY6pu1u1oF78f6TkCiQsYnCmJNGtWPfE7t1k31bHE48iZ7h2ea",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.02070761,
+    "profit": 2.7020019999472424,
+    "pool_flow": 192.0,
+    "leverage": 0.014072927083058554,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "3D3T74Mmffi3A4aciBkKcrAqFJa5dEHn6hPo16E6BLtEuPV2XPPK5egbTFWuj2eiazWHFzdnAZKH3a7nQv5CraDJ",
+    "signers": [
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+      "DadDYz6gdSRig5ja4HcyWrcDg3yM4RKUBizzzrLou8gX"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.020704399,
+    "profit": 2.5282740000402555,
+    "pool_flow": 192.0,
+    "leverage": 0.013168093750209664,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "5RreqYBqZQcRS7KPPrgr2UbkduQ6QDyt1FXyT2PrQnymTAfUZGnJqurQ9gEBtaagUZzx6K7HNJZ6UtawQRVEPahP",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0010657679999894754,
+    "profit": 0.0009607679999894753,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "4HQ1v8c1R5DHJSodcXciTPKjxA43KAHm4ZoD9vWRKpLS4LR2PrmARz97MtwuMjKGjLBweCjRPG2fP2Cg4kciVu3q",
+    "signers": [
+      "GnRWVzHnXxqBLd2TwgVfe8o1KjPW8JuFCeXSMXQtNFP4",
+      "3oFwxfnruarKtfjREgULhoCEDbuNsuzx24vidJNd8vCK"
+    ],
+    "num_signers": 2,
+    "sol_cost": 2.5e-05,
+    "profit": 0.0325379999994766,
+    "pool_flow": 800.0,
+    "leverage": 4.0672499999345746e-05,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "3AZwrV5kiHXHuoH1VLGTXB66oe8mMF2Zc8YV14AJUHjbynACn1NDU9d9FBNEPEFELhNaFESj27ptFQfGFnT47wfm",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.324e-06,
+    "sol_spent": 8.324e-06,
+    "wsol_gain": 0.0001168979999874864,
+    "profit": 0.0001085739999874864,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "4ZudLm5FoatbmAPEqgGfZMf5EVLEk6QoMkJZ34zcmRvrq9wyuABPQhCbUgyU1f3mhLirqQLdtqhEUtKzhGfi39oU",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+      "5RxrCig1GSvZGCcYRA42tYfAqt9ey3gc7813m1zcvDR4"
+    ],
+    "num_signers": 2,
+    "sol_cost": 8.487e-06,
+    "profit": 0.7416769999999815,
+    "pool_flow": 24.808407999997144,
+    "leverage": 0.029896194870709433,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "51aF1uKC2kQcDEy9E7DigzUrAGQi14rEcJcQpweLKc15cQg7jnte6mpEAd1jqSv3td7MP24HXPk1aSxe8pQwAgvh",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.309e-06,
+    "sol_spent": 7.309e-06,
+    "wsol_gain": 0.006224195000001487,
+    "profit": 0.006216886000001487,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "5cYnJz6ndWq6Y7eZRHxUPZYbKeS869ZnWdaYVYWdo3zcLjLDPwXvvYTc5zY44r6wVQPbKhJS8r3Mokb7kJjBmpkq",
+    "signers": [
+      "H3SsPcVhZWhRyupU87Hn95WrJaYdz4rWNpdaiS4BSwmm",
+      "i451XdG6Yn5gtm6FssD1t5nkxc9uaqVRWskLTUVNVTC"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.4237e-05,
+    "profit": 0.26120799999989686,
+    "pool_flow": 20.0,
+    "leverage": 0.013060399999994842,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "24vcKy1z3hRo7iKocU9vb9PFTWDCfrNAbHivaw9wm5fKbiab87ZQURxWPfbhhajdGZBRc2HQRJjB9K9r1jfLnVaY",
+    "signers": [
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT"
+    ],
+    "num_signers": 1,
+    "sol_cost": 8.038e-06,
+    "sol_spent": 8.038e-06,
+    "wsol_gain": 3.0984000005673806e-05,
+    "profit": 2.2946000005673806e-05,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308628",
+    "sig": "2CC1avKwLap6vzL5fzHwLP5n3KuSNSeRpB1zkVWstKYNLcm96LKxDMQrb46RzsUwFq2mC5iwTjsX3XWynmJXHQ2L",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+      "AXghMXF3X9Ef4zjam1FxEHzfWSojjwgwTu2WE5fR7dF"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000105,
+    "profit": 0.44285300001502037,
+    "pool_flow": 127.68907000000036,
+    "leverage": 0.003468213841756535,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308628",
+    "sig": "41Pbj9esizM6PALwhxKREbwmmGKGu3pUz96jqRvBrMqUSkMd8yN13WBZxFc2tMbqLW4G95X1cadwRQdVzrGph6cF",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0030201080003280367,
+    "profit": 0.0029151080003280367,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308631",
+    "sig": "3nTSCKzVvZqDSc2CXTeMy1TivjpiHZqw9vrNRCrQTWUHitYAf8tZnaPzHLJVsGQiiPdu8TmFws7cB3p4DG9fLmT",
+    "signers": [
+      "YUPaMvS8JBJ1qphcXpyxUvfsysGKwFTznsJ6bjcurSV",
+      "9WEhc7ngZsLPeTuhy8sePwL5Y5sLb61abnddyErfCVb"
+    ],
+    "num_signers": 2,
+    "sol_cost": 7.85e-06,
+    "profit": 0.29439999999885913,
+    "pool_flow": 5.108913999982178,
+    "leverage": 0.057624771135291394,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308631",
+    "sig": "46r6WsHMH9bCgSmfyBLfqSiu5AMkTcjR1Voz2VXskewwFu6if21xjXz75oBGCbfdE5qtwbHettKmyk3pL4TeYQhN",
+    "signers": [
+      "5civ8nag6sdWWqqxu4oGwsNxAMXAPCSJbfevQGJ3QXNV",
+      "CNfjGng2BaV9FbyVWpGTsiKj1nf46nX5VAq8XSGoXuFe"
+    ],
+    "num_signers": 2,
+    "sol_cost": 5.56e-06,
+    "profit": 0.040176999998948304,
+    "pool_flow": 6.703009999997448,
+    "leverage": 0.0059938743935878955,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308631",
+    "sig": "4YzJ6mJzrxigWGnxvRG7agQreVYbggeTt6tZCGsDDsZ4MpZYEVzCSYsEY2UCoKAKXZfCBrMfcRNUb6KZdjdjrjSg",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.01130637400001433,
+    "profit": 0.01120137400001433,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308631",
+    "sig": "5GiLD6voQY4cbmKkAnXJ4RDpdxxNnxMzYx2SowYgnaN5zjm86nzjLWkspoPz7UdjAbsHiDKLZrCj98msDrXfcyL6",
+    "signers": [
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e"
+    ],
+    "num_signers": 1,
+    "sol_cost": 6.762e-06,
+    "sol_spent": 6.762e-06,
+    "wsol_gain": 0.00014177200000276002,
+    "profit": 0.00013501000000276002,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308631",
+    "sig": "63w7hAjvNNaE8WZZqvz4kYYHnAc2fjPPoSr6ZbGCmnnXQjg3XwEzUT1f99nKe5SyDnCijRcTzKX8pSykSsaXotPn",
+    "signers": [
+      "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+      "3zp2seA9jRtjahVjUF3s3x1c1EU6sVt67LR9nbDoUNtF"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.002623946,
+    "profit": 1.0629180000105407,
+    "pool_flow": 800.0,
+    "leverage": 0.001328647500013176,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "2D1G2S9ttsCjyJjpF9dWw7ntKyd1LF2sS2koNmQv5j5wJ2wbnt4cojwZkfXjh1XuvFbuJEZhSTVzMuphVuzX7E8g",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+      "39M2YJGjXBHBhcBSEyGeRkBvqSrjLwTSc7R2neGWGJZT"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000105,
+    "profit": 0.28188899997621775,
+    "pool_flow": 90.82373499999994,
+    "leverage": 0.0031036931037489034,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308629",
+    "sig": "4PrL5UW8t9TKueKXekKRym7iM4NYVMFA44v11K7HUG5B1nKW3sUteDMN2zi57F99ivMSGnrEB5xvqYpvJkcXvyka",
+    "signers": [
+      "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000125743,
+    "sol_spent": 0.000125743,
+    "wsol_gain": 0.0021321710000847816,
+    "profit": 0.0020064280000847813,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308629",
+    "sig": "3VkHpTEydNJb4MTjTCQs4xqkZQPZkdyVBQF28QWzL1r3Dpkk3jBtYEtrffSNx3dP5CtCviXnnvJLdtFMMtYfiV1s",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0031973309996828903,
+    "profit": 0.00309233099968289,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "3EMiyJoJZJoqXEdwWbapuaiCoFwGC1XNZZ42etdcahUKBXkJV6sL1nMsmNjKrwpfRBwX7eixNV5b9G4PLvFGZkRV",
+    "signers": [
+      "95PWQYG96KmCvrAy52c8rJBKm85kTtdrbkdNaBaGBAnr",
+      "2L9UGQFe7gkCxmkKoQDpSnX2YbijuzuSPeBXW4zLbj8f"
+    ],
+    "num_signers": 2,
+    "sol_cost": 2.7531e-05,
+    "profit": 1.4203919999999925,
+    "pool_flow": 100.0,
+    "leverage": 0.014203919999999925,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308629",
+    "sig": "3hNcHBPpwE22Xyyq81TpHLUe8jpkbC7G9gr3NG6Cb1TMwDrBxFjwkzhdqobooJ4HbckGjg2agbfubEL2r5ySuEgg",
+    "signers": [
+      "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq"
+    ],
+    "num_signers": 1,
+    "sol_cost": 1.22e-05,
+    "sol_spent": 1.22e-05,
+    "wsol_gain": 0.0063804979999986244,
+    "profit": 0.006368297999998624,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "22sdMJ8KVzPWjZVwBmNZemms8QChCJDBtWTja7HC8zT2W1gbMEkdibAsPvWsMawEeN6oVJcMnNb6nP6XFe5wF5vj",
+    "signers": [
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+      "CwDBrrtE37888aU28nwBbVJJB5s4saQkhtzNddnGgAKR"
+    ],
+    "num_signers": 2,
+    "sol_cost": 1.2085e-05,
+    "profit": 0.0554700000000139,
+    "pool_flow": 25.0,
+    "leverage": 0.002218800000000556,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "9L9Md1MycHCrrdT28guYeFnKPdhU9nUxbDPU1hwXAjLRbQ1VCwJSNCAYqgD9LDd4S6kfJhicen57LqCXo5tLpKn",
+    "signers": [
+      "D71c54RUPqNFzWHPHTQ2v4bXdLUF2xhwerdGUsfRBSF2",
+      "47qz59WUQYeSgJEoMpMzSeoMFb8Mkk9YewvsSzdqGPER"
+    ],
+    "num_signers": 2,
+    "sol_cost": 6e-06,
+    "profit": 0.025634999999965657,
+    "pool_flow": 50.0,
+    "leverage": 0.0005126999999993131,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "2fCJzX6WxLSdzZ6KRXY4QVLRpUqr44GPSrSLotydiQATywW3EhzMB37J5LSikopHM3XLXnEo9rawyeqh7UCYD3i8",
+    "signers": [
+      "GnRWVzHnXxqBLd2TwgVfe8o1KjPW8JuFCeXSMXQtNFP4",
+      "4NTRHcv3gcMadTDfdAbzXzwWw3mxf7nPmowL8RMiYnkV"
+    ],
+    "num_signers": 2,
+    "sol_cost": 2.5e-05,
+    "profit": 0.00984000000062224,
+    "pool_flow": 1100.0,
+    "leverage": 8.945454546020218e-06,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308629",
+    "sig": "3K3HLCFLca3F2XAzMh1EdEiNLQywHH1SuCXx5AmcqLZcCiPAYZzT3pQEKxaS4xPN66CLesTPYGWEsisWRGW8RZBq",
+    "signers": [
+      "BVhqPeMZYar4xjpqmmyknhsA6xRvKvMLcSocx7rR5hCd",
+      "EmmE9D1XsEBWzb3U7SDFYnqynH1qv3mcxByJPrgLP9pR"
+    ],
+    "num_signers": 2,
+    "sol_cost": 5.51e-06,
+    "profit": 0.005581000001257053,
+    "pool_flow": 6.850487999967299,
+    "leverage": 0.0008146864867559353,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308629",
+    "sig": "3AoWZJ7LApHY6HVsUZwXSTAfaFXZaMxVpuTp3hvRidWTP7mbTLVLLP8q9LTAs6wUL67QvChxFCLZZjvsv5Hv5mwn",
+    "signers": [
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E"
+    ],
+    "num_signers": 1,
+    "sol_cost": 0.000105,
+    "sol_spent": 0.000105,
+    "wsol_gain": 0.0019922470000892645,
+    "profit": 0.0018872470000892644,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308626",
+    "sig": "38HmNX7hWV437pdus8hqxi2oDtR6xmc15HaewrBoLcCM6YdAYcxrxTnWQV6Eyi1RWBGA68wwkCxF4Lh61w9hbLEV",
+    "signers": [
+      "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+      "3zp2seA9jRtjahVjUF3s3x1c1EU6sVt67LR9nbDoUNtF"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.003973442,
+    "profit": 1.611667999997735,
+    "pool_flow": 200.0000000000009,
+    "leverage": 0.008058339999988638,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "USDC",
+    "slot": "252308626",
+    "sig": "2wTK5AwVbanu9W6f3g2Dr77qrcxNrm69vj6367CJksJhNvPuKaeuJUUY5k28hAexNeSU4TsDyx1XVAF2cxfVkjCn",
+    "signers": [
+      "HCMRVfbhtQMRXGS6w4K5a57mwugy5m72VxGFkf3K4nt7",
+      "C3AnpNzNid5dt6qsBg2516vTTKp87wVw7DdnRTwecKfL"
+    ],
+    "num_signers": 2,
+    "sol_cost": 0.000668226,
+    "profit": 0.008105999993858859,
+    "pool_flow": 241.3467140001012,
+    "leverage": 3.3586535567480155e-05,
+    "profit_unit": "USDC"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308626",
+    "sig": "3muvURZUvFYHyskZvWve1AKm138s7BjhD8w4FANWS3YDjGF6rypnrJva2Uh7J8SK53iWhj3eokmyoUaZmtSiHYKj",
+    "signers": [
+      "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV"
+    ],
+    "num_signers": 1,
+    "sol_cost": 4.7125e-05,
+    "sol_spent": 4.7125e-05,
+    "wsol_gain": 0.0006257100000084392,
+    "profit": 0.0005785850000084393,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308626",
+    "sig": "3czxb1keotoQT2DXkeAxoHw5PmAk1UJj3KqrbeMQn7VwZJtQEphiVKUsjngbWL6k2R4XwH66CQDj65Hpc1rtbYES",
+    "signers": [
+      "bobCPc5nqVoX7r8gKzCMPLrKjFidjnSCrAdcYGCH2Ye"
+    ],
+    "num_signers": 1,
+    "sol_cost": 3.2524e-05,
+    "sol_spent": 3.2524e-05,
+    "wsol_gain": 0.0071750280003470834,
+    "profit": 0.0071425040003470835,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308626",
+    "sig": "3dohmvBGTXCrj54ApsxF4frMfshbRU5by4jLAAU7DPV3bVYw7RK5ZyAzUE1eu9xmVAt4LUyVVjjnjXxywFxKrtQ6",
+    "signers": [
+      "TyrZ6SDVQGdMpnYtAgKGocvi1w1mdffhZENf1knyeqy"
+    ],
+    "num_signers": 1,
+    "sol_cost": 2.3509e-05,
+    "sol_spent": 2.3509e-05,
+    "wsol_gain": 0.0004468650000148955,
+    "profit": 0.0004233560000148955,
+    "profit_unit": "SOL"
+  },
+  {
+    "type": "SOL",
+    "slot": "252308626",
+    "sig": "5xygAnzn3WX1zaErAuSkjuPiANhnGrg27dKNuYFi1qEpEDNQC1Hx5Eev1sva6uL4CdL6uSMBtrUiqy9zxWwbmqHd",
+    "signers": [
+      "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr"
+    ],
+    "num_signers": 1,
+    "sol_cost": 7.897e-06,
+    "sol_spent": 7.897e-06,
+    "wsol_gain": 0.00030755000000226573,
+    "profit": 0.00029965300000226575,
+    "profit_unit": "SOL"
+  }
+]

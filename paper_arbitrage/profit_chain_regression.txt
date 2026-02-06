@@ -1,0 +1,39 @@
+=== 分类型回归：profit ~ chain_length ===
+数据来源: arb_profit_chain_length.json
+
+-------- SOL (n=982) --------
+【线性】 profit = intercept + coef_chain_length * chain_length
+  intercept         = 9.634649e-03   se = 2.367782e-03   t = 4.0691   p = 0.0000
+  coef_chain_length = -1.677046e-03   se = 7.633265e-04   t = -2.1970   p = 0.0280
+  R^2 = 0.0049
+
+【二次】 profit = intercept + b1*chain_length + b2*chain_length^2
+  intercept           = 1.578278e-02   se = 6.586307e-03   t = 2.3963   p = 0.0166
+  coef_chain_length   = -5.692440e-03   se = 4.085925e-03   t = -1.3932   p = 0.1636
+  coef_chain_length^2 = 6.029926e-04   se = 6.027818e-04   t = 1.0003   p = 0.3171
+  R^2 = 0.0059
+
+-------- USDC (n=326) --------
+【线性】 profit = intercept + coef_chain_length * chain_length
+  intercept         = -4.047571e+02   se = 3.462627e+02   t = -1.1689   p = 0.2424
+  coef_chain_length = 1.659213e+02   se = 1.080412e+02   t = 1.5357   p = 0.1246
+  R^2 = 0.0072
+
+【二次】 profit = intercept + b1*chain_length + b2*chain_length^2
+  intercept           = -3.339823e+02   se = 1.014836e+03   t = -0.3291   p = 0.7421
+  coef_chain_length   = 1.211063e+02   se = 6.135327e+02   t = 0.1974   p = 0.8435
+  coef_chain_length^2 = 6.493179e+00   se = 8.750039e+01   t = 0.0742   p = 0.9408
+  R^2 = 0.0072
+
+-------- USDT (n=29) --------
+【线性】 profit = intercept + coef_chain_length * chain_length
+  intercept         = 9.534771e+00   se = 1.550858e+01   t = 0.6148   p = 0.5387
+  coef_chain_length = -1.502548e+00   se = 4.465728e+00   t = -0.3365   p = 0.7365
+  R^2 = 0.0042
+
+【二次】 profit = intercept + b1*chain_length + b2*chain_length^2
+  intercept           = -1.370868e+01   se = 4.728480e+01   t = -0.2899   p = 0.7719
+  coef_chain_length   = 1.238686e+01   se = 2.702982e+01   t = 0.4583   p = 0.6468
+  coef_chain_length^2 = -1.904984e+00   se = 3.654871e+00   t = -0.5212   p = 0.6022
+  R^2 = 0.0145
+

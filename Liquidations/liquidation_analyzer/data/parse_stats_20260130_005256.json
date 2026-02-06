@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260130_005256",
+  "input_file": "data/kamino_raw_20260130_004900.json",
+  "total_transactions": 640,
+  "parsed_successfully": 640,
+  "liquidation_count": 4,
+  "non_liquidation_count": 636,
+  "parse_error_count": 0,
+  "liquidation_ratio_pct": 0.625
+}

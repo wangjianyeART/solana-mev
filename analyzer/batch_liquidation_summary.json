@@ -1,0 +1,1976 @@
+{
+  "246988807_246988957": {
+    "total_tx": 46249,
+    "liquidation_success": 100,
+    "liquidation_fail": 2733,
+    "liquidation_total": 2833
+  },
+  "247013168_247013318": {
+    "total_tx": 44932,
+    "liquidation_success": 7,
+    "liquidation_fail": 344,
+    "liquidation_total": 351
+  },
+  "247074504_247074654": {
+    "total_tx": 51009,
+    "liquidation_success": 2,
+    "liquidation_fail": 181,
+    "liquidation_total": 183
+  },
+  "249005894_249006044": {
+    "total_tx": 54873,
+    "liquidation_success": 17,
+    "liquidation_fail": 9,
+    "liquidation_total": 26
+  },
+  "249180858_249181008": {
+    "total_tx": 56474,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "250234787_250234937": {
+    "total_tx": 51815,
+    "liquidation_success": 1,
+    "liquidation_fail": 22,
+    "liquidation_total": 23
+  },
+  "250758500_250758650": {
+    "total_tx": 46328,
+    "liquidation_success": 2,
+    "liquidation_fail": 368,
+    "liquidation_total": 370
+  },
+  "251027395_251027545": {
+    "total_tx": 31595,
+    "liquidation_success": 63,
+    "liquidation_fail": 49,
+    "liquidation_total": 112
+  },
+  "251028283_251028433": {
+    "total_tx": 25696,
+    "liquidation_success": 173,
+    "liquidation_fail": 952,
+    "liquidation_total": 1125
+  },
+  "251350647_251350797": {
+    "total_tx": 38780,
+    "liquidation_success": 7,
+    "liquidation_fail": 37,
+    "liquidation_total": 44
+  },
+  "251929124_251929274": {
+    "total_tx": 29371,
+    "liquidation_success": 69,
+    "liquidation_fail": 337,
+    "liquidation_total": 406
+  },
+  "252177310_252177460": {
+    "total_tx": 28353,
+    "liquidation_success": 236,
+    "liquidation_fail": 617,
+    "liquidation_total": 853
+  },
+  "252265832_252265982": {
+    "total_tx": 30763,
+    "liquidation_success": 66,
+    "liquidation_fail": 211,
+    "liquidation_total": 277
+  },
+  "252308029_252308179": {
+    "total_tx": 25635,
+    "liquidation_success": 276,
+    "liquidation_fail": 880,
+    "liquidation_total": 1156
+  },
+  "252308176_252308326": {
+    "total_tx": 31968,
+    "liquidation_success": 587,
+    "liquidation_fail": 732,
+    "liquidation_total": 1319
+  },
+  "252308322_252308472": {
+    "total_tx": 26205,
+    "liquidation_success": 256,
+    "liquidation_fail": 385,
+    "liquidation_total": 641
+  },
+  "252308472_252308622": {
+    "total_tx": 30670,
+    "liquidation_success": 313,
+    "liquidation_fail": 637,
+    "liquidation_total": 950
+  },
+  "252308623_252308773": {
+    "total_tx": 21911,
+    "liquidation_success": 115,
+    "liquidation_fail": 997,
+    "liquidation_total": 1112
+  },
+  "252308768_252308918": {
+    "total_tx": 23303,
+    "liquidation_success": 88,
+    "liquidation_fail": 611,
+    "liquidation_total": 699
+  },
+  "252309060_252309210": {
+    "total_tx": 26804,
+    "liquidation_success": 218,
+    "liquidation_fail": 468,
+    "liquidation_total": 686
+  },
+  "252584632_252584782": {
+    "total_tx": 35448,
+    "liquidation_success": 14,
+    "liquidation_fail": 427,
+    "liquidation_total": 441
+  },
+  "253966135_253966285": {
+    "total_tx": 67713,
+    "liquidation_success": 3,
+    "liquidation_fail": 236,
+    "liquidation_total": 239
+  },
+  "256031312_256031462": {
+    "total_tx": 69825,
+    "liquidation_success": 0,
+    "liquidation_fail": 1,
+    "liquidation_total": 1
+  },
+  "259446828_259446978": {
+    "total_tx": 76015,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "259759203_259759353": {
+    "total_tx": 46442,
+    "liquidation_success": 130,
+    "liquidation_fail": 123,
+    "liquidation_total": 253
+  },
+  "259759332_259759482": {
+    "total_tx": 42970,
+    "liquidation_success": 175,
+    "liquidation_fail": 193,
+    "liquidation_total": 368
+  },
+  "259759468_259759618": {
+    "total_tx": 50781,
+    "liquidation_success": 114,
+    "liquidation_fail": 240,
+    "liquidation_total": 354
+  },
+  "259759592_259759742": {
+    "total_tx": 55319,
+    "liquidation_success": 58,
+    "liquidation_fail": 185,
+    "liquidation_total": 243
+  },
+  "259759714_259759864": {
+    "total_tx": 47488,
+    "liquidation_success": 32,
+    "liquidation_fail": 89,
+    "liquidation_total": 121
+  },
+  "259759844_259759994": {
+    "total_tx": 51727,
+    "liquidation_success": 72,
+    "liquidation_fail": 59,
+    "liquidation_total": 131
+  },
+  "259951919_259952069": {
+    "total_tx": 47987,
+    "liquidation_success": 55,
+    "liquidation_fail": 153,
+    "liquidation_total": 208
+  },
+  "259952827_259952977": {
+    "total_tx": 54398,
+    "liquidation_success": 155,
+    "liquidation_fail": 316,
+    "liquidation_total": 471
+  },
+  "259953222_259953372": {
+    "total_tx": 54123,
+    "liquidation_success": 114,
+    "liquidation_fail": 115,
+    "liquidation_total": 229
+  },
+  "259953440_259953590": {
+    "total_tx": 51837,
+    "liquidation_success": 134,
+    "liquidation_fail": 170,
+    "liquidation_total": 304
+  },
+  "259953480_259953630": {
+    "total_tx": 51839,
+    "liquidation_success": 163,
+    "liquidation_fail": 148,
+    "liquidation_total": 311
+  },
+  "259953600_259953750": {
+    "total_tx": 44815,
+    "liquidation_success": 208,
+    "liquidation_fail": 217,
+    "liquidation_total": 425
+  },
+  "259953731_259953881": {
+    "total_tx": 50192,
+    "liquidation_success": 138,
+    "liquidation_fail": 160,
+    "liquidation_total": 298
+  },
+  "259953863_259954013": {
+    "total_tx": 44658,
+    "liquidation_success": 185,
+    "liquidation_fail": 149,
+    "liquidation_total": 334
+  },
+  "259955302_259955452": {
+    "total_tx": 55669,
+    "liquidation_success": 120,
+    "liquidation_fail": 318,
+    "liquidation_total": 438
+  },
+  "259955572_259955722": {
+    "total_tx": 52845,
+    "liquidation_success": 158,
+    "liquidation_fail": 785,
+    "liquidation_total": 943
+  },
+  "261622996_261623146": {
+    "total_tx": 54178,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "262900924_262901074": {
+    "total_tx": 72345,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "264594800_264594950": {
+    "total_tx": 45702,
+    "liquidation_success": 2,
+    "liquidation_fail": 4,
+    "liquidation_total": 6
+  },
+  "265925996_265926146": {
+    "total_tx": 40532,
+    "liquidation_success": 12,
+    "liquidation_fail": 55,
+    "liquidation_total": 67
+  },
+  "266374797_266374947": {
+    "total_tx": 55843,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "267733048_267733198": {
+    "total_tx": 60917,
+    "liquidation_success": 13,
+    "liquidation_fail": 2,
+    "liquidation_total": 15
+  },
+  "268391784_268391934": {
+    "total_tx": 57963,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "269617684_269617834": {
+    "total_tx": 39853,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "271197428_271197578": {
+    "total_tx": 51563,
+    "liquidation_success": 1,
+    "liquidation_fail": 103,
+    "liquidation_total": 104
+  },
+  "271942163_271942313": {
+    "total_tx": 41357,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "272367756_272367906": {
+    "total_tx": 45725,
+    "liquidation_success": 1,
+    "liquidation_fail": 138,
+    "liquidation_total": 139
+  },
+  "279584429_279584579": {
+    "total_tx": 64215,
+    "liquidation_success": 0,
+    "liquidation_fail": 311,
+    "liquidation_total": 311
+  },
+  "281089137_281089287": {
+    "total_tx": 51183,
+    "liquidation_success": 1,
+    "liquidation_fail": 1,
+    "liquidation_total": 2
+  },
+  "281613168_281613318": {
+    "total_tx": 22321,
+    "liquidation_success": 381,
+    "liquidation_fail": 1102,
+    "liquidation_total": 1483
+  },
+  "281613314_281613464": {
+    "total_tx": 20094,
+    "liquidation_success": 430,
+    "liquidation_fail": 1078,
+    "liquidation_total": 1508
+  },
+  "281613740_281613890": {
+    "total_tx": 21930,
+    "liquidation_success": 393,
+    "liquidation_fail": 382,
+    "liquidation_total": 775
+  },
+  "281613882_281614032": {
+    "total_tx": 20410,
+    "liquidation_success": 548,
+    "liquidation_fail": 652,
+    "liquidation_total": 1200
+  },
+  "281646560_281646710": {
+    "total_tx": 24200,
+    "liquidation_success": 729,
+    "liquidation_fail": 817,
+    "liquidation_total": 1546
+  },
+  "281646704_281646854": {
+    "total_tx": 25688,
+    "liquidation_success": 856,
+    "liquidation_fail": 1189,
+    "liquidation_total": 2045
+  },
+  "281646845_281646995": {
+    "total_tx": 18566,
+    "liquidation_success": 691,
+    "liquidation_fail": 526,
+    "liquidation_total": 1217
+  },
+  "281646989_281647139": {
+    "total_tx": 20718,
+    "liquidation_success": 509,
+    "liquidation_fail": 713,
+    "liquidation_total": 1222
+  },
+  "281656732_281656882": {
+    "total_tx": 21685,
+    "liquidation_success": 571,
+    "liquidation_fail": 603,
+    "liquidation_total": 1174
+  },
+  "281657024_281657174": {
+    "total_tx": 21685,
+    "liquidation_success": 425,
+    "liquidation_fail": 746,
+    "liquidation_total": 1171
+  },
+  "281657166_281657316": {
+    "total_tx": 20478,
+    "liquidation_success": 459,
+    "liquidation_fail": 861,
+    "liquidation_total": 1320
+  },
+  "281715548_281715698": {
+    "total_tx": 21730,
+    "liquidation_success": 282,
+    "liquidation_fail": 331,
+    "liquidation_total": 613
+  },
+  "281716280_281716430": {
+    "total_tx": 27295,
+    "liquidation_success": 53,
+    "liquidation_fail": 106,
+    "liquidation_total": 159
+  },
+  "281716541_281716691": {
+    "total_tx": 21528,
+    "liquidation_success": 63,
+    "liquidation_fail": 44,
+    "liquidation_total": 107
+  },
+  "281719748_281719898": {
+    "total_tx": 30810,
+    "liquidation_success": 58,
+    "liquidation_fail": 88,
+    "liquidation_total": 146
+  },
+  "282226055_282226205": {
+    "total_tx": 27498,
+    "liquidation_success": 48,
+    "liquidation_fail": 64,
+    "liquidation_total": 112
+  },
+  "283384499_283384649": {
+    "total_tx": 40925,
+    "liquidation_success": 4,
+    "liquidation_fail": 6,
+    "liquidation_total": 10
+  },
+  "284421978_284422128": {
+    "total_tx": 44424,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "285291898_285292048": {
+    "total_tx": 39443,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "285646539_285646689": {
+    "total_tx": 46142,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "286224777_286224927": {
+    "total_tx": 27453,
+    "liquidation_success": 456,
+    "liquidation_fail": 777,
+    "liquidation_total": 1233
+  },
+  "287204687_287204837": {
+    "total_tx": 34917,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "287716566_287716716": {
+    "total_tx": 33747,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "290215220_290215370": {
+    "total_tx": 41065,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "291311662_291311812": {
+    "total_tx": 41833,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "291882071_291882221": {
+    "total_tx": 43913,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "292762757_292762907": {
+    "total_tx": 48634,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "293038922_293039072": {
+    "total_tx": 50402,
+    "liquidation_success": 0,
+    "liquidation_fail": 2,
+    "liquidation_total": 2
+  },
+  "293345202_293345352": {
+    "total_tx": 56017,
+    "liquidation_success": 0,
+    "liquidation_fail": 1339,
+    "liquidation_total": 1339
+  },
+  "293850555_293850705": {
+    "total_tx": 49361,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "297620632_297620782": {
+    "total_tx": 51201,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "299072869_299073019": {
+    "total_tx": 59502,
+    "liquidation_success": 1,
+    "liquidation_fail": 299,
+    "liquidation_total": 300
+  },
+  "300298518_300298668": {
+    "total_tx": 55970,
+    "liquidation_success": 1,
+    "liquidation_fail": 114,
+    "liquidation_total": 115
+  },
+  "300362996_300363146": {
+    "total_tx": 53197,
+    "liquidation_success": 0,
+    "liquidation_fail": 79,
+    "liquidation_total": 79
+  },
+  "300562364_300562514": {
+    "total_tx": 61602,
+    "liquidation_success": 13,
+    "liquidation_fail": 1130,
+    "liquidation_total": 1143
+  },
+  "301376824_301376974": {
+    "total_tx": 44968,
+    "liquidation_success": 1,
+    "liquidation_fail": 31,
+    "liquidation_total": 32
+  },
+  "301650494_301650644": {
+    "total_tx": 62406,
+    "liquidation_success": 0,
+    "liquidation_fail": 25,
+    "liquidation_total": 25
+  },
+  "301857216_301857366": {
+    "total_tx": 58336,
+    "liquidation_success": 1,
+    "liquidation_fail": 15,
+    "liquidation_total": 16
+  },
+  "302080427_302080577": {
+    "total_tx": 58855,
+    "liquidation_success": 0,
+    "liquidation_fail": 106,
+    "liquidation_total": 106
+  },
+  "303315179_303315329": {
+    "total_tx": 65264,
+    "liquidation_success": 1,
+    "liquidation_fail": 139,
+    "liquidation_total": 140
+  },
+  "304691371_304691521": {
+    "total_tx": 58036,
+    "liquidation_success": 1,
+    "liquidation_fail": 64,
+    "liquidation_total": 65
+  },
+  "304741220_304741370": {
+    "total_tx": 61317,
+    "liquidation_success": 1,
+    "liquidation_fail": 73,
+    "liquidation_total": 74
+  },
+  "304897500_304897650": {
+    "total_tx": 68522,
+    "liquidation_success": 12,
+    "liquidation_fail": 80,
+    "liquidation_total": 92
+  },
+  "305644352_305644502": {
+    "total_tx": 48397,
+    "liquidation_success": 2574,
+    "liquidation_fail": 1088,
+    "liquidation_total": 3662
+  },
+  "305644496_305644646": {
+    "total_tx": 33161,
+    "liquidation_success": 266,
+    "liquidation_fail": 1419,
+    "liquidation_total": 1685
+  },
+  "305644785_305644935": {
+    "total_tx": 62236,
+    "liquidation_success": 12,
+    "liquidation_fail": 85,
+    "liquidation_total": 97
+  },
+  "305645206_305645356": {
+    "total_tx": 74232,
+    "liquidation_success": 16,
+    "liquidation_fail": 88,
+    "liquidation_total": 104
+  },
+  "306465336_306465486": {
+    "total_tx": 39541,
+    "liquidation_success": 580,
+    "liquidation_fail": 1083,
+    "liquidation_total": 1663
+  },
+  "306465477_306465627": {
+    "total_tx": 35999,
+    "liquidation_success": 327,
+    "liquidation_fail": 1215,
+    "liquidation_total": 1542
+  },
+  "306476528_306476678": {
+    "total_tx": 40609,
+    "liquidation_success": 703,
+    "liquidation_fail": 1438,
+    "liquidation_total": 2141
+  },
+  "308319496_308319646": {
+    "total_tx": 65696,
+    "liquidation_success": 0,
+    "liquidation_fail": 175,
+    "liquidation_total": 175
+  },
+  "308463300_308463450": {
+    "total_tx": 84231,
+    "liquidation_success": 16,
+    "liquidation_fail": 85,
+    "liquidation_total": 101
+  },
+  "309198386_309198536": {
+    "total_tx": 77936,
+    "liquidation_success": 19,
+    "liquidation_fail": 165,
+    "liquidation_total": 184
+  },
+  "310407365_310407515": {
+    "total_tx": 74453,
+    "liquidation_success": 1,
+    "liquidation_fail": 93,
+    "liquidation_total": 94
+  },
+  "311746413_311746563": {
+    "total_tx": 74937,
+    "liquidation_success": 0,
+    "liquidation_fail": 37,
+    "liquidation_total": 37
+  },
+  "311806335_311806485": {
+    "total_tx": 69924,
+    "liquidation_success": 2,
+    "liquidation_fail": 49,
+    "liquidation_total": 51
+  },
+  "311807960_311808110": {
+    "total_tx": 71760,
+    "liquidation_success": 1,
+    "liquidation_fail": 90,
+    "liquidation_total": 91
+  },
+  "311811639_311811789": {
+    "total_tx": 73421,
+    "liquidation_success": 1,
+    "liquidation_fail": 63,
+    "liquidation_total": 64
+  },
+  "311815141_311815291": {
+    "total_tx": 78690,
+    "liquidation_success": 1,
+    "liquidation_fail": 74,
+    "liquidation_total": 75
+  },
+  "311816018_311816168": {
+    "total_tx": 76989,
+    "liquidation_success": 2,
+    "liquidation_fail": 48,
+    "liquidation_total": 50
+  },
+  "311818923_311819073": {
+    "total_tx": 77957,
+    "liquidation_success": 1,
+    "liquidation_fail": 46,
+    "liquidation_total": 47
+  },
+  "311886022_311886172": {
+    "total_tx": 80325,
+    "liquidation_success": 0,
+    "liquidation_fail": 84,
+    "liquidation_total": 84
+  },
+  "311907217_311907367": {
+    "total_tx": 86097,
+    "liquidation_success": 1,
+    "liquidation_fail": 84,
+    "liquidation_total": 85
+  },
+  "311909707_311909857": {
+    "total_tx": 75122,
+    "liquidation_success": 5,
+    "liquidation_fail": 48,
+    "liquidation_total": 53
+  },
+  "311909854_311910004": {
+    "total_tx": 78917,
+    "liquidation_success": 2,
+    "liquidation_fail": 66,
+    "liquidation_total": 68
+  },
+  "311911158_311911308": {
+    "total_tx": 78257,
+    "liquidation_success": 1,
+    "liquidation_fail": 40,
+    "liquidation_total": 41
+  },
+  "311913350_311913500": {
+    "total_tx": 82382,
+    "liquidation_success": 1,
+    "liquidation_fail": 66,
+    "liquidation_total": 67
+  },
+  "311920340_311920490": {
+    "total_tx": 83769,
+    "liquidation_success": 0,
+    "liquidation_fail": 24,
+    "liquidation_total": 24
+  },
+  "314883446_314883596": {
+    "total_tx": 71056,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "315164353_315164503": {
+    "total_tx": 54070,
+    "liquidation_success": 20,
+    "liquidation_fail": 41,
+    "liquidation_total": 61
+  },
+  "315253903_315254053": {
+    "total_tx": 59302,
+    "liquidation_success": 374,
+    "liquidation_fail": 166,
+    "liquidation_total": 540
+  },
+  "315254050_315254200": {
+    "total_tx": 59394,
+    "liquidation_success": 668,
+    "liquidation_fail": 183,
+    "liquidation_total": 851
+  },
+  "315582306_315582456": {
+    "total_tx": 76016,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "316998711_316998861": {
+    "total_tx": 78962,
+    "liquidation_success": 3,
+    "liquidation_fail": 38,
+    "liquidation_total": 41
+  },
+  "317169495_317169645": {
+    "total_tx": 81375,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "317330567_317330717": {
+    "total_tx": 65744,
+    "liquidation_success": 4,
+    "liquidation_fail": 0,
+    "liquidation_total": 4
+  },
+  "318110690_318110840": {
+    "total_tx": 65686,
+    "liquidation_success": 1000,
+    "liquidation_fail": 634,
+    "liquidation_total": 1634
+  },
+  "318110836_318110986": {
+    "total_tx": 56295,
+    "liquidation_success": 973,
+    "liquidation_fail": 738,
+    "liquidation_total": 1711
+  },
+  "319906724_319906874": {
+    "total_tx": 66846,
+    "liquidation_success": 0,
+    "liquidation_fail": 25,
+    "liquidation_total": 25
+  },
+  "319999560_319999710": {
+    "total_tx": 77821,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "324115536_324115686": {
+    "total_tx": 78016,
+    "liquidation_success": 1030,
+    "liquidation_fail": 863,
+    "liquidation_total": 1893
+  },
+  "324115988_324116138": {
+    "total_tx": 69031,
+    "liquidation_success": 359,
+    "liquidation_fail": 537,
+    "liquidation_total": 896
+  },
+  "325044686_325044836": {
+    "total_tx": 53451,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "325638730_325638880": {
+    "total_tx": 52427,
+    "liquidation_success": 127,
+    "liquidation_fail": 174,
+    "liquidation_total": 301
+  },
+  "325904252_325904402": {
+    "total_tx": 61738,
+    "liquidation_success": 24,
+    "liquidation_fail": 317,
+    "liquidation_total": 341
+  },
+  "326067372_326067522": {
+    "total_tx": 74887,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "326413046_326413196": {
+    "total_tx": 51100,
+    "liquidation_success": 5,
+    "liquidation_fail": 8,
+    "liquidation_total": 13
+  },
+  "327383269_327383419": {
+    "total_tx": 72917,
+    "liquidation_success": 4,
+    "liquidation_fail": 2,
+    "liquidation_total": 6
+  },
+  "327412386_327412536": {
+    "total_tx": 76434,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "328083834_328083984": {
+    "total_tx": 45292,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "328473446_328473596": {
+    "total_tx": 46204,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "329619042_329619192": {
+    "total_tx": 59332,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "330871051_330871201": {
+    "total_tx": 70219,
+    "liquidation_success": 1,
+    "liquidation_fail": 13,
+    "liquidation_total": 14
+  },
+  "331901787_331901937": {
+    "total_tx": 66126,
+    "liquidation_success": 1106,
+    "liquidation_fail": 638,
+    "liquidation_total": 1744
+  },
+  "332367225_332367375": {
+    "total_tx": 74848,
+    "liquidation_success": 42,
+    "liquidation_fail": 133,
+    "liquidation_total": 175
+  },
+  "334593083_334593233": {
+    "total_tx": 70080,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "336310123_336310273": {
+    "total_tx": 71817,
+    "liquidation_success": 1,
+    "liquidation_fail": 10,
+    "liquidation_total": 11
+  },
+  "337302344_337302494": {
+    "total_tx": 71580,
+    "liquidation_success": 1,
+    "liquidation_fail": 15,
+    "liquidation_total": 16
+  },
+  "337736544_337736694": {
+    "total_tx": 64137,
+    "liquidation_success": 4,
+    "liquidation_fail": 54,
+    "liquidation_total": 58
+  },
+  "343790027_343790177": {
+    "total_tx": 64335,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "344301609_344301759": {
+    "total_tx": 57255,
+    "liquidation_success": 12,
+    "liquidation_fail": 2,
+    "liquidation_total": 14
+  },
+  "344898649_344898799": {
+    "total_tx": 76959,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "346689002_346689152": {
+    "total_tx": 69028,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "348833768_348833918": {
+    "total_tx": 71189,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "350177593_350177743": {
+    "total_tx": 72683,
+    "liquidation_success": 4,
+    "liquidation_fail": 2,
+    "liquidation_total": 6
+  },
+  "350246442_350246592": {
+    "total_tx": 74857,
+    "liquidation_success": 2,
+    "liquidation_fail": 27,
+    "liquidation_total": 29
+  },
+  "351465027_351465177": {
+    "total_tx": 75500,
+    "liquidation_success": 1,
+    "liquidation_fail": 1,
+    "liquidation_total": 2
+  },
+  "352873230_352873380": {
+    "total_tx": 75912,
+    "liquidation_success": 510,
+    "liquidation_fail": 181,
+    "liquidation_total": 691
+  },
+  "353426211_353426361": {
+    "total_tx": 75834,
+    "liquidation_success": 3,
+    "liquidation_fail": 1,
+    "liquidation_total": 4
+  },
+  "357246772_357246922": {
+    "total_tx": 66238,
+    "liquidation_success": 1,
+    "liquidation_fail": 69,
+    "liquidation_total": 70
+  },
+  "358298959_358299109": {
+    "total_tx": 81699,
+    "liquidation_success": 2,
+    "liquidation_fail": 3,
+    "liquidation_total": 5
+  },
+  "358942088_358942238": {
+    "total_tx": 90855,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "360487227_360487377": {
+    "total_tx": 52830,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "363363620_363363770": {
+    "total_tx": 71980,
+    "liquidation_success": 3,
+    "liquidation_fail": 81,
+    "liquidation_total": 84
+  },
+  "364935920_364936070": {
+    "total_tx": 45754,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "364936213_364936363": {
+    "total_tx": 45143,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "364947114_364947264": {
+    "total_tx": 50602,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364947567_364947717": {
+    "total_tx": 49520,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364949516_364949666": {
+    "total_tx": 46584,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364958482_364958632": {
+    "total_tx": 43051,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "364960887_364961037": {
+    "total_tx": 44180,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364963113_364963263": {
+    "total_tx": 44087,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364967590_364967740": {
+    "total_tx": 39493,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364969863_364970013": {
+    "total_tx": 39260,
+    "liquidation_success": 5,
+    "liquidation_fail": 0,
+    "liquidation_total": 5
+  },
+  "364970017_364970167": {
+    "total_tx": 41216,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364973437_364973587": {
+    "total_tx": 36803,
+    "liquidation_success": 5,
+    "liquidation_fail": 0,
+    "liquidation_total": 5
+  },
+  "364988243_364988393": {
+    "total_tx": 42149,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "364993653_364993803": {
+    "total_tx": 43920,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365000232_365000382": {
+    "total_tx": 43927,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365001892_365002042": {
+    "total_tx": 45794,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "365002042_365002192": {
+    "total_tx": 46112,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365002947_365003097": {
+    "total_tx": 44948,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365006365_365006515": {
+    "total_tx": 45258,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "365007409_365007559": {
+    "total_tx": 43860,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "365019507_365019657": {
+    "total_tx": 42859,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365021293_365021443": {
+    "total_tx": 44829,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "365033990_365034140": {
+    "total_tx": 43752,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "366442280_366442430": {
+    "total_tx": 50693,
+    "liquidation_success": 7,
+    "liquidation_fail": 0,
+    "liquidation_total": 7
+  },
+  "366783512_366783662": {
+    "total_tx": 82038,
+    "liquidation_success": 36,
+    "liquidation_fail": 131,
+    "liquidation_total": 167
+  },
+  "367970812_367970962": {
+    "total_tx": 48878,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368013805_368013955": {
+    "total_tx": 42476,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368023058_368023208": {
+    "total_tx": 44138,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "368025179_368025329": {
+    "total_tx": 46221,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368036408_368036558": {
+    "total_tx": 45646,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368054734_368054884": {
+    "total_tx": 44446,
+    "liquidation_success": 2,
+    "liquidation_fail": 29,
+    "liquidation_total": 31
+  },
+  "368062180_368062330": {
+    "total_tx": 45954,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "368082028_368082178": {
+    "total_tx": 45378,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "368108982_368109132": {
+    "total_tx": 48574,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368120185_368120335": {
+    "total_tx": 48497,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368140339_368140489": {
+    "total_tx": 56094,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "368145643_368145793": {
+    "total_tx": 56491,
+    "liquidation_success": 3,
+    "liquidation_fail": 0,
+    "liquidation_total": 3
+  },
+  "368155064_368155214": {
+    "total_tx": 54436,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368160072_368160222": {
+    "total_tx": 50781,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "368161140_368161290": {
+    "total_tx": 52993,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368163405_368163555": {
+    "total_tx": 47499,
+    "liquidation_success": 4,
+    "liquidation_fail": 0,
+    "liquidation_total": 4
+  },
+  "368164928_368165078": {
+    "total_tx": 49906,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368168278_368168428": {
+    "total_tx": 49642,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "368171796_368171946": {
+    "total_tx": 43564,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "368175453_368175603": {
+    "total_tx": 44530,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "368181825_368181975": {
+    "total_tx": 52085,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "369243243_369243393": {
+    "total_tx": 51380,
+    "liquidation_success": 1,
+    "liquidation_fail": 47,
+    "liquidation_total": 48
+  },
+  "370938986_370939136": {
+    "total_tx": 63264,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371060978_371061128": {
+    "total_tx": 42417,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371062655_371062805": {
+    "total_tx": 40561,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371063416_371063566": {
+    "total_tx": 41127,
+    "liquidation_success": 1,
+    "liquidation_fail": 3,
+    "liquidation_total": 4
+  },
+  "371064942_371065092": {
+    "total_tx": 45074,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371065088_371065238": {
+    "total_tx": 42899,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371065697_371065847": {
+    "total_tx": 42094,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371065848_371065998": {
+    "total_tx": 40100,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371067067_371067217": {
+    "total_tx": 43560,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371067213_371067363": {
+    "total_tx": 42582,
+    "liquidation_success": 1,
+    "liquidation_fail": 3,
+    "liquidation_total": 4
+  },
+  "371079802_371079952": {
+    "total_tx": 42403,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371080707_371080857": {
+    "total_tx": 40309,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371082547_371082697": {
+    "total_tx": 43092,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "371083009_371083159": {
+    "total_tx": 49548,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371083158_371083308": {
+    "total_tx": 49775,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371083772_371083922": {
+    "total_tx": 46349,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371084227_371084377": {
+    "total_tx": 42676,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371084835_371084985": {
+    "total_tx": 44229,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371084990_371085140": {
+    "total_tx": 44299,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371085297_371085447": {
+    "total_tx": 43274,
+    "liquidation_success": 1,
+    "liquidation_fail": 1,
+    "liquidation_total": 2
+  },
+  "371086970_371087120": {
+    "total_tx": 40826,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371088483_371088633": {
+    "total_tx": 45122,
+    "liquidation_success": 2,
+    "liquidation_fail": 1,
+    "liquidation_total": 3
+  },
+  "371088632_371088782": {
+    "total_tx": 43203,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "371090163_371090313": {
+    "total_tx": 45399,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371090312_371090462": {
+    "total_tx": 44094,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371094420_371094570": {
+    "total_tx": 41537,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "371095646_371095796": {
+    "total_tx": 40300,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "371098981_371099131": {
+    "total_tx": 48214,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371104890_371105040": {
+    "total_tx": 41078,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371105502_371105652": {
+    "total_tx": 46311,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371106103_371106253": {
+    "total_tx": 42646,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371106404_371106554": {
+    "total_tx": 43720,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371106706_371106856": {
+    "total_tx": 40349,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371107613_371107763": {
+    "total_tx": 46800,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371107763_371107913": {
+    "total_tx": 51558,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "371108819_371108969": {
+    "total_tx": 43212,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371108969_371109119": {
+    "total_tx": 46256,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371109123_371109273": {
+    "total_tx": 44173,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371109278_371109428": {
+    "total_tx": 41036,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371109433_371109583": {
+    "total_tx": 43610,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371142314_371142464": {
+    "total_tx": 40439,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371143072_371143222": {
+    "total_tx": 43695,
+    "liquidation_success": 2,
+    "liquidation_fail": 6,
+    "liquidation_total": 8
+  },
+  "371144145_371144295": {
+    "total_tx": 45784,
+    "liquidation_success": 4,
+    "liquidation_fail": 6,
+    "liquidation_total": 10
+  },
+  "371145373_371145523": {
+    "total_tx": 42142,
+    "liquidation_success": 2,
+    "liquidation_fail": 6,
+    "liquidation_total": 8
+  },
+  "371145978_371146128": {
+    "total_tx": 44676,
+    "liquidation_success": 3,
+    "liquidation_fail": 6,
+    "liquidation_total": 9
+  },
+  "371146121_371146271": {
+    "total_tx": 42854,
+    "liquidation_success": 2,
+    "liquidation_fail": 6,
+    "liquidation_total": 8
+  },
+  "371147335_371147485": {
+    "total_tx": 43715,
+    "liquidation_success": 2,
+    "liquidation_fail": 6,
+    "liquidation_total": 8
+  },
+  "371148096_371148246": {
+    "total_tx": 47723,
+    "liquidation_success": 9,
+    "liquidation_fail": 0,
+    "liquidation_total": 9
+  },
+  "371149916_371150066": {
+    "total_tx": 45534,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371150971_371151121": {
+    "total_tx": 46161,
+    "liquidation_success": 15,
+    "liquidation_fail": 0,
+    "liquidation_total": 15
+  },
+  "371217117_371217267": {
+    "total_tx": 48675,
+    "liquidation_success": 4,
+    "liquidation_fail": 2,
+    "liquidation_total": 6
+  },
+  "371217413_371217563": {
+    "total_tx": 44704,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371228485_371228635": {
+    "total_tx": 47382,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371237418_371237568": {
+    "total_tx": 43471,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "371237872_371238022": {
+    "total_tx": 42932,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371238026_371238176": {
+    "total_tx": 44186,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371238175_371238325": {
+    "total_tx": 41450,
+    "liquidation_success": 2,
+    "liquidation_fail": 6,
+    "liquidation_total": 8
+  },
+  "371238328_371238478": {
+    "total_tx": 41225,
+    "liquidation_success": 3,
+    "liquidation_fail": 6,
+    "liquidation_total": 9
+  },
+  "371238632_371238782": {
+    "total_tx": 37383,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371238783_371238933": {
+    "total_tx": 39423,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "371238937_371239087": {
+    "total_tx": 39392,
+    "liquidation_success": 1,
+    "liquidation_fail": 6,
+    "liquidation_total": 7
+  },
+  "372520333_372520483": {
+    "total_tx": 136110,
+    "liquidation_success": 3227,
+    "liquidation_fail": 2426,
+    "liquidation_total": 5653
+  },
+  "372520789_372520939": {
+    "total_tx": 145704,
+    "liquidation_success": 3184,
+    "liquidation_fail": 1827,
+    "liquidation_total": 5011
+  },
+  "372522893_372523043": {
+    "total_tx": 143483,
+    "liquidation_success": 4794,
+    "liquidation_fail": 4188,
+    "liquidation_total": 8982
+  },
+  "372523042_372523192": {
+    "total_tx": 134331,
+    "liquidation_success": 1873,
+    "liquidation_fail": 2025,
+    "liquidation_total": 3898
+  },
+  "372523197_372523347": {
+    "total_tx": 131917,
+    "liquidation_success": 807,
+    "liquidation_fail": 1153,
+    "liquidation_total": 1960
+  },
+  "372523346_372523496": {
+    "total_tx": 106742,
+    "liquidation_success": 1237,
+    "liquidation_fail": 1536,
+    "liquidation_total": 2773
+  },
+  "372523497_372523647": {
+    "total_tx": 74164,
+    "liquidation_success": 1615,
+    "liquidation_fail": 2444,
+    "liquidation_total": 4059
+  },
+  "372523646_372523796": {
+    "total_tx": 75506,
+    "liquidation_success": 1083,
+    "liquidation_fail": 2055,
+    "liquidation_total": 3138
+  },
+  "372523798_372523948": {
+    "total_tx": 72892,
+    "liquidation_success": 1887,
+    "liquidation_fail": 3657,
+    "liquidation_total": 5544
+  },
+  "372523952_372524102": {
+    "total_tx": 75874,
+    "liquidation_success": 1272,
+    "liquidation_fail": 2820,
+    "liquidation_total": 4092
+  },
+  "372524103_372524253": {
+    "total_tx": 77188,
+    "liquidation_success": 1146,
+    "liquidation_fail": 1667,
+    "liquidation_total": 2813
+  },
+  "372524257_372524407": {
+    "total_tx": 81733,
+    "liquidation_success": 712,
+    "liquidation_fail": 1200,
+    "liquidation_total": 1912
+  },
+  "372524410_372524560": {
+    "total_tx": 72872,
+    "liquidation_success": 776,
+    "liquidation_fail": 956,
+    "liquidation_total": 1732
+  },
+  "372524562_372524712": {
+    "total_tx": 97092,
+    "liquidation_success": 378,
+    "liquidation_fail": 655,
+    "liquidation_total": 1033
+  },
+  "372524714_372524864": {
+    "total_tx": 87012,
+    "liquidation_success": 245,
+    "liquidation_fail": 519,
+    "liquidation_total": 764
+  },
+  "372524864_372525014": {
+    "total_tx": 77777,
+    "liquidation_success": 436,
+    "liquidation_fail": 525,
+    "liquidation_total": 961
+  },
+  "372525016_372525166": {
+    "total_tx": 74289,
+    "liquidation_success": 876,
+    "liquidation_fail": 670,
+    "liquidation_total": 1546
+  },
+  "372525168_372525318": {
+    "total_tx": 81368,
+    "liquidation_success": 626,
+    "liquidation_fail": 907,
+    "liquidation_total": 1533
+  },
+  "372525323_372525473": {
+    "total_tx": 93740,
+    "liquidation_success": 147,
+    "liquidation_fail": 453,
+    "liquidation_total": 600
+  },
+  "372525617_372525767": {
+    "total_tx": 99652,
+    "liquidation_success": 219,
+    "liquidation_fail": 409,
+    "liquidation_total": 628
+  },
+  "372525766_372525916": {
+    "total_tx": 89703,
+    "liquidation_success": 134,
+    "liquidation_fail": 217,
+    "liquidation_total": 351
+  },
+  "372525915_372526065": {
+    "total_tx": 96833,
+    "liquidation_success": 186,
+    "liquidation_fail": 155,
+    "liquidation_total": 341
+  },
+  "372526973_372527123": {
+    "total_tx": 92083,
+    "liquidation_success": 78,
+    "liquidation_fail": 121,
+    "liquidation_total": 199
+  },
+  "372527122_372527272": {
+    "total_tx": 82731,
+    "liquidation_success": 103,
+    "liquidation_fail": 35,
+    "liquidation_total": 138
+  },
+  "372527424_372527574": {
+    "total_tx": 83885,
+    "liquidation_success": 178,
+    "liquidation_fail": 382,
+    "liquidation_total": 560
+  },
+  "372527575_372527725": {
+    "total_tx": 83289,
+    "liquidation_success": 213,
+    "liquidation_fail": 357,
+    "liquidation_total": 570
+  },
+  "372527729_372527879": {
+    "total_tx": 76781,
+    "liquidation_success": 121,
+    "liquidation_fail": 282,
+    "liquidation_total": 403
+  },
+  "372527877_372528027": {
+    "total_tx": 81379,
+    "liquidation_success": 159,
+    "liquidation_fail": 112,
+    "liquidation_total": 271
+  },
+  "372530745_372530895": {
+    "total_tx": 132806,
+    "liquidation_success": 437,
+    "liquidation_fail": 761,
+    "liquidation_total": 1198
+  },
+  "374051080_374051230": {
+    "total_tx": 41410,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "374053807_374053957": {
+    "total_tx": 51974,
+    "liquidation_success": 11,
+    "liquidation_fail": 6,
+    "liquidation_total": 17
+  },
+  "374097151_374097301": {
+    "total_tx": 36809,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "375302810_375302960": {
+    "total_tx": 51713,
+    "liquidation_success": 2,
+    "liquidation_fail": 25,
+    "liquidation_total": 27
+  },
+  "375874941_375875091": {
+    "total_tx": 41497,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "379482645_379482795": {
+    "total_tx": 55770,
+    "liquidation_success": 3,
+    "liquidation_fail": 204,
+    "liquidation_total": 207
+  },
+  "379738694_379738844": {
+    "total_tx": 47920,
+    "liquidation_success": 2,
+    "liquidation_fail": 1,
+    "liquidation_total": 3
+  },
+  "380685134_380685284": {
+    "total_tx": 57402,
+    "liquidation_success": 9,
+    "liquidation_fail": 11,
+    "liquidation_total": 20
+  },
+  "382666760_382666910": {
+    "total_tx": 60895,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "382708137_382708287": {
+    "total_tx": 67679,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "382766145_382766295": {
+    "total_tx": 42817,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "383696986_383697136": {
+    "total_tx": 49233,
+    "liquidation_success": 1,
+    "liquidation_fail": 33,
+    "liquidation_total": 34
+  },
+  "384380070_384380220": {
+    "total_tx": 42372,
+    "liquidation_success": 1,
+    "liquidation_fail": 52,
+    "liquidation_total": 53
+  },
+  "384940120_384940270": {
+    "total_tx": 56470,
+    "liquidation_success": 1,
+    "liquidation_fail": 139,
+    "liquidation_total": 140
+  },
+  "384963206_384963356": {
+    "total_tx": 47176,
+    "liquidation_success": 1,
+    "liquidation_fail": 125,
+    "liquidation_total": 126
+  },
+  "385390524_385390674": {
+    "total_tx": 51213,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "386835820_386835970": {
+    "total_tx": 66299,
+    "liquidation_success": 10,
+    "liquidation_fail": 26,
+    "liquidation_total": 36
+  },
+  "389576313_389576463": {
+    "total_tx": 41131,
+    "liquidation_success": 2,
+    "liquidation_fail": 0,
+    "liquidation_total": 2
+  },
+  "392829077_392829227": {
+    "total_tx": 55289,
+    "liquidation_success": 5,
+    "liquidation_fail": 2,
+    "liquidation_total": 7
+  },
+  "395975588_395975738": {
+    "total_tx": 73480,
+    "liquidation_success": 1,
+    "liquidation_fail": 0,
+    "liquidation_total": 1
+  },
+  "396045653_396045803": {
+    "total_tx": 83612,
+    "liquidation_success": 0,
+    "liquidation_fail": 0,
+    "liquidation_total": 0
+  },
+  "397172599_397172749": {
+    "total_tx": 238552,
+    "liquidation_success": 2864,
+    "liquidation_fail": 2817,
+    "liquidation_total": 5681
+  },
+  "397186437_397186587": {
+    "total_tx": 232758,
+    "liquidation_success": 2116,
+    "liquidation_fail": 2723,
+    "liquidation_total": 4839
+  },
+  "397186591_397186741": {
+    "total_tx": 232119,
+    "liquidation_success": 2070,
+    "liquidation_fail": 3528,
+    "liquidation_total": 5598
+  },
+  "397207235_397207385": {
+    "total_tx": 122815,
+    "liquidation_success": 12,
+    "liquidation_fail": 727,
+    "liquidation_total": 739
+  }
+}

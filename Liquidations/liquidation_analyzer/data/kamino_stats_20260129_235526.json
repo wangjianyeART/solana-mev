@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260129_235526",
+  "total_signatures": 1000,
+  "successful_fetches": 1000,
+  "failed_fetches": 0,
+  "total_kamino_instructions": 3130,
+  "unique_instruction_names": 14,
+  "unique_instruction_types": 7,
+  "liquidation_transactions": 265,
+  "unknown_instructions": 0,
+  "instruction_counter": {
+    "refreshReserve": 1136,
+    "flashBorrowReserveLiquidity": 476,
+    "flashRepayReserveLiquidity": 476,
+    "refreshObligation": 458,
+    "liquidateObligationAndRedeemReserveCollateralV2": 265,
+    "refreshReservesBatch": 107,
+    "depositReserveLiquidityAndObligationCollateralV2": 50,
+    "repayObligationLiquidityV2": 49,
+    "withdrawObligationCollateralAndRedeemReserveCollateralV2": 45,
+    "borrowObligationLiquidityV2": 32,
+    "refreshObligationFarmsForReserve": 32,
+    "initObligation": 2,
+    "requestElevationGroup": 1,
+    "initObligationFarmsForReserve": 1
+  },
+  "instruction_type_counter": {
+    "other": 1737,
+    "flash_loan": 952,
+    "liquidation": 265,
+    "deposit": 50,
+    "repay": 49,
+    "withdraw": 45,
+    "borrow": 32
+  }
+}

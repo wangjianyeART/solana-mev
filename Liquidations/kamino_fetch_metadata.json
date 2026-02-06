@@ -1,0 +1,20 @@
+{
+  "fetches": [
+    {
+      "fetch_time": "2026-01-29T22:23:53.453993",
+      "days_requested": 7,
+      "start_timestamp": 1769090003,
+      "end_timestamp": 1769694803,
+      "transactions_fetched": 113300,
+      "liquidations_found": 0,
+      "data_folder": "kamino_data_7d_20260129_215323",
+      "duration_seconds": 1829.503639
+    }
+  ],
+  "total_transactions": 113300,
+  "earliest_timestamp": 1769090003,
+  "latest_timestamp": 1769694803,
+  "data_folders": [
+    "kamino_data_7d_20260129_215323"
+  ]
+}

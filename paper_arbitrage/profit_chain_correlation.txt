@@ -1,0 +1,4 @@
+=== 链长度 vs 利润 相关系数 (Spearman) ===
+SOL: n=982, Spearman rho = -0.1228
+USDC: n=326, Spearman rho = -0.0136
+USDT: n=29, Spearman rho = -0.3297

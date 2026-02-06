@@ -1,0 +1,2634 @@
+{
+  "246988807_246988957": {
+    "success_tx": 17630,
+    "fail_tx": 28619,
+    "sol_count": 200,
+    "usdc_count": 461,
+    "usdt_count": 99,
+    "total_arb": 760
+  },
+  "247013168_247013318": {
+    "success_tx": 17149,
+    "fail_tx": 27783,
+    "sol_count": 65,
+    "usdc_count": 222,
+    "usdt_count": 20,
+    "total_arb": 307
+  },
+  "247074504_247074654": {
+    "success_tx": 20292,
+    "fail_tx": 30717,
+    "sol_count": 93,
+    "usdc_count": 249,
+    "usdt_count": 51,
+    "total_arb": 393
+  },
+  "249005894_249006044": {
+    "success_tx": 19685,
+    "fail_tx": 35188,
+    "sol_count": 219,
+    "usdc_count": 533,
+    "usdt_count": 60,
+    "total_arb": 812
+  },
+  "249180858_249181008": {
+    "success_tx": 23466,
+    "fail_tx": 33008,
+    "sol_count": 102,
+    "usdc_count": 277,
+    "usdt_count": 31,
+    "total_arb": 410
+  },
+  "250234787_250234937": {
+    "success_tx": 23831,
+    "fail_tx": 27984,
+    "sol_count": 93,
+    "usdc_count": 192,
+    "usdt_count": 12,
+    "total_arb": 297
+  },
+  "250758500_250758650": {
+    "success_tx": 21250,
+    "fail_tx": 25078,
+    "sol_count": 113,
+    "usdc_count": 179,
+    "usdt_count": 12,
+    "total_arb": 304
+  },
+  "251027395_251027545": {
+    "success_tx": 13286,
+    "fail_tx": 18309,
+    "sol_count": 396,
+    "usdc_count": 805,
+    "usdt_count": 60,
+    "total_arb": 1261
+  },
+  "251028283_251028433": {
+    "success_tx": 10811,
+    "fail_tx": 14885,
+    "sol_count": 417,
+    "usdc_count": 964,
+    "usdt_count": 69,
+    "total_arb": 1450
+  },
+  "251350647_251350797": {
+    "success_tx": 18555,
+    "fail_tx": 20225,
+    "sol_count": 227,
+    "usdc_count": 272,
+    "usdt_count": 56,
+    "total_arb": 555
+  },
+  "251929124_251929274": {
+    "success_tx": 11901,
+    "fail_tx": 17470,
+    "sol_count": 330,
+    "usdc_count": 635,
+    "usdt_count": 35,
+    "total_arb": 1000
+  },
+  "252177310_252177460": {
+    "success_tx": 10759,
+    "fail_tx": 17594,
+    "sol_count": 368,
+    "usdc_count": 862,
+    "usdt_count": 66,
+    "total_arb": 1296
+  },
+  "252265832_252265982": {
+    "success_tx": 13073,
+    "fail_tx": 17690,
+    "sol_count": 456,
+    "usdc_count": 941,
+    "usdt_count": 100,
+    "total_arb": 1497
+  },
+  "252308029_252308179": {
+    "success_tx": 10489,
+    "fail_tx": 15146,
+    "sol_count": 424,
+    "usdc_count": 849,
+    "usdt_count": 92,
+    "total_arb": 1365
+  },
+  "252308176_252308326": {
+    "success_tx": 12342,
+    "fail_tx": 19626,
+    "sol_count": 500,
+    "usdc_count": 866,
+    "usdt_count": 67,
+    "total_arb": 1433
+  },
+  "252308322_252308472": {
+    "success_tx": 10356,
+    "fail_tx": 15849,
+    "sol_count": 502,
+    "usdc_count": 978,
+    "usdt_count": 70,
+    "total_arb": 1550
+  },
+  "252308472_252308622": {
+    "success_tx": 11737,
+    "fail_tx": 18933,
+    "sol_count": 503,
+    "usdc_count": 838,
+    "usdt_count": 76,
+    "total_arb": 1417
+  },
+  "252308623_252308773": {
+    "success_tx": 8906,
+    "fail_tx": 13005,
+    "sol_count": 485,
+    "usdc_count": 642,
+    "usdt_count": 43,
+    "total_arb": 1170
+  },
+  "252308768_252308918": {
+    "success_tx": 9866,
+    "fail_tx": 13437,
+    "sol_count": 487,
+    "usdc_count": 555,
+    "usdt_count": 45,
+    "total_arb": 1087
+  },
+  "252309060_252309210": {
+    "success_tx": 10968,
+    "fail_tx": 15836,
+    "sol_count": 496,
+    "usdc_count": 537,
+    "usdt_count": 14,
+    "total_arb": 1047
+  },
+  "252584632_252584782": {
+    "success_tx": 16418,
+    "fail_tx": 19030,
+    "sol_count": 292,
+    "usdc_count": 376,
+    "usdt_count": 46,
+    "total_arb": 714
+  },
+  "253966135_253966285": {
+    "success_tx": 17398,
+    "fail_tx": 50315,
+    "sol_count": 230,
+    "usdc_count": 206,
+    "usdt_count": 66,
+    "total_arb": 502
+  },
+  "256031312_256031462": {
+    "success_tx": 21984,
+    "fail_tx": 47841,
+    "sol_count": 116,
+    "usdc_count": 121,
+    "usdt_count": 28,
+    "total_arb": 265
+  },
+  "259446828_259446978": {
+    "success_tx": 35393,
+    "fail_tx": 40622,
+    "sol_count": 228,
+    "usdc_count": 235,
+    "usdt_count": 10,
+    "total_arb": 473
+  },
+  "259759203_259759353": {
+    "success_tx": 21914,
+    "fail_tx": 24528,
+    "sol_count": 401,
+    "usdc_count": 696,
+    "usdt_count": 69,
+    "total_arb": 1166
+  },
+  "259759332_259759482": {
+    "success_tx": 20632,
+    "fail_tx": 22338,
+    "sol_count": 427,
+    "usdc_count": 673,
+    "usdt_count": 38,
+    "total_arb": 1138
+  },
+  "259759468_259759618": {
+    "success_tx": 22764,
+    "fail_tx": 28017,
+    "sol_count": 440,
+    "usdc_count": 647,
+    "usdt_count": 45,
+    "total_arb": 1132
+  },
+  "259759592_259759742": {
+    "success_tx": 25451,
+    "fail_tx": 29868,
+    "sol_count": 490,
+    "usdc_count": 739,
+    "usdt_count": 47,
+    "total_arb": 1276
+  },
+  "259759714_259759864": {
+    "success_tx": 21916,
+    "fail_tx": 25572,
+    "sol_count": 505,
+    "usdc_count": 617,
+    "usdt_count": 28,
+    "total_arb": 1150
+  },
+  "259759844_259759994": {
+    "success_tx": 23130,
+    "fail_tx": 28597,
+    "sol_count": 451,
+    "usdc_count": 479,
+    "usdt_count": 33,
+    "total_arb": 963
+  },
+  "259951919_259952069": {
+    "success_tx": 18458,
+    "fail_tx": 29529,
+    "sol_count": 576,
+    "usdc_count": 890,
+    "usdt_count": 68,
+    "total_arb": 1534
+  },
+  "259952827_259952977": {
+    "success_tx": 22970,
+    "fail_tx": 31428,
+    "sol_count": 483,
+    "usdc_count": 558,
+    "usdt_count": 26,
+    "total_arb": 1067
+  },
+  "259953222_259953372": {
+    "success_tx": 23948,
+    "fail_tx": 30175,
+    "sol_count": 492,
+    "usdc_count": 847,
+    "usdt_count": 64,
+    "total_arb": 1403
+  },
+  "259953440_259953590": {
+    "success_tx": 22068,
+    "fail_tx": 29769,
+    "sol_count": 514,
+    "usdc_count": 956,
+    "usdt_count": 65,
+    "total_arb": 1535
+  },
+  "259953480_259953630": {
+    "success_tx": 23333,
+    "fail_tx": 28506,
+    "sol_count": 534,
+    "usdc_count": 965,
+    "usdt_count": 64,
+    "total_arb": 1563
+  },
+  "259953600_259953750": {
+    "success_tx": 20107,
+    "fail_tx": 24708,
+    "sol_count": 495,
+    "usdc_count": 913,
+    "usdt_count": 43,
+    "total_arb": 1451
+  },
+  "259953731_259953881": {
+    "success_tx": 21502,
+    "fail_tx": 28690,
+    "sol_count": 502,
+    "usdc_count": 664,
+    "usdt_count": 34,
+    "total_arb": 1200
+  },
+  "259953863_259954013": {
+    "success_tx": 20103,
+    "fail_tx": 24555,
+    "sol_count": 598,
+    "usdc_count": 617,
+    "usdt_count": 44,
+    "total_arb": 1259
+  },
+  "259955302_259955452": {
+    "success_tx": 21247,
+    "fail_tx": 34422,
+    "sol_count": 383,
+    "usdc_count": 513,
+    "usdt_count": 60,
+    "total_arb": 956
+  },
+  "259955572_259955722": {
+    "success_tx": 19633,
+    "fail_tx": 33212,
+    "sol_count": 450,
+    "usdc_count": 574,
+    "usdt_count": 63,
+    "total_arb": 1087
+  },
+  "261622996_261623146": {
+    "success_tx": 16696,
+    "fail_tx": 37482,
+    "sol_count": 254,
+    "usdc_count": 247,
+    "usdt_count": 21,
+    "total_arb": 522
+  },
+  "262900924_262901074": {
+    "success_tx": 23370,
+    "fail_tx": 48975,
+    "sol_count": 205,
+    "usdc_count": 136,
+    "usdt_count": 10,
+    "total_arb": 351
+  },
+  "264594800_264594950": {
+    "success_tx": 17479,
+    "fail_tx": 28223,
+    "sol_count": 225,
+    "usdc_count": 304,
+    "usdt_count": 16,
+    "total_arb": 545
+  },
+  "265925996_265926146": {
+    "success_tx": 15368,
+    "fail_tx": 25164,
+    "sol_count": 781,
+    "usdc_count": 1148,
+    "usdt_count": 74,
+    "total_arb": 2003
+  },
+  "266374797_266374947": {
+    "success_tx": 20073,
+    "fail_tx": 35770,
+    "sol_count": 200,
+    "usdc_count": 145,
+    "usdt_count": 71,
+    "total_arb": 416
+  },
+  "267733048_267733198": {
+    "success_tx": 25336,
+    "fail_tx": 35581,
+    "sol_count": 310,
+    "usdc_count": 274,
+    "usdt_count": 32,
+    "total_arb": 616
+  },
+  "268391784_268391934": {
+    "success_tx": 26283,
+    "fail_tx": 31680,
+    "sol_count": 224,
+    "usdc_count": 132,
+    "usdt_count": 17,
+    "total_arb": 373
+  },
+  "269617684_269617834": {
+    "success_tx": 24505,
+    "fail_tx": 15348,
+    "sol_count": 209,
+    "usdc_count": 113,
+    "usdt_count": 26,
+    "total_arb": 348
+  },
+  "271197428_271197578": {
+    "success_tx": 26326,
+    "fail_tx": 25237,
+    "sol_count": 230,
+    "usdc_count": 162,
+    "usdt_count": 28,
+    "total_arb": 420
+  },
+  "271942163_271942313": {
+    "success_tx": 27227,
+    "fail_tx": 14130,
+    "sol_count": 146,
+    "usdc_count": 64,
+    "usdt_count": 7,
+    "total_arb": 217
+  },
+  "272367756_272367906": {
+    "success_tx": 33497,
+    "fail_tx": 12228,
+    "sol_count": 261,
+    "usdc_count": 79,
+    "usdt_count": 12,
+    "total_arb": 352
+  },
+  "279584429_279584579": {
+    "success_tx": 43318,
+    "fail_tx": 20897,
+    "sol_count": 142,
+    "usdc_count": 113,
+    "usdt_count": 9,
+    "total_arb": 264
+  },
+  "281089137_281089287": {
+    "success_tx": 28746,
+    "fail_tx": 22437,
+    "sol_count": 141,
+    "usdc_count": 57,
+    "usdt_count": 5,
+    "total_arb": 203
+  },
+  "281613168_281613318": {
+    "success_tx": 13861,
+    "fail_tx": 8460,
+    "sol_count": 1104,
+    "usdc_count": 611,
+    "usdt_count": 39,
+    "total_arb": 1754
+  },
+  "281613314_281613464": {
+    "success_tx": 13645,
+    "fail_tx": 6449,
+    "sol_count": 1247,
+    "usdc_count": 644,
+    "usdt_count": 45,
+    "total_arb": 1936
+  },
+  "281613740_281613890": {
+    "success_tx": 14931,
+    "fail_tx": 6999,
+    "sol_count": 1046,
+    "usdc_count": 616,
+    "usdt_count": 52,
+    "total_arb": 1714
+  },
+  "281613882_281614032": {
+    "success_tx": 14398,
+    "fail_tx": 6012,
+    "sol_count": 1235,
+    "usdc_count": 721,
+    "usdt_count": 61,
+    "total_arb": 2017
+  },
+  "281646560_281646710": {
+    "success_tx": 16058,
+    "fail_tx": 8142,
+    "sol_count": 1071,
+    "usdc_count": 640,
+    "usdt_count": 51,
+    "total_arb": 1762
+  },
+  "281646704_281646854": {
+    "success_tx": 15650,
+    "fail_tx": 10038,
+    "sol_count": 1128,
+    "usdc_count": 585,
+    "usdt_count": 65,
+    "total_arb": 1778
+  },
+  "281646845_281646995": {
+    "success_tx": 12602,
+    "fail_tx": 5964,
+    "sol_count": 1261,
+    "usdc_count": 480,
+    "usdt_count": 34,
+    "total_arb": 1775
+  },
+  "281646989_281647139": {
+    "success_tx": 12855,
+    "fail_tx": 7863,
+    "sol_count": 1254,
+    "usdc_count": 540,
+    "usdt_count": 25,
+    "total_arb": 1819
+  },
+  "281656732_281656882": {
+    "success_tx": 15260,
+    "fail_tx": 6425,
+    "sol_count": 1056,
+    "usdc_count": 667,
+    "usdt_count": 36,
+    "total_arb": 1759
+  },
+  "281657024_281657174": {
+    "success_tx": 13723,
+    "fail_tx": 7962,
+    "sol_count": 1213,
+    "usdc_count": 771,
+    "usdt_count": 39,
+    "total_arb": 2023
+  },
+  "281657166_281657316": {
+    "success_tx": 14000,
+    "fail_tx": 6478,
+    "sol_count": 1287,
+    "usdc_count": 723,
+    "usdt_count": 33,
+    "total_arb": 2043
+  },
+  "281715548_281715698": {
+    "success_tx": 15961,
+    "fail_tx": 5769,
+    "sol_count": 901,
+    "usdc_count": 654,
+    "usdt_count": 51,
+    "total_arb": 1606
+  },
+  "281716280_281716430": {
+    "success_tx": 18632,
+    "fail_tx": 8663,
+    "sol_count": 939,
+    "usdc_count": 433,
+    "usdt_count": 27,
+    "total_arb": 1399
+  },
+  "281716541_281716691": {
+    "success_tx": 14773,
+    "fail_tx": 6755,
+    "sol_count": 986,
+    "usdc_count": 584,
+    "usdt_count": 33,
+    "total_arb": 1603
+  },
+  "281719748_281719898": {
+    "success_tx": 21125,
+    "fail_tx": 9685,
+    "sol_count": 923,
+    "usdc_count": 676,
+    "usdt_count": 39,
+    "total_arb": 1638
+  },
+  "282226055_282226205": {
+    "success_tx": 18193,
+    "fail_tx": 9305,
+    "sol_count": 610,
+    "usdc_count": 509,
+    "usdt_count": 39,
+    "total_arb": 1158
+  },
+  "283384499_283384649": {
+    "success_tx": 28444,
+    "fail_tx": 12481,
+    "sol_count": 284,
+    "usdc_count": 198,
+    "usdt_count": 17,
+    "total_arb": 499
+  },
+  "284421978_284422128": {
+    "success_tx": 23123,
+    "fail_tx": 21301,
+    "sol_count": 160,
+    "usdc_count": 42,
+    "usdt_count": 1,
+    "total_arb": 203
+  },
+  "285291898_285292048": {
+    "success_tx": 20658,
+    "fail_tx": 18785,
+    "sol_count": 105,
+    "usdc_count": 109,
+    "usdt_count": 8,
+    "total_arb": 222
+  },
+  "285646539_285646689": {
+    "success_tx": 26699,
+    "fail_tx": 19443,
+    "sol_count": 146,
+    "usdc_count": 93,
+    "usdt_count": 13,
+    "total_arb": 252
+  },
+  "286224777_286224927": {
+    "success_tx": 16371,
+    "fail_tx": 11082,
+    "sol_count": 622,
+    "usdc_count": 639,
+    "usdt_count": 63,
+    "total_arb": 1324
+  },
+  "287204687_287204837": {
+    "success_tx": 19784,
+    "fail_tx": 15133,
+    "sol_count": 144,
+    "usdc_count": 87,
+    "usdt_count": 4,
+    "total_arb": 235
+  },
+  "287716566_287716716": {
+    "success_tx": 23233,
+    "fail_tx": 10514,
+    "sol_count": 147,
+    "usdc_count": 64,
+    "usdt_count": 3,
+    "total_arb": 214
+  },
+  "290215220_290215370": {
+    "success_tx": 26902,
+    "fail_tx": 14163,
+    "sol_count": 155,
+    "usdc_count": 29,
+    "usdt_count": 8,
+    "total_arb": 192
+  },
+  "291311662_291311812": {
+    "success_tx": 23954,
+    "fail_tx": 17879,
+    "sol_count": 127,
+    "usdc_count": 73,
+    "usdt_count": 6,
+    "total_arb": 206
+  },
+  "291882071_291882221": {
+    "success_tx": 27158,
+    "fail_tx": 16755,
+    "sol_count": 111,
+    "usdc_count": 40,
+    "usdt_count": 4,
+    "total_arb": 155
+  },
+  "292762757_292762907": {
+    "success_tx": 30560,
+    "fail_tx": 18074,
+    "sol_count": 136,
+    "usdc_count": 141,
+    "usdt_count": 2,
+    "total_arb": 279
+  },
+  "293038922_293039072": {
+    "success_tx": 30480,
+    "fail_tx": 19922,
+    "sol_count": 254,
+    "usdc_count": 144,
+    "usdt_count": 4,
+    "total_arb": 402
+  },
+  "293345202_293345352": {
+    "success_tx": 32959,
+    "fail_tx": 23058,
+    "sol_count": 259,
+    "usdc_count": 139,
+    "usdt_count": 18,
+    "total_arb": 416
+  },
+  "293850555_293850705": {
+    "success_tx": 27034,
+    "fail_tx": 22327,
+    "sol_count": 135,
+    "usdc_count": 61,
+    "usdt_count": 6,
+    "total_arb": 202
+  },
+  "297620632_297620782": {
+    "success_tx": 34322,
+    "fail_tx": 16879,
+    "sol_count": 270,
+    "usdc_count": 66,
+    "usdt_count": 4,
+    "total_arb": 340
+  },
+  "299072869_299073019": {
+    "success_tx": 35328,
+    "fail_tx": 24174,
+    "sol_count": 165,
+    "usdc_count": 62,
+    "usdt_count": 15,
+    "total_arb": 242
+  },
+  "300298518_300298668": {
+    "success_tx": 33945,
+    "fail_tx": 22025,
+    "sol_count": 210,
+    "usdc_count": 149,
+    "usdt_count": 6,
+    "total_arb": 365
+  },
+  "300362996_300363146": {
+    "success_tx": 32793,
+    "fail_tx": 20404,
+    "sol_count": 275,
+    "usdc_count": 102,
+    "usdt_count": 12,
+    "total_arb": 389
+  },
+  "300562364_300562514": {
+    "success_tx": 31103,
+    "fail_tx": 30499,
+    "sol_count": 233,
+    "usdc_count": 221,
+    "usdt_count": 24,
+    "total_arb": 478
+  },
+  "301376824_301376974": {
+    "success_tx": 32367,
+    "fail_tx": 12601,
+    "sol_count": 342,
+    "usdc_count": 175,
+    "usdt_count": 6,
+    "total_arb": 523
+  },
+  "301650494_301650644": {
+    "success_tx": 40240,
+    "fail_tx": 22166,
+    "sol_count": 436,
+    "usdc_count": 108,
+    "usdt_count": 12,
+    "total_arb": 556
+  },
+  "301857216_301857366": {
+    "success_tx": 40773,
+    "fail_tx": 17563,
+    "sol_count": 650,
+    "usdc_count": 154,
+    "usdt_count": 18,
+    "total_arb": 822
+  },
+  "302080427_302080577": {
+    "success_tx": 33553,
+    "fail_tx": 25302,
+    "sol_count": 374,
+    "usdc_count": 90,
+    "usdt_count": 14,
+    "total_arb": 478
+  },
+  "303315179_303315329": {
+    "success_tx": 34783,
+    "fail_tx": 30481,
+    "sol_count": 286,
+    "usdc_count": 99,
+    "usdt_count": 5,
+    "total_arb": 390
+  },
+  "304691371_304691521": {
+    "success_tx": 29599,
+    "fail_tx": 28437,
+    "sol_count": 153,
+    "usdc_count": 73,
+    "usdt_count": 3,
+    "total_arb": 229
+  },
+  "304741220_304741370": {
+    "success_tx": 31953,
+    "fail_tx": 29364,
+    "sol_count": 184,
+    "usdc_count": 130,
+    "usdt_count": 3,
+    "total_arb": 317
+  },
+  "304897500_304897650": {
+    "success_tx": 37428,
+    "fail_tx": 31094,
+    "sol_count": 295,
+    "usdc_count": 129,
+    "usdt_count": 5,
+    "total_arb": 429
+  },
+  "305644352_305644502": {
+    "success_tx": 36215,
+    "fail_tx": 12182,
+    "sol_count": 881,
+    "usdc_count": 1031,
+    "usdt_count": 73,
+    "total_arb": 1985
+  },
+  "305644496_305644646": {
+    "success_tx": 23159,
+    "fail_tx": 10002,
+    "sol_count": 566,
+    "usdc_count": 329,
+    "usdt_count": 22,
+    "total_arb": 917
+  },
+  "305644785_305644935": {
+    "success_tx": 41983,
+    "fail_tx": 20253,
+    "sol_count": 706,
+    "usdc_count": 450,
+    "usdt_count": 29,
+    "total_arb": 1185
+  },
+  "305645206_305645356": {
+    "success_tx": 46746,
+    "fail_tx": 27486,
+    "sol_count": 611,
+    "usdc_count": 472,
+    "usdt_count": 11,
+    "total_arb": 1094
+  },
+  "306465336_306465486": {
+    "success_tx": 31940,
+    "fail_tx": 7601,
+    "sol_count": 1947,
+    "usdc_count": 1521,
+    "usdt_count": 94,
+    "total_arb": 3562
+  },
+  "306465477_306465627": {
+    "success_tx": 29395,
+    "fail_tx": 6604,
+    "sol_count": 1910,
+    "usdc_count": 1168,
+    "usdt_count": 83,
+    "total_arb": 3161
+  },
+  "306476528_306476678": {
+    "success_tx": 30070,
+    "fail_tx": 10539,
+    "sol_count": 1298,
+    "usdc_count": 904,
+    "usdt_count": 63,
+    "total_arb": 2265
+  },
+  "308319496_308319646": {
+    "success_tx": 44837,
+    "fail_tx": 20859,
+    "sol_count": 517,
+    "usdc_count": 168,
+    "usdt_count": 15,
+    "total_arb": 700
+  },
+  "308463300_308463450": {
+    "success_tx": 55840,
+    "fail_tx": 28391,
+    "sol_count": 329,
+    "usdc_count": 121,
+    "usdt_count": 2,
+    "total_arb": 452
+  },
+  "309198386_309198536": {
+    "success_tx": 48933,
+    "fail_tx": 29003,
+    "sol_count": 221,
+    "usdc_count": 128,
+    "usdt_count": 2,
+    "total_arb": 351
+  },
+  "310407365_310407515": {
+    "success_tx": 49116,
+    "fail_tx": 25337,
+    "sol_count": 289,
+    "usdc_count": 54,
+    "usdt_count": 2,
+    "total_arb": 345
+  },
+  "311746413_311746563": {
+    "success_tx": 40539,
+    "fail_tx": 34398,
+    "sol_count": 232,
+    "usdc_count": 78,
+    "usdt_count": 0,
+    "total_arb": 310
+  },
+  "311806335_311806485": {
+    "success_tx": 33836,
+    "fail_tx": 36088,
+    "sol_count": 220,
+    "usdc_count": 50,
+    "usdt_count": 3,
+    "total_arb": 273
+  },
+  "311807960_311808110": {
+    "success_tx": 36697,
+    "fail_tx": 35063,
+    "sol_count": 161,
+    "usdc_count": 46,
+    "usdt_count": 6,
+    "total_arb": 213
+  },
+  "311811639_311811789": {
+    "success_tx": 38973,
+    "fail_tx": 34448,
+    "sol_count": 213,
+    "usdc_count": 53,
+    "usdt_count": 4,
+    "total_arb": 270
+  },
+  "311815141_311815291": {
+    "success_tx": 45142,
+    "fail_tx": 33548,
+    "sol_count": 278,
+    "usdc_count": 52,
+    "usdt_count": 1,
+    "total_arb": 331
+  },
+  "311816018_311816168": {
+    "success_tx": 43201,
+    "fail_tx": 33788,
+    "sol_count": 202,
+    "usdc_count": 66,
+    "usdt_count": 1,
+    "total_arb": 269
+  },
+  "311818923_311819073": {
+    "success_tx": 42087,
+    "fail_tx": 35870,
+    "sol_count": 285,
+    "usdc_count": 84,
+    "usdt_count": 1,
+    "total_arb": 370
+  },
+  "311886022_311886172": {
+    "success_tx": 51555,
+    "fail_tx": 28770,
+    "sol_count": 293,
+    "usdc_count": 62,
+    "usdt_count": 2,
+    "total_arb": 357
+  },
+  "311907217_311907367": {
+    "success_tx": 56831,
+    "fail_tx": 29266,
+    "sol_count": 266,
+    "usdc_count": 89,
+    "usdt_count": 4,
+    "total_arb": 359
+  },
+  "311909707_311909857": {
+    "success_tx": 45141,
+    "fail_tx": 29981,
+    "sol_count": 368,
+    "usdc_count": 101,
+    "usdt_count": 5,
+    "total_arb": 474
+  },
+  "311909854_311910004": {
+    "success_tx": 49757,
+    "fail_tx": 29160,
+    "sol_count": 321,
+    "usdc_count": 137,
+    "usdt_count": 4,
+    "total_arb": 462
+  },
+  "311911158_311911308": {
+    "success_tx": 47098,
+    "fail_tx": 31159,
+    "sol_count": 345,
+    "usdc_count": 74,
+    "usdt_count": 2,
+    "total_arb": 421
+  },
+  "311913350_311913500": {
+    "success_tx": 54485,
+    "fail_tx": 27897,
+    "sol_count": 345,
+    "usdc_count": 89,
+    "usdt_count": 2,
+    "total_arb": 436
+  },
+  "311920340_311920490": {
+    "success_tx": 54825,
+    "fail_tx": 28944,
+    "sol_count": 346,
+    "usdc_count": 74,
+    "usdt_count": 9,
+    "total_arb": 429
+  },
+  "314883446_314883596": {
+    "success_tx": 54018,
+    "fail_tx": 17038,
+    "sol_count": 673,
+    "usdc_count": 228,
+    "usdt_count": 34,
+    "total_arb": 935
+  },
+  "315164353_315164503": {
+    "success_tx": 43392,
+    "fail_tx": 10678,
+    "sol_count": 1212,
+    "usdc_count": 646,
+    "usdt_count": 55,
+    "total_arb": 1913
+  },
+  "315253903_315254053": {
+    "success_tx": 53227,
+    "fail_tx": 6075,
+    "sol_count": 1138,
+    "usdc_count": 664,
+    "usdt_count": 32,
+    "total_arb": 1834
+  },
+  "315254050_315254200": {
+    "success_tx": 52984,
+    "fail_tx": 6410,
+    "sol_count": 1573,
+    "usdc_count": 931,
+    "usdt_count": 50,
+    "total_arb": 2554
+  },
+  "315582306_315582456": {
+    "success_tx": 47141,
+    "fail_tx": 28875,
+    "sol_count": 469,
+    "usdc_count": 169,
+    "usdt_count": 4,
+    "total_arb": 642
+  },
+  "316998711_316998861": {
+    "success_tx": 50020,
+    "fail_tx": 28942,
+    "sol_count": 443,
+    "usdc_count": 179,
+    "usdt_count": 4,
+    "total_arb": 626
+  },
+  "317169495_317169645": {
+    "success_tx": 53150,
+    "fail_tx": 28225,
+    "sol_count": 333,
+    "usdc_count": 63,
+    "usdt_count": 7,
+    "total_arb": 403
+  },
+  "317330567_317330717": {
+    "success_tx": 31975,
+    "fail_tx": 33769,
+    "sol_count": 241,
+    "usdc_count": 99,
+    "usdt_count": 7,
+    "total_arb": 347
+  },
+  "318110690_318110840": {
+    "success_tx": 51697,
+    "fail_tx": 13989,
+    "sol_count": 2150,
+    "usdc_count": 1071,
+    "usdt_count": 65,
+    "total_arb": 3286
+  },
+  "318110836_318110986": {
+    "success_tx": 45833,
+    "fail_tx": 10462,
+    "sol_count": 1868,
+    "usdc_count": 788,
+    "usdt_count": 50,
+    "total_arb": 2706
+  },
+  "319906724_319906874": {
+    "success_tx": 36454,
+    "fail_tx": 30392,
+    "sol_count": 189,
+    "usdc_count": 106,
+    "usdt_count": 4,
+    "total_arb": 299
+  },
+  "319999560_319999710": {
+    "success_tx": 48071,
+    "fail_tx": 29750,
+    "sol_count": 505,
+    "usdc_count": 150,
+    "usdt_count": 17,
+    "total_arb": 672
+  },
+  "324115536_324115686": {
+    "success_tx": 53710,
+    "fail_tx": 24306,
+    "sol_count": 2055,
+    "usdc_count": 838,
+    "usdt_count": 71,
+    "total_arb": 2964
+  },
+  "324115988_324116138": {
+    "success_tx": 47553,
+    "fail_tx": 21478,
+    "sol_count": 1757,
+    "usdc_count": 617,
+    "usdt_count": 57,
+    "total_arb": 2431
+  },
+  "325044686_325044836": {
+    "success_tx": 38543,
+    "fail_tx": 14908,
+    "sol_count": 94,
+    "usdc_count": 108,
+    "usdt_count": 1,
+    "total_arb": 203
+  },
+  "325638730_325638880": {
+    "success_tx": 31961,
+    "fail_tx": 20466,
+    "sol_count": 152,
+    "usdc_count": 208,
+    "usdt_count": 15,
+    "total_arb": 375
+  },
+  "325904252_325904402": {
+    "success_tx": 33894,
+    "fail_tx": 27844,
+    "sol_count": 348,
+    "usdc_count": 243,
+    "usdt_count": 3,
+    "total_arb": 594
+  },
+  "326067372_326067522": {
+    "success_tx": 41181,
+    "fail_tx": 33706,
+    "sol_count": 505,
+    "usdc_count": 295,
+    "usdt_count": 13,
+    "total_arb": 813
+  },
+  "326413046_326413196": {
+    "success_tx": 26150,
+    "fail_tx": 24950,
+    "sol_count": 139,
+    "usdc_count": 111,
+    "usdt_count": 0,
+    "total_arb": 250
+  },
+  "327383269_327383419": {
+    "success_tx": 41406,
+    "fail_tx": 31511,
+    "sol_count": 251,
+    "usdc_count": 149,
+    "usdt_count": 7,
+    "total_arb": 407
+  },
+  "327412386_327412536": {
+    "success_tx": 42688,
+    "fail_tx": 33746,
+    "sol_count": 78,
+    "usdc_count": 25,
+    "usdt_count": 3,
+    "total_arb": 106
+  },
+  "328083834_328083984": {
+    "success_tx": 31737,
+    "fail_tx": 13555,
+    "sol_count": 66,
+    "usdc_count": 60,
+    "usdt_count": 0,
+    "total_arb": 126
+  },
+  "328473446_328473596": {
+    "success_tx": 28860,
+    "fail_tx": 17344,
+    "sol_count": 86,
+    "usdc_count": 90,
+    "usdt_count": 0,
+    "total_arb": 176
+  },
+  "329619042_329619192": {
+    "success_tx": 31500,
+    "fail_tx": 27832,
+    "sol_count": 138,
+    "usdc_count": 60,
+    "usdt_count": 1,
+    "total_arb": 199
+  },
+  "330871051_330871201": {
+    "success_tx": 34965,
+    "fail_tx": 35254,
+    "sol_count": 122,
+    "usdc_count": 100,
+    "usdt_count": 6,
+    "total_arb": 228
+  },
+  "331901787_331901937": {
+    "success_tx": 38119,
+    "fail_tx": 28007,
+    "sol_count": 1576,
+    "usdc_count": 703,
+    "usdt_count": 30,
+    "total_arb": 2309
+  },
+  "332367225_332367375": {
+    "success_tx": 45480,
+    "fail_tx": 29368,
+    "sol_count": 496,
+    "usdc_count": 543,
+    "usdt_count": 32,
+    "total_arb": 1071
+  },
+  "334593083_334593233": {
+    "success_tx": 34323,
+    "fail_tx": 35757,
+    "sol_count": 157,
+    "usdc_count": 89,
+    "usdt_count": 1,
+    "total_arb": 247
+  },
+  "336310123_336310273": {
+    "success_tx": 38307,
+    "fail_tx": 33510,
+    "sol_count": 256,
+    "usdc_count": 148,
+    "usdt_count": 7,
+    "total_arb": 411
+  },
+  "337302344_337302494": {
+    "success_tx": 37306,
+    "fail_tx": 34274,
+    "sol_count": 173,
+    "usdc_count": 174,
+    "usdt_count": 9,
+    "total_arb": 356
+  },
+  "337736544_337736694": {
+    "success_tx": 36177,
+    "fail_tx": 27960,
+    "sol_count": 189,
+    "usdc_count": 214,
+    "usdt_count": 8,
+    "total_arb": 411
+  },
+  "343790027_343790177": {
+    "success_tx": 45088,
+    "fail_tx": 19247,
+    "sol_count": 162,
+    "usdc_count": 106,
+    "usdt_count": 2,
+    "total_arb": 270
+  },
+  "344301609_344301759": {
+    "success_tx": 42118,
+    "fail_tx": 15137,
+    "sol_count": 130,
+    "usdc_count": 199,
+    "usdt_count": 13,
+    "total_arb": 342
+  },
+  "344898649_344898799": {
+    "success_tx": 52966,
+    "fail_tx": 23993,
+    "sol_count": 178,
+    "usdc_count": 115,
+    "usdt_count": 2,
+    "total_arb": 295
+  },
+  "346689002_346689152": {
+    "success_tx": 48533,
+    "fail_tx": 20495,
+    "sol_count": 70,
+    "usdc_count": 67,
+    "usdt_count": 4,
+    "total_arb": 141
+  },
+  "348833768_348833918": {
+    "success_tx": 49341,
+    "fail_tx": 21848,
+    "sol_count": 297,
+    "usdc_count": 297,
+    "usdt_count": 16,
+    "total_arb": 610
+  },
+  "350177593_350177743": {
+    "success_tx": 51694,
+    "fail_tx": 20989,
+    "sol_count": 130,
+    "usdc_count": 46,
+    "usdt_count": 2,
+    "total_arb": 178
+  },
+  "350246442_350246592": {
+    "success_tx": 53880,
+    "fail_tx": 20977,
+    "sol_count": 102,
+    "usdc_count": 167,
+    "usdt_count": 3,
+    "total_arb": 272
+  },
+  "351465027_351465177": {
+    "success_tx": 60099,
+    "fail_tx": 15401,
+    "sol_count": 190,
+    "usdc_count": 148,
+    "usdt_count": 3,
+    "total_arb": 341
+  },
+  "352873230_352873380": {
+    "success_tx": 58470,
+    "fail_tx": 17442,
+    "sol_count": 390,
+    "usdc_count": 527,
+    "usdt_count": 18,
+    "total_arb": 935
+  },
+  "353426211_353426361": {
+    "success_tx": 56443,
+    "fail_tx": 19391,
+    "sol_count": 211,
+    "usdc_count": 283,
+    "usdt_count": 18,
+    "total_arb": 512
+  },
+  "357246772_357246922": {
+    "success_tx": 50537,
+    "fail_tx": 15701,
+    "sol_count": 121,
+    "usdc_count": 228,
+    "usdt_count": 8,
+    "total_arb": 357
+  },
+  "358298959_358299109": {
+    "success_tx": 59132,
+    "fail_tx": 22567,
+    "sol_count": 369,
+    "usdc_count": 517,
+    "usdt_count": 15,
+    "total_arb": 901
+  },
+  "358942088_358942238": {
+    "success_tx": 68854,
+    "fail_tx": 22001,
+    "sol_count": 291,
+    "usdc_count": 148,
+    "usdt_count": 1,
+    "total_arb": 440
+  },
+  "360487227_360487377": {
+    "success_tx": 43656,
+    "fail_tx": 9174,
+    "sol_count": 99,
+    "usdc_count": 89,
+    "usdt_count": 0,
+    "total_arb": 188
+  },
+  "363363620_363363770": {
+    "success_tx": 44754,
+    "fail_tx": 27226,
+    "sol_count": 237,
+    "usdc_count": 220,
+    "usdt_count": 7,
+    "total_arb": 464
+  },
+  "364935920_364936070": {
+    "success_tx": 36318,
+    "fail_tx": 9436,
+    "sol_count": 81,
+    "usdc_count": 94,
+    "usdt_count": 0,
+    "total_arb": 175
+  },
+  "364936213_364936363": {
+    "success_tx": 34421,
+    "fail_tx": 10722,
+    "sol_count": 97,
+    "usdc_count": 89,
+    "usdt_count": 7,
+    "total_arb": 193
+  },
+  "364947114_364947264": {
+    "success_tx": 36955,
+    "fail_tx": 13647,
+    "sol_count": 113,
+    "usdc_count": 86,
+    "usdt_count": 4,
+    "total_arb": 203
+  },
+  "364947567_364947717": {
+    "success_tx": 37780,
+    "fail_tx": 11740,
+    "sol_count": 118,
+    "usdc_count": 49,
+    "usdt_count": 3,
+    "total_arb": 170
+  },
+  "364949516_364949666": {
+    "success_tx": 39303,
+    "fail_tx": 7281,
+    "sol_count": 60,
+    "usdc_count": 77,
+    "usdt_count": 8,
+    "total_arb": 145
+  },
+  "364958482_364958632": {
+    "success_tx": 34541,
+    "fail_tx": 8510,
+    "sol_count": 70,
+    "usdc_count": 57,
+    "usdt_count": 0,
+    "total_arb": 127
+  },
+  "364960887_364961037": {
+    "success_tx": 37209,
+    "fail_tx": 6971,
+    "sol_count": 46,
+    "usdc_count": 114,
+    "usdt_count": 3,
+    "total_arb": 163
+  },
+  "364963113_364963263": {
+    "success_tx": 35106,
+    "fail_tx": 8981,
+    "sol_count": 50,
+    "usdc_count": 62,
+    "usdt_count": 0,
+    "total_arb": 112
+  },
+  "364967590_364967740": {
+    "success_tx": 33407,
+    "fail_tx": 6086,
+    "sol_count": 38,
+    "usdc_count": 18,
+    "usdt_count": 0,
+    "total_arb": 56
+  },
+  "364969863_364970013": {
+    "success_tx": 32263,
+    "fail_tx": 6997,
+    "sol_count": 41,
+    "usdc_count": 35,
+    "usdt_count": 2,
+    "total_arb": 78
+  },
+  "364970017_364970167": {
+    "success_tx": 33863,
+    "fail_tx": 7353,
+    "sol_count": 48,
+    "usdc_count": 33,
+    "usdt_count": 5,
+    "total_arb": 86
+  },
+  "364973437_364973587": {
+    "success_tx": 31224,
+    "fail_tx": 5579,
+    "sol_count": 28,
+    "usdc_count": 22,
+    "usdt_count": 4,
+    "total_arb": 54
+  },
+  "364988243_364988393": {
+    "success_tx": 34591,
+    "fail_tx": 7558,
+    "sol_count": 56,
+    "usdc_count": 106,
+    "usdt_count": 2,
+    "total_arb": 164
+  },
+  "364993653_364993803": {
+    "success_tx": 37595,
+    "fail_tx": 6325,
+    "sol_count": 47,
+    "usdc_count": 20,
+    "usdt_count": 1,
+    "total_arb": 68
+  },
+  "365000232_365000382": {
+    "success_tx": 36832,
+    "fail_tx": 7095,
+    "sol_count": 44,
+    "usdc_count": 23,
+    "usdt_count": 2,
+    "total_arb": 69
+  },
+  "365001892_365002042": {
+    "success_tx": 38456,
+    "fail_tx": 7338,
+    "sol_count": 36,
+    "usdc_count": 52,
+    "usdt_count": 0,
+    "total_arb": 88
+  },
+  "365002042_365002192": {
+    "success_tx": 39138,
+    "fail_tx": 6974,
+    "sol_count": 55,
+    "usdc_count": 82,
+    "usdt_count": 3,
+    "total_arb": 140
+  },
+  "365002947_365003097": {
+    "success_tx": 37728,
+    "fail_tx": 7220,
+    "sol_count": 39,
+    "usdc_count": 20,
+    "usdt_count": 2,
+    "total_arb": 61
+  },
+  "365006365_365006515": {
+    "success_tx": 38864,
+    "fail_tx": 6394,
+    "sol_count": 43,
+    "usdc_count": 76,
+    "usdt_count": 1,
+    "total_arb": 120
+  },
+  "365007409_365007559": {
+    "success_tx": 37431,
+    "fail_tx": 6429,
+    "sol_count": 39,
+    "usdc_count": 66,
+    "usdt_count": 8,
+    "total_arb": 113
+  },
+  "365019507_365019657": {
+    "success_tx": 36279,
+    "fail_tx": 6580,
+    "sol_count": 31,
+    "usdc_count": 25,
+    "usdt_count": 0,
+    "total_arb": 56
+  },
+  "365021293_365021443": {
+    "success_tx": 36167,
+    "fail_tx": 8662,
+    "sol_count": 72,
+    "usdc_count": 65,
+    "usdt_count": 3,
+    "total_arb": 140
+  },
+  "365033990_365034140": {
+    "success_tx": 35879,
+    "fail_tx": 7873,
+    "sol_count": 70,
+    "usdc_count": 55,
+    "usdt_count": 1,
+    "total_arb": 126
+  },
+  "366442280_366442430": {
+    "success_tx": 39084,
+    "fail_tx": 11609,
+    "sol_count": 99,
+    "usdc_count": 363,
+    "usdt_count": 10,
+    "total_arb": 472
+  },
+  "366783512_366783662": {
+    "success_tx": 57484,
+    "fail_tx": 24554,
+    "sol_count": 383,
+    "usdc_count": 633,
+    "usdt_count": 28,
+    "total_arb": 1044
+  },
+  "367970812_367970962": {
+    "success_tx": 39140,
+    "fail_tx": 9738,
+    "sol_count": 40,
+    "usdc_count": 45,
+    "usdt_count": 1,
+    "total_arb": 86
+  },
+  "368013805_368013955": {
+    "success_tx": 33940,
+    "fail_tx": 8536,
+    "sol_count": 84,
+    "usdc_count": 84,
+    "usdt_count": 0,
+    "total_arb": 168
+  },
+  "368023058_368023208": {
+    "success_tx": 35294,
+    "fail_tx": 8844,
+    "sol_count": 74,
+    "usdc_count": 63,
+    "usdt_count": 3,
+    "total_arb": 140
+  },
+  "368025179_368025329": {
+    "success_tx": 35488,
+    "fail_tx": 10733,
+    "sol_count": 93,
+    "usdc_count": 70,
+    "usdt_count": 1,
+    "total_arb": 164
+  },
+  "368036408_368036558": {
+    "success_tx": 34674,
+    "fail_tx": 10972,
+    "sol_count": 118,
+    "usdc_count": 101,
+    "usdt_count": 3,
+    "total_arb": 222
+  },
+  "368054734_368054884": {
+    "success_tx": 36213,
+    "fail_tx": 8233,
+    "sol_count": 50,
+    "usdc_count": 32,
+    "usdt_count": 0,
+    "total_arb": 82
+  },
+  "368062180_368062330": {
+    "success_tx": 37540,
+    "fail_tx": 8414,
+    "sol_count": 91,
+    "usdc_count": 73,
+    "usdt_count": 6,
+    "total_arb": 170
+  },
+  "368082028_368082178": {
+    "success_tx": 36436,
+    "fail_tx": 8942,
+    "sol_count": 103,
+    "usdc_count": 67,
+    "usdt_count": 3,
+    "total_arb": 173
+  },
+  "368108982_368109132": {
+    "success_tx": 37991,
+    "fail_tx": 10583,
+    "sol_count": 83,
+    "usdc_count": 94,
+    "usdt_count": 3,
+    "total_arb": 180
+  },
+  "368120185_368120335": {
+    "success_tx": 38006,
+    "fail_tx": 10491,
+    "sol_count": 99,
+    "usdc_count": 153,
+    "usdt_count": 5,
+    "total_arb": 257
+  },
+  "368140339_368140489": {
+    "success_tx": 44003,
+    "fail_tx": 12091,
+    "sol_count": 89,
+    "usdc_count": 151,
+    "usdt_count": 5,
+    "total_arb": 245
+  },
+  "368145643_368145793": {
+    "success_tx": 41772,
+    "fail_tx": 14719,
+    "sol_count": 116,
+    "usdc_count": 91,
+    "usdt_count": 3,
+    "total_arb": 210
+  },
+  "368155064_368155214": {
+    "success_tx": 41215,
+    "fail_tx": 13221,
+    "sol_count": 61,
+    "usdc_count": 79,
+    "usdt_count": 2,
+    "total_arb": 142
+  },
+  "368160072_368160222": {
+    "success_tx": 39939,
+    "fail_tx": 10842,
+    "sol_count": 97,
+    "usdc_count": 120,
+    "usdt_count": 4,
+    "total_arb": 221
+  },
+  "368161140_368161290": {
+    "success_tx": 40109,
+    "fail_tx": 12884,
+    "sol_count": 118,
+    "usdc_count": 89,
+    "usdt_count": 0,
+    "total_arb": 207
+  },
+  "368163405_368163555": {
+    "success_tx": 38339,
+    "fail_tx": 9160,
+    "sol_count": 67,
+    "usdc_count": 43,
+    "usdt_count": 1,
+    "total_arb": 111
+  },
+  "368164928_368165078": {
+    "success_tx": 38310,
+    "fail_tx": 11596,
+    "sol_count": 90,
+    "usdc_count": 112,
+    "usdt_count": 6,
+    "total_arb": 208
+  },
+  "368168278_368168428": {
+    "success_tx": 39899,
+    "fail_tx": 9743,
+    "sol_count": 106,
+    "usdc_count": 62,
+    "usdt_count": 7,
+    "total_arb": 175
+  },
+  "368171796_368171946": {
+    "success_tx": 34853,
+    "fail_tx": 8711,
+    "sol_count": 87,
+    "usdc_count": 43,
+    "usdt_count": 1,
+    "total_arb": 131
+  },
+  "368175453_368175603": {
+    "success_tx": 35103,
+    "fail_tx": 9427,
+    "sol_count": 79,
+    "usdc_count": 414,
+    "usdt_count": 5,
+    "total_arb": 498
+  },
+  "368181825_368181975": {
+    "success_tx": 41705,
+    "fail_tx": 10380,
+    "sol_count": 62,
+    "usdc_count": 81,
+    "usdt_count": 9,
+    "total_arb": 152
+  },
+  "369243243_369243393": {
+    "success_tx": 36512,
+    "fail_tx": 14868,
+    "sol_count": 212,
+    "usdc_count": 457,
+    "usdt_count": 14,
+    "total_arb": 683
+  },
+  "370938986_370939136": {
+    "success_tx": 48571,
+    "fail_tx": 14693,
+    "sol_count": 168,
+    "usdc_count": 696,
+    "usdt_count": 2,
+    "total_arb": 866
+  },
+  "371060978_371061128": {
+    "success_tx": 36727,
+    "fail_tx": 5690,
+    "sol_count": 54,
+    "usdc_count": 178,
+    "usdt_count": 2,
+    "total_arb": 234
+  },
+  "371062655_371062805": {
+    "success_tx": 35385,
+    "fail_tx": 5176,
+    "sol_count": 33,
+    "usdc_count": 176,
+    "usdt_count": 2,
+    "total_arb": 211
+  },
+  "371063416_371063566": {
+    "success_tx": 36057,
+    "fail_tx": 5070,
+    "sol_count": 55,
+    "usdc_count": 274,
+    "usdt_count": 10,
+    "total_arb": 339
+  },
+  "371064942_371065092": {
+    "success_tx": 39692,
+    "fail_tx": 5382,
+    "sol_count": 43,
+    "usdc_count": 269,
+    "usdt_count": 9,
+    "total_arb": 321
+  },
+  "371065088_371065238": {
+    "success_tx": 37166,
+    "fail_tx": 5733,
+    "sol_count": 43,
+    "usdc_count": 220,
+    "usdt_count": 6,
+    "total_arb": 269
+  },
+  "371065697_371065847": {
+    "success_tx": 35800,
+    "fail_tx": 6294,
+    "sol_count": 68,
+    "usdc_count": 186,
+    "usdt_count": 3,
+    "total_arb": 257
+  },
+  "371065848_371065998": {
+    "success_tx": 34371,
+    "fail_tx": 5729,
+    "sol_count": 42,
+    "usdc_count": 119,
+    "usdt_count": 2,
+    "total_arb": 163
+  },
+  "371067067_371067217": {
+    "success_tx": 37062,
+    "fail_tx": 6498,
+    "sol_count": 57,
+    "usdc_count": 251,
+    "usdt_count": 2,
+    "total_arb": 310
+  },
+  "371067213_371067363": {
+    "success_tx": 36642,
+    "fail_tx": 5940,
+    "sol_count": 58,
+    "usdc_count": 218,
+    "usdt_count": 3,
+    "total_arb": 279
+  },
+  "371079802_371079952": {
+    "success_tx": 36691,
+    "fail_tx": 5712,
+    "sol_count": 55,
+    "usdc_count": 369,
+    "usdt_count": 1,
+    "total_arb": 425
+  },
+  "371080707_371080857": {
+    "success_tx": 33755,
+    "fail_tx": 6554,
+    "sol_count": 69,
+    "usdc_count": 285,
+    "usdt_count": 5,
+    "total_arb": 359
+  },
+  "371082547_371082697": {
+    "success_tx": 35861,
+    "fail_tx": 7231,
+    "sol_count": 114,
+    "usdc_count": 165,
+    "usdt_count": 0,
+    "total_arb": 279
+  },
+  "371083009_371083159": {
+    "success_tx": 41419,
+    "fail_tx": 8129,
+    "sol_count": 83,
+    "usdc_count": 252,
+    "usdt_count": 4,
+    "total_arb": 339
+  },
+  "371083158_371083308": {
+    "success_tx": 37978,
+    "fail_tx": 11797,
+    "sol_count": 195,
+    "usdc_count": 141,
+    "usdt_count": 3,
+    "total_arb": 339
+  },
+  "371083772_371083922": {
+    "success_tx": 36998,
+    "fail_tx": 9351,
+    "sol_count": 87,
+    "usdc_count": 214,
+    "usdt_count": 2,
+    "total_arb": 303
+  },
+  "371084227_371084377": {
+    "success_tx": 36470,
+    "fail_tx": 6206,
+    "sol_count": 81,
+    "usdc_count": 150,
+    "usdt_count": 5,
+    "total_arb": 236
+  },
+  "371084835_371084985": {
+    "success_tx": 39063,
+    "fail_tx": 5166,
+    "sol_count": 73,
+    "usdc_count": 317,
+    "usdt_count": 3,
+    "total_arb": 393
+  },
+  "371084990_371085140": {
+    "success_tx": 37894,
+    "fail_tx": 6405,
+    "sol_count": 74,
+    "usdc_count": 192,
+    "usdt_count": 1,
+    "total_arb": 267
+  },
+  "371085297_371085447": {
+    "success_tx": 37795,
+    "fail_tx": 5479,
+    "sol_count": 92,
+    "usdc_count": 249,
+    "usdt_count": 6,
+    "total_arb": 347
+  },
+  "371086970_371087120": {
+    "success_tx": 35146,
+    "fail_tx": 5680,
+    "sol_count": 89,
+    "usdc_count": 240,
+    "usdt_count": 4,
+    "total_arb": 333
+  },
+  "371088483_371088633": {
+    "success_tx": 38515,
+    "fail_tx": 6607,
+    "sol_count": 78,
+    "usdc_count": 267,
+    "usdt_count": 0,
+    "total_arb": 345
+  },
+  "371088632_371088782": {
+    "success_tx": 35943,
+    "fail_tx": 7260,
+    "sol_count": 75,
+    "usdc_count": 178,
+    "usdt_count": 1,
+    "total_arb": 254
+  },
+  "371090163_371090313": {
+    "success_tx": 38988,
+    "fail_tx": 6411,
+    "sol_count": 40,
+    "usdc_count": 158,
+    "usdt_count": 7,
+    "total_arb": 205
+  },
+  "371090312_371090462": {
+    "success_tx": 37639,
+    "fail_tx": 6455,
+    "sol_count": 93,
+    "usdc_count": 254,
+    "usdt_count": 4,
+    "total_arb": 351
+  },
+  "371094420_371094570": {
+    "success_tx": 35344,
+    "fail_tx": 6193,
+    "sol_count": 67,
+    "usdc_count": 188,
+    "usdt_count": 1,
+    "total_arb": 256
+  },
+  "371095646_371095796": {
+    "success_tx": 35161,
+    "fail_tx": 5139,
+    "sol_count": 49,
+    "usdc_count": 169,
+    "usdt_count": 2,
+    "total_arb": 220
+  },
+  "371098981_371099131": {
+    "success_tx": 41965,
+    "fail_tx": 6249,
+    "sol_count": 42,
+    "usdc_count": 179,
+    "usdt_count": 1,
+    "total_arb": 222
+  },
+  "371104890_371105040": {
+    "success_tx": 36378,
+    "fail_tx": 4700,
+    "sol_count": 51,
+    "usdc_count": 168,
+    "usdt_count": 0,
+    "total_arb": 219
+  },
+  "371105502_371105652": {
+    "success_tx": 40349,
+    "fail_tx": 5962,
+    "sol_count": 45,
+    "usdc_count": 269,
+    "usdt_count": 4,
+    "total_arb": 318
+  },
+  "371106103_371106253": {
+    "success_tx": 36708,
+    "fail_tx": 5938,
+    "sol_count": 36,
+    "usdc_count": 266,
+    "usdt_count": 0,
+    "total_arb": 302
+  },
+  "371106404_371106554": {
+    "success_tx": 38111,
+    "fail_tx": 5609,
+    "sol_count": 50,
+    "usdc_count": 276,
+    "usdt_count": 1,
+    "total_arb": 327
+  },
+  "371106706_371106856": {
+    "success_tx": 35616,
+    "fail_tx": 4733,
+    "sol_count": 69,
+    "usdc_count": 204,
+    "usdt_count": 3,
+    "total_arb": 276
+  },
+  "371107613_371107763": {
+    "success_tx": 39610,
+    "fail_tx": 7190,
+    "sol_count": 25,
+    "usdc_count": 194,
+    "usdt_count": 3,
+    "total_arb": 222
+  },
+  "371107763_371107913": {
+    "success_tx": 44274,
+    "fail_tx": 7284,
+    "sol_count": 62,
+    "usdc_count": 279,
+    "usdt_count": 2,
+    "total_arb": 343
+  },
+  "371108819_371108969": {
+    "success_tx": 38545,
+    "fail_tx": 4667,
+    "sol_count": 42,
+    "usdc_count": 205,
+    "usdt_count": 1,
+    "total_arb": 248
+  },
+  "371108969_371109119": {
+    "success_tx": 40668,
+    "fail_tx": 5588,
+    "sol_count": 57,
+    "usdc_count": 137,
+    "usdt_count": 1,
+    "total_arb": 195
+  },
+  "371109123_371109273": {
+    "success_tx": 37101,
+    "fail_tx": 7072,
+    "sol_count": 56,
+    "usdc_count": 307,
+    "usdt_count": 6,
+    "total_arb": 369
+  },
+  "371109278_371109428": {
+    "success_tx": 35060,
+    "fail_tx": 5976,
+    "sol_count": 52,
+    "usdc_count": 161,
+    "usdt_count": 0,
+    "total_arb": 213
+  },
+  "371109433_371109583": {
+    "success_tx": 37071,
+    "fail_tx": 6539,
+    "sol_count": 64,
+    "usdc_count": 172,
+    "usdt_count": 0,
+    "total_arb": 236
+  },
+  "371142314_371142464": {
+    "success_tx": 35208,
+    "fail_tx": 5231,
+    "sol_count": 74,
+    "usdc_count": 266,
+    "usdt_count": 0,
+    "total_arb": 340
+  },
+  "371143072_371143222": {
+    "success_tx": 37929,
+    "fail_tx": 5766,
+    "sol_count": 49,
+    "usdc_count": 270,
+    "usdt_count": 2,
+    "total_arb": 321
+  },
+  "371144145_371144295": {
+    "success_tx": 37652,
+    "fail_tx": 8132,
+    "sol_count": 135,
+    "usdc_count": 267,
+    "usdt_count": 3,
+    "total_arb": 405
+  },
+  "371145373_371145523": {
+    "success_tx": 35258,
+    "fail_tx": 6884,
+    "sol_count": 66,
+    "usdc_count": 172,
+    "usdt_count": 2,
+    "total_arb": 240
+  },
+  "371145978_371146128": {
+    "success_tx": 37738,
+    "fail_tx": 6938,
+    "sol_count": 83,
+    "usdc_count": 199,
+    "usdt_count": 5,
+    "total_arb": 287
+  },
+  "371146121_371146271": {
+    "success_tx": 34394,
+    "fail_tx": 8460,
+    "sol_count": 108,
+    "usdc_count": 192,
+    "usdt_count": 5,
+    "total_arb": 305
+  },
+  "371147335_371147485": {
+    "success_tx": 36224,
+    "fail_tx": 7491,
+    "sol_count": 62,
+    "usdc_count": 79,
+    "usdt_count": 2,
+    "total_arb": 143
+  },
+  "371148096_371148246": {
+    "success_tx": 38980,
+    "fail_tx": 8743,
+    "sol_count": 86,
+    "usdc_count": 128,
+    "usdt_count": 5,
+    "total_arb": 219
+  },
+  "371149916_371150066": {
+    "success_tx": 39400,
+    "fail_tx": 6134,
+    "sol_count": 78,
+    "usdc_count": 177,
+    "usdt_count": 7,
+    "total_arb": 262
+  },
+  "371150971_371151121": {
+    "success_tx": 39158,
+    "fail_tx": 7003,
+    "sol_count": 73,
+    "usdc_count": 214,
+    "usdt_count": 3,
+    "total_arb": 290
+  },
+  "371217117_371217267": {
+    "success_tx": 38246,
+    "fail_tx": 10429,
+    "sol_count": 100,
+    "usdc_count": 167,
+    "usdt_count": 5,
+    "total_arb": 272
+  },
+  "371217413_371217563": {
+    "success_tx": 36033,
+    "fail_tx": 8671,
+    "sol_count": 97,
+    "usdc_count": 162,
+    "usdt_count": 1,
+    "total_arb": 260
+  },
+  "371228485_371228635": {
+    "success_tx": 39260,
+    "fail_tx": 8122,
+    "sol_count": 80,
+    "usdc_count": 137,
+    "usdt_count": 0,
+    "total_arb": 217
+  },
+  "371237418_371237568": {
+    "success_tx": 36421,
+    "fail_tx": 7050,
+    "sol_count": 64,
+    "usdc_count": 249,
+    "usdt_count": 1,
+    "total_arb": 314
+  },
+  "371237872_371238022": {
+    "success_tx": 34434,
+    "fail_tx": 8498,
+    "sol_count": 71,
+    "usdc_count": 287,
+    "usdt_count": 4,
+    "total_arb": 362
+  },
+  "371238026_371238176": {
+    "success_tx": 35281,
+    "fail_tx": 8905,
+    "sol_count": 180,
+    "usdc_count": 321,
+    "usdt_count": 3,
+    "total_arb": 504
+  },
+  "371238175_371238325": {
+    "success_tx": 33868,
+    "fail_tx": 7582,
+    "sol_count": 164,
+    "usdc_count": 193,
+    "usdt_count": 4,
+    "total_arb": 361
+  },
+  "371238328_371238478": {
+    "success_tx": 34796,
+    "fail_tx": 6429,
+    "sol_count": 61,
+    "usdc_count": 231,
+    "usdt_count": 1,
+    "total_arb": 293
+  },
+  "371238632_371238782": {
+    "success_tx": 32105,
+    "fail_tx": 5278,
+    "sol_count": 37,
+    "usdc_count": 108,
+    "usdt_count": 3,
+    "total_arb": 148
+  },
+  "371238783_371238933": {
+    "success_tx": 33141,
+    "fail_tx": 6282,
+    "sol_count": 56,
+    "usdc_count": 206,
+    "usdt_count": 5,
+    "total_arb": 267
+  },
+  "371238937_371239087": {
+    "success_tx": 32184,
+    "fail_tx": 7208,
+    "sol_count": 79,
+    "usdc_count": 155,
+    "usdt_count": 1,
+    "total_arb": 235
+  },
+  "372520333_372520483": {
+    "success_tx": 42867,
+    "fail_tx": 93243,
+    "sol_count": 2260,
+    "usdc_count": 2022,
+    "usdt_count": 129,
+    "total_arb": 4411
+  },
+  "372520789_372520939": {
+    "success_tx": 49643,
+    "fail_tx": 96061,
+    "sol_count": 2536,
+    "usdc_count": 2257,
+    "usdt_count": 118,
+    "total_arb": 4911
+  },
+  "372522893_372523043": {
+    "success_tx": 40170,
+    "fail_tx": 103313,
+    "sol_count": 2790,
+    "usdc_count": 2623,
+    "usdt_count": 149,
+    "total_arb": 5562
+  },
+  "372523042_372523192": {
+    "success_tx": 36163,
+    "fail_tx": 98168,
+    "sol_count": 2708,
+    "usdc_count": 1897,
+    "usdt_count": 146,
+    "total_arb": 4751
+  },
+  "372523197_372523347": {
+    "success_tx": 38138,
+    "fail_tx": 93779,
+    "sol_count": 2211,
+    "usdc_count": 1564,
+    "usdt_count": 119,
+    "total_arb": 3894
+  },
+  "372523346_372523496": {
+    "success_tx": 36467,
+    "fail_tx": 70275,
+    "sol_count": 2649,
+    "usdc_count": 1926,
+    "usdt_count": 160,
+    "total_arb": 4735
+  },
+  "372523497_372523647": {
+    "success_tx": 32394,
+    "fail_tx": 41770,
+    "sol_count": 2656,
+    "usdc_count": 1842,
+    "usdt_count": 130,
+    "total_arb": 4628
+  },
+  "372523646_372523796": {
+    "success_tx": 35907,
+    "fail_tx": 39599,
+    "sol_count": 2423,
+    "usdc_count": 1991,
+    "usdt_count": 177,
+    "total_arb": 4591
+  },
+  "372523798_372523948": {
+    "success_tx": 33995,
+    "fail_tx": 38897,
+    "sol_count": 2180,
+    "usdc_count": 1814,
+    "usdt_count": 213,
+    "total_arb": 4207
+  },
+  "372523952_372524102": {
+    "success_tx": 39154,
+    "fail_tx": 36720,
+    "sol_count": 2684,
+    "usdc_count": 2228,
+    "usdt_count": 203,
+    "total_arb": 5115
+  },
+  "372524103_372524253": {
+    "success_tx": 42402,
+    "fail_tx": 34786,
+    "sol_count": 2881,
+    "usdc_count": 2383,
+    "usdt_count": 251,
+    "total_arb": 5515
+  },
+  "372524257_372524407": {
+    "success_tx": 39370,
+    "fail_tx": 42363,
+    "sol_count": 2909,
+    "usdc_count": 2242,
+    "usdt_count": 273,
+    "total_arb": 5424
+  },
+  "372524410_372524560": {
+    "success_tx": 40233,
+    "fail_tx": 32639,
+    "sol_count": 2403,
+    "usdc_count": 1791,
+    "usdt_count": 204,
+    "total_arb": 4398
+  },
+  "372524562_372524712": {
+    "success_tx": 45684,
+    "fail_tx": 51408,
+    "sol_count": 2448,
+    "usdc_count": 1811,
+    "usdt_count": 194,
+    "total_arb": 4453
+  },
+  "372524714_372524864": {
+    "success_tx": 42446,
+    "fail_tx": 44566,
+    "sol_count": 2793,
+    "usdc_count": 2018,
+    "usdt_count": 309,
+    "total_arb": 5120
+  },
+  "372524864_372525014": {
+    "success_tx": 41153,
+    "fail_tx": 36624,
+    "sol_count": 2435,
+    "usdc_count": 1819,
+    "usdt_count": 260,
+    "total_arb": 4514
+  },
+  "372525016_372525166": {
+    "success_tx": 37197,
+    "fail_tx": 37092,
+    "sol_count": 2735,
+    "usdc_count": 1736,
+    "usdt_count": 205,
+    "total_arb": 4676
+  },
+  "372525168_372525318": {
+    "success_tx": 42011,
+    "fail_tx": 39357,
+    "sol_count": 2694,
+    "usdc_count": 1805,
+    "usdt_count": 243,
+    "total_arb": 4742
+  },
+  "372525323_372525473": {
+    "success_tx": 40794,
+    "fail_tx": 52946,
+    "sol_count": 2596,
+    "usdc_count": 1495,
+    "usdt_count": 158,
+    "total_arb": 4249
+  },
+  "372525617_372525767": {
+    "success_tx": 46017,
+    "fail_tx": 53635,
+    "sol_count": 2763,
+    "usdc_count": 2234,
+    "usdt_count": 280,
+    "total_arb": 5277
+  },
+  "372525766_372525916": {
+    "success_tx": 48588,
+    "fail_tx": 41115,
+    "sol_count": 2679,
+    "usdc_count": 2216,
+    "usdt_count": 211,
+    "total_arb": 5106
+  },
+  "372525915_372526065": {
+    "success_tx": 45845,
+    "fail_tx": 50988,
+    "sol_count": 2730,
+    "usdc_count": 1745,
+    "usdt_count": 148,
+    "total_arb": 4623
+  },
+  "372526973_372527123": {
+    "success_tx": 49859,
+    "fail_tx": 42224,
+    "sol_count": 2192,
+    "usdc_count": 1522,
+    "usdt_count": 185,
+    "total_arb": 3899
+  },
+  "372527122_372527272": {
+    "success_tx": 47225,
+    "fail_tx": 35506,
+    "sol_count": 2912,
+    "usdc_count": 1751,
+    "usdt_count": 178,
+    "total_arb": 4841
+  },
+  "372527424_372527574": {
+    "success_tx": 46040,
+    "fail_tx": 37845,
+    "sol_count": 2622,
+    "usdc_count": 2007,
+    "usdt_count": 173,
+    "total_arb": 4802
+  },
+  "372527575_372527725": {
+    "success_tx": 47088,
+    "fail_tx": 36201,
+    "sol_count": 3210,
+    "usdc_count": 2297,
+    "usdt_count": 248,
+    "total_arb": 5755
+  },
+  "372527729_372527879": {
+    "success_tx": 40853,
+    "fail_tx": 35928,
+    "sol_count": 2215,
+    "usdc_count": 1816,
+    "usdt_count": 188,
+    "total_arb": 4219
+  },
+  "372527877_372528027": {
+    "success_tx": 45436,
+    "fail_tx": 35943,
+    "sol_count": 2363,
+    "usdc_count": 2014,
+    "usdt_count": 248,
+    "total_arb": 4625
+  },
+  "372530745_372530895": {
+    "success_tx": 56729,
+    "fail_tx": 76077,
+    "sol_count": 2060,
+    "usdc_count": 1630,
+    "usdt_count": 128,
+    "total_arb": 3818
+  },
+  "374051080_374051230": {
+    "success_tx": 35832,
+    "fail_tx": 5578,
+    "sol_count": 92,
+    "usdc_count": 282,
+    "usdt_count": 4,
+    "total_arb": 378
+  },
+  "374053807_374053957": {
+    "success_tx": 40696,
+    "fail_tx": 11278,
+    "sol_count": 278,
+    "usdc_count": 521,
+    "usdt_count": 7,
+    "total_arb": 806
+  },
+  "374097151_374097301": {
+    "success_tx": 32083,
+    "fail_tx": 4726,
+    "sol_count": 68,
+    "usdc_count": 154,
+    "usdt_count": 1,
+    "total_arb": 223
+  },
+  "375302810_375302960": {
+    "success_tx": 38350,
+    "fail_tx": 13363,
+    "sol_count": 287,
+    "usdc_count": 594,
+    "usdt_count": 22,
+    "total_arb": 903
+  },
+  "375874941_375875091": {
+    "success_tx": 35196,
+    "fail_tx": 6301,
+    "sol_count": 76,
+    "usdc_count": 129,
+    "usdt_count": 1,
+    "total_arb": 206
+  },
+  "379482645_379482795": {
+    "success_tx": 41323,
+    "fail_tx": 14447,
+    "sol_count": 91,
+    "usdc_count": 302,
+    "usdt_count": 5,
+    "total_arb": 398
+  },
+  "379738694_379738844": {
+    "success_tx": 40802,
+    "fail_tx": 7118,
+    "sol_count": 129,
+    "usdc_count": 419,
+    "usdt_count": 20,
+    "total_arb": 568
+  },
+  "380685134_380685284": {
+    "success_tx": 46243,
+    "fail_tx": 11159,
+    "sol_count": 1429,
+    "usdc_count": 388,
+    "usdt_count": 9,
+    "total_arb": 1826
+  },
+  "382666760_382666910": {
+    "success_tx": 47086,
+    "fail_tx": 13809,
+    "sol_count": 273,
+    "usdc_count": 580,
+    "usdt_count": 13,
+    "total_arb": 866
+  },
+  "382708137_382708287": {
+    "success_tx": 44134,
+    "fail_tx": 23545,
+    "sol_count": 134,
+    "usdc_count": 230,
+    "usdt_count": 6,
+    "total_arb": 370
+  },
+  "382766145_382766295": {
+    "success_tx": 38017,
+    "fail_tx": 4800,
+    "sol_count": 69,
+    "usdc_count": 272,
+    "usdt_count": 6,
+    "total_arb": 347
+  },
+  "383696986_383697136": {
+    "success_tx": 39974,
+    "fail_tx": 9259,
+    "sol_count": 136,
+    "usdc_count": 311,
+    "usdt_count": 5,
+    "total_arb": 452
+  },
+  "384380070_384380220": {
+    "success_tx": 38471,
+    "fail_tx": 3901,
+    "sol_count": 73,
+    "usdc_count": 231,
+    "usdt_count": 8,
+    "total_arb": 312
+  },
+  "384940120_384940270": {
+    "success_tx": 42912,
+    "fail_tx": 13558,
+    "sol_count": 68,
+    "usdc_count": 114,
+    "usdt_count": 2,
+    "total_arb": 184
+  },
+  "384963206_384963356": {
+    "success_tx": 39207,
+    "fail_tx": 7969,
+    "sol_count": 98,
+    "usdc_count": 131,
+    "usdt_count": 2,
+    "total_arb": 231
+  },
+  "385390524_385390674": {
+    "success_tx": 42969,
+    "fail_tx": 8244,
+    "sol_count": 167,
+    "usdc_count": 310,
+    "usdt_count": 5,
+    "total_arb": 482
+  },
+  "386835820_386835970": {
+    "success_tx": 44784,
+    "fail_tx": 21515,
+    "sol_count": 378,
+    "usdc_count": 845,
+    "usdt_count": 22,
+    "total_arb": 1245
+  },
+  "389576313_389576463": {
+    "success_tx": 35730,
+    "fail_tx": 5401,
+    "sol_count": 96,
+    "usdc_count": 181,
+    "usdt_count": 1,
+    "total_arb": 278
+  },
+  "392829077_392829227": {
+    "success_tx": 46984,
+    "fail_tx": 8305,
+    "sol_count": 143,
+    "usdc_count": 279,
+    "usdt_count": 8,
+    "total_arb": 430
+  },
+  "395975588_395975738": {
+    "success_tx": 63075,
+    "fail_tx": 10405,
+    "sol_count": 123,
+    "usdc_count": 182,
+    "usdt_count": 15,
+    "total_arb": 320
+  },
+  "396045653_396045803": {
+    "success_tx": 67874,
+    "fail_tx": 15738,
+    "sol_count": 233,
+    "usdc_count": 371,
+    "usdt_count": 26,
+    "total_arb": 630
+  },
+  "397172599_397172749": {
+    "success_tx": 51932,
+    "fail_tx": 186620,
+    "sol_count": 3144,
+    "usdc_count": 2383,
+    "usdt_count": 165,
+    "total_arb": 5692
+  },
+  "397186437_397186587": {
+    "success_tx": 55488,
+    "fail_tx": 177270,
+    "sol_count": 2388,
+    "usdc_count": 2082,
+    "usdt_count": 165,
+    "total_arb": 4635
+  },
+  "397186591_397186741": {
+    "success_tx": 44857,
+    "fail_tx": 187262,
+    "sol_count": 2930,
+    "usdc_count": 2371,
+    "usdt_count": 211,
+    "total_arb": 5512
+  },
+  "397207235_397207385": {
+    "success_tx": 82110,
+    "fail_tx": 40705,
+    "sol_count": 548,
+    "usdc_count": 1078,
+    "usdt_count": 67,
+    "total_arb": 1693
+  }
+}

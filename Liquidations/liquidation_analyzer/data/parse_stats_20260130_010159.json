@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260130_010159",
+  "input_file": "data/liquidations_raw_20260130_005703.json",
+  "total_transactions": 4,
+  "parsed_successfully": 4,
+  "liquidation_count": 4,
+  "non_liquidation_count": 0,
+  "parse_error_count": 0,
+  "liquidation_ratio_pct": 100.0
+}

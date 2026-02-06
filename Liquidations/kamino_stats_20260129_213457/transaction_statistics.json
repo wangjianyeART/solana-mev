@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "total_transactions": 1000,
+    "time_range_days": 7,
+    "fetch_time": "2026-01-29T21:35:13.072438",
+    "total_types": 13,
+    "data_folder": "kamino_data_20260129_213457",
+    "total_batches": 1,
+    "batch_size": 1000
+  },
+  "type_counts": {
+    "TOKEN_MINT": 83,
+    "UNKNOWN": 113,
+    "REFRESH_RESERVE": 221,
+    "REFRESH_OBLIGATION": 389,
+    "FLASH_REPAY_RESERVE_LIQUIDITY": 45,
+    "WITHDRAW": 59,
+    "DEPOSIT": 57,
+    "SYNC_NATIVE": 7,
+    "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL": 4,
+    "WITHDRAW_UNSTAKED_DEPOSITS": 8,
+    "STAKE": 11,
+    "INIT_USER_METADATA": 2,
+    "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL": 1
+  },
+  "type_percentages": {
+    "TOKEN_MINT": 8.3,
+    "UNKNOWN": 11.3,
+    "REFRESH_RESERVE": 22.1,
+    "REFRESH_OBLIGATION": 38.9,
+    "FLASH_REPAY_RESERVE_LIQUIDITY": 4.5,
+    "WITHDRAW": 5.9,
+    "DEPOSIT": 5.7,
+    "SYNC_NATIVE": 0.7,
+    "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL": 0.4,
+    "WITHDRAW_UNSTAKED_DEPOSITS": 0.8,
+    "STAKE": 1.1,
+    "INIT_USER_METADATA": 0.2,
+    "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL": 0.1
+  },
+  "type_examples": {
+    "TOKEN_MINT": [
+      {
+        "signature": "2MsqDbg8GENGft1826o72NJFEHYjgeYDbA2RpJqBh41HBZuDFBdanV7ZXdw84nuj59vsmjfQ6zRpbkwTc3evgSTP",
+        "timestamp": 1769693684,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "3FN6a25AeCRUjL2LXpmZ9ZncQteorMGG2YLrquMDD73WsG7dnrsNnF35xwHGq9zTzj26ECPUFyXhvN1BCUXfHWh6",
+        "timestamp": 1769693533,
+        "feePayer": "brzXVbTLBvUTi9mi5QZmVRvEQwSdTYuAZXZrVXygUeK"
+      },
+      {
+        "signature": "4E2XEPXmFJrBUGUmXUUpYgfxeynC9yiaqgaycpFgLAjrsTDkd98rj5hDLiJw7VrSw7xE9FzYboKwn63WN3ZGEHkR",
+        "timestamp": 1769693533,
+        "feePayer": "brzXVbTLBvUTi9mi5QZmVRvEQwSdTYuAZXZrVXygUeK"
+      },
+      {
+        "signature": "3t2vncmQLuEfyRZWbzdzRtFcJFtP3GM4HJ4i7X4EiFxJ6hMPruZR9ZswwwWPSGDUtxoZ4hbRW7mNyMeNB1M5XCgv",
+        "timestamp": 1769693520,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      },
+      {
+        "signature": "2LR7ddrqzRChExA5HvKWe3gZdkMygn7eSN7jLc5XXaChS8CBaQ4D3skB4YvMJddtrV4NGJq28ew3WUhuUXQ97iVR",
+        "timestamp": 1769693436,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      }
+    ],
+    "UNKNOWN": [
+      {
+        "signature": "5Ueja8mCRCgas4d7dzeeym9SuC2YUnBJAkRs4NNUfGdWcv2iPZJeQ9bZXdGnEppmYxwnWEzgrZRjiPAaKuFYSkiS",
+        "timestamp": 1769693682,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "275cJcj3fyvskhrqd8prYYKLqewTd9JTjQY8QM7Z56QUawzZdLmYf3G29Ui4RkdNGCpcwc4BprTPdEQt4aywkW5m",
+        "timestamp": 1769693394,
+        "feePayer": "FU76ac2Hm2mo4hoyckhAKDrbKTFwxyDPHnrrERfMXusE"
+      },
+      {
+        "signature": "3W75cH4o3BYqhT39xvQoDSLB7GWma1aba4fuC88JiwSbQGvHHDdeAdst2hniGsxbp2v6Nfz1aareUmmu7BLAw2RN",
+        "timestamp": 1769693394,
+        "feePayer": "FU76ac2Hm2mo4hoyckhAKDrbKTFwxyDPHnrrERfMXusE"
+      },
+      {
+        "signature": "3UTWbGrgdnRDPhipuVAPUw7eLL7p7rGrbu4icDhr8rzkppFNBxGYANCGL9NkbkUk4cd23BvEJNZdAz559rmbMi6g",
+        "timestamp": 1769693393,
+        "feePayer": "FU76ac2Hm2mo4hoyckhAKDrbKTFwxyDPHnrrERfMXusE"
+      },
+      {
+        "signature": "4vSKpAXCnUWyPGu7CYZp4xyQtubrUbSdiFU2t4wVQdrMWuAQpmh4AgBZby1gXP3vmEQ6XE3jsF4ey2KFpGKiYtc4",
+        "timestamp": 1769693392,
+        "feePayer": "FU76ac2Hm2mo4hoyckhAKDrbKTFwxyDPHnrrERfMXusE"
+      }
+    ],
+    "REFRESH_RESERVE": [
+      {
+        "signature": "5HRFFuxm3oR6rJ34hP5eS8NxphrWiu2cQcdoiQKkcqiRUzvUD1xymjuBSp51zhq8KGeJAABJ9e4DkyWh3UPaEVVf",
+        "timestamp": 1769693673,
+        "feePayer": "6DdJqQYD8AizuXiCkbn19LiyWRwUsRMzy2Sgyoyasyj7"
+      },
+      {
+        "signature": "2w9jAtXiw5XDiQVqjFJhsgYjGsU5xE6STakeNh7MS6u9NQT9bfKoDtRo9n1RwCB8vshpF9feBKQm4jkt4Zyu6F3D",
+        "timestamp": 1769693648,
+        "feePayer": "6DdJqQYD8AizuXiCkbn19LiyWRwUsRMzy2Sgyoyasyj7"
+      },
+      {
+        "signature": "283dRd2aJzTRVkmmQ14zT42tmtUBe8pQ22vt8eEjXDEp16Bc2cFSYwvNqEvttZx27AYBwSxzxMN3XnBL5j9To2er",
+        "timestamp": 1769693637,
+        "feePayer": "6DdJqQYD8AizuXiCkbn19LiyWRwUsRMzy2Sgyoyasyj7"
+      },
+      {
+        "signature": "3V1aHWUyFc2MbYhKnyY3ZmhwqFbo5q3wf8BDpENaQdqdNkh3Fvgy6SA2p2tt6TvGXAsevhbwjViizK9ySTgf1262",
+        "timestamp": 1769693623,
+        "feePayer": "6DdJqQYD8AizuXiCkbn19LiyWRwUsRMzy2Sgyoyasyj7"
+      },
+      {
+        "signature": "2KwTj57hVyWSVyZgGbFnveuM9oU7Wyub2pXAMeN21BT1R3mTbrgnmWg6CcwKigSAH91HJ2q36Vo2X7JWqjoadqQV",
+        "timestamp": 1769693593,
+        "feePayer": "6DdJqQYD8AizuXiCkbn19LiyWRwUsRMzy2Sgyoyasyj7"
+      }
+    ],
+    "REFRESH_OBLIGATION": [
+      {
+        "signature": "3ogTc2oiBtJ9W7AABwvxrevARtkq5s2sVM4Dk5xcb8e4dwp1YzeQtfe7XeNphT7qpHDxK651vB2nGb2wGFHcCGEN",
+        "timestamp": 1769693668,
+        "feePayer": "9WdyURm9T89oH4kqLvw147VqWhHXD6HFPDT5ypGVgF9r"
+      },
+      {
+        "signature": "2yxAAkKQ2QByJAYvGn1nw4rfNsEWD1gxLQ87C2s1rk5iHTZXGjeq9m9D7ekx9Xk5RcTLxxzQeX2f5CFcznekM5SQ",
+        "timestamp": 1769693588,
+        "feePayer": "Ayi436rpcQBbAKFSCgFEc1EXuat5JiY1AfVGBLAuAQzm"
+      },
+      {
+        "signature": "7eJpdiui9d2BHoWPsVQjG24fmHQvjVqpydBRoNrQUCHUmjbHMFqjvBdV8U9fV6EymSerXPAYMg51JYWX4jeUrWC",
+        "timestamp": 1769693581,
+        "feePayer": "EXYq2HaS5nTarjzNHVYfcHbAbbLDJTPYkn1Jb5Q6bGz4"
+      },
+      {
+        "signature": "5R1p7MxjjPMcBPYom2BMt7ZZyzijWRVJ3kEY2RquhtRB1DhRGu471rdpxdEtfam4rZExTV2zneZgQhqpcUFDFwC7",
+        "timestamp": 1769693574,
+        "feePayer": "EXYq2HaS5nTarjzNHVYfcHbAbbLDJTPYkn1Jb5Q6bGz4"
+      },
+      {
+        "signature": "3LC2nc3o2V4ciqKnPv6WrXJDeWCv1iYSVscJAXq5kyWmTrnnX31b21MqnM5eMLhmRezZXwTzRHzoDX8MBJaQ8PRX",
+        "timestamp": 1769693574,
+        "feePayer": "EXYq2HaS5nTarjzNHVYfcHbAbbLDJTPYkn1Jb5Q6bGz4"
+      }
+    ],
+    "FLASH_REPAY_RESERVE_LIQUIDITY": [
+      {
+        "signature": "4hyNCQKMCnJP8nSJpravciCpDwdF6mvu8orAUZa2suQtQRufYbzZSNvLFDTsBVAQJB6XB9Xs21DK8uNKUfyCR182",
+        "timestamp": 1769693656,
+        "feePayer": "GTR1R61ZQptkt1Hg7Fxp2CgLqs87PKYVvKwhsTY7Z1r4"
+      },
+      {
+        "signature": "5FvjZ4ao9BSTmcXtZJ1xpUsqhrUp6Z7X8bPU2q6pJjsbEbpaDaQ9Vj1LVKEZK1WZ3kuMusuJNt6f4je9XCsvPbsg",
+        "timestamp": 1769693530,
+        "feePayer": "GTR1R61ZQptkt1Hg7Fxp2CgLqs87PKYVvKwhsTY7Z1r4"
+      },
+      {
+        "signature": "418duzSFj8uDJzjE8WY7bLNFQiYBHUTK31DMkbd5Ln7eggiSBSQG2wbnty2CbMQpei7fLGkMH75FS75VaDrdS1kA",
+        "timestamp": 1769693408,
+        "feePayer": "HkgwKgwtUT64Jb1LzwV5sTUxTM1NUsRaq4Z6VawbFVMh"
+      },
+      {
+        "signature": "2JctnFzgpTCMqQURe6Sy5sWKkBaVJ1ASbECd9Sz5x74bqbrkPmiM73FE79RVQHp8ZM587kf6MxxrovrzaMgE3kJT",
+        "timestamp": 1769693362,
+        "feePayer": "AGNTrSWEFRcyfwTpMwxPiQU5MtHPkBPfQQYAmXpU1spB"
+      },
+      {
+        "signature": "5jywJWacM2ZuKR9xTcFDbCckgcYGHS11o74Djuyef1gRSCMSThhYCcvXEcB6sfVTTuUUJ1RyUpNtCJBNbgsDn8QK",
+        "timestamp": 1769693331,
+        "feePayer": "rvj7Dc3xGh1eVFw9UTRpkxks9cdYyJd4MQk4Bk9zA9b"
+      }
+    ],
+    "WITHDRAW": [
+      {
+        "signature": "azTigiHiXkNG5XeeExtBAHMqMASnrrqMpTVjWT8DzwgcXasubK8EW1rg9An1WGaUcs97m45Fiqq8vuvhzkD1XJJ",
+        "timestamp": 1769693647,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "yMbvQFf6HNsdz5M2SMsQ3DCtYBe8t5JtmPi7hMomTAmCpphAmhPk3SAE4nTfrv6AXb7fHsZ3HMRwfNpsntXLZGe",
+        "timestamp": 1769693521,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "3i9GANju3aY4ZJPjX2nvFEwC92a5ieu9Co26qKmvmTwKAeBSRUmZrCCUsdh7Roa3UZDYNL2B57nrcgZr2vBEPsHV",
+        "timestamp": 1769693394,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "fz6d1NhcYuvRaRtFJ5UfKUP5GKmti5ZyvL3WXvtK1pQPJ8hzPg9TG4w7pDKA7VbcmeUNHkqsJqRBXnQEnUv5zwx",
+        "timestamp": 1769693277,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "3KWNvEzdF6Lg8PVqYGpzzapUhULv36d49AbpBNnVV7M2rgjBjPzy5qDTgidHd2uC2r1UYRPgZ4qm27dF2ud7RETp",
+        "timestamp": 1769693234,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      }
+    ],
+    "DEPOSIT": [
+      {
+        "signature": "4Eeh3rJxyrqSYucucm9G6cZYho1pKWzhRWyGzuj5R88SWUMhD528LPrL773pegJzrXSgCAkwXdgbmDtq1FPM9MVb",
+        "timestamp": 1769693619,
+        "feePayer": "QHYKt1B7bBJsohxS4TV9Tfs3sjXYYbYmipRA2QVJRJY"
+      },
+      {
+        "signature": "2e4h4UYoEdm8qTNRQWA4xDZxhkuSz9yRZQQnnxG16YL7oLWZMZzQnYfQ38JwJN52PwB1HVeYFweHu6J6MnrWPosb",
+        "timestamp": 1769693452,
+        "feePayer": "GFwEi2jkesr9sFdq2oyxdUdxgn4SKW4YjaVRADkTj3Pk"
+      },
+      {
+        "signature": "56wqdFmqPAi1ERKQvhihCkTyrYWHfaRud9b5nHbn5R5nsRjWxCyoxkrgup6Sn1JsBLJnVyfuVwNb6gN7vornMJma",
+        "timestamp": 1769693412,
+        "feePayer": "GFwEi2jkesr9sFdq2oyxdUdxgn4SKW4YjaVRADkTj3Pk"
+      },
+      {
+        "signature": "4yFEgj3Xi84BJTiR32nkYsd8affSvahHntWPxKzoNZr4vzx8kWVYpdYrTZ31PVxu8g97RWzQ2efjapWfcHNErDdS",
+        "timestamp": 1769693412,
+        "feePayer": "GFwEi2jkesr9sFdq2oyxdUdxgn4SKW4YjaVRADkTj3Pk"
+      },
+      {
+        "signature": "226LQojSTWoEEWg3XBc5YGGMFC2u3rMfDBdSncAkDZ3kGzp1tLPMH5p517rCzCboEn32c3yXe8wmFLNd52CRdbgi",
+        "timestamp": 1769693403,
+        "feePayer": "GFwEi2jkesr9sFdq2oyxdUdxgn4SKW4YjaVRADkTj3Pk"
+      }
+    ],
+    "SYNC_NATIVE": [
+      {
+        "signature": "Q3e9mo45yiFA65LsrUce4Ubcaf2ycwF1uPC5XPX1tNzxYC4xramhjHKSd8Htz1oTtyA7tPrUSGWA4ucb3XKFfcn",
+        "timestamp": 1769693480,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      },
+      {
+        "signature": "51NRNoF8ot4ZrBK4mMB4NpfS2dbffEoqpKYguPULY2KcVUVRYSA3hyWjAnNrmMygqh5KDwETzMsRQhDqupEK6B4k",
+        "timestamp": 1769692879,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      },
+      {
+        "signature": "3ukzKR5xeKmCwehjU7mPSGsRJ7C6LyXUFj4NN4duucZwMDd4bpQDe2zwMpuGr2TST4bwbcVGRBuv7LmTwepWMB9z",
+        "timestamp": 1769692383,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      },
+      {
+        "signature": "4EJ3hWtEwuDn2fwAyaD45M64dsXQBsD8vkTAwhLevvAc93dJhKNQXpLsKEokQ18FUoTHdwTEEPd5hQWsu74Bt4ak",
+        "timestamp": 1769691692,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      },
+      {
+        "signature": "33hsyj8hpSdgjDYsJk2mGMnUr4RWLPDanmacVWKv6iPLoRcWJKbA6jAM2dg9rZ8SyA6K6WDtM9SSfGzieGTUkKtH",
+        "timestamp": 1769691126,
+        "feePayer": "AvDRjGfFrMtCJUKiXxTkCci8tZAEsyL4bXiwd2M5CK19"
+      }
+    ],
+    "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL": [
+      {
+        "signature": "3ApTu9djTYCfg6kAZRFGrcF63Xm7kiQ8CHP2HpaVQFFmPTov2vuALqkjchJchtk8WpE6Mm7u7DwFPE5LiX6x7keX",
+        "timestamp": 1769693418,
+        "feePayer": "AQEbLdt13hFHVRFmcvHWq8ky8V8XkY6DoYowTnjyKeU1"
+      },
+      {
+        "signature": "3ddS7R2Tm7YcPSUxVpB77G8evQcn5vwLzkYLg4chuktDwq2X1jPvfBNW83ZG1rmeydugQiUh9oGFX5m3HWBQSA4y",
+        "timestamp": 1769692967,
+        "feePayer": "9T4Jrx8F8mtpF14uF92CuREC9TXg3FiiqgB4sYVBCVKj"
+      },
+      {
+        "signature": "5KtZi6hVrXzV4BNxyrAeVCNoLSo55QeoZCyZtp4y3NXJhfGsTXE7Y8BFfzpEUozmwFxwzYSnG2Aw44fTqN2n8gWw",
+        "timestamp": 1769692397,
+        "feePayer": "6GQNgoq6ZZRU4ZgHeqxCQbHpCXC6qfxarh5HDKXruNWx"
+      },
+      {
+        "signature": "63W3t5R2F2Jfk26VWq4qq7oyGDxgueRzSS1v2dN2HwmLEfE5zmCuWcaTvJg8n8KqUoJnRGd81Y5QVYYPCfnSWfx4",
+        "timestamp": 1769691243,
+        "feePayer": "FJ6MWMywXJXhFEnb9Uopn3e1NP1b37bnJCnd9uy5Quky"
+      }
+    ],
+    "WITHDRAW_UNSTAKED_DEPOSITS": [
+      {
+        "signature": "3TE3kgCY1qf27LHH73SmRg63i58vWz98J6VcHzAMPtpSc2JUyQQfuyBaxDByEpvyN29SqDsYxk5kbsmSMDioTafr",
+        "timestamp": 1769693416,
+        "feePayer": "FtbXV7s6ssgGj83unEjDsc7rR3A3FznDRR68Qe68QXCy"
+      },
+      {
+        "signature": "bkAa87CDukVDj9zKxNocYZ2M6srDTce3LCozckb83z4mXoiimJwhprrNENnF4SqyHAPuNUua4fwk9KKVhqKNgKB",
+        "timestamp": 1769692435,
+        "feePayer": "jM4uDUTH8KetjHxamw2uapqYzWZ15L8PBQVFX6VyAuH"
+      },
+      {
+        "signature": "4QDS7WDpuffXeBah7vasLKQ7xaNBhBDMz28rBgtJKz82bAA5MNKiKDYarE5caL9i4VbWRagVP1YRmFmw6b9BEcx3",
+        "timestamp": 1769691096,
+        "feePayer": "5JSNWN9HVLXYHvST6H67WvNFJL5YyaXRpbyXMKG3WxRQ"
+      },
+      {
+        "signature": "53yhoSiv7Jq3UrKY1EgRaPsRDRg67n95eAhJPwk3QYhVeQs1HkAv9r25w7hBrHc84zdjjxihoBYLHqo57yCHGq1L",
+        "timestamp": 1769690570,
+        "feePayer": "EvjAwbehCugmFmzGHpezRg2xgExPNNVBP2UJYDWhPQTw"
+      },
+      {
+        "signature": "4ddMiXryZEtjPuM5BRSHpQd3VEpPGA7vibCDmSrTaPZSTtATAa7pw7LQ8MwcEccbHpf1ZwyPvmJz2AwkfR7N5kFe",
+        "timestamp": 1769690473,
+        "feePayer": "EvjAwbehCugmFmzGHpezRg2xgExPNNVBP2UJYDWhPQTw"
+      }
+    ],
+    "STAKE": [
+      {
+        "signature": "9zbeXmv2QDe538EKCemqZvc7CQcmPkJHca56eMh2PNxEZBsoEEWkYxsXhb2LzjnwSRggP2ML366aeuqcD8EJ27u",
+        "timestamp": 1769693349,
+        "feePayer": "GwTFQW4SNKtuwJb1d1rAzPFH5y8J234yLmNFdkexFGyy"
+      },
+      {
+        "signature": "3pGbhWGLLoC8nzeTcwCh1dBRie9BSKX8vcSL4oC5Y2Gpp3n25L8kfbjKBj14K6VZFD7CEvYGyEyaacNW7G8VL16L",
+        "timestamp": 1769693034,
+        "feePayer": "FQkYEjNeCuES6qUWArxnqvBTuofE4fXjsg4TDfsEEHW5"
+      },
+      {
+        "signature": "4EyNkVLFjxCvCefKFJ2yKasyFjUyi7GYeW4SVsMkRtuSUwZCKosBgtQHNMmkkp3Mp4Uek9ZNyGy6SRp8XoYGM8Ty",
+        "timestamp": 1769692883,
+        "feePayer": "if6RZbX2pJEsxaBDH1aFWvAaWUb3dLcouZ2onNXkj1F"
+      },
+      {
+        "signature": "2c2QKzFg5RV6NfbPkX7eLWRYjyT8iHE8EV11BNdWGcc7ng8aH8iTKev1nafngq87kz97gVazSjbwN9bcPutBL13b",
+        "timestamp": 1769692022,
+        "feePayer": "FeBximkmeXdn6FuMfNHtqrGvv5UioXvAQRMhE2Jkkwrg"
+      },
+      {
+        "signature": "s5qakLPE47JwQYBEUX3tERxxhncZbpBa7CfGMQYpCLjfbSZCDSm2dKWsJ73F7eAnhNR4XXojjeu7ngVvb41nk1U",
+        "timestamp": 1769691510,
+        "feePayer": "HM3pBpHXdWxFWDLr6HfnPJt6kGFDTQqdwi4Xi7Q8Kv3A"
+      }
+    ],
+    "INIT_USER_METADATA": [
+      {
+        "signature": "65ASekGZWjTSrLguiyJHNtCqSUYFAboLzRjthQgteud4haUTxEAMUqyFDVSNJmqA56jRKwA6L17jMe8coDtWdacY",
+        "timestamp": 1769691792,
+        "feePayer": "28dLgoYhUQah7KpxPNCzzpxCaRR1PtJNaVCdXsSiJwcd"
+      },
+      {
+        "signature": "4PZBqtSeGExDGxAiASkPVWsJ9jPD3t1f7ugeupMDhKgThcdEW8SKUuypBB1qiEWiasKMhkSXX8eJVj2weZ8rJJA6",
+        "timestamp": 1769690191,
+        "feePayer": "23j7F7PhoADSLPCvmcQeJscEbmcFk8T7CdG3TvqaqXo5"
+      }
+    ],
+    "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL": [
+      {
+        "signature": "5azMw18buNdgtYD22AaBobkpYaE4vntaQ8cB1G2gnNhy9iNwt9WJQzGD1mknvdDzbXiUXfxZfdQAeps1NG9rjStJ",
+        "timestamp": 1769689926,
+        "feePayer": "8jkePvHc4mtePNuEmmGe1TkwAFfeW7DLprepnzxSjkEN"
+      }
+    ]
+  },
+  "sorted_by_count": [
+    {
+      "type": "REFRESH_OBLIGATION",
+      "count": 389,
+      "percentage": 38.9
+    },
+    {
+      "type": "REFRESH_RESERVE",
+      "count": 221,
+      "percentage": 22.1
+    },
+    {
+      "type": "UNKNOWN",
+      "count": 113,
+      "percentage": 11.3
+    },
+    {
+      "type": "TOKEN_MINT",
+      "count": 83,
+      "percentage": 8.3
+    },
+    {
+      "type": "WITHDRAW",
+      "count": 59,
+      "percentage": 5.9
+    },
+    {
+      "type": "DEPOSIT",
+      "count": 57,
+      "percentage": 5.7
+    },
+    {
+      "type": "FLASH_REPAY_RESERVE_LIQUIDITY",
+      "count": 45,
+      "percentage": 4.5
+    },
+    {
+      "type": "STAKE",
+      "count": 11,
+      "percentage": 1.1
+    },
+    {
+      "type": "WITHDRAW_UNSTAKED_DEPOSITS",
+      "count": 8,
+      "percentage": 0.8
+    },
+    {
+      "type": "SYNC_NATIVE",
+      "count": 7,
+      "percentage": 0.7
+    },
+    {
+      "type": "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL",
+      "count": 4,
+      "percentage": 0.4
+    },
+    {
+      "type": "INIT_USER_METADATA",
+      "count": 2,
+      "percentage": 0.2
+    },
+    {
+      "type": "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL",
+      "count": 1,
+      "percentage": 0.1
+    }
+  ],
+  "batch_files": [
+    "kamino_batch_001_of_001.json"
+  ]
+}

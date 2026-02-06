@@ -1,0 +1,696 @@
+[
+  {
+    "signature": "3wUQ7YCkLfHm32jfKTz2KAsNY6XP8HKgPRW6rSEGvQVFfz3VhW4FAxQ9PqD4G5EdxH4NERFFrFmAXYbExiqAx4Mh",
+    "slot": 252308613,
+    "blockTime": 1709668616,
+    "datetime": "2024-03-06T03:56:56",
+    "success": true,
+    "fee": 326415,
+    "is_kamino_tx": true,
+    "is_liquidation": true,
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "discriminator": "02da8aeb4fc91966",
+        "args": {},
+        "accounts": [
+          {
+            "name": "reserve",
+            "address": "d4A2prbA2whesmvHaL88BH6Ewn5N4bTSU2Ze8P6Bc4Q",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "pythOracle",
+            "address": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "switchboardPriceOracle",
+            "address": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "switchboardTwapOracle",
+            "address": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "scopePrices",
+            "address": "3NJYftD5sjVfxSnUdZ1wVML8f3aC6mp1CXCL6L7TnU8C",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          }
+        ]
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "discriminator": "02da8aeb4fc91966",
+        "args": {},
+        "accounts": [
+          {
+            "name": "reserve",
+            "address": "D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "pythOracle",
+            "address": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "switchboardPriceOracle",
+            "address": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "switchboardTwapOracle",
+            "address": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          },
+          {
+            "name": "scopePrices",
+            "address": "3NJYftD5sjVfxSnUdZ1wVML8f3aC6mp1CXCL6L7TnU8C",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": true
+          }
+        ]
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "discriminator": "218493e497c04859",
+        "args": {},
+        "accounts": [
+          {
+            "name": "lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "obligation",
+            "address": "H6gtFeqboypuFBS1YNDDu661TPb8s5zgJbdTq2UPvoWY",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          }
+        ]
+      },
+      {
+        "name": "refreshObligationFarmsForReserve",
+        "type": "other",
+        "discriminator": "8c90fd150a4af803",
+        "args": {
+          "mode": 0
+        },
+        "accounts": [
+          {
+            "name": "crank",
+            "address": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+            "is_mutable": false,
+            "is_signer": true,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.obligation",
+            "address": "H6gtFeqboypuFBS1YNDDu661TPb8s5zgJbdTq2UPvoWY",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.lendingMarketAuthority",
+            "address": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.reserve",
+            "address": "d4A2prbA2whesmvHaL88BH6Ewn5N4bTSU2Ze8P6Bc4Q",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.reserveFarmState",
+            "address": "955xWFhSDcDiUgUr4sBRtCpTLiMd4H5uZLAmgtP3R3sX",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.obligationFarmUserState",
+            "address": "8GhHUoaPsHdHQ34Civq9VfxKcnbwrwaMNCy5W1G4a3Qf",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "farmsProgram",
+            "address": "FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "rent",
+            "address": "SysvarRent111111111111111111111111111111111",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "systemProgram",
+            "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          }
+        ]
+      },
+      {
+        "name": "liquidateObligationAndRedeemReserveCollateral",
+        "type": "liquidation",
+        "discriminator": "b1479abce2854a37",
+        "args": {
+          "liquidityAmount": 4564931013,
+          "minAcceptableReceivedLiquidityAmount": 0,
+          "maxAllowedLtvOverridePercent": 0
+        },
+        "accounts": [
+          {
+            "name": "liquidator",
+            "address": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+            "is_mutable": false,
+            "is_signer": true,
+            "is_optional": false
+          },
+          {
+            "name": "obligation",
+            "address": "H6gtFeqboypuFBS1YNDDu661TPb8s5zgJbdTq2UPvoWY",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "lendingMarketAuthority",
+            "address": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "repayReserve",
+            "address": "D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "repayReserveLiquidityMint",
+            "address": "Bgq7trRgVMeq33yt235zM2onQ4bRDBsY5EWiTetF4qw6",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "repayReserveLiquiditySupply",
+            "address": "d4A2prbA2whesmvHaL88BH6Ewn5N4bTSU2Ze8P6Bc4Q",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserve",
+            "address": "2UywZrUdyqs5vDchy7fKQJKau2RVyuzBev2XKGPDSiX1",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserveLiquidityMint",
+            "address": "8NXMyRD91p3nof61BTkJvrfpGTASHygz1cUvc3HvwyGS",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserveCollateralMint",
+            "address": "GafNuUXj9rxGLn4y79dPu6MHSuPWeJR6UtTWuexpGh3U",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserveCollateralSupply",
+            "address": "3JNof8s453bwG5UqiXBLJc77NRQXezYYEBbk3fqnoKph",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserveLiquiditySupply",
+            "address": "7tw6wLF7c3M56v5hDA5P9LdiHXt7gbYp2i6VpZr61wEL",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "withdrawReserveLiquidityFeeReceiver",
+            "address": "C2R26PSgec99pjpzRRFxV9wr5bSYYns3xGvuA2hzdSnh",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "userSourceLiquidity",
+            "address": "ANpDeJy2xnnCqyYbZtsPHDRBxXuMqRQT9iRQ4FEEyjgX",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "userDestinationCollateral",
+            "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "userDestinationLiquidity",
+            "address": "Sysvar1nstructions1111111111111111111111111",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          }
+        ]
+      },
+      {
+        "name": "refreshObligationFarmsForReserve",
+        "type": "other",
+        "discriminator": "8c90fd150a4af803",
+        "args": {
+          "mode": 0
+        },
+        "accounts": [
+          {
+            "name": "crank",
+            "address": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+            "is_mutable": false,
+            "is_signer": true,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.obligation",
+            "address": "H6gtFeqboypuFBS1YNDDu661TPb8s5zgJbdTq2UPvoWY",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.lendingMarketAuthority",
+            "address": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.reserve",
+            "address": "d4A2prbA2whesmvHaL88BH6Ewn5N4bTSU2Ze8P6Bc4Q",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.reserveFarmState",
+            "address": "955xWFhSDcDiUgUr4sBRtCpTLiMd4H5uZLAmgtP3R3sX",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.obligationFarmUserState",
+            "address": "8GhHUoaPsHdHQ34Civq9VfxKcnbwrwaMNCy5W1G4a3Qf",
+            "is_mutable": true,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "baseAccounts.lendingMarket",
+            "address": "7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "farmsProgram",
+            "address": "FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "rent",
+            "address": "SysvarRent111111111111111111111111111111111",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          },
+          {
+            "name": "systemProgram",
+            "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "is_mutable": false,
+            "is_signer": false,
+            "is_optional": false
+          }
+        ]
+      }
+    ],
+    "sol_balance_changes": [
+      {
+        "account": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+        "pre_balance": 1.485900944,
+        "post_balance": 1.485574529,
+        "change": -0.000326415
+      },
+      {
+        "account": "ANpDeJy2xnnCqyYbZtsPHDRBxXuMqRQT9iRQ4FEEyjgX",
+        "pre_balance": 117.387782846,
+        "post_balance": 79.763629647,
+        "change": -37.624153199
+      },
+      {
+        "account": "GafNuUXj9rxGLn4y79dPu6MHSuPWeJR6UtTWuexpGh3U",
+        "pre_balance": 257179.346507832,
+        "post_balance": 257179.009187407,
+        "change": -0.337320425
+      },
+      {
+        "account": "3JNof8s453bwG5UqiXBLJc77NRQXezYYEBbk3fqnoKph",
+        "pre_balance": 64.239311676,
+        "post_balance": 64.242618739,
+        "change": 0.003307063
+      },
+      {
+        "account": "4maNZQtYFA1cdB55aLS321dxwdH1Y8NWaH4qiMedKpTZ",
+        "pre_balance": 230.841643449,
+        "post_balance": 234.637460106,
+        "change": 3.795816657
+      },
+      {
+        "account": "D3CDPQLoa9jY1LXCkpUqd3JQDWz8DX1LDE1dhmJt9fq4",
+        "pre_balance": 19924.449361211,
+        "post_balance": 19958.611711115,
+        "change": 34.162349904
+      }
+    ],
+    "token_balance_changes": [
+      {
+        "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "pre_amount": 64.237272396,
+        "post_amount": 64.240579459,
+        "change": 0.00330706300000827,
+        "decimals": 9
+      },
+      {
+        "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "pre_amount": 257179.344468552,
+        "post_amount": 257179.007148127,
+        "change": -0.3373204249946866,
+        "decimals": 9
+      },
+      {
+        "owner": "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d",
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "pre_amount": 1157628.26635,
+        "post_amount": 1153517.002792,
+        "change": -4111.2635579998605,
+        "decimals": 6
+      },
+      {
+        "owner": "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "pre_amount": 230.839604169,
+        "post_amount": 234.635420826,
+        "change": 3.795816656999989,
+        "decimals": 9
+      },
+      {
+        "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+        "mint": "2UywZrUdyqs5vDchy7fKQJKau2RVyuzBev2XKGPDSiX1",
+        "symbol": "2UywZrUd...",
+        "pre_amount": 1477046453.329826,
+        "post_amount": 1477046120.89914,
+        "change": -332.43068623542786,
+        "decimals": 6
+      },
+      {
+        "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "pre_amount": 3194794.7611,
+        "post_amount": 3194832.723073,
+        "change": 37.96197300031781,
+        "decimals": 6
+      },
+      {
+        "owner": "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "pre_amount": 19924.447321931,
+        "post_amount": 19958.609671835,
+        "change": 34.16234990400335,
+        "decimals": 9
+      },
+      {
+        "owner": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "pre_amount": 0.0,
+        "post_amount": 4527.942432,
+        "change": 4527.942432,
+        "decimals": 6
+      },
+      {
+        "owner": "so1Speb7M5S38jp7sRDooqARg3RVL94VVwmJSBnb6py",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "pre_amount": 117.385743566,
+        "post_amount": 79.761590367,
+        "change": -37.624153199000006,
+        "decimals": 9
+      },
+      {
+        "owner": "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "pre_amount": 3847.380977,
+        "post_amount": 3392.74013,
+        "change": -454.64084699999967,
+        "decimals": 6
+      }
+    ],
+    "raw_logs": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+      "Program log: Instruction: SharedAccountsRoute",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6238 of 1381740 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc invoke [2]",
+      "Program log: Instruction: Swap",
+      "Program log: fee_growth: 1108353797119",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 1307949 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 1300296 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc consumed 67577 of 1359687 compute units",
+      "Program whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 2021 of 1289274 compute units",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program HyaB3W9q6XdA5xwpU4XnSZV94htfmbmqJXZcEbRaJutt invoke [2]",
+      "Program log: Instruction: Swap",
+      "Program log: INVARIANT: SWAP",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 1194050 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 1186753 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program HyaB3W9q6XdA5xwpU4XnSZV94htfmbmqJXZcEbRaJutt consumed 92780 of 1273607 compute units",
+      "Program HyaB3W9q6XdA5xwpU4XnSZV94htfmbmqJXZcEbRaJutt success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 2021 of 1178004 compute units",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6200 of 1171209 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 236402 of 1399700 compute units",
+      "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 FSwmEAEAAAA=",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: CreateIdempotent",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 7520 of 1163298 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: CreateIdempotent",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 12018 of 1155778 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: RefreshReserve",
+      "Program log: Token: SOL Price: 114.7796",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 14912 of 1143760 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: RefreshReserve",
+      "Program log: Token: USDC Price: 0.9999",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 14896 of 1128848 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: RefreshObligation",
+      "Program log: Deposit: SOL amount: 2148867824.2699 value: 246.6463",
+      "Program log: Borrow: USDC amount: 189809860.224207760917235376 value: 189.7917 value_bf: 189.7917",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 30865 of 1113952 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: RefreshObligationFarmsForReserve",
+      "Program log: RefreshObligationFarmsForReserve Collateral",
+      "Program log: RefreshObligationFarmsForReserve amount 2117718205 slot 252308613",
+      "Program log: Farm stake is unchanged, skipping update",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 14659 of 1083087 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: LiquidateObligationAndRedeemReserveCollateral",
+      "Program log: LiquidateObligationAndRedeemReserveCollateral amount 4564931013 max_allowed_ltv_override_percent 0",
+      "Program log: Beginning check_refresh",
+      "Program consumption: 1043491 units remaining",
+      "Program log: Finished check_refresh",
+      "Program consumption: 1033907 units remaining",
+      "Program log: Liquidating liquidation_close_factor_pct: 20, liquidation_max_value: 500000",
+      "Program log: Obligation is eligible for liquidation, borrowed value (scaled): 189.7917, unhealthy borrow value (scaled): 184.9847, LTV: 77%/75%, max_allowed_ltv_user 75%, max_allowed_ltv_override None%",
+      "Program log: Obligation is eligible for liquidation with liquidation bonus: 200bps",
+      "Program log: Obligation is liquidated with liquidation bonus: 200 bps, liquidation amount (rounded): 37961972",
+      "Program log: pnl: Liquidator repaid 37961973 and withdrew 334013362 collateral with fees 3307063",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 995474 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 987959 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Burn",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4707 of 980065 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 972344 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 964751 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 110506 of 1068428 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD invoke [1]",
+      "Program log: Instruction: RefreshObligationFarmsForReserve",
+      "Program log: RefreshObligationFarmsForReserve Collateral",
+      "Program log: RefreshObligationFarmsForReserve amount 1785287519 slot 252308613",
+      "Program FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr invoke [2]",
+      "Program log: Instruction: SetStakeDelegated",
+      "Program log: SetStakeDelegated: prev:2117718205 -> new:1785287519 ts:1709668616",
+      "Program log: farm_operations::refresh_global_rewards ts=1709668616",
+      "Program log: time_passed=2881006 reward_type=Proportional cumulative_amt=0 decimal_adjusted_amt=0 oracle_adjusted_amt=0 ",
+      "Program log: time_passed=4 reward_type=Constant cumulative_amt=46296 decimal_adjusted_amt=6838134 oracle_adjusted_amt=6838134 ",
+      "Program log: farm_operations::refresh_global_reward issuing_reward=0 last_ts=1709668612 ts=1709668616",
+      "Program log: farm_operations::user_refresh_reward reward_index 0 Global stake 1477046453329826 User stake 2117718205 prev_reward_tally 13129760722593905954695521745 rpt 6199956486989807853",
+      "Program log: farm_operations::user_refresh_reward reward 0, new_reward_tally (scaled) 13129760722593905954695521745",
+      "Program log: farm_operations::user_refresh_reward reward_index 1 Global stake 1477046453329826 User stake 2117718205 prev_reward_tally 13135057320656222520319895 rpt 7167749931775684",
+      "Program log: farm_operations::user_refresh_reward reward 2044217, new_reward_tally (scaled) 15179274320656222520319895",
+      "Program FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr consumed 26969 of 939135 compute units",
+      "Program FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr success",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD consumed 46589 of 957922 compute units",
+      "Program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD success"
+    ],
+    "parsed_logs": {},
+    "liquidation_details": {
+      "liquidator": "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d",
+      "obligation_owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+      "debt_token": "USDC",
+      "debt_amount": 4111.2635579998605,
+      "collateral_token": "SOL",
+      "collateral_amount": 0.3373204249946866,
+      "transaction_fee": 0.000326415,
+      "priority_fee": 0.00032141499999999997
+    }
+  }
+]

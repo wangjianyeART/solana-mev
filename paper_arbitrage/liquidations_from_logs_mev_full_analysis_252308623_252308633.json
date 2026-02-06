@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "source": "analyze_liquidations_from_logs",
+    "source_file": "../../paper_arbitrage/mev_full_analysis_252308623_252308633.json",
+    "total_transactions_scanned": 1922,
+    "total_liquidations": 0,
+    "total_gross_profit_usd": 0,
+    "total_net_profit_usd": 0,
+    "sol_price_usd": 101.89
+  },
+  "liquidations": []
+}

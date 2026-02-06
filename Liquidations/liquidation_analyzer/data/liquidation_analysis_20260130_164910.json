@@ -1,0 +1,729 @@
+{
+  "metadata": {
+    "input_file": "./data/liquidations_only_20260130_010159.json",
+    "total_liquidations": 4,
+    "flash_loan_count": 4,
+    "flash_loan_percentage": 100.0,
+    "total_gas_fee_sol": 0.000782821,
+    "unique_liquidators": 1,
+    "sol_price_usd": 115.38
+  },
+  "liquidators": {
+    "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13": 4
+  },
+  "debt_tokens": {
+    "USDC": 3,
+    "2u1tszSe...": 1
+  },
+  "collateral_tokens": {
+    "cbbtcf3a...": 1,
+    "SOL": 1,
+    "2u1tszSe...": 1,
+    "3NZ9JMVB...": 1
+  },
+  "liquidations": [
+    {
+      "signature": "5ZK1N2thnDrEqNX9nm7scVMSypKRSKwrWaeiuUqkzbBQ77PRTMUsRxvjoj1gaHkV3xaVz73nsTfhrbkfoW5y43vD",
+      "datetime": "2026-01-30T00:34:54",
+      "slot": 396733782,
+      "success": true,
+      "liquidator": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+      "obligation_owner": "uSGzhbQwyXV2WvoQ6QK77XFMuNqFir5rFKcZLgKjQtD",
+      "uses_flash_loan": true,
+      "flash_loan_amount": 35.092364,
+      "flash_loan_token": "USDC",
+      "flash_loan_fee": 0.10527709200000002,
+      "debt_token": "USDC",
+      "debt_amount": 35.092364,
+      "collateral_token": "cbbtcf3a...",
+      "collateral_received": 2.0999999999999968e-07,
+      "gas_fee_sol": 6.4697e-05,
+      "gas_fee_usd": 0.007628423269999999,
+      "sol_price_used": 117.91,
+      "sol_price_source": "historical",
+      "protocol_fee": 0.10527709200000002,
+      "protocol_fee_token": "USDC",
+      "gross_profit_usd": 0.3660540000000765,
+      "net_profit_usd": 0.35842557673007647,
+      "liquidator_gains": {
+        "cbbtcf3a...": 2.0999999999999968e-07,
+        "USDC": 0.3660540000000765
+      },
+      "log_data": {
+        "prices": {
+          "USDC": 0.9997,
+          "cbBTC": 84180.1059
+        },
+        "borrow": {
+          "USDC": {
+            "amount_raw": 350923632.209,
+            "value_usd": 350.8111,
+            "value_bf": 350.8111
+          }
+        },
+        "deposit": {
+          "cbBTC": {
+            "amount_raw": 520472.0084,
+            "value_usd": 438.1339
+          }
+        },
+        "liquidation_params": {
+          "close_factor_pct": 10,
+          "max_value": 2500000
+        },
+        "ltv": {
+          "current": 80,
+          "threshold": 80,
+          "max_allowed": 80
+        },
+        "liquidation_bonus_bps": 100,
+        "liquidation_result": {
+          "repaid_raw": 35092364,
+          "withdrawn_raw": 42089,
+          "protocol_fees_raw": 1
+        },
+        "is_jupiter_swap": false,
+        "raw_important_logs": [
+          "Program log: Token: USDC Price: 0.9997",
+          "Program log: Token: cbBTC Price: 84180.1059",
+          "Program log: Borrow: USDC amount: 350923632.2090 value: 350.8111 value_bf: 350.8111",
+          "Program log: Deposit: cbBTC amount: 520472.0084 value: 438.1339",
+          "Program log: Liquidating liquidation_close_factor_pct: 10, liquidation_max_value: 2500000",
+          "Program log: Obligation is eligible for liquidation, borrowed value (scaled): 350.8111, unhealthy borrow value (scaled): 350.5071, LTV: 80%/80%, max_allowed_ltv_user 80%, max_allowed_ltv_override None%",
+          "Program log: Obligation is eligible for liquidation because of LtvExceeded with liquidation bonus: 100bps",
+          "Program log: Obligation is liquidated with liquidation bonus: 100 bps, liquidation amount (rounded): 35092363.0000",
+          "Program log: pnl: Liquidator repaid 35092364 and withdrew 42089 collateral with fees 1"
+        ]
+      },
+      "raw_token_changes": [
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 1404.79678387,
+          "post_amount": 1404.79636297,
+          "change": -0.0004208999998809304,
+          "decimals": 8
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 2.185e-05,
+          "post_amount": 2.206e-05,
+          "change": 2.0999999999999968e-07,
+          "decimals": 8
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 15707.901194,
+          "post_amount": 15708.267248,
+          "change": 0.3660540000000765,
+          "decimals": 6
+        },
+        {
+          "owner": "GrU6iU9up3GhHvD4n2ebbQT7wDNSSzxZBE2mnbLhqyVY",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 0.82277689,
+          "post_amount": 0.82319757,
+          "change": 0.0004206800000000621,
+          "decimals": 8
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 6.4e-07,
+          "post_amount": 6.5e-07,
+          "change": 1.000000000000001e-08,
+          "decimals": 8
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "B3ieCZaTUp8qM9zbPqH2WDhzWpwrvHB2Q2aWB25DW97U",
+          "symbol": "B3ieCZaT...",
+          "pre_amount": 142116.444035,
+          "post_amount": 142116.40196,
+          "change": -0.04207500000484288,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 43117795.574032,
+          "post_amount": 43117830.666396,
+          "change": 35.09236399829388,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 3054.535066,
+          "post_amount": 3054.535417,
+          "change": 0.00035100000013699173,
+          "decimals": 6
+        },
+        {
+          "owner": "uSGzhbQwyXV2WvoQ6QK77XFMuNqFir5rFKcZLgKjQtD",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 118993.973185,
+          "post_amount": 118958.514416,
+          "change": -35.45876899998984,
+          "decimals": 6
+        }
+      ]
+    },
+    {
+      "signature": "4ZJqVKQfMC4pexPtgKkrW9hMKTs7oQYBpJCeK7oFKghby3cb9iULWWWWLTHYg3pKsc2rpoRk6gZRtyMzWRUjaSnc",
+      "datetime": "2026-01-30T00:34:53",
+      "slot": 396733781,
+      "success": true,
+      "liquidator": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+      "obligation_owner": "51FQwjrvo8J8zXUaKyAznJ5NYpoiTCuqAqCu3HAMB9NZ",
+      "uses_flash_loan": true,
+      "flash_loan_amount": 2.335507,
+      "flash_loan_token": "USDC",
+      "flash_loan_fee": 0.007006521000000001,
+      "debt_token": "USDC",
+      "debt_amount": 2.335507,
+      "collateral_token": "SOL",
+      "collateral_received": 1.0028999994915466e-05,
+      "gas_fee_sol": 3.5e-05,
+      "gas_fee_usd": 0.0041145719999999995,
+      "sol_price_used": 117.5592,
+      "sol_price_source": "oracle",
+      "protocol_fee": 0.007006521000000001,
+      "protocol_fee_token": "USDC",
+      "gross_profit_usd": 0.025045000000318396,
+      "net_profit_usd": 0.020930428000318396,
+      "liquidator_gains": {
+        "USDC": 0.025045000000318396,
+        "SOL": 1.0028999994915466e-05
+      },
+      "log_data": {
+        "prices": {
+          "USDC": 0.9997,
+          "FDUSD": 0.9968,
+          "SOL": 117.5592,
+          "cbBTC": 84180.1059
+        },
+        "borrow": {
+          "USDC": {
+            "amount_raw": 85218309.7522,
+            "value_usd": 85.191,
+            "value_bf": 85.191
+          },
+          "FDUSD": {
+            "amount_raw": 31737519.1363,
+            "value_usd": 31.6365,
+            "value_bf": 31.6365
+          }
+        },
+        "deposit": {
+          "SOL": {
+            "amount_raw": 20058873.8031,
+            "value_usd": 2.3581
+          },
+          "cbBTC": {
+            "amount_raw": 170771.3591,
+            "value_usd": 143.7555
+          }
+        },
+        "liquidation_params": {
+          "close_factor_pct": 10,
+          "max_value": 2500000
+        },
+        "ltv": {
+          "current": 80,
+          "threshold": 80,
+          "max_allowed": 80
+        },
+        "liquidation_bonus_bps": 100,
+        "liquidation_result": {
+          "repaid_raw": 2335507,
+          "withdrawn_raw": 20058872,
+          "protocol_fees_raw": 1
+        },
+        "is_jupiter_swap": false,
+        "raw_important_logs": [
+          "Program log: Token: USDC Price: 0.9997",
+          "Program log: Token: FDUSD Price: 0.9968",
+          "Program log: Token: SOL Price: 117.5592",
+          "Program log: Token: cbBTC Price: 84180.1059",
+          "Program log: Borrow: USDC amount: 85218309.7522 value: 85.1910 value_bf: 85.1910",
+          "Program log: Borrow: FDUSD amount: 31737519.1363 value: 31.6365 value_bf: 31.6365",
+          "Program log: Deposit: SOL amount: 20058873.8031 value: 2.3581",
+          "Program log: Deposit: cbBTC amount: 170771.3591 value: 143.7555",
+          "Program log: Liquidating liquidation_close_factor_pct: 10, liquidation_max_value: 2500000",
+          "Program log: Obligation is eligible for liquidation, borrowed value (scaled): 116.8275, unhealthy borrow value (scaled): 116.7730, LTV: 80%/80%, max_allowed_ltv_user 80%, max_allowed_ltv_override None%",
+          "Program log: Obligation is eligible for liquidation because of LtvExceeded with liquidation bonus: 100bps",
+          "Program log: Obligation is liquidated with liquidation bonus: 100 bps, liquidation amount (rounded): 2335506.0000",
+          "Program log: pnl: Liquidator repaid 2335507 and withdrew 20058872 collateral with fees 1"
+        ]
+      },
+      "raw_token_changes": [
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 15707.876149,
+          "post_amount": 15707.901194,
+          "change": 0.025045000000318396,
+          "decimals": 6
+        },
+        {
+          "owner": "51FQwjrvo8J8zXUaKyAznJ5NYpoiTCuqAqCu3HAMB9NZ",
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "pre_amount": 18739.792519658,
+          "post_amount": 18739.809160198,
+          "change": 0.016640540001390036,
+          "decimals": 9
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 3054.535043,
+          "post_amount": 3054.535066,
+          "change": 2.300000005561742e-05,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "2UywZrUdyqs5vDchy7fKQJKau2RVyuzBev2XKGPDSiX1",
+          "symbol": "2UywZrUd...",
+          "pre_amount": 3334332769.704397,
+          "post_amount": 3334332751.699408,
+          "change": -18.00498914718628,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "pre_amount": 395334.754019608,
+          "post_amount": 395334.733960735,
+          "change": -0.02005887305131182,
+          "decimals": 9
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 43117793.238525,
+          "post_amount": 43117795.574032,
+          "change": 2.335506998002529,
+          "decimals": 6
+        },
+        {
+          "owner": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "pre_amount": 42.923589213,
+          "post_amount": 42.926997516,
+          "change": 0.003408303000000501,
+          "decimals": 9
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "pre_amount": 7.821439573,
+          "post_amount": 7.821439574,
+          "change": 1.000000082740371e-09,
+          "decimals": 9
+        },
+        {
+          "owner": "51FQwjrvo8J8zXUaKyAznJ5NYpoiTCuqAqCu3HAMB9NZ",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 2346904.967838,
+          "post_amount": 2346903.008488,
+          "change": -1.9593500001356006,
+          "decimals": 6
+        },
+        {
+          "owner": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 1412850.61901,
+          "post_amount": 1412850.217785,
+          "change": -0.4012249999213964,
+          "decimals": 6
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "pre_amount": 34.208051457,
+          "post_amount": 34.208061486,
+          "change": 1.0028999994915466e-05,
+          "decimals": 9
+        }
+      ]
+    },
+    {
+      "signature": "3MTmxxNqg8BtfCg3gmQuWxcuoisoVk6uWegEZqd5maoRPSmAV7LUg2QjVqjNdkM3nbyQEQQeL7Thi1o1mDiTEGot",
+      "datetime": "2026-01-30T00:34:53",
+      "slot": 396733781,
+      "success": true,
+      "liquidator": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+      "obligation_owner": "GtwzYxBQcPFNFQcYbdELuaKzb4DGJpGVU2ehLhzbffCw",
+      "uses_flash_loan": true,
+      "flash_loan_amount": 42.973261,
+      "flash_loan_token": "2u1tszSe...",
+      "flash_loan_fee": 0.128919783,
+      "debt_token": "2u1tszSe...",
+      "debt_amount": 42.973261,
+      "collateral_token": "2u1tszSe...",
+      "collateral_received": 0.46445500000000095,
+      "gas_fee_sol": 7.8124e-05,
+      "gas_fee_usd": 0.00921160084,
+      "sol_price_used": 117.91,
+      "sol_price_source": "historical",
+      "protocol_fee": 0.128919783,
+      "protocol_fee_token": "2u1tszSe...",
+      "gross_profit_usd": 0.0,
+      "net_profit_usd": -0.00921160084,
+      "liquidator_gains": {
+        "2u1tszSe...": 0.46445500000000095,
+        "cbbtcf3a...": 2.499999999999993e-07
+      },
+      "log_data": {
+        "prices": {
+          "USDG": 0.9999,
+          "USDC": 0.9997,
+          "cbBTC": 84180.1059,
+          "xBTC": 84180.1059
+        },
+        "borrow": {
+          "USDG": {
+            "amount_raw": 429729481.3694,
+            "value_usd": 429.708,
+            "value_bf": 429.708
+          },
+          "USDC": {
+            "amount_raw": 3120.8419,
+            "value_usd": 0.0031,
+            "value_bf": 0.0031
+          }
+        },
+        "deposit": {
+          "cbBTC": {
+            "amount_raw": 297841.0159,
+            "value_usd": 250.7229
+          },
+          "xBTC": {
+            "amount_raw": 339475.4551,
+            "value_usd": 285.7708
+          }
+        },
+        "liquidation_params": {
+          "close_factor_pct": 10,
+          "max_value": 2500000
+        },
+        "ltv": {
+          "current": 80,
+          "threshold": 80,
+          "max_allowed": 80
+        },
+        "liquidation_bonus_bps": 100,
+        "liquidation_result": {
+          "repaid_raw": 42973261,
+          "withdrawn_raw": 51555,
+          "protocol_fees_raw": 1
+        },
+        "is_jupiter_swap": false,
+        "raw_important_logs": [
+          "Program log: Token: USDG Price: 0.9999",
+          "Program log: Token: USDC Price: 0.9997",
+          "Program log: Token: cbBTC Price: 84180.1059",
+          "Program log: Token: xBTC Price: 84180.1059",
+          "Program log: Borrow: USDG amount: 429729481.3694 value: 429.7080 value_bf: 429.7080",
+          "Program log: Borrow: USDC amount: 3120.8419 value: 0.0031 value_bf: 0.0031",
+          "Program log: Deposit: cbBTC amount: 297841.0159 value: 250.7229",
+          "Program log: Deposit: xBTC amount: 339475.4551 value: 285.7708",
+          "Program log: Liquidating liquidation_close_factor_pct: 10, liquidation_max_value: 2500000",
+          "Program log: Obligation is eligible for liquidation, borrowed value (scaled): 429.7111, unhealthy borrow value (scaled): 429.1949, LTV: 80%/80%, max_allowed_ltv_user 80%, max_allowed_ltv_override None%",
+          "Program log: Obligation is eligible for liquidation because of LtvExceeded with liquidation bonus: 100bps",
+          "Program log: Obligation is liquidated with liquidation bonus: 100 bps, liquidation amount (rounded): 42973260.0000",
+          "Program log: pnl: Liquidator repaid 42973261 and withdrew 51555 collateral with fees 1"
+        ]
+      },
+      "raw_token_changes": [
+        {
+          "owner": "BYjNiM9cDer9nzXoXR6ctnmaB1T9K3LheFQQVwDpqDs",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 0.36913397,
+          "post_amount": 0.36964927,
+          "change": 0.0005152999999999963,
+          "decimals": 8
+        },
+        {
+          "owner": "9RqDTfwCx2SgxsvKpspQHc38HUo3B6hRd3oR9JR966Ps",
+          "mint": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "symbol": "2u1tszSe...",
+          "pre_amount": 8920396.92938,
+          "post_amount": 8920353.491664,
+          "change": -43.437715999782085,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "B3ieCZaTUp8qM9zbPqH2WDhzWpwrvHB2Q2aWB25DW97U",
+          "symbol": "B3ieCZaT...",
+          "pre_amount": 142116.495573,
+          "post_amount": 142116.444035,
+          "change": -0.05153799999970943,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 6.3e-07,
+          "post_amount": 6.4e-07,
+          "change": 1.000000000000001e-08,
+          "decimals": 8
+        },
+        {
+          "owner": "9RqDTfwCx2SgxsvKpspQHc38HUo3B6hRd3oR9JR966Ps",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 8269739.320868,
+          "post_amount": 8269782.763279,
+          "change": 43.44241099990904,
+          "decimals": 6
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "symbol": "2u1tszSe...",
+          "pre_amount": 90.658907,
+          "post_amount": 91.123362,
+          "change": 0.46445500000000095,
+          "decimals": 6
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 2.16e-05,
+          "post_amount": 2.185e-05,
+          "change": 2.499999999999993e-07,
+          "decimals": 8
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "symbol": "2u1tszSe...",
+          "pre_amount": 3047115.36907,
+          "post_amount": 3047158.342331,
+          "change": 42.973261000122875,
+          "decimals": 6
+        },
+        {
+          "owner": "GtwzYxBQcPFNFQcYbdELuaKzb4DGJpGVU2ehLhzbffCw",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 2835294.137241,
+          "post_amount": 2835250.69483,
+          "change": -43.44241099990904,
+          "decimals": 6
+        },
+        {
+          "owner": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 1404.79729943,
+          "post_amount": 1404.79678387,
+          "change": -0.0005155600001671701,
+          "decimals": 8
+        }
+      ]
+    },
+    {
+      "signature": "66t73u4KPa5vbZmK9W3TkHfpzvX6HqBnfMRZStuhSCh9TgUdei2AYRDR9hxwfsycTYt9mdUxobASESqp92jHZHi2",
+      "datetime": "2026-01-30T00:34:53",
+      "slot": 396733781,
+      "success": true,
+      "liquidator": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+      "obligation_owner": "GtwzYxBQcPFNFQcYbdELuaKzb4DGJpGVU2ehLhzbffCw",
+      "uses_flash_loan": true,
+      "flash_loan_amount": 120.694328,
+      "flash_loan_token": "USDC",
+      "flash_loan_fee": 0.362082984,
+      "debt_token": "USDC",
+      "debt_amount": 120.694328,
+      "collateral_token": "3NZ9JMVB...",
+      "collateral_received": 7.500000000000047e-07,
+      "gas_fee_sol": 0.000605,
+      "gas_fee_usd": 0.07133555,
+      "sol_price_used": 117.91,
+      "sol_price_source": "historical",
+      "protocol_fee": 0.362082984,
+      "protocol_fee_token": "USDC",
+      "gross_profit_usd": 5.8748670000004495,
+      "net_profit_usd": 5.80353145000045,
+      "liquidator_gains": {
+        "USDC": 5.8748670000004495,
+        "3NZ9JMVB...": 7.500000000000047e-07
+      },
+      "log_data": {
+        "prices": {
+          "USDC": 0.9997,
+          "WBTC": 84180.1059
+        },
+        "borrow": {
+          "USDC": {
+            "amount_raw": 603471638.9637,
+            "value_usd": 603.2782,
+            "value_bf": 603.2782
+          }
+        },
+        "deposit": {
+          "WBTC": {
+            "amount_raw": 823264.7691,
+            "value_usd": 693.0252
+          }
+        },
+        "liquidation_params": {
+          "close_factor_pct": 20,
+          "max_value": 1000000
+        },
+        "ltv": {
+          "current": 87,
+          "threshold": 87,
+          "max_allowed": 87
+        },
+        "liquidation_bonus_bps": 500,
+        "liquidation_result": {
+          "repaid_raw": 120694328,
+          "withdrawn_raw": 150495,
+          "protocol_fees_raw": 1
+        },
+        "is_jupiter_swap": false,
+        "raw_important_logs": [
+          "Program log: Token: USDC Price: 0.9997",
+          "Program log: Token: WBTC Price: 84180.1059",
+          "Program log: Borrow: USDC amount: 603471638.9637 value: 603.2782 value_bf: 603.2782",
+          "Program log: Deposit: WBTC amount: 823264.7691 value: 693.0252",
+          "Program log: Liquidating liquidation_close_factor_pct: 20, liquidation_max_value: 1000000",
+          "Program log: Obligation is eligible for liquidation, borrowed value (scaled): 603.2782, unhealthy borrow value (scaled): 602.9319, LTV: 87%/87%, max_allowed_ltv_user 87%, max_allowed_ltv_override None%",
+          "Program log: Obligation is eligible for liquidation because of LtvExceeded with liquidation bonus: 500bps",
+          "Program log: Obligation is liquidated with liquidation bonus: 500 bps, liquidation amount (rounded): 120694328.0000",
+          "Program log: pnl: Liquidator repaid 120694328 and withdrew 150495 collateral with fees 1"
+        ]
+      },
+      "raw_token_changes": [
+        {
+          "owner": "BYjNiM9cDer9nzXoXR6ctnmaB1T9K3LheFQQVwDpqDs",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 0.36763263,
+          "post_amount": 0.36913397,
+          "change": 0.0015013399999999621,
+          "decimals": 8
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 15702.001282,
+          "post_amount": 15707.876149,
+          "change": 5.8748670000004495,
+          "decimals": 6
+        },
+        {
+          "owner": "5Qb9RJCA1ZNTjLK4TNTNm3L2YtpbxQajtkqg6vWDdB2T",
+          "mint": "HT6fMGMg5keULopSATeicAqQX7XQdTGUwFwSW9ivpSYw",
+          "symbol": "HT6fMGMg...",
+          "pre_amount": 3504.214815,
+          "post_amount": 3504.064319,
+          "change": -0.15049599999974816,
+          "decimals": 6
+        },
+        {
+          "owner": "GtwzYxBQcPFNFQcYbdELuaKzb4DGJpGVU2ehLhzbffCw",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 2835420.707643,
+          "post_amount": 2835294.137241,
+          "change": -126.57040200009942,
+          "decimals": 6
+        },
+        {
+          "owner": "5Qb9RJCA1ZNTjLK4TNTNm3L2YtpbxQajtkqg6vWDdB2T",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "3NZ9JMVB...",
+          "pre_amount": 3e-08,
+          "post_amount": 4e-08,
+          "change": 1.0000000000000004e-08,
+          "decimals": 8
+        },
+        {
+          "owner": "5Qb9RJCA1ZNTjLK4TNTNm3L2YtpbxQajtkqg6vWDdB2T",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 463360.152803,
+          "post_amount": 463480.847131,
+          "change": 120.69432800001232,
+          "decimals": 6
+        },
+        {
+          "owner": "5Qb9RJCA1ZNTjLK4TNTNm3L2YtpbxQajtkqg6vWDdB2T",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "pre_amount": 0.451897,
+          "post_amount": 0.453104,
+          "change": 0.0012070000000000136,
+          "decimals": 6
+        },
+        {
+          "owner": "4v8ufj8Hj7UvFgtofQJAtzUud5xomwZfEqfCTHZ4wM72",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "3NZ9JMVB...",
+          "pre_amount": 2.38172923,
+          "post_amount": 2.38323343,
+          "change": 0.0015042000000002886,
+          "decimals": 8
+        },
+        {
+          "owner": "5Qb9RJCA1ZNTjLK4TNTNm3L2YtpbxQajtkqg6vWDdB2T",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "3NZ9JMVB...",
+          "pre_amount": 35.0415661,
+          "post_amount": 35.04006114,
+          "change": -0.0015049599999983343,
+          "decimals": 8
+        },
+        {
+          "owner": "evoxxcAvFrt8Xg6cXKV2Q5SPpnxqEv14VdmAnHmQS13",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "3NZ9JMVB...",
+          "pre_amount": 7.678e-05,
+          "post_amount": 7.753e-05,
+          "change": 7.500000000000047e-07,
+          "decimals": 8
+        },
+        {
+          "owner": "4v8ufj8Hj7UvFgtofQJAtzUud5xomwZfEqfCTHZ4wM72",
+          "mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbbtcf3a...",
+          "pre_amount": 9.1252766,
+          "post_amount": 9.12377526,
+          "change": -0.0015013399999990185,
+          "decimals": 8
+        }
+      ]
+    }
+  ]
+}

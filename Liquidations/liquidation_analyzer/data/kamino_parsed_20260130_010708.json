@@ -1,0 +1,3317 @@
+[
+  {
+    "signature": "5p9phXy1F1fQGScKWBNm3qatGX1ybyhKtdMsbYpxHgbz98fVwCtsmqqD5rWzbpqYsS9hGp6WYEdWNVzwYvC9q3Er",
+    "slot": 396738581,
+    "blockTime": 1769706413,
+    "datetime": "2026-01-30T01:06:53",
+    "success": true,
+    "fee": 36584,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "deposit"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "depositReserveLiquidityAndObligationCollateralV2",
+        "type": "deposit",
+        "args": {
+          "liquidityAmount": 100000008191
+        },
+        "discriminator": "d8e0bf1bcc9766af"
+      }
+    ],
+    "kamino_instruction_count": 4
+  },
+  {
+    "signature": "TRPB1RDNhr7K3f2XAS2ubzBahasJzFW4hWTMHucbikjWFJiwq23hPFWzhf13KnsoN4Ce4XAzM6ux8VhbhKQ9N1c",
+    "slot": 396738562,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 17091,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5hyM4GE3LReq9UjGAD7cRxCkFxxej7VHvfJuPSce7xHj7PLHNMZYjZpWoAtgBbkamh7y2mxZZB1TCZ1M4Ss4a1tU",
+    "slot": 396738561,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 17091,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "pGHHWAHMKg1pcZEdgdPQUBV7JBSJoY5SVToYNjEiRuZYdB5Yv4BNpmKxhEggdde3m2sYBw5KFvwi4Rrvdcrkqvb",
+    "slot": 396738561,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 17091,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4Yxxo17BLzTRZCts4y15rgnHR4AdxrchLuxh91kV1gypLgmC9CZSZo7XNqPNYTQkXje8pnKRAH7SwkJboqs4ZzjQ",
+    "slot": 396738561,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 28748,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "JRHg1J5QBLZYPkYwsq4Koht9KXL22nWbNxvBmU69nuAR78LAaG13k1wxm8dc25zQidkyrhSCcWPDXWRBkeJjEyA",
+    "slot": 396738561,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 116000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2VX2ESQ9pEYAXJRwFgRPa2inmovmrKXWxCQb5F4ibRJ971CNRLC4F1zmdJ7k93oA9j7TrDzURW9U249mExZTE7ro",
+    "slot": 396738560,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 17091,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4bKPopynwwoEvrjfmEp2bUFWqQcjfd3F7RqWq23pjkG18n3DuLSiDmmi47C4FMwcS9bvFA9Y5UMziFk2yRNSVZa2",
+    "slot": 396738560,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 28748,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "41TdLjPArUHoasTRBJLGZgkwpXB4GtKA5fTtR7V9ADJK3KT3zFMVCgWPR5vv2vegUjfNpnfzb32osJsxYG2jJxrG",
+    "slot": 396738560,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 116000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "47DPLEWq617vAmiUJrNRHexTawvvUo1VEEPCVNm9sN3sXsgmnTx9G3PNevDiGCNgPEoLnzq8cRdPAogYe1nknzpB",
+    "slot": 396738560,
+    "blockTime": 1769706405,
+    "datetime": "2026-01-30T01:06:45",
+    "success": false,
+    "fee": 116000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "xnMQo3YXhRW1a62ERc9Ecb2cqdsQiZPQZXqVJ4Gjjwjuxd22byM88Hfh7DhacWuXanN3sdzDRaMxdHqizRgvZmQ",
+    "slot": 396738559,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 17149,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2DyQjvJheP8cLQNRcQ2TGM3cbTMvjark1qHgUPFc3a9iEHEqYHyMYkbCNkBo7sS5GY1C7TDwyDZPKmkd1CKuRU25",
+    "slot": 396738558,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 17149,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3rvoXdfdUNyYVHkBZ34ksaN7UukaWjb6HyYtzui992MnSbmu5j8TUafNgnURZfT4U71ZeiSBPM2dJJSP5q2p2mKC",
+    "slot": 396738558,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 17149,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "31iU3apRyvCKsg3dozGDcBLyRxsi7cSHHN9RhBQTrbchyXuf43kvQ94o22VVSWkGBb4utQ5X4kjYUHNNzJQEmxwz",
+    "slot": 396738558,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 106000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2AC2CLu2MMz5W3gt1zUp6KQeuPPQBpBcBu4XTwjS1J63Ds7F6VNHQDvnJv39BrXWM71MsutkikCqPnPh8yih4sq7",
+    "slot": 396738558,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 106000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5tKNDMKbEpDg5C195kw9V3TdBuxDekkdzoTXUSjg1artyHq8MtCnfrukzUQEZVJjP3vXXtjAJQBGiJgoeDyMoJWd",
+    "slot": 396738557,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 17151,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "VYDf3B4E2EAVxxkCyETknSeYNf6ZvvzVcCowfUtvjtw2dgEzM1its2ZoxTpnvFsw4dBCWiXcic4gu5fbZ3QfRJq",
+    "slot": 396738557,
+    "blockTime": 1769706404,
+    "datetime": "2026-01-30T01:06:44",
+    "success": false,
+    "fee": 17151,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2GHL8Jo1sXzhjTihFWr3NCDAcvXD9qFCSociNBnjKKTRL1tMquSwq8ivVtdhHiwRrLT9hNi5aEG2R5YTfZ2X7yHL",
+    "slot": 396738552,
+    "blockTime": 1769706402,
+    "datetime": "2026-01-30T01:06:42",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 47272634126
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 47272634126,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "53Xtv9qoaqMcLSCHEop8QfaCwZNFU5zm4HxwBk9ibMbU9de1pdjg51xFikPVjw1nGQePSDckSR6FDKLAFipU3kV2",
+    "slot": 396738552,
+    "blockTime": 1769706402,
+    "datetime": "2026-01-30T01:06:42",
+    "success": false,
+    "fee": 6866,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2mdxTMQXvv9ULtxwfztazXvJXwqaBSCC5T6QxiTcx11zYAUfKyF2Re9gLpK2BjuKbGxb4nG5JVAeaWF4UYSBqtNN",
+    "slot": 396738552,
+    "blockTime": 1769706402,
+    "datetime": "2026-01-30T01:06:42",
+    "success": false,
+    "fee": 6866,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4ZtPb6qS8DLeDZZk8TxjWHpQouSC1BhVfx6ED37y86i38zvxR3reQGqmUZFc2EK5XgU9ryN8yuHEQ2qv3PtMqRRR",
+    "slot": 396738551,
+    "blockTime": 1769706401,
+    "datetime": "2026-01-30T01:06:41",
+    "success": false,
+    "fee": 8197,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 180430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 180430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "ar5RtdxEt8sFMFdZCfz95mbfWSUzXeQx2TSM3JEpXewZ8SYzEM3z3q8TLWSsPro5edFo87iemMkzWbLotCYp6VU",
+    "slot": 396738548,
+    "blockTime": 1769706400,
+    "datetime": "2026-01-30T01:06:40",
+    "success": true,
+    "fee": 5000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      }
+    ],
+    "kamino_instruction_count": 3
+  },
+  {
+    "signature": "Xuv1WtKrWtJAmaY4n4ABuzUyoWN3mF3cbVNgpXPXoi11A5uNi39Pqi3wmZsy5kxAbdqyVWVSsFYdsWCMevv9gad",
+    "slot": 396738546,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": true,
+    "fee": 40536,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "deposit"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "depositReserveLiquidityAndObligationCollateralV2",
+        "type": "deposit",
+        "args": {
+          "liquidityAmount": 3412297918
+        },
+        "discriminator": "d8e0bf1bcc9766af"
+      }
+    ],
+    "kamino_instruction_count": 6
+  },
+  {
+    "signature": "3FYSt9oMJ4QoGef12Zi88hXhzj899dNR1NiybnTajbbnh2foxudcyUj7193kBZ3Q6ninHDBsAtiAdi6hXHk18yvo",
+    "slot": 396738546,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": true,
+    "fee": 78881,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "deposit",
+      "borrow"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "depositReserveLiquidityAndObligationCollateralV2",
+        "type": "deposit",
+        "args": {
+          "liquidityAmount": 2000000000
+        },
+        "discriminator": "d8e0bf1bcc9766af"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "borrowObligationLiquidityV2",
+        "type": "borrow",
+        "args": {
+          "liquidityAmount": 8879339975
+        },
+        "discriminator": "a1808ff5abc7c206"
+      }
+    ],
+    "kamino_instruction_count": 8
+  },
+  {
+    "signature": "3UWpXf8yaRBLsZbFUVJb9zptwTsX9vCwH8EM9gd7j3c23UJTWnT9rUQKQ1LBGz4Chgz9N2rGT9sV5R1ZfgduzkVx",
+    "slot": 396738544,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 162410000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 162410000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2mqMzpGRwxkvm1oK8V4apvEEZmb5naKixuL3u4LMpSy8mJi3zfrYR2jzEV2Xpp72mUAB2123iNR5kgAApgXgqASp",
+    "slot": 396738544,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 384199873599
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 384199873599,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3tcMUkHYQ7kofxG7ireXRQb4KGWLLAaC8GXTp4X3k2bKLAQekXFAXjtmq81f6QhzLdG71C3nAwo8HWvmDzuhokxJ",
+    "slot": 396738544,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": false,
+    "fee": 27900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 523323438852
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 523323438852,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4vVQXETgtt2p4By9zLoQANT1of5wpeqv4zF6QXFTqNfsswooo76PN4riih815dbvZdxmWExsnoZ4ymFTGxNUNxqS",
+    "slot": 396738544,
+    "blockTime": 1769706399,
+    "datetime": "2026-01-30T01:06:39",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 616000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 616000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "568kBseTh9aXWoqXyYmFgy2MuuvpjfHJWx1vkzjaFCySz8zx3v9MwkmEmy23eFL6KsZWzamFYxLfH2Nr7i9K8p5A",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 487000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 487000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3AGDGnBW52vCsdiGyMweSgAUsZursx3GAykYcWEqYgLsFC8XCCa1Zs3iZAempFyGzHysvpduXjjacRz3oVr3w7EB",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 487000000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 487000000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3qdUFqLeF3seGE3NFzLsbwvw11zucjjBAJgd7C9kU4jtnqVfhzfTMGvcZs3ZG1w23vNt759WbAR3ynns1e9qQqBp",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 425300000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 425300000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "31NHh5F7KqJz8GJAyGX2ky92RbFxnXc3FcR7f56szXoBhWLFWGdKKPa9VrQtkwJ4cqG2GYZ9AsQnmMNvc9dQCFuR",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 108500000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 108500000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "554yYdftsezqRL5QYDeGsQ2ZTQvUGbk7QXdXv6fdaHmMaLK6CL83g3EYz7XntRdn8CgKQezrMeZ7wHY12osiNMYR",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 108500000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 108500000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "43hDhdBQH4mX7ZguKV1DChRc7WB9RvUEvbnBnDPWKCYSxR3FXgZdH9WAsBKpL5QRrtwxvnMiYePcjGfzYt7rqU4",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 243600000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 243600000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4FjcpbZgrd98YyUiwrYgJUEUvdoKD6u1ZShvTSXaDGi5bqFnzrwd5iPELsfc4AsLHAxxFUNHrrtghn7CL1nkh835",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 243600000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 243600000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4ZXLBBfxNZGcJxREZU9RmF8U1Eyq1qC4qnzXyo1z96dhJ9E9s8j37RpVcH734c5dDheQJWtYeKYMyfLZhap9yj2B",
+    "slot": 396738543,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 15002,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 223300000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 223300000000,
+          "borrowInstructionIndex": 3
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2PXniRv4GuUwfimfZ4S3ZHjmCWiiPyu9qiGUAx4WGgBP9MTL5sNX1NMeAp8gTLF7WzWRUNvqya4tjQ1kT8W2YW6D",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 113420727406
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 113420727406,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "58RT4KESkLcWC1EQ8a27pAAEp7bUyMwcPNm7kH5gM4HYfrCjhEtCq9EkDbsUK4k4EkfX7yu5F1J9TRnXgakEAtY4",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 62052763668
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 62052763668,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "iBkovVCxrfdWRo1k7q39yb3L9ApjFyQa9SuQwGDfahzhxph8JdLNDF6V6QSjLEY2GBLkeVFRw2e8h8dziaXSAGy",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 62514410871
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 62514410871,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "RjcpbkN8nfUy27EsqcXtJKB4Aj733u6qyBYB6rJi3tHWU99sxyekBkQQ9XszV25epLXi3tGWkCSaAdfXuDsWarZ",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": true,
+    "fee": 88695,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "repay"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "repayObligationLiquidityV2",
+        "type": "repay",
+        "args": {
+          "liquidityAmount": 200000000000
+        },
+        "discriminator": "74aed54cb435d290"
+      }
+    ],
+    "kamino_instruction_count": 4
+  },
+  {
+    "signature": "5YK4zQ4U3n3u3ppkDsPHBJW5MA15qtjiMJ4cayBEPhufPULUCrz9weXrXR9S7G8pxXFKFTemuKhkPM3QMcQpsm5P",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 565750000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 565750000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "51kPMbvbnvGzoUA8xmfpLxXQ7Yj8u8gk1Coa5WCbp8eNRsyr62c5nC7JZcLhqrJ3Z6HJG8Bx7NVr8H9QhWvpip8U",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 72055135279
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 72055135279,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "23itmb8KEkP4Aa5JNXEpcW9gBps8ctKfnq7e639YuNSNKDcP9jH9M43Pukz5xgu8ngNAZ2Y4Ny2mjrR9dNpbrAFu",
+    "slot": 396738542,
+    "blockTime": 1769706398,
+    "datetime": "2026-01-30T01:06:38",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 72994307940
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 72994307940,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "66qR54S2SL4w5CaDBR8iyrtX9Jfwo65qKJngLZTYVavUp6BA5JCzVgpMy73tktLP7g5mYq2cSzcLoxgxeWgzMqig",
+    "slot": 396738537,
+    "blockTime": 1769706395,
+    "datetime": "2026-01-30T01:06:35",
+    "success": false,
+    "fee": 7614,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 153430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 153430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5qJJUzM8mEJNgikmzvNgNNGcqtr9YqfuqcTrfMd1MupieX9nrNVjQe4amTCcNP94gRj8iWnpc8E2h1vg1kMHTYFv",
+    "slot": 396738536,
+    "blockTime": 1769706395,
+    "datetime": "2026-01-30T01:06:35",
+    "success": true,
+    "fee": 35638,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "borrow"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "borrowObligationLiquidityV2",
+        "type": "borrow",
+        "args": {
+          "liquidityAmount": 356000000
+        },
+        "discriminator": "a1808ff5abc7c206"
+      }
+    ],
+    "kamino_instruction_count": 6
+  },
+  {
+    "signature": "33U9fGBtJ4Z6uhzkCksmYQgiyzYsV87hww9MvJXMwPDFWd9RCxEfrDPsiEF9MDohp8hdidmds1rHBx25H8Gmajcg",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7011,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "486sUjF3JsQ6NtBL4jHzFyZ2YPSgj6RkX3ihuDKritmqW4RGrZWFF4kD9oSWSwLeLGjfuiLynWwp4rwDnizN1XYS",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7785,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 204200000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 204200000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2nzp7GTEeGWwy4zpBwFjrr8qV3uzcqGyY3kJLhk9PhWuT1c5kSjfKQ9XUrJqMPuvY42PAYAtzBpGNzEPbLbA958R",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8014,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 153430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 153430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5XCUnyD85uz1iNREgYCTofqSpwbFi7yUu8dD19MaxEvgo3yFf9W8LBtPf6ax5KY25LSMwm7GxiDTW7gguq2Qj8ib",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7387,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 204200000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 204200000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4SG9mfMzWG6bU2KAodvpDJLXHCvstER3NrrArMvM8BG5GQQdEQCvzbngU4xzb9qhNzMBfnTi8p6scKta9p3JFXeh",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8023,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 151798990585
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 151798990585,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "SAokVzaTnj6REzn9KQqTek4DVGN21ZaFvWcaFwKwrZ14wEvPc9fqwFqrSteh8FRPeF8WmRPReGqzPqmpJbZ75jC",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7408,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 165289205171
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 165289205171,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5KbxarqR4K8ZfQkAyFq1zPE5noAzgSS16hTeAUhZsiXErLDjmsaZAMvrtXi8sd8ZX2iTppYCqKzEL62738q5uFH",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 6561,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213460985552
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213460985552,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2zPghR6nqtQzGkdTqZ2ocf3d8je3SQ2D48YbdnCbu9fNuLmyNUZ2MGEzyF86kM8eUWMfzD7CYpM6z3ZErdWsZy2v",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8232,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 216330000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 216330000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4fTS5RFaMzzqU9kAKktdfUVFGgLoFx3RfKP8eoEcbb4cp3BgJfFyKLZKBaf65hdYYn1MyTsYNWv2GyXq3cbU7HUD",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8504,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 196370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 196370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2ZrkFcTBVVpSnphtPDoDtfwhLP83ytc4MMueD3tFe3sb77PJZZDMuGDCP3qEnwKa4n8gVffRc4FX3edNUhim4MDc",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 6683,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 282960000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 282960000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2GjpPayvEi9cxiKzn8YMC7ZVTif156xEmmegQaxfpcJ5bAEvg31jgRUBkfUK4s3SDKxEjEygBAJsA1f8cVaDjbHp",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7371,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 211788818885
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 211788818885,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4sezTgD8N2adzeaBFwnhurHy5bCFQG9o1yeYfERS1Y9i1fQJbsSeYFXiviECupCJCaW2D4aASSDtRAEbnc9vTjj4",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7335,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213450000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213450000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2q51VfhrADfymRRJUgdSSQQTJ14HLbUXWAgF8RXYDAbVsRtzMXeeV3AL73aY5YprndijLD9Ld1eNb36sqtkurkBi",
+    "slot": 396738535,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7371,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 211788818885
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 211788818885,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2jmRzHLkgJHBp2c6tawAK7HdbZFT3hQxDALdRz4WEPfpmWr8mvgWDPnmf5FxtW46hj56VW1aTWt3QL1cEJm7piKx",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8842,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373381252524
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373381252524,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "GKTV5qZPFNBiRWxuBEzsgYjzDGwmHANU86GvK4aQEv1LEBWWR3xpsfCpkj4tRDFXfs2ANfDA6kdToQGuLddfhc9",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 7566,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 427890000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 427890000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "52q33pjrooNvCwu8GEPD8YZ1NanDUMB3UxnHVjLU4tbCAPXH1k3XgLUD2AvQHD2yndvxCtYVsbQkKkdzfpPcNFvL",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 8775,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 388410000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 388410000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "znvPdFmrNwmeRSffLSq2uquyWmP7crT25gE7C7AySK2Sr3xRD7tJLzCZntRboobpdT1jbYdd127rPAmF3RJvofP",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": false,
+    "fee": 9302,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 269841996383
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 269841996383,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5KHa3mfbhDpDS8DYHwSCnUuZmNXi1U7p1X4Axo5iLwJEjgqH7bCv3zr1JXiyZAmZCuStfe4bviryMTbEYzvDw4aC",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": true,
+    "fee": 40469,
+    "is_liquidation": false,
+    "instruction_types": [],
+    "kamino_instructions": [],
+    "kamino_instruction_count": 0
+  },
+  {
+    "signature": "229UTBUDEeFpQvA3Jrqn8zWfhe6qEhdTgcGU1mAPK9KjNUBYGBumsCwxwy7oVw2mUe6Wu46kahnob2sPRSSp796E",
+    "slot": 396738533,
+    "blockTime": 1769706394,
+    "datetime": "2026-01-30T01:06:34",
+    "success": true,
+    "fee": 40441,
+    "is_liquidation": false,
+    "instruction_types": [],
+    "kamino_instructions": [],
+    "kamino_instruction_count": 0
+  },
+  {
+    "signature": "Kc9Rt3yURYABqRFxamKz77EyV3Sf6JshnWm74BaCmRzCmSZqcsiCHsSuSMesGXa6nqk5s8YTN7j4Z1LreH4bwYh",
+    "slot": 396738532,
+    "blockTime": 1769706393,
+    "datetime": "2026-01-30T01:06:33",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 57723014557
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 57723014557,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3sYeizDhHPBWs4uQJTVEueeyE5ES9doFq4XyTN3eWCzHv1phKzocbUX2sYb5HpXazfGkBcbhL68zpeSMF4sjQmom",
+    "slot": 396738532,
+    "blockTime": 1769706393,
+    "datetime": "2026-01-30T01:06:33",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 467977573448
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 467977573448,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5oidwxeXNzjVY1468dtYEYSWagRUvMGwaGnKsKJvppJN2D934tdAPMFJ7t4Q6mE5nXPvve8fErubhFyEjXhZ4i2M",
+    "slot": 396738532,
+    "blockTime": 1769706393,
+    "datetime": "2026-01-30T01:06:33",
+    "success": false,
+    "fee": 17581,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 610816865766
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 610816865766,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3EPZseSqGtRqyy5tQCe27kwK22CBmCL5Z29WaFwc1r6NEZuQrg3brwTV3ffokj75wmHBAqqRganivvC14qdF6MCQ",
+    "slot": 396738532,
+    "blockTime": 1769706393,
+    "datetime": "2026-01-30T01:06:33",
+    "success": false,
+    "fee": 23900,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 527560000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 527560000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "MdBVMRLaxK9zcM4FMF5zX6wErrB5aazv6JH8Y3gKFWfAEgdF1RhV6SwjetNqHewz1F4dM3Lu7rU4iRd7zSDBKdj",
+    "slot": 396738530,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 44962,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 30952670110
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 30952670110,
+          "borrowInstructionIndex": 1
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5dMtZ9zim4p2dfcicQBkVvZzWRVaNAYhxHpKU2jKnQUtAFGYMrQMCQWwgpFWFoPTT2uVCUFb1KpRnQyKa3ru92DB",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 13320,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "aRSfcaBRqWnQnRRf9jS3dC7eVMdNmTM5LHWmEy2BiR4Y1rYiFHXitxmjtBxofsBV9y5izhmynvZ6tBNKLsnrkVe",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373309325645
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373309325645,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4QKVVeFmti1UcHGabp4tKFBXsGzkR3n9CAR67boFw9Qbr59CTbgaAQV5Pf9mURP9KCcwMpQ8PAwVJ631GVJxhATJ",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 272760000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 272760000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "64PrE89gVYYSLzzSX3tRTudcF1PFFAEHcSGY6Z4ufeAUn4Vc1ayAaZr62xsFVnMTp9QAGojSXdr5ouqCCLXihegq",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 265617552270
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 265617552270,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "rtEoeeGMGRbger6tTX8VdhopXhWzqbr1ZPwWLcFceS2B5cn67Vdam1D1qpqKTf1bZvHWGpsYR2HccU4BrEjkatU",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 13320,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373309325645
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 373309325645,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "55oak6Vp1SBAVdxQWrg7VA3eYL4r6jY1GBBKbxA2euiMtYXBxt13buQjdLwojapMZ6HtkpK1WnFUBQxK5F2B6cRa",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 427890000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 427890000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3qTKiqCi3CebUR33WxaNeEX392aThHxnzBJNK8qJeMEDEhQkVMFGRqMW5pEHsADFzUPEuHvBpkx8429tp2KeCxQF",
+    "slot": 396738529,
+    "blockTime": 1769706392,
+    "datetime": "2026-01-30T01:06:32",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 283430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 283430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3UmTYgtot636fKTVuH9e3SofAokrQM76oubsBzQakde9KrgpNZcj1mSsuTCLyhsUQrfj3325wgQ2bYTnjdCVibYw",
+    "slot": 396738518,
+    "blockTime": 1769706388,
+    "datetime": "2026-01-30T01:06:28",
+    "success": false,
+    "fee": 7240,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 167510000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 167510000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3tjytX3fanAQRfWAQhEjDBvvrxotpjSb5HL8PMcoRp6xE2R2cqyTtDvPrxkRfYtzhEzA3TJXvuZyctVUXkA7zsV6",
+    "slot": 396738518,
+    "blockTime": 1769706388,
+    "datetime": "2026-01-30T01:06:28",
+    "success": false,
+    "fee": 7801,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 178938430712
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 178938430712,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2ogKH3xyECeR9cfuCndfnX2m1QCdHo5h93D7yqaov5pQi47WmekqxuwrornpWAA8V7dHp8wYgZjCfMyaMdNpovdm",
+    "slot": 396738518,
+    "blockTime": 1769706388,
+    "datetime": "2026-01-30T01:06:28",
+    "success": false,
+    "fee": 11048,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 398910000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 398910000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2qxkLDMf7qsFeqWMZcrhmVksJXD8ZRSTozRvz6izchyWBW6f8NdjbogcBjqsE4YoxXJWMkUwcJaqghyMHKFL4a7",
+    "slot": 396738517,
+    "blockTime": 1769706387,
+    "datetime": "2026-01-30T01:06:27",
+    "success": false,
+    "fee": 6780,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 196370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 196370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5bWeXXjBf5yV5iM5wDp4PiX9LULr6Abmokd5YhN1nX36JXJv8WhFyVhAri848AgE7VhPyTrzAdRjwRV7YJDQP24W",
+    "slot": 396738515,
+    "blockTime": 1769706387,
+    "datetime": "2026-01-30T01:06:27",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 262947349569
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 262947349569,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "k3v3L732bGkxJRZoG6xEQrREH1TjeVF4EQnSaBirS8izptGJx76ntqM3x6WfJahhy3SmTUkztL2GWGc1rThLCef",
+    "slot": 396738515,
+    "blockTime": 1769706387,
+    "datetime": "2026-01-30T01:06:27",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 326198779499
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 326198779499,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "57gfXPanTJYa3F21XcouWkrvhQCySVweagd8QLWxxAWU56CgGEbGJJQ1uz5s9eXXiKUBxrTK16KQ4nFSWwoMCHY6",
+    "slot": 396738515,
+    "blockTime": 1769706387,
+    "datetime": "2026-01-30T01:06:27",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 266680000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 266680000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "51F98hxnsj4vmzrG7Bu35SxGfAzCUjjd7N7m4ZwMAUTCCGBg1vP34rXTWguQf5bbkAcwT8SWiENcNQPqscXqftsU",
+    "slot": 396738515,
+    "blockTime": 1769706387,
+    "datetime": "2026-01-30T01:06:27",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 266680000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 266680000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4vWKpHxtUWHcUvKeqhhBDpK1uavqsCtqSqerC9r4WjcgbUSX88k96vjKgRMp3dTUcu2dsPmcty9zuvcj8CES1rdL",
+    "slot": 396738510,
+    "blockTime": 1769706385,
+    "datetime": "2026-01-30T01:06:25",
+    "success": true,
+    "fee": 5000,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      }
+    ],
+    "kamino_instruction_count": 3
+  },
+  {
+    "signature": "5UgMCkVc26aivmEPvch5P6MRU3JtGwdBedDXoBfVZmM61bx1UrgRE67CdLr1mUTssXmJdEsST16LePsFPhL7mUhB",
+    "slot": 396738502,
+    "blockTime": 1769706382,
+    "datetime": "2026-01-30T01:06:22",
+    "success": true,
+    "fee": 37599,
+    "is_liquidation": false,
+    "instruction_types": [
+      "other",
+      "withdraw"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshReserve",
+        "type": "other",
+        "args": {},
+        "discriminator": "02da8aeb4fc91966"
+      },
+      {
+        "name": "refreshObligation",
+        "type": "other",
+        "args": {},
+        "discriminator": "218493e497c04859"
+      },
+      {
+        "name": "withdrawObligationCollateralAndRedeemReserveCollateralV2",
+        "type": "withdraw",
+        "args": {
+          "collateralAmount": 18446744073709551615
+        },
+        "discriminator": "eb34779895c51407"
+      }
+    ],
+    "kamino_instruction_count": 11
+  },
+  {
+    "signature": "4cMRmuraVJURaRUqgfeBMEn4wXWi5FSKWrPD97VwQvRLTjFNXJtvxAw7Zgv6pHhJvx12onjuLRpK91XYFWJLRwCY",
+    "slot": 396738488,
+    "blockTime": 1769706376,
+    "datetime": "2026-01-30T01:06:16",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 161011390270
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 161011390270,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3feSifQyjXXSJMVDgJQErEfGWb5KxbXqeBfLiRFWqc8pZPtoP66s27a68g5mXiHVLN3VYycAd7QScc3MNumGQT4b",
+    "slot": 396738488,
+    "blockTime": 1769706376,
+    "datetime": "2026-01-30T01:06:16",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 162410000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 162410000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3NapCeQKaMLipdovTEmuUvJxARHPpwy1BbQRPeUiR9ma83EdAS8C2kuxWQ7AZihdeNqqmtE7jEQY8ziHuHJuAxEF",
+    "slot": 396738488,
+    "blockTime": 1769706376,
+    "datetime": "2026-01-30T01:06:16",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213450000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 213450000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2HqPsBZ9rQcW656ZLWwK9VygTfWAfR8M17f3E7hZWaBkGChW7mCeUZvAtNGjKe2cPrCTcp8j7mHWFpgC3xdWBqHA",
+    "slot": 396738488,
+    "blockTime": 1769706376,
+    "datetime": "2026-01-30T01:06:16",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 167160000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 167160000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "2kz4wGKFjwXqREjSQX6WUsF187g7evZgRfBWRkJr75q5ApArNkvYqWkY5g3ADpAcVFdE1xceUkwoZGk6oz5RMRZ6",
+    "slot": 396738488,
+    "blockTime": 1769706376,
+    "datetime": "2026-01-30T01:06:16",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 224370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 224370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "mY1uet9AWTpXDDE1sihPH2VLZLYdedxijjVNv9SiFYcTRW4URuUJ6t3ZHCJZY19HamUr98CTuvAg3bEkpwDqTPd",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 7408,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 219758708356
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 219758708356,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3AWnsLAqz4aJ6AytkwokkfsAJwqbqaSk8zd6pkYqcjuQTJDVm1w3cQwAsMeZ9mJY89PARHDbT8e34R8suPpon9Ej",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 278942014298
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 278942014298,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5E7d2QKZo3fu4Mh3vzvKwYBEUcwcmdqgx4ij2YhNNUbm3yDcJpPdMhR3DJUwL9aJRmAYwT4osRedySvAqFfNCWxs",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 8475,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 198076459943
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 198076459943,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5fCP4tVWQXEZAqRRcugShafZn8uVDFkELxCgAbCMwp7QJ22QAnCV4qSVy6bwfve2Tr3qBGrSEJw8m469bQUmsJVQ",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 9081,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 170751292736
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 170751292736,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5du81jK7WzbiB3MiAmgvnwj8rEc2bKkS5iMzm2xZDv66BcWdYN9L7rtMeiaYXEtjaBZUjGiZ9XRx8zvZk2P5sGQY",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 7261,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 222370000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "5Fc19bne8GaaVK4injLNLp93PmaN8JYsCezN5Z2KBpKrfNuaULK7AQiraA1NrVnV7E9Ar9SACD4j3LBwKHyjBAxS",
+    "slot": 396738481,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 12328,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 262893187641
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 262893187641,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "4M8JsjqHNUcUwpufCT5rnN3W1UAuXN7vnCh92vfq3geASWSSJajqSS4XuJ7vJ6TTiJMWZFZzsHvPvMXx1MDuiEzX",
+    "slot": 396738480,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 13320,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 225090755035
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 225090755035,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3Ua2xnLjE8QtfqDAXsFYmKGEMUs8DvkdqAYu9gC67brkfK6T6qKgvmHM4nHSiaQwYpbY5DuQg2JoM29Ssmi2TAJc",
+    "slot": 396738480,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 13320,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 170740372396
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 170740372396,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  },
+  {
+    "signature": "3V4ZpCEdzqUH7UqGQqa6EJVp7fgTGQSeVXehZyrw5gpjdge1xW9EKsgzJT61LRji3wEUZvMCqSz7DRKo7edEffvq",
+    "slot": 396738480,
+    "blockTime": 1769706373,
+    "datetime": "2026-01-30T01:06:13",
+    "success": false,
+    "fee": 13320,
+    "is_liquidation": false,
+    "instruction_types": [
+      "flash_loan"
+    ],
+    "kamino_instructions": [
+      {
+        "name": "flashBorrowReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000
+        },
+        "discriminator": "87e734a70734d4c1"
+      },
+      {
+        "name": "flashRepayReserveLiquidity",
+        "type": "flash_loan",
+        "args": {
+          "liquidityAmount": 200430000000,
+          "borrowInstructionIndex": 2
+        },
+        "discriminator": "b97500cb60f5b4ba"
+      }
+    ],
+    "kamino_instruction_count": 2
+  }
+]

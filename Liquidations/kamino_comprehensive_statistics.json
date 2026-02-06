@@ -1,0 +1,488 @@
+{
+  "analysis_time": "2026-01-29T22:24:06.637675",
+  "analysis_method": "IDL-based instruction decoding (no RPC)",
+  "summary": {
+    "total_files": 112,
+    "total_transactions": 112000,
+    "unique_transactions": 111937,
+    "total_liquidations": 338,
+    "unique_types": 23,
+    "unique_sources": 9
+  },
+  "transaction_types": {
+    "REFRESH_OBLIGATION": {
+      "count": 42415,
+      "percentage": 37.870535714285715,
+      "examples": [
+        {
+          "signature": "4qDAVPxvTm88pSzNakw1qT8W7KXaNz1vJS49ZyvhAosq9g3wVUu1gYrsFgcJbHHDj3CmqdCKKb9RvAbXw5zjMj4Q",
+          "timestamp": 1769694785,
+          "slot": 396709538
+        },
+        {
+          "signature": "5a8zDaCGKB48eYD6CTmFvSPdKrbTEsJMQLsDPtpjkfpmQdUT6cuWuqzDYQ3dcmx8Phz5dJXef6Y8AsspWeDJ6Ze9",
+          "timestamp": 1769694757,
+          "slot": 396709465
+        },
+        {
+          "signature": "45MAGmDC73d8ocSujXRRd7hxTKejxWo64LWhWWFvR9igV7bzbQad1NPSmXK8R4Sdtspb4bXHouPvSYpffkPMzjo5",
+          "timestamp": 1769694721,
+          "slot": 396709376
+        }
+      ]
+    },
+    "UNKNOWN": {
+      "count": 14276,
+      "percentage": 12.746428571428572,
+      "examples": [
+        {
+          "signature": "xZRN4B3psWcWtAmU8hj2CD7oYTfJR499uxr2DztH2zJ2TjCQT6CWVPmBaFruf9o3iMsY16i4BZ7aQRjqSywEJJY",
+          "timestamp": 1769694717,
+          "slot": 396709366
+        },
+        {
+          "signature": "2HtvgcNDVcRNboEAsykVDJAjBa7p4Qubt6YVSF273UtDZTUioWJ5W2nMwDFyB3NZNBfMbxaaiiCuuvRRGFshqjDb",
+          "timestamp": 1769694716,
+          "slot": 396709363
+        },
+        {
+          "signature": "3BCa3xubRgtChXrKdteuzhEdwdmA1GhUA9eeXt3PYwSwZhj8rCyYPLZKvvcmBiYt2NNX9tjDJuorPHyR8xBPe1ns",
+          "timestamp": 1769694680,
+          "slot": 396709275
+        }
+      ]
+    },
+    "TOKEN_MINT": {
+      "count": 11725,
+      "percentage": 10.46875,
+      "examples": [
+        {
+          "signature": "4CwAdbMCXLoX4baw5HUJEsi9bWozHiUjT85L4vEkpbdH4dNJ5t5aj4gKvND8uvHsah5yU5eXxp6uKTAP2AhfytJi",
+          "timestamp": 1769694716,
+          "slot": 396709364
+        },
+        {
+          "signature": "2RF3ME4iASgevncDXKo6LuGU7Je18JYUtEiv4881WVEQwtVCdH2ifjHSrg5tz8H3BPzZtyFHcfxnBiRPE6ywT3aN",
+          "timestamp": 1769694714,
+          "slot": 396709360
+        },
+        {
+          "signature": "3q3hu441vHVXF472kmFW8ThcZea6rxLCVUtaL3MsMX2MZXY8gqkarU3nXWvt1UKuVUtDdAkWHZeFvYb4wdk6wK4q",
+          "timestamp": 1769694714,
+          "slot": 396709358
+        }
+      ]
+    },
+    "DEPOSIT": {
+      "count": 8170,
+      "percentage": 7.294642857142857,
+      "examples": [
+        {
+          "signature": "37xfTUJfEkFfrNu6JhonELdswLgGiZkw2Pyvi6WaEMRLjnDPe52bruyyJsE58uhrz8cMkLS3bmziS7Gtd898NzxJ",
+          "timestamp": 1769694776,
+          "slot": 396709513
+        },
+        {
+          "signature": "cPVknnu1zSYuAnSaHepWQCneJX4a3UNeVtghpkwYnS24TV7YJBJG1tXtUVQf9bijY9kfvEvobAse3B2w6w7v3mY",
+          "timestamp": 1769694632,
+          "slot": 396709156
+        },
+        {
+          "signature": "wbDixUMCuz72pay2jdqQsw8hwm7EAYi3nJo7B4wk57KhtN5QWWdXdNw6PsQF5CeUtt9showvb4pwh7VVwAUtdFB",
+          "timestamp": 1769694611,
+          "slot": 396709106
+        }
+      ]
+    },
+    "WITHDRAW": {
+      "count": 6951,
+      "percentage": 6.20625,
+      "examples": [
+        {
+          "signature": "4D2jp33J7c2zP6ur8kFWcZBzqwrCYGvj7vuBY9tXKkn1SjcNLPhx8dnzczNAMcfG8iswDbZQmtjAcJ6gbFpaW1RT",
+          "timestamp": 1769694745,
+          "slot": 396709436
+        },
+        {
+          "signature": "5XY2KGtYZgJyECZviFLXphZFwMtAt3BG7jDn3TKVcEGE3ngTcKzmEcTcGkyiBbBcdjSXFT113TVxo7nZDbLWfBsm",
+          "timestamp": 1769694672,
+          "slot": 396709255
+        },
+        {
+          "signature": "2Gfih4eDXxDHUB5DJTPkC5MeFMeVZbhxepzjWfEGDiwV8LiwSHWWjhR3BUdyKRQC4N69joCxnezXeVnFg8tRJGox",
+          "timestamp": 1769694609,
+          "slot": 396709102
+        }
+      ]
+    },
+    "FLASH_REPAY_RESERVE_LIQUIDITY": {
+      "count": 6860,
+      "percentage": 6.125,
+      "examples": [
+        {
+          "signature": "2TkghqLxvTk9PeNjvAAp6nBMhmyPDHLMBUVWnYhATA5TPvBH8LWUsny3UBjjBRgYu5RrUr2qMtwRQrbaH59jLrVm",
+          "timestamp": 1769694215,
+          "slot": 396708115
+        },
+        {
+          "signature": "iZbNjJ6iYUqtAhCxYBXJydNFjBytdfftzFVAfD2M9nXFCrWyuXxh2PyFrfsgeLM2qusj2i2WKD8X2oQmXTS9Bv8",
+          "timestamp": 1769694198,
+          "slot": 396708073
+        },
+        {
+          "signature": "65132sYQZ6bRmfnwuVw6EvnGnXw6JcweK8owuVE4YeviqJ2kkJyZBftM3q3UwQ8Y491KqdVbY3ED1WxoMpmBePdS",
+          "timestamp": 1769694166,
+          "slot": 396707993
+        }
+      ]
+    },
+    "REFRESH_RESERVE": {
+      "count": 6771,
+      "percentage": 6.045535714285714,
+      "examples": [
+        {
+          "signature": "zEQCapnSypKVah6SNmdrV67NkXAdLSUSHNiTedjqaaA15nogsUD1UiGQsDZryqcc7QnthaEFuyAL5QCxkF4z9Hq",
+          "timestamp": 1769694763,
+          "slot": 396709480
+        },
+        {
+          "signature": "3zU3hKmRR2ZbVFztDMhqYAVZ7y2zqNJKvTfVUX6K1MKD9SVwHzJvkDM5YdzBsbskHU3ZeiTnhyZryw3ugcRu6P8M",
+          "timestamp": 1769694754,
+          "slot": 396709456
+        },
+        {
+          "signature": "3aHBqMk5meEm1rZt6bXCQVBM5zXqkjbumdn6GfJpdz7wFvWv1zPFHMSdRbHENFf6Be1g2uKQ4qJcW63FBfrkdnKq",
+          "timestamp": 1769694734,
+          "slot": 396709408
+        }
+      ]
+    },
+    "STAKE": {
+      "count": 6597,
+      "percentage": 5.890178571428571,
+      "examples": [
+        {
+          "signature": "2kpsqGKqaUMVX7pcw6usaJwUQEqcN2j5KjBCbLzEeW9AjeU2D2ejZpGhUMFXUDuMB455d1dcS6qv7CWeqtKL8hTx",
+          "timestamp": 1769694566,
+          "slot": 396708993
+        },
+        {
+          "signature": "3w9FySwyHpuhQoX9XBpbHHYnr33z5FCnZnQiKmByxAPCNxVfQPSmfF4fSAZpGCGkekK2TUUYots6S7QNJPydgh5p",
+          "timestamp": 1769694547,
+          "slot": 396708946
+        },
+        {
+          "signature": "e5Nfcf2VQ7hbbZ1YTPXTembtASaTh82U8xVqPRpKNzBV1xmnKruqt2PDXd7y2hF2XJGHT1qWQCCj2ozvrjtLBRG",
+          "timestamp": 1769694434,
+          "slot": 396708659
+        }
+      ]
+    },
+    "WITHDRAW_UNSTAKED_DEPOSITS": {
+      "count": 6316,
+      "percentage": 5.639285714285714,
+      "examples": [
+        {
+          "signature": "5yw9Hactw1jubUH7vD4stjzx7uJ5a5QnmksHWAnyKXqg2Y23dQtA9chngFjmDicwNF98Y8SY6neGv9yMVj4gpfRK",
+          "timestamp": 1769693979,
+          "slot": 396707523
+        },
+        {
+          "signature": "3TE3kgCY1qf27LHH73SmRg63i58vWz98J6VcHzAMPtpSc2JUyQQfuyBaxDByEpvyN29SqDsYxk5kbsmSMDioTafr",
+          "timestamp": 1769693416,
+          "slot": 396706112
+        },
+        {
+          "signature": "bkAa87CDukVDj9zKxNocYZ2M6srDTce3LCozckb83z4mXoiimJwhprrNENnF4SqyHAPuNUua4fwk9KKVhqKNgKB",
+          "timestamp": 1769692435,
+          "slot": 396703661
+        }
+      ]
+    },
+    "SYNC_NATIVE": {
+      "count": 706,
+      "percentage": 0.6303571428571428,
+      "examples": [
+        {
+          "signature": "j5s5TtMmqtdKGJm9HoPhNZU9xrJVrgVbMt8bvd8oXrsujKDguuStxTVHcA4Rtso42vRoDNznViSKfidRuBmhjg5",
+          "timestamp": 1769694723,
+          "slot": 396709380
+        },
+        {
+          "signature": "3hkv7yxeD2qhvJyEsN5Cem8S1ZVA57pXzL8fZq7XRADskYXDgCdkHAFe4EEXTJXHvyWHFhko15m9yPPuxsc297Xw",
+          "timestamp": 1769694083,
+          "slot": 396707782
+        },
+        {
+          "signature": "Q3e9mo45yiFA65LsrUce4Ubcaf2ycwF1uPC5XPX1tNzxYC4xramhjHKSd8Htz1oTtyA7tPrUSGWA4ucb3XKFfcn",
+          "timestamp": 1769693480,
+          "slot": 396706274
+        }
+      ]
+    },
+    "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL": {
+      "count": 345,
+      "percentage": 0.3080357142857143,
+      "examples": [
+        {
+          "signature": "28yJaqpPRAXnH1rEfDsUALs39N49Y7EY2Kx7Zh7Pi2tTrLcwh7GqirJKUvRdFv38p2hL4XoHXAVVzDj4akh5RLhK",
+          "timestamp": 1769693738,
+          "slot": 396706921
+        },
+        {
+          "signature": "3ApTu9djTYCfg6kAZRFGrcF63Xm7kiQ8CHP2HpaVQFFmPTov2vuALqkjchJchtk8WpE6Mm7u7DwFPE5LiX6x7keX",
+          "timestamp": 1769693418,
+          "slot": 396706118
+        },
+        {
+          "signature": "3ddS7R2Tm7YcPSUxVpB77G8evQcn5vwLzkYLg4chuktDwq2X1jPvfBNW83ZG1rmeydugQiUh9oGFX5m3HWBQSA4y",
+          "timestamp": 1769692967,
+          "slot": 396704998
+        }
+      ]
+    },
+    "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL": {
+      "count": 338,
+      "percentage": 0.30178571428571427,
+      "examples": [
+        {
+          "signature": "666Xjqy6Gbj29VHSC7FPxAtqQJFsP4nWNMBj9P9UZe4L7PgL3arFc9G69zxFNsB8s3A13LK3Cb1XTwa5YW2BiaP3",
+          "timestamp": 1769694182,
+          "slot": 396708033
+        },
+        {
+          "signature": "5azMw18buNdgtYD22AaBobkpYaE4vntaQ8cB1G2gnNhy9iNwt9WJQzGD1mknvdDzbXiUXfxZfdQAeps1NG9rjStJ",
+          "timestamp": 1769689926,
+          "slot": 396697400
+        },
+        {
+          "signature": "2hSP9wX8sx2wdiaG2a6sfZ7whjs4q36dc8rNAmbKuVtPrEiYhhMHnHgCCX3URmq13PdaSa77xKFT8c5gaz4QzSM6",
+          "timestamp": 1769687662,
+          "slot": 396691745
+        }
+      ]
+    },
+    "REFRESH_RESERVES_BATCH": {
+      "count": 147,
+      "percentage": 0.13125,
+      "examples": [
+        {
+          "signature": "2PH3DxRz5Mo1sCqovvo9zPWub5JWQcYQia7w2TP7tuy32z9G7z1H2KTi4wucwc5C6SpypushJBJH6SJuLBEUACUi",
+          "timestamp": 1769672220,
+          "slot": 396653117
+        },
+        {
+          "signature": "5ieVxzVGNigk29scC1MrGdd3AiXqaU1kvE37CdpP9tWKkAmZGSZWdjkJG4XzJQbwvszdqofTNK79os48GHUmhz8C",
+          "timestamp": 1769671036,
+          "slot": 396650128
+        },
+        {
+          "signature": "2tcveZdxnbrXjt6uiUCH13qrAKu6xxxGBVg8UWLtWL3CwZqf8gXXjQzqC1BXTxeNCJ1fmfpj7speiVJUFWTjw9wY",
+          "timestamp": 1769666880,
+          "slot": 396639749
+        }
+      ]
+    },
+    "TRANSFER": {
+      "count": 134,
+      "percentage": 0.11964285714285713,
+      "examples": [
+        {
+          "signature": "3MVEsBx7nY89D61wiGhVytC1TXTXgN1pnB5WvrmRvL4wfCesGUZsVGpPUBy4nszUdtR3uham3SJoDtrKap6QnDLs",
+          "timestamp": 1769685683,
+          "slot": 396686788
+        },
+        {
+          "signature": "4vsZddxNJPm5W4Kyo7q2NWQZRXAXyZkHCaUSA7HhmbgWQhramAbzVTjTxfBuzRu3VMT5BoxmbHQzzeBLym338TDx",
+          "timestamp": 1769685375,
+          "slot": 396686018
+        },
+        {
+          "signature": "9ETY6NE4Bta11MdriFhJ2z3kAJDaemNb1rqgATe2wN2r54V1LhLL2A1wsL2MsKRE9PyiaST8kTjKbFjEMh5Vm4G",
+          "timestamp": 1769685321,
+          "slot": 396685886
+        }
+      ]
+    },
+    "INIT_USER_METADATA": {
+      "count": 97,
+      "percentage": 0.08660714285714285,
+      "examples": [
+        {
+          "signature": "65ASekGZWjTSrLguiyJHNtCqSUYFAboLzRjthQgteud4haUTxEAMUqyFDVSNJmqA56jRKwA6L17jMe8coDtWdacY",
+          "timestamp": 1769691792,
+          "slot": 396702061
+        },
+        {
+          "signature": "4PZBqtSeGExDGxAiASkPVWsJ9jPD3t1f7ugeupMDhKgThcdEW8SKUuypBB1qiEWiasKMhkSXX8eJVj2weZ8rJJA6",
+          "timestamp": 1769690191,
+          "slot": 396698063
+        },
+        {
+          "signature": "4sXP4YTd7qMhznWL6dhdnLerRrBQ5DK6Nm3QXcgmhRKEru2eCEQ4L5RgwFFrjhGmStNDNj4KZrDn2zWUSn9eDheT",
+          "timestamp": 1769687861,
+          "slot": 396692249
+        }
+      ]
+    },
+    "EXECUTE_VAULT_TRANSACTION": {
+      "count": 44,
+      "percentage": 0.039285714285714285,
+      "examples": [
+        {
+          "signature": "2ApMjZxAKVjvTApp3QUTy9eXdNf71TByNF5HrKtMc7x4ZMFxBLoBduto4Le4bo4fHf4TZPx3yQ6Zi8LUsRzh6WEK",
+          "timestamp": 1769659058,
+          "slot": 396620083
+        },
+        {
+          "signature": "5A9SD5K3PDwmwhroFoRC4TSWhd2rcMyirbGWpBce86jiNn4xk44CNAWP6NLTtTpmayaebznmGEJNPw8rFU5EXGrM",
+          "timestamp": 1769650580,
+          "slot": 396598869
+        },
+        {
+          "signature": "4v9MrfvyeyEiZ1fcc4LYpbaVnJtvgqpwTCVwxVuiV2zpDM92Ht6HC68ShYnv5LWacPdM6Bj6axQttyp3C48hgaAb",
+          "timestamp": 1769650027,
+          "slot": 396597483
+        }
+      ]
+    },
+    "CLOSE_ACCOUNT": {
+      "count": 42,
+      "percentage": 0.0375,
+      "examples": [
+        {
+          "signature": "3vKz4j8Pjnyd6pi9WB3LA3ruBcgXaX25jEgmVEF81xzHVVpb3ngsypbqz1nc4LSSJGtU2G7m21Li2PaAdwC6WMJa",
+          "timestamp": 1769669678,
+          "slot": 396646743
+        },
+        {
+          "signature": "54YkcLXAn3JDx6qrX243AKuf5amiF7vK1HJw9VLWCKE5FksY7YPvFZeivmkaakEAVL1wvsMbtRxHQXhRqbj5yLey",
+          "timestamp": 1769662423,
+          "slot": 396628530
+        },
+        {
+          "signature": "3xkfHvaBU9haiHLeentuXAaVpvt8SWkL6mxrYkB8ACYY9VjkDSrUkeFKe6n2Lmq8kXDVi6Ss75HxUphHPnqhNskv",
+          "timestamp": 1769630507,
+          "slot": 396548860
+        }
+      ]
+    },
+    "FLASH_LOAN_END": {
+      "count": 26,
+      "percentage": 0.023214285714285715,
+      "examples": [
+        {
+          "signature": "3QoRhKgoeYbyfh1i7XMWMkhNMCgN78PMie52EEj9TudYcJUivWykVtGdfRT142naLnUFXUkg6BUgJhkSGnS1Ri67",
+          "timestamp": 1769653109,
+          "slot": 396605179
+        },
+        {
+          "signature": "4crTuLoM9mLFmNmhD46xRiM2vgsUxqGTuwLUqhRgzb5zvTnCeR3GVW5BoxeTft1BEukfxKHQYMJ4H3YWQgkU2px5",
+          "timestamp": 1769646131,
+          "slot": 396587776
+        },
+        {
+          "signature": "4XC8xBD7Fa7PLqn8CeDZi8mgZkxCoGFKoehEcBdf64xNd4wZW9iBStw1ZapbKY2bjvMcCGTafzwWBiXyL4aR4Hkr",
+          "timestamp": 1769605453,
+          "slot": 396486339
+        }
+      ]
+    },
+    "BORROW_OBLIGATION_LIQUIDITY": {
+      "count": 15,
+      "percentage": 0.013392857142857144,
+      "examples": [
+        {
+          "signature": "2QZ7J5uYzMrK3F1PKAM9TBEAERJazBFtMMQp9WXiuRkgi6oaHtWbPmKdQYkzc61wVcprqxztbGuwKmJ3ShgzkFTB",
+          "timestamp": 1769666954,
+          "slot": 396639932
+        },
+        {
+          "signature": "3PHRrrH9Zf7wz8j1iqbxwsStfHYKWpD6RiS7TbQCf3cNrDYQMtZtDhGXfp74dt3J6zpP3oyoCv53NenuHb4iGiuo",
+          "timestamp": 1769638057,
+          "slot": 396567658
+        },
+        {
+          "signature": "4jqATzt8h6KZj3FQvPJC9UoMbeTgkejNMK1a8GBiBHQD7FqqWbrNJsc1b1fQjR7ME4Yj5kRkXvv5ZywDWaH3qkxX",
+          "timestamp": 1769629852,
+          "slot": 396547241
+        }
+      ]
+    },
+    "INIT_OBLIGATION": {
+      "count": 12,
+      "percentage": 0.010714285714285714,
+      "examples": [
+        {
+          "signature": "2k1dFqmf2DaXApDNiNrps8VpJFjf6HYMywY4GqRLcopZvqKyA7svecdrLUybFijY5SCUg3NEbpTh7MLiuSFZ7jvt",
+          "timestamp": 1769686424,
+          "slot": 396688645
+        },
+        {
+          "signature": "2rgpaLmA1gHkRgf8Gynn6kisEaYUS9VHDmhytiS71kTidLJF2MK2RkJTNBfSYtMBERVyXF3QVgQnz3PvVbec9ff6",
+          "timestamp": 1769685879,
+          "slot": 396687279
+        },
+        {
+          "signature": "qdDp8EPxL1TLpp4k6hJHSM9LXdsQe43T4ezqqq3odycMf6crjcXWM4sVmB1j14uMPrzMkkamSmWU1moFA6Bri85",
+          "timestamp": 1769676644,
+          "slot": 396664175
+        }
+      ]
+    },
+    "REPAY_OBLIGATION_LIQUIDITY": {
+      "count": 11,
+      "percentage": 0.009821428571428571,
+      "examples": [
+        {
+          "signature": "54JP7xPZZCjRqVPPKweoKerVktFyRJ5w9qMkj7fHojxerKqqWT7eJSZJVr2Rp8Mh2cJR8JE4GARog5FJraYktyQp",
+          "timestamp": 1769659845,
+          "slot": 396622058
+        },
+        {
+          "signature": "X4i27H2LZLYoRfjTT2jxvyGQMphwP6BA1pppVYAfwKtdCi4KeNEYwsEaK1zyQcapscHk6GM2pLMEsAnQVxM6szu",
+          "timestamp": 1769598134,
+          "slot": 396468010
+        },
+        {
+          "signature": "pBkjPBhh4BBgyaueqoEPCCgHrzBo8B5r273kTFYHFjh755dxjZcRkYCRkXzm6hv8MVC7DXvP7LYSr99K8qSLbcB",
+          "timestamp": 1769592265,
+          "slot": 396453274
+        }
+      ]
+    },
+    "REDEEM_RESERVE_COLLATERAL": {
+      "count": 1,
+      "percentage": 0.0008928571428571429,
+      "examples": [
+        {
+          "signature": "4JgJpwY77spyricuRaccPD9uz7cK2ztWHmx4ttuGvSHjWUQDtCbKVHNHuqyuUafFHyYzbATkttzcxAcG97duc8ZN",
+          "timestamp": 1769579892,
+          "slot": 396422450
+        }
+      ]
+    },
+    "INIT_OBLIGATION_FARMS_FOR_RESERVE": {
+      "count": 1,
+      "percentage": 0.0008928571428571429,
+      "examples": [
+        {
+          "signature": "NAFYvoV366eNqZveCLogALe6bz2j9SJCKJs6WReoDYfm5gfBS6c3zue2yPNgtuj9KfiJaWGELMuXh7ewY39vGEj",
+          "timestamp": 1769473644,
+          "slot": 396157869
+        }
+      ]
+    }
+  },
+  "sources": {
+    "KAMINO_LEND": 69733,
+    "VOLTR_VAULT": 15121,
+    "SOLANA_PROGRAM_LIBRARY": 760,
+    "UNKNOWN": 11725,
+    "MARGINFI_V2": 1582,
+    "KAMINO_FARMS": 12913,
+    "SYSTEM_PROGRAM": 100,
+    "SQUADS_V4": 47,
+    "SQUADS_MPL": 19
+  }
+}

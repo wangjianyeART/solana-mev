@@ -1,0 +1,104 @@
+{
+  "SOL": [
+    {
+      "chain_length_bin": 2.0,
+      "count": 348,
+      "mean_profit": 0.007965034522989056,
+      "median_profit": 0.0005699849997460836
+    },
+    {
+      "chain_length_bin": 3.0,
+      "count": 447,
+      "mean_profit": 0.0031785337069336864,
+      "median_profit": 0.000379760000374161
+    },
+    {
+      "chain_length_bin": 4.0,
+      "count": 150,
+      "mean_profit": 0.0017130201200032196,
+      "median_profit": 0.00031556700000038695
+    },
+    {
+      "chain_length_bin": 5.0,
+      "count": 29,
+      "mean_profit": 0.0009810180689588553,
+      "median_profit": 0.0002724140000021258
+    },
+    {
+      "chain_length_bin": 6.0,
+      "count": 7,
+      "mean_profit": 0.011670930428521143,
+      "median_profit": 0.00011966399995536287
+    },
+    {
+      "chain_length_bin": 7.0,
+      "count": 1,
+      "mean_profit": 0.00032227800000001963,
+      "median_profit": 0.00032227800000001963
+    }
+  ],
+  "USDC": [
+    {
+      "chain_length_bin": 2.0,
+      "count": 127,
+      "mean_profit": 6.485916944883178,
+      "median_profit": 0.10310200008098036
+    },
+    {
+      "chain_length_bin": 3.0,
+      "count": 131,
+      "mean_profit": 2.319170786258423,
+      "median_profit": 0.08517299999994066
+    },
+    {
+      "chain_length_bin": 4.0,
+      "count": 57,
+      "mean_profit": 576.017716456142,
+      "median_profit": 0.04561699999976554
+    },
+    {
+      "chain_length_bin": 5.0,
+      "count": 6,
+      "mean_profit": 1.3430593333316285,
+      "median_profit": 0.033965999999054475
+    },
+    {
+      "chain_length_bin": 6.0,
+      "count": 5,
+      "mean_profit": 0.38004979999794986,
+      "median_profit": 0.06646799999907671
+    }
+  ],
+  "USDT": [
+    {
+      "chain_length_bin": 2.0,
+      "count": 7,
+      "mean_profit": 0.2800099999998825,
+      "median_profit": 0.22531100000014703
+    },
+    {
+      "chain_length_bin": 3.0,
+      "count": 12,
+      "mean_profit": 10.683940166666849,
+      "median_profit": 0.03845000000001164
+    },
+    {
+      "chain_length_bin": 4.0,
+      "count": 8,
+      "mean_profit": 0.14717400000049707,
+      "median_profit": 0.03563199999916833
+    },
+    {
+      "chain_length_bin": 5.0,
+      "count": 1,
+      "mean_profit": 0.00032699999997021223,
+      "median_profit": 0.00032699999997021223
+    },
+    {
+      "chain_length_bin": 6.0,
+      "count": 1,
+      "mean_profit": 0.16739100000040708,
+      "median_profit": 0.16739100000040708
+    }
+  ]
+}

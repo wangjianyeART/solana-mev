@@ -1,0 +1,4770 @@
+{
+  "252308623": {
+    "transactions": [
+      {
+        "sig": "4tEidPgFpEwv4Fzh4CbLWRaLK3gS59mnhFGbTi82ycixh5J9edcMASgKU8qziYKpr7RXKV8fCd6ksCfe8n8N6Fpy",
+        "signer": "146hJ6uBRqDW2tL6f74MSsQvmJt35fgNC6TZ4GkPvFVd",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 4510928.099487205,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 386.465780059,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4bXqmmRr4o7UCxuKpfwg1anPpvi1yh9b5mLEqUkkyxC4ECsuiwRH3e2RbDQpRR4YrCXPvpQvbFEZYZCAhufJjHnr",
+        "signer": "2P6fkmZ8sA34d5pKMKfmEVHuSMNgN77xdAQsffNe4U8Z",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 1764210.710385653,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "pAEsn7Qv9SZ41Jtx1Sq5miLhxMguQMTyQzJrz33rpA36Z3N4v5VMV3DZccYaT8BycxMij8ntovz2khHvncG64dR",
+        "signer": "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 134.06400299997767,
+            "pools": [
+              "5XCP3oD3JAuQyDpfBFFVUxsBxNjPQojpKuL4aVhHsDok"
+            ]
+          },
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": -250.0,
+            "pools": [
+              "7vWRTPPBq3aNaJZsrfterTz1BSjht4YSHBXJwnbuV6SC",
+              "FNZsxG8QrUb5er8NR2fHuLo9nkQqKzxLf6p96R6fggZH"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "bLHQQ8Di4xFGzfPYVd8pqeKuziYJVjZykZXJLrsawMPLkYLQMxBkM5HN8cBnafA2urS8E1cVxSc8tp1cg74p4vK",
+        "signer": "3VYXsoEs3LNUx2v64m9Jf4FQ1wu1kRvpRLAb8ZGyvFtD",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -400.0,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 437.99665999999706,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2qCbGvNb4VRSsEjGQqKAhuRXknAVmbk6pw4vydNoaBt6iPtLQiv1chBpY8H4or2oeXyKFxQD5KHdzQCN3czhcyDY",
+        "signer": "CmwPTro4ogHPhuG9Dozx1X7KiATNudF1rkem3BQmuPn7",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.012976999999864347,
+            "pools": [
+              "8UYN675AJn5htWydDs724xqintBZ4XzsCWqMozUSDU8m",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "64fubWcRSB3sHq37Qrzxvr9QwSGCf6Uz4ZkjnaNmSPsJ39wF71YY95XqWtpGm5wu2DrzmEvhARhxTE2MTsPwWkg6",
+        "signer": "HnZ6QfHmj8NmtgtJ9wwE91rj3rQgQckdSnDs95u43tMZ",
+        "mint_info": {
+          "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz": {
+            "signer_change": 44695601.636211,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4EGFuoYh67YYBYX89uFeMdUQS66psfd9CniHxqs4F31iceXSrbHDortfkVYYCGxnb5q1QuofwPDCx4j8zMUjhKrZ",
+        "signer": "3ACp4T3ptTdayzWryEhT65NKZSKLjwXviBjWEy54aFdW",
+        "mint_info": {
+          "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof": {
+            "signer_change": 300.66677953999897,
+            "pools": [
+              "HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW",
+              "FZ8MJvdTPbp8juhtFCCzb7LsKunhexgzShGQ59SUJkNL"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -15.766517658999998,
+            "pools": [
+              "B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR",
+              "FZ8MJvdTPbp8juhtFCCzb7LsKunhexgzShGQ59SUJkNL"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2uuGmED9aSXamSEbsozR2ULAkHZvphm6bgYCmGRx4MrGhZQt4oSa4yN17hXppkqU8wY86PxYxVojrohUMzpfhBFu",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0002460800001244934,
+            "pools": [
+              "HTuQrvVrbAZrYsKRe6qCJ6ZxFGy5EEYb5uj6TmSN45q3",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "4BkA6Ehxpt5EB1Ba4tRiWzSDsiSoHxw1rV6M2VRMq8RznDSyRG8dQMRpmT4XPPKCbunhy7kzNnhe8djWxDHsLFBm",
+        "signer": "6qVcGEunMhYsbazEbqGpup1MvC6AXArTb1QyRVqjbVKo",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -118.122308,
+            "pools": [
+              "3gpyRVcdbH6Jy1AR5Xz5hypNGyGWECLXM5eaA79z4GdQ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4KYt28gbqknmzAJzXY49reJfczPbUi3rEBsTu53ccw9TA7SK7MRg1L2grjXzE2yFPAhRWhD2hsy8Bg1FRHnr7KFt",
+        "signer": "3VYXsoEs3LNUx2v64m9Jf4FQ1wu1kRvpRLAb8ZGyvFtD",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 331.7426950000008,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          },
+          "7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs": {
+            "signer_change": -8000.0,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "Cr3iYuC4ir18gR5M2sYJVxj7jGk2KbMLTiSdLLvrYm5dSaf3StPFf4nU2km5wg8dSGHCHVeCWZwH6d6LEVW3uZN",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 138.62709999999788,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -131.10866299999998,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "23dkNx33qmoJzAGqfr2T2aJoMQKPxWhmPq8PP5q8r5u72MC9gf6s7uATPCZEvYUJwi64V4o49QobRZHVU5gw7t8F",
+        "signer": "jupoGAk6QVHBtEdEUAsFhLRPCi5MK48bJZTu5AvBv6S",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 42.853699999992386,
+            "pools": [
+              "Fg8kRMHMSR1bKHRinwKJLWitaCSmKaKeg69GhU6cZAPn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "ngR3obuS4BGFDjpfEqHHBrtJ5rWFCCsK2xGVbP1XVPVKAVKk3tE9mNfzaCszPvHfZmaVmZSVhyT1BA65K12HvoN",
+        "signer": "9VFVuLnYkJ2Gyb79FNyBio4e4jciKefAH3BesCiuPxKr",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.98738400000002,
+            "pools": [
+              "GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn",
+              "DSUz3awR8fiLyHqjszTQnM56uHCNHoC5JQsYg5a8vXEF"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "EH18YfTG2qiEcyiuAy9D8GrDEXujXLzc6GkQDArvEsswqUy5dLCJh7M1Fp1tfsvmn5ueQoXX9bMb7JmrZbYpSLj",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.8171350000000075,
+            "pools": [
+              "3YD74MctB2RCNGaMUYQRGrTdPUFh6ZMHjWau5f6Br8mR",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "423AYy44gTxp7v4Thw4ko2GHBNgCVCqVp65FdFcZEXvYQiN29M3sY5ixrBU3st1u6gAZjaKwD3KiMxpd5RuQtqLE",
+        "signer": "CZ3w4R1e1C5mcjSc1dPk17vZZV4uhbXYHCKae7FQWgDX",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0008895209999977283,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3GYNn7FQbmxmFJC3q6VWVhz8pw8QBpHpEisuQKeEViy4youxpTAkp7yNV9UofthY8cbqKa3wuZUPfvc8YDUUqj3T",
+        "signer": "71WDyyCsZwyEYDV91Qrb212rdg6woCHYQhFnmZUBxiJ6",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": 411.5582800000011,
+            "pools": [
+              "999vaJTF7Nhz4d6H9sLjTpCgC47ZyYwbDLnEz6Pne2q7",
+              "H3vkQqNVWySTD4c1Y91wtoT5iwxKSVtVLfC2rD8SgwTN",
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4oYcDntdZczvgvxgyyWXsCKrT5Z7jXGGva9tQeG7kKUHMLecGYodMwxe5T1PAEmZFw1LAfu58FYdzSgpL3YSrNeW",
+        "signer": "bobCPc5nqVoX7r8gKzCMPLrKjFidjnSCrAdcYGCH2Ye",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 6.266964000009466,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2WSavz6qQJufw3iwxoZDi558sEdSXNGwUpTYeeFar78uJ6Qn17nkjXwbbiAGFsJU5mG5cR9QSwSsZNLLGL3qmL5E",
+        "signer": "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.020207999999911408,
+            "pools": [
+              "3YD74MctB2RCNGaMUYQRGrTdPUFh6ZMHjWau5f6Br8mR",
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5FugzMFCgKYzqjpqVNmqyuqf8DfshF8Dfy7ZE5Axxe2X9PP9hYv4WUpGJVTV5K45fQF4UavScmntbcuE2vYHm34Q",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.10258299999986775,
+            "pools": [
+              "CrJao7TGHGq5BrS46Fn8joZLjTK9pU7ybgSSK4DNvLpC",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "3mt9SxyBcPgTphcqBcse5jZwmXx5HMuTHEEAqANTVgsz9NPoWV2C7qrh7bhoSh8iaP462TBcVsyiz6tHs6UyN4fJ",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -4034.109999999986,
+            "pools": [
+              "6AKBySNVUyGHsAYHxEpzHsaWnEsf5JZTkGnt3k4zBMhE"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 4387.1395760001615,
+            "pools": [
+              "H6Vb6qdn4pfg1tmqXhVK8WQocsfeUWRhTNZFMjeypsRE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3CvcCduE5gCXmNmFYyBaomSt4vc6qrcbymGAWNWsvzcLz9sWDizg3fMHvrCvPiDPMqwmg6LT5z9YK4qJihxu6MBF",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.007461926999894786,
+            "pools": [
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+              "FVahRzeovtD5Zbm8vcL65yAVxKMWzPQYdsz5u811qcGi"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      }
+    ],
+    "signer_counts": {
+      "3VYXsoEs3LNUx2v64m9Jf4FQ1wu1kRvpRLAb8ZGyvFtD": 2,
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E": 3
+    }
+  },
+  "252308624": {
+    "transactions": [
+      {
+        "sig": "3JVPUihTGayLkr2oKEiqwM5bdiCVcXp9zNusaSxsgwp7t4KeiD4jtWmXFMc69vtcEjteYtBjc7R1GmRSFXbgaBhr",
+        "signer": "3ACp4T3ptTdayzWryEhT65NKZSKLjwXviBjWEy54aFdW",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 73.48856158000001,
+            "pools": [
+              "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b",
+              "8Ve9KtGNtLRxCQNAVfkHEP5GRZHjdj6BjB1RQFZewG6V"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -8100.0,
+            "pools": [
+              "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b",
+              "8Ve9KtGNtLRxCQNAVfkHEP5GRZHjdj6BjB1RQFZewG6V"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2KdEHDm8BGEapQSJzdrRi9aNxVoH8u2SvhW1SFRkF5iAZDaZ4xBySqkKppVCQX11VEQHby61rKtvALw6SzPzpN1",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 44.415497999987565,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2nj4bUwDbuoDEFBocb1cDoL3Z83GrSJFi3KwyFPjSFSdSejTYKjiSk4cMuBF2oxozUAdGQsQqfMhuuZKY4AeB12B",
+        "signer": "J5hS1vou3Dbfj6dh55RNhVVhh2NkfqNhkVt88KmSWPn9",
+        "mint_info": {
+          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh": {
+            "signer_change": 0.0036354599999999793,
+            "pools": [
+              "55BrDTCLWayM16GwrMEQU57o4PTm6ceF9wavSdNZcEiy"
+            ]
+          },
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": -396.33977899999996,
+            "pools": [
+              "4Ui9QdDNuUaAGqCPcDSp191QrixLzQiLxJ1Gnqvz3szP"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3LLpiRofsXXHXYTDZ4ztK1ogQYFWqrTb3nVysD1SyyC2BkF8NJ5mHVPjWRzTNKiuhoJTo2Wk2NJv4Hund3b2cbqH",
+        "signer": "2SfnrAPUD9FNYGiC85KhYyNiDw4PUobz1XjGQWPofLej",
+        "mint_info": {
+          "44wkEV8Dc6bo6AHg8PNFUbpPSW9UdLgKq3km4Q7wtbza": {
+            "signer_change": -420541.55394,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "38HCYg2KqU8hTmtxQuiDu52kL8NZv746Jm1io14ZmDZYdj5idmRy6J41g7ygRXj52jfzXNXWzfNHQDSo8i72jXpF",
+        "signer": "DuVVq2Qv1Yb1M2jSUomPwBEPz6THrtQGVjtL4fbZQSCP",
+        "mint_info": {
+          "HCgybxq5Upy8Mccihrp7EsmwwFqYZtrHrsmsKwtGXLgW": {
+            "signer_change": -2000.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 246.85842399999999,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4TJ4H2qGFFP2AFsGikwMPakGL4y4wa7Dktfa7Af9eWLqwzs2tz7F8seCjSWtdHRTFW5m4tSdBKRgVFqGJpxVWrrg",
+        "signer": "2QGaXyMy9k8cCbH4xZNs2iEH4S3gK4Uym9VL1snDMDYw",
+        "mint_info": {
+          "AYyYgh3i43s1QSpvG4vwhJ6s3gewfN7uteFwYrswgMGw": {
+            "signer_change": -130.829608047,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5id9tCA3oe7qTZGCfcD4gC62wdAm1g5jEiFvtJbHNkeaPMqonUNGDFe524rQCp3V8zc4SmeWQf2G6C6nHVhKjPhq",
+        "signer": "Cm8qDhMpFiNrbnxw2g7DUJohMbpxwyEN8w2rCkn1q4xE",
+        "mint_info": {
+          "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz": {
+            "signer_change": 35542177.471249,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "37Ve3YZDW24Zwd4bZmBMkNNXsRvonXsYEKEwUHH5mERRnYHDggis4zuFvmweoDBor9cGaYKxJYuyeTvT54ACnKnv",
+        "signer": "EYkhuQE3bsMfsyCvY1sG3QN2JRjunrmiR1BkxgAZ8WUL",
+        "mint_info": {
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": 4492350.49917,
+            "pools": [
+              "8NyaPDJeC2eaBGpkRpZKnD9S448AZGgjSvumFe92DRK2"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -120.0,
+            "pools": [
+              "8NyaPDJeC2eaBGpkRpZKnD9S448AZGgjSvumFe92DRK2"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5EvnGofuHM93VsdNiT33rP99agwvyQs9qotvQ86r9RvKGmHgW4po97u1tDxLVkGYBL4MjaRLnV5EKg5WwoF3373K",
+        "signer": "HkvrMZjvqPYGeaJS6gnz9XHaGoo8jKmAS9ERKPC1envf",
+        "mint_info": {
+          "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx": {
+            "signer_change": 25.000201829999995,
+            "pools": [
+              "feesQYAaH3wjGUUQYD959mmi5pY8HSz3F5C3SVc1fp3",
+              "HKtx1DXvaLJ1Vs7BHY8cUf2tzZdFuV1xcaPGqmVdfZSq"
+            ]
+          },
+          "foodQJAztMzX1DKpLaiounNe2BDMds5RNuPC6jsNrDG": {
+            "signer_change": -17970.0,
+            "pools": [
+              "3smaMQSxA3DYXSgVcWYnveiXEo7B9BQ9bgnjQfJMu88u"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "27HGbkxmvpjHfDifPkh4iB4EAKJ8wTgA1hjeJy8Th47tq9YvALmco4no68Pid4nrCZt2j6kHC6TPXj2r8goKWhyF",
+        "signer": "F9iXfVuP3XD5CumzNLAwcBUKodZb34MQmhT7NQg1br73",
+        "mint_info": {
+          "T1oYbAejEESrZLtSAjumAXhzFqZGNxQ4kVN9vPUoxMv": {
+            "signer_change": -2025.986509577,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4taUUszFYxW3dzRen6n85Uec2eShnzosP9JYGewp9AyZwapcXgWn1FjCqvMuhV6qR6QUGEYaBRErJ5RCyYzJwc6M",
+        "signer": "EPGTV3yoBdBkT4j4C9pzFoDdmhdHtqAw1tCzousVY2aZ",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -10000.0,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 10980.270099000001,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "u9fhHnzLumZRJBV7eo316Vd6Wpivp3WrKgytMXApEsbyRet3rFMCLNWzWDRG3YU2uP2mJzafxjxZUbae2PCPAU6",
+        "signer": "Bq15QfWWMBotdXQg5SWcbcbcnNQb8f4coFNJLLAYYwNh",
+        "mint_info": {
+          "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6": {
+            "signer_change": -30000.0,
+            "pools": [
+              "9FEw2bnk1zpxjNHeEGvVhgzfhF8CvjG4DMKR4rEB7hZn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "uoqUGyLSiXBjwik7BxosiD1gAc9ppKavHY9inRZpnnHAqUgToTcbbrA5jg6tdebMzF8fN5K6jXxB6hsVtC13LLa",
+        "signer": "7byCKFAFuTfVqgpUGaNpx1Lse7iZW4YoZdxKVcuw672Q",
+        "mint_info": {
+          "7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT": {
+            "signer_change": 7200.0,
+            "pools": [
+              "6uQDwA2MAxCPNGho6yxPGbtPDky3mn8dfZ3atb1aB6SG"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2DUT6UR28nmsVeenv8h4kWjvTxVm2ZnhgW29toRftpqhPuQPZ6ku5XsSYdok2RPNE4e3osAoteWRf6s4SP49MwgM",
+        "signer": "HHDxz1aZvMeNqmftNAWSekEmJ9Jm3jL2iD9DRPqS6rAj",
+        "mint_info": {
+          "5AubNFWbb7HYMXN4dXUcPiRaUSA3GiFuF3mBz1Z3eNV6": {
+            "signer_change": -591813.570303418,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "343pqjLJkc7YMdmESamKJ4WMWdDS9hQREeozjGiVLe6ETe8X8Jy687JxMWnVaHVWM7T66C8SiUVxaAhVVfanTzgt",
+        "signer": "4aTxe2mQrLhqDoU7RdYNYitz3e1cF3gE8xzVFDTXBiRD",
+        "mint_info": {
+          "8Wr94w46Eqcwt2g8CCRugg11pMjSsqZomQDLuLBhkjox": {
+            "signer_change": -39905589.891021,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5r5mnQseoJ4w1Yjt5QYXHeDAiSmsqtR6kSF5acQssUxgs4hwhx77txe7tdbrjP3jTcHGgcjbDbVVz3fVF83PXNv5",
+        "signer": "7hSQr2yqrMLhHqmJbBP6MRP5tWSd3rqgBy98i5aLjzLS",
+        "mint_info": {
+          "8tikokC7mWUBYoWE2jxXb4zznvizanr5qgsA8rw6XSgw": {
+            "signer_change": -1758824.3103174316,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3FMcmfUrDPXAhP1D9ivcPxgXiv1fAgoXXoaXMe5wVKMGJErZ9tXSCuUyjHK79sKykzQdmGvvKvLQ97yMsBcB7Pm2",
+        "signer": "HGSa2p3mSt4hFEReY84WJFrrickFy4BrCw1YAuSR97M3",
+        "mint_info": {
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn": {
+            "signer_change": -67.346211814,
+            "pools": [
+              "CxvWVYvvSymLWQNLqo61zjr1L86B4HpxoELbAAjxyb8H",
+              "Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2d2hpzuZQdmmTUFAxKEmf4uYEKQRDdcaKd5XPmhkK2y1c83SGJuMLrbaXYDZM4tP1iLAcrp2sf3exaszwbgHwMNg",
+        "signer": "FmW6woXLMG5woE4kicw8aRm8yNvytpiESYzRd9jZFgLx",
+        "mint_info": {
+          "4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z": {
+            "signer_change": 89716.87284564204,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -500.0000000000001,
+            "pools": [
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3RZUveaSpMr7ZXKFWoqEGVijRa1BunraxE9sRyqqbvCRbeae7ZiDcjH9khErfViwhK9WW7GNiMNMKHs7W9UjVk3k",
+        "signer": "7QqJVVy9p4sWgUhyZaK27EbAhsN1HJJx6JZtz78XFdyM",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 256.841225,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "wqT4UZhxDVq1Xk3fxcL24KKg2ZY3uUcp9xLetJGZxvp7kKEXSS33xN5oeqh7n6DXU4F6LX5cyx6XZVwoZpCMKL1",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -3137.8300000000163,
+            "pools": [
+              "6AKBySNVUyGHsAYHxEpzHsaWnEsf5JZTkGnt3k4zBMhE"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 3405.0748899998143,
+            "pools": [
+              "H6Vb6qdn4pfg1tmqXhVK8WQocsfeUWRhTNZFMjeypsRE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2YA24tgdZPRU6BjjsD4MLjocVgxUeiorg2Hot8KUZBzEErpMxDhQKGfWoovXAm3gE7pi9d2H8RN4YYEzTTDXC8ie",
+        "signer": "8hS2czydNDaCzDNrcFgfsmTfG3Ztw1ATy2onFrAqHAWy",
+        "mint_info": {
+          "CmCKyeuuyMYqADWAf975qtGpbBYLgB7ynDeiMfpb5eew": {
+            "signer_change": 150000.0,
+            "pools": [
+              "F6K1RFdnmn35fxJmBpJTc4GT1rXEKMkntAZkbs2x7pvS"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2LGdzctrp3DZ27vnP9KGh8b68Lid5XLjtSH4iovUHyuWJxfEJCBEc5DafdKyqPbcKdu2y9fK1gdBE4i8LCSrfGcU",
+        "signer": "51EiNdAHPCqm1jrDgPFK9R9p1KP4H4xbmsQ6P3NPHGRc",
+        "mint_info": {
+          "32LdP6UdQJ5TPER8wLa6D1b3PYQSG8g4je2NraJ6XFEy": {
+            "signer_change": -10000.0,
+            "pools": [
+              "Ab557cBtSjXwJcJqgex55dy5nkTdsqLyy2QjWM43S1MD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2YfVyKV57Mju4VGUyLXuvPPKtMtmGVLB6mo7DxL3vAmpySK19n41wDAheha3UYhZNtGVxkm7nb6WCiw1uEz7SEqn",
+        "signer": "CAWo55gDGzXvNfPjtwTf2yxGVPULRDBohBQwKLzA4JAc",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 662.5612789999868,
+            "pools": [
+              "8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk"
+            ]
+          },
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": -24988750.0,
+            "pools": [
+              "8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5Q7mWfmMPsbCvjkchNu3dJwVBQuRyoJEhBTn4uYCguq8XMPFMTrvQyBBgx9gb2xrngJoBuf2JQYSjF3AHtv1v7qn",
+        "signer": "69TE3HN2g7iGQgu3N1CRZZJfDmdWLuZ6RVgnVxEtbyUo",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -100.0,
+            "pools": [
+              "BmR6rSUhj4HrXVK93RZhZiAp48RxtRFC66KzaKdEouKh"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5bPRwgtR6o5HDyiAwN45pG58RiPCAKxU1e93MbgknqhTzkEGypc9U4aWyVKCffSX5wgksJYhdjX64YRPeuVbb8ez",
+        "signer": "7paeFdN3ZNjMzf5vkbXGnfY4AxFDcYQCd8daW93QhvAQ",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 99588.362091315,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4FNpHRTdELtSmHZBhH5KUHQ1bRWqd86nbUWr3WrHdRHb99sz6QfVvSN7QPUvkS87nKr3ryeD9iJt6eskHtUdXJAB",
+        "signer": "5nC2qyfDW2CrQsDQTTqwo5sn9HsMzEQ1p6ZSebtqqjoT",
+        "mint_info": {
+          "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6": {
+            "signer_change": -18000.0,
+            "pools": [
+              "9FEw2bnk1zpxjNHeEGvVhgzfhF8CvjG4DMKR4rEB7hZn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "45RKjXQ6Y3A4ge5CfZMzhACZu4sd72ubQLrh8PgLCsG1kTT3CBXL425SfcA5ZQGVHLf2rEVmn4eCTuzdnB3iaqdd",
+        "signer": "Bdp6gWNvzAZNumRF9DxCvNMZDVXLeni6Mc5ycV7nmPxL",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": 109.551158,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "345GLLuazdTVoVd5APCf3ifBFtcM6Fa43c5wq85BejWB3x4EsUnUM3svieGBaB3V5H8tg7cFxRdw7Da9HeLxG6R1",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0005174640000404906,
+            "pools": [
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+              "8sLbNZoA1cfnvMJLPfp98ZLAnFSYCFApfJKMbiXNLwxj"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4V1xWjhZgtf7RbB61RDgjZ232YSEzHWwSiv7u6CykCtcPRW2SXNqbC6Z7zEvQaJoH8vmNtBW9Kurqm2ErVKCXejm",
+        "signer": "HXCGk7QdbTai2sXCwGNgjE2xpsghS1AWsAyd8Fcrw3gk",
+        "mint_info": {
+          "6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx": {
+            "signer_change": -14107.766341,
+            "pools": [
+              "4wiS3S46tgLTJx83PM1Ne3jaM8fsLJUrd13QoDzkiHty",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "58HEPJL3y68u2MfDWU478hQLR6aXYS1bN4stF5YuZGbSmpGMBz1uM9uL39dnAdQHA1W2SxtBw5LLmiNYwVddkV3n",
+        "signer": "D73mPMznyeEXrRRtdWppdDu87ojHLniZ9ux1HDbmtyv6",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 409.22970899999996,
+            "pools": [
+              "CrJao7TGHGq5BrS46Fn8joZLjTK9pU7ybgSSK4DNvLpC",
+              "DUVXxEkNphUDc7gVtw4VvrKJWoHyEV4JKvg3UsoorT1h"
+            ]
+          },
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": -15500000.0,
+            "pools": [
+              "BqnpCdDLPV2pFdAaLnVidmn3G93RP2p5oRdGEY2sJGez"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5kV15iJ8JgKHZvJUsh6WNSw8EbjxJCGSjdgZYxczczsTPCudCcZAC9mKBzG4gPTPBS5ENZ48UTM3kEGCnUmFchdb",
+        "signer": "6hVHZwspaLj4MAeWnSwzR847b4kVJeMRD7WrZTogxdD8",
+        "mint_info": {
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": 88311.192428,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2t2FNr3SHLQT7EpbAT3iwrmN5d53D6bKyHCTu4dWKT4JwqiK4yWUPgo5NrPXjJg3mT57JorCyUDbGoK11ApNkcww",
+        "signer": "JBKr79sJf6BJeuWV6kNzefpG2oqGhM5znuVUpZi5wXEg",
+        "mint_info": {
+          "qfdmJQZM3yAjuwexh1awDZPFubCtYhVfaVUay5T1W5C": {
+            "signer_change": 672348462.3952489,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5S4PdLKGxHkseeBHdXDiSKmnfkErZcHkHqwBT93ThKVF4qRph7xdopNW9LxAwfZsJE4gnQyDPLKc8RSMo15R53Em",
+        "signer": "6GUyJ1ypr5b2CcnY1bG3jzsDcCecTGouvX2nDsQrWE1X",
+        "mint_info": {
+          "qfdmJQZM3yAjuwexh1awDZPFubCtYhVfaVUay5T1W5C": {
+            "signer_change": 305102109.49347204,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4KMkPc3iU8XFX728LP9iDztKd7RHe9L88HDbqiUtwJ3Jefq6zamqEpb1HUuLHfri34XirqcNDS7odvkU9Tbeqn1d",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 247.52844999999797,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -232.50957700000004,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "gPxfNvsocF4JcYhpJyc1bAoCv6tEPjYR7jWxFWdprnmYrm3j5a1QVhNuf5tjDRMGVL8bqeZKhMnBbBVYwbpX86G",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2.7548030000180006,
+            "pools": [
+              "21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW",
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5RTwDyeTYarbjAef437ADZSxhhrFBppA1rBcbJ4uajHMEAmjAU5uMpvzBmjf4VfU1piZvdaGb3adM1EbEcPwS8u1",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0005196670000060521,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "6EvYr5vt6R74toqYK2Hfgcn2wnYfk14D2HRb9gPeKJnA"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2XyPZnWA9z8ZhSzkoev32CPBq2WhwEgvxXADq9LSDkich9ZkoHYEae7rPe5hNttCH65uY58R6KTHyoQBz15mUPgZ",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0009291519999976572,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK": 2
+    }
+  },
+  "252308625": {
+    "transactions": [
+      {
+        "sig": "3sFiQypirFFF1GJz2VYd9pnBz8L2j75hdNZvZGs1QN2Wor8KuLtTyMrsVuoms89NdKMWCjZ9oYwLg9Mw8QAzRAaY",
+        "signer": "741bdJZfFTNt5vKZT4CPaxN9FJGibBBmzUJrX5bnZobN",
+        "mint_info": {
+          "kCedEEJobUThRzErhu8VXFazRGuy1t3ucsVynQFQ6aW": {
+            "signer_change": -1368.361570802,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4KmnfrczsZNYkkneq23jptm2exfJJEgbCemjSGoUKvWe3F2ginoxkaZXoXdMJ6tYDfVWHUUE6FBrP7HZH7akknAc",
+        "signer": "8X7aYofci48SVAtTx2247fLaMQu1uQZYC6zvPu9L8ovo",
+        "mint_info": {
+          "5Xf2LX3aVf1EAwZzEp848qox1PRpjALpYuVNar4KK3zG": {
+            "signer_change": 58452.131107238,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4UXP5oRFWcX8i7tpYXBvCBby919fViU2nk9T31gtcYbGoDenVLXzSE1jBH8jGLqS7SY2QDteY4Hi4vzEegtorsBH",
+        "signer": "55ffwXcCtk8ZGMfAcfm5bcGV2Z4m8rVHhnfNtiG7oW4u",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -573.3277,
+            "pools": [
+              "DEPErBeK3Ej3C5VRncMQJkmCcn7bCxKLHqEDSMxui3Lh"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4i7FN5qG66WhdD4VMAfKXYeodur2K1YZsrwB6Jym91uvpbYuRRDgDuKATJCd5iT8Q9uF6ieJNvSDYzZ5tCqEekcu",
+        "signer": "FJQMEdzqwg9GB9pL8zKX6Pe29bx6g388bcYNNXEcbsLf",
+        "mint_info": {
+          "DdM9jVLioZEWE3nzikGqqkuKDCStXmsftVmjVZQUN8NE": {
+            "signer_change": -45916.083997999995,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3hH6vfTJD8FCzXrBWm63RwwanDFTS3eZRHhfTBXvGzG2EEo5d3JNQCGh6g2pwKUM6ottxFexmi34MWH2p6WTCCnL",
+        "signer": "AMntU8ReQTdBKUAXjG6dhfD7VVFQvtjRgPYhCZY7rXZt",
+        "mint_info": {
+          "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6": {
+            "signer_change": -30000.0,
+            "pools": [
+              "9FEw2bnk1zpxjNHeEGvVhgzfhF8CvjG4DMKR4rEB7hZn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2d5zmTPwLPLZ9ZtsP56m6RrDffXe8ayJh5FPoDHpBPAi8UcmfJQLT5XwiW7G791Q5BHKSe93gKXvAkXpTqMhw3dj",
+        "signer": "CAWk36cnuwNrt3UEwC3FjCUsKuNxsqVVam9TjWVofzzx",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2795.588126000017,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3yoPrZatLXc5iNwiNMW1xb4N6DPgeEKsBzXzcJBNEqEgrMmHFyww6hqupiyzaxVYfUSgXcTNJXGfixDiuaTPw7J4",
+        "signer": "GjXS8hDFYUEwUV3yuQnz9mPZiFGnqFWPoj3t6DzAVYNN",
+        "mint_info": {
+          "T1oYbAejEESrZLtSAjumAXhzFqZGNxQ4kVN9vPUoxMv": {
+            "signer_change": -402.417618463,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4gfv7KBdppVZXF6NoMaKsBXZw7wiyt1N2upexopBG6TUmRzECxyWj6gRRHQWRCTdV8ednrkRuFfGoxCUzd7zu9gT",
+        "signer": "CaxDcBHBjwA8qVYemWPvHafvKvwGKGE2uKJaiktCtDGH",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -88.314757,
+            "pools": [
+              "7ZecrakJ3B2NvVxf7hEjCzZy9bNDAW9wXrz9o6wPXbzD",
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q"
+            ]
+          },
+          "65nTNuJGHme4PQvKQyJykKp1bJAkK4A8Q66sd2yBWugf": {
+            "signer_change": 5683289.885768004,
+            "pools": [
+              "8WYai14B7KYtzz3MsK9e7SUpV5kz5EZEeBpPjGghZh4S",
+              "7ZecrakJ3B2NvVxf7hEjCzZy9bNDAW9wXrz9o6wPXbzD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4vFcR3g8AxWx9UUvvKukUG9qNvKtkJkkdt6NEyDKTP7WNoEyY8FNfKrxtUwqq5Sn4C6WEERHohe6tu4mtxNRnJth",
+        "signer": "HkmfM3MXuhZZDRWMqksSCRsQ7VUfLiAjdFEmMCoWWyrZ",
+        "mint_info": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": 3.963718000000001,
+            "pools": [
+              "BfxJcifavkCgznhvAtLsBHQpyNwaTMs2cR986qbH4fPh"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 1.79148,
+            "pools": [
+              "BfxJcifavkCgznhvAtLsBHQpyNwaTMs2cR986qbH4fPh"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4DDSUQQQqz7RkNWT73xtTDXQaJwz7c6QjqNuGStW794R18TAZyhJAUEMzDBDghPtMDnBAopji3wN1TxA1VtdPag4",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 151.6281700001564,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -142.64884099998744,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4ZuNztGwNEDXD26TcSMYi3kkhuq1pFMVT3K7VEo9y6gEvNndH6fwWVDrSw8F2agoJeD2DLPQ2L9afRwckPMMrfhu",
+        "signer": "AeYETLQKoSPZyaQqXVidHEmcTZck9zASLxzwfcMxmn6c",
+        "mint_info": {
+          "5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y": {
+            "signer_change": 50.0,
+            "pools": [
+              "8GhZBT9QHnEFkTpDz7MVHSYdNnuqB3hg5FkUcsht4RJB"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "M3Y9SHoNUX9j26HJdCbH58zqj6VJ1v8wYL5XuHyWkXa2Yk18vpDW7mypAVvussHn2PoEDrRaNz1oqZ5pQoyB1TG",
+        "signer": "FXRea1Gzgrgv9neAuqU4g6wP6P2r1d7w9VsgJbghxEEN",
+        "mint_info": {
+          "AFXpUbQ6mmcg72NnQVokGvWFN2KV7cyBTiFV91EypRon": {
+            "signer_change": -139718.50997,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "ynXqxwm4Ekfy8JrSsvZHpwAAUFs6DmjWULAQG8fZa5fjGQScTGaCZaVwHzq2ytGXBSZBZ5bhVhe65bQWe6rGt3Z",
+        "signer": "BmCW2iNYWiQARSPanmLHL3yfiMQTD1ptqTB5sdH1fyF4",
+        "mint_info": {
+          "E4Q5pLaEiejwEQHcM9GeYSQfMyGy8DJ4bPWgeYthn24v": {
+            "signer_change": -1200.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 1.0057229999997617,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "5XCP3oD3JAuQyDpfBFFVUxsBxNjPQojpKuL4aVhHsDok"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3BMcNW3zpTUYnu3bzbuCS9jWbrtYmvVBYaZAaqirxhrxnGQaXVDBsF68TrKyV6eeqY2vVqX7Z7wzFRtLGq297wSy",
+        "signer": "FsurvgvpgdCYvkPhrdQf4JG58PX6HwCufXnYwyUiJ7EC",
+        "mint_info": {
+          "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK": {
+            "signer_change": 671.2758480000011,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5PU2aKq8o68u71doPPvi1RLi5fu11Bemyhb3VmLHGQ2HSt4o5VTMDgY8YVcChZ5fqjd7EYv1qgoS5NWVf3DuUjtZ",
+        "signer": "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1.8665739999851212,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4AFuqUtvjBkA9Sw82L8opX5Nw47v1YBcSXyg91X1LkWw2xfSr7KtugCASBDwqsBvJ7zuWMq8oyZvQ8MPc9BAxvMh",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD": {
+            "signer_change": 6.999999999993123e-06,
+            "pools": [
+              "Fawkj9g4s1M26uZDF6QczEviyib2Ge3FaPdCG9TJLYcm",
+              "5RHLEJPKWgTCFjnDtM9WrcP5G7Cs9zZdesHtUpyNkAtJ"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.001375271000142675,
+            "pools": [
+              "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "3eJYinWS4BA9zSHzBx3pU5YF9Ta5Jjj8xsYCo5NgVaefukVkvDXpu35SRCr6ph9dw1urDBrE6pwWwg9qPNB5RCXr",
+        "signer": "5hGG68kkNXuxgXAMDPeE1WsY6NxRUumcwUoQH5VdX4sT",
+        "mint_info": {
+          "Shibu4kkaZ2gkDnE9P5YYiR8A1GkVHBDbaoKHjCF5n4": {
+            "signer_change": 257334.78179461695,
+            "pools": [
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd",
+              "8SV9DvQqKGfM5ocAFG92BwuPNXAwqsxD3cKV4vrDxRLE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "XiiLipsfQa85y3zY57bJNQpk2fUbnMQfQhwLgXScBo7nkUnQLZXBxUomzhZ3e4cLe1vYHs1uHet8SBEVXzBzQKN",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 1.5711000003193476e-05,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "EhuMF35SXXqYm99bLArRpEED57gkcyZzhQiqaZLtWMJt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "33Ugu2gk3hFq1s9sD5WonQJLiimPCZd3JC1YYPy4SzLMSsEfQtMu9YATwmqwMBDWkP2KMsEs7zqj9NdcWiMv9sF3",
+        "signer": "HanJiSCHzC1DybeXxRrMzGiD5rY9WAXT6vLtYfqRPNgo",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0017894360000028087,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3w6WdXSavbXKQzvFpYSFmd9zL9XaEPd2NK4HKe7jho6Amho1t8FLEp9S5S3vtbvGrHTsTvXWuHCTFdgpaMRfisz",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 4.40545799996471,
+            "pools": [
+              "H6Vb6qdn4pfg1tmqXhVK8WQocsfeUWRhTNZFMjeypsRE",
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5c4Q718E8WxtogoqA6A5gKwznV98MHkVzUKnw4QBWo794DM6FtYWRrejrsXT557cEdn9asKyD3KdudBYqQjLGf61",
+        "signer": "J6q6LiUi8qcnHw9chYD1wQQnLJche2h51KvuyCM2trVB",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 1038.1919340000022,
+            "pools": [
+              "FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC",
+              "62JkSDhZLgwLu8in73E46CPTzEf8hMGMxSNUw5r5mMA8"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "39Xk3DXiFXpVYBmwx3eAXDrj65FU3MT3ACo8zdnGkcNwNp62NthgVasGouCGfUPr3JLUGy8WTWmFaQyuHofWGztC",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 3.022906000027433,
+            "pools": [
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d",
+              "7j4Bq7SkbKEDJ9LjoDVFLbjpDaDxQNZKs8x2CvgcZRAY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2i81jqprW7zP3gumrQLF1UBqcXFkZNJk1niiXjUN8Dz8B149xHGBnC94Spipo3HVaA1qyENe46cph9vdW4sJTGdZ",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.010138919999917562,
+            "pools": [
+              "2Sj4MZvmLhud4uRmGHJvDxq612nmF4JJsU1R4ZjNNGMS",
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "5R5EBcEnLxaMa1zLR8e7N6ZS5o5FNSq73vdXZDAgkTzHsFnTEgtXmDbgCxZBJkgmcWsnnmHsRtJ7LxYbj3aoQsZc",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 0.8896309999981895,
+            "pools": [
+              "AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD",
+              "F1TVmk1LAaVDGDfEFJWfNLCh9wikZxv33e54ZPeRQzEh"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      }
+    ],
+    "signer_counts": {
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E": 3,
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK": 2
+    }
+  },
+  "252308626": {
+    "transactions": [
+      {
+        "sig": "38HmNX7hWV437pdus8hqxi2oDtR6xmc15HaewrBoLcCM6YdAYcxrxTnWQV6Eyi1RWBGA68wwkCxF4Lh61w9hbLEV",
+        "signer": "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1.611667999997735,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U",
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "496hvHyfSVfyWP8J2noBMCbY1DnhX9HG2toM98eaNNTewoHTvFv2hhdrcrpkRm3ESGpW2x5K4HTRk2CK43v3UhJJ",
+        "signer": "GeZ8hkFs6e8Sk8vmbizDtRF3DfiL4Hjwh7eibYAoFE7d",
+        "mint_info": {
+          "HJ39rRZ6ys22KdB3USxDgNsL7RKiQmsC3yL8AS3Suuku": {
+            "signer_change": -469408.893686495,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4ukqzPFN7BodRnkHzuMknz5T7LVrwK4H7wMr1TdujuiSKv9N8DxStKQnbaPVPamSdU8tavkuWcjVNJVqhc9xMA34",
+        "signer": "CEDEyNZKBStHdgpX3yCUQb5pNfugxHTqdoTjmvVzXS2H",
+        "mint_info": {
+          "8AYt7MTy9V6o3R9PgUZwvMKKWxF13Ft1xHcGKSF2sUtG": {
+            "signer_change": 101335.08167799981,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5fUzsT1VP6dEqRq1cHE4ZAGWJdgutGAKyfM4dGp6cC9duM4zTK1hiCEUcYAh3PX8R2uZzPpkqahqLcVrhgSAogsP",
+        "signer": "CU1BTjvQtXkcYQXjGQE8gW4FLH8AW7ZZ5sjD6wa5Tgxc",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": -200118.520978243,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4NbNWwAUqG3bBNmHvjQeEFhCGx6CE8j9nb5NPRqrR4ySUKZc5o2abM3ocwijwpDVuXW7XYoTjm83CRQGGCPFXGLL",
+        "signer": "5nC2qyfDW2CrQsDQTTqwo5sn9HsMzEQ1p6ZSebtqqjoT",
+        "mint_info": {
+          "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6": {
+            "signer_change": -30000.0,
+            "pools": [
+              "9FEw2bnk1zpxjNHeEGvVhgzfhF8CvjG4DMKR4rEB7hZn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4WnCYgVvUqY4WNBYRy2VMfzKnh5NQXkXNxjY1BEKPjF4JmVHhdjC9MdUDUStXUK3am7zyD4wUViyMR26PusEnrzT",
+        "signer": "CU2FS8EUWQbvQ6Z1Z7cd5fKXVupbkW3MhtiAX4sFdJGs",
+        "mint_info": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": -220.0,
+            "pools": [
+              "EzCFMMo43qLLkYQqhLG8Kjj4UL3Dwvk2paf7yqB575KP"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2dMqoWTbXJoSf8zfAco9gYX8JWjzh7DhAjmcQz5ki2dsUcwtQf5R9oFm1dNPaMFFpYoVaWQNmeohMi4oXcfsvydV",
+        "signer": "9U1wkWJHp8mcM8ym1XLWXMA59joVQkVmEFmzMHDJUs5N",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -250.0,
+            "pools": [
+              "62JkSDhZLgwLu8in73E46CPTzEf8hMGMxSNUw5r5mMA8",
+              "F1TVmk1LAaVDGDfEFJWfNLCh9wikZxv33e54ZPeRQzEh"
+            ]
+          },
+          "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP": {
+            "signer_change": 7832.909383168,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "cUFv6Xe24Nsv5WJCcqjyVbqrqZBwx4E5vuXfwkBvYg3tSPoRPiFY2e7GKjZxuuPqLfS9tbKUqt1Fjfe3BBWFrFx",
+        "signer": "4eedz31638SXLFpNMjK6Qh1MDxsPGC2EpPtxwghr98g2",
+        "mint_info": {
+          "9ZkyzbfajLA1zjPPfDxMWxosnXZHKtY5b2nEMk2EVcFf": {
+            "signer_change": 1.0,
+            "pools": [
+              "J7csU722E3LUMwKHK9bV1fkAtZ5WsExwE6T3QRoKuiG3"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4vDMD1No2K8VvwuJGm59EEqVtdbn2brFsF16QKDbx6bEx6AmhLrWgmwtiX1XcztduNTUxg7yg3chXoYTRbx9fgrg",
+        "signer": "51CNtdJNHY11kcbHtn3JjqLWj5acEFkfp9P3N8JeQAcA",
+        "mint_info": {
+          "5Xf2LX3aVf1EAwZzEp848qox1PRpjALpYuVNar4KK3zG": {
+            "signer_change": 12808.776202412002,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5XABE5TrZh1JZ6CUdnwJsNyfWNK4k2FrApewoAD6f3w81cPkQs8nhuQzM6wmmgBPk7voxm3WkFJPKSk658AdfQYy",
+        "signer": "FYtnFXbmvN6L4F9LDSFo9VqAzKRS4bY9B9FPuoXoeZdt",
+        "mint_info": {
+          "5AubNFWbb7HYMXN4dXUcPiRaUSA3GiFuF3mBz1Z3eNV6": {
+            "signer_change": -33176.180411968,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "33qoyVZuePLP4d2EcB3sjNAw16f4sMg7B7Q1z2LNQj9b6xAHk7xhhyrJEvEGyCZsiRd8A9J6dWcy866kDWfDHkWd",
+        "signer": "7LBkpdEaugsFruspzgfWiEXsfFKfzZ1Bq9q26owm3zx2",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -10015.752742,
+            "pools": [
+              "3V8qJpcqZVLXUD1XYhbpe84vDZtHjDtZgjxKJW6moPTv"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5ob3ajGzoW5BuG66dZADUPPTTtaUbpzNz8yiLLhENRsqes4v8Pws5h3TYpeLekGzeynUr7woZ1NRfsXzEcQvsJkb",
+        "signer": "BNKnJmHkorgm9iz1aNczvwuAmwtpZiSDiuLT8XC2tcNr",
+        "mint_info": {
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": 35084000.0,
+            "pools": [
+              "J6vHZDKghn3dbTG7pcBLzHMnXFoqUEiHVaFfZxojMjXs"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2eDjZycHEzVnZTks9VYZCH2W8deXVad4AiSqtUAuZUkcL4RCZr3TBmcrDg1XXwrF4s916NqrtjDYnreMwF5NQ8YZ",
+        "signer": "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM",
+        "mint_info": {
+          "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL": {
+            "signer_change": -30.0,
+            "pools": [
+              "8qdAk17LVxKPecPCCRv5j8kBY5g73EvxdxLwo8t5nMYY"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 71.93608700000914,
+            "pools": [
+              "AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3hs7FMNEcSNB9oC4hToGjt4bBkzdAzVZnJY1sDuMWMuJ55dpHWtBGEdSTLsGEGo7aUQkyMRNaz81nJgCVvp6V65U",
+        "signer": "JBKr79sJf6BJeuWV6kNzefpG2oqGhM5znuVUpZi5wXEg",
+        "mint_info": {
+          "qfdmJQZM3yAjuwexh1awDZPFubCtYhVfaVUay5T1W5C": {
+            "signer_change": 276041640.11060405,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "euFnCnBpG4fqKh29F8K1G27fwKz4E7EVHAoePoFmdx1Yg95wQSRQMDPPbYEw9q9wKcJasiJeYSwUUAfzLnLHDnG",
+        "signer": "9Tgw12wYKLDrAnqZkFEaM4Z6xskVUDpL5bMCTMdVqfXf",
+        "mint_info": {
+          "qfdmJQZM3yAjuwexh1awDZPFubCtYhVfaVUay5T1W5C": {
+            "signer_change": 319462797.29067403,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2wTK5AwVbanu9W6f3g2Dr77qrcxNrm69vj6367CJksJhNvPuKaeuJUUY5k28hAexNeSU4TsDyx1XVAF2cxfVkjCn",
+        "signer": "HCMRVfbhtQMRXGS6w4K5a57mwugy5m72VxGFkf3K4nt7",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.008105999993858859,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+              "H6Vb6qdn4pfg1tmqXhVK8WQocsfeUWRhTNZFMjeypsRE",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0044263559998398705,
+            "pools": [
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3Tfx66KbHj1nfx9mePRHWKySmauobtGayb3XxsNxrU2J92qzKUNBeTbN1wHXXvkWwmuD9buJ5L5GZ6vFQqfaXpVQ",
+        "signer": "GHak4BpDSLV9wxhDtZaKr82bHEtr7h5EJB6VPCaBLumg",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -0.08406337699989308,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": 74868.632639,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "4wm55Gk9p54szcYAU6f5eW4H48q3KGXPcc5rwoELJaqrcqJYDaMPrgwGTCw2qyWFN1DDGmMvV7YZvNmoNiEMA59g",
+        "signer": "4Wh3ibi7xHDqdyUtDM76AUt6oFRUZCR16b5XGVnVXNRY",
+        "mint_info": {
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": 4225485.69551,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5S7TiRBQotoaJjmNZ4EHa94evD1RaPhEHUPPvdwtfn5zKjW9ku9FYHsKmb6ETpddfTbuYrAF9YNwNPic84V6cU8R",
+        "signer": "GHak4BpDSLV9wxhDtZaKr82bHEtr7h5EJB6VPCaBLumg",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.09273988499990082,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": -74868.632639,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "2hTizMD33WPC4MVkaLSM3L5uPb2poVpJjTVuMzpgb3bbjk4LmAWUXKY1U4sBMyw1AVZDo84HDWKtKbYPukJ33M2u",
+        "signer": "GHak4BpDSLV9wxhDtZaKr82bHEtr7h5EJB6VPCaBLumg",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -0.0001300500002798799,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "5G74xzcrjRyJfwmMvoeeue6GwPmbwRRegBUA3g3paNkZMcJC9nS26U9m9gyJNEUnVe6PsJAaxvftmisPJF6YV2Zv",
+        "signer": "Epdf5kEXmeiY5kk8y1VbWwA1JmxnGcaBSPBLnUbxQroq",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": -895296.365578137,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5U71hMHpGePE3xSRGQUStQ5xJQSAoa9dYmPSD7iupFPcTfHKP3ZJEsiDkYYpBGRsX4xBx5FxVmv376prZsDtxt1G",
+        "signer": "7jJpSiM9jJbCYMSmfA46EJoA6mZXUuGLD28aAHYWLr8P",
+        "mint_info": {
+          "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP": {
+            "signer_change": 478.864041847,
+            "pools": [
+              "HZt1RkqYFAW8aFGasRiEAwV8N5qf9ho5J5qH3uq1EnYw"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3muvURZUvFYHyskZvWve1AKm138s7BjhD8w4FANWS3YDjGF6rypnrJva2Uh7J8SK53iWhj3eokmyoUaZmtSiHYKj",
+        "signer": "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0006257100000084392,
+            "pools": [
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3czxb1keotoQT2DXkeAxoHw5PmAk1UJj3KqrbeMQn7VwZJtQEphiVKUsjngbWL6k2R4XwH66CQDj65Hpc1rtbYES",
+        "signer": "bobCPc5nqVoX7r8gKzCMPLrKjFidjnSCrAdcYGCH2Ye",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0071750280003470834,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3dohmvBGTXCrj54ApsxF4frMfshbRU5by4jLAAU7DPV3bVYw7RK5ZyAzUE1eu9xmVAt4LUyVVjjnjXxywFxKrtQ6",
+        "signer": "TyrZ6SDVQGdMpnYtAgKGocvi1w1mdffhZENf1knyeqy",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0004468650000148955,
+            "pools": [
+              "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+              "Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp",
+              "6kT4MhDqKrkWikaGpFCvYsk45BUKXEe2gTpNGAR1YcjS",
+              "FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5kNkP9pYWW8bM2beQi4NeK2Tp7v13uyBDzRcBjUucATLdGyEw5YtFjvmT2wGVGNSigKjuEzbCAEvuc6zjSZdeUE6",
+        "signer": "CYCJijjP59rFeYGRHe4GGxHd7uy6JkW6xKxN3JjtccBQ",
+        "mint_info": {
+          "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK": {
+            "signer_change": 2168.961465999999,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5xygAnzn3WX1zaErAuSkjuPiANhnGrg27dKNuYFi1qEpEDNQC1Hx5Eev1sva6uL4CdL6uSMBtrUiqy9zxWwbmqHd",
+        "signer": "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.00030755000000226573,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "GHak4BpDSLV9wxhDtZaKr82bHEtr7h5EJB6VPCaBLumg": 3
+    }
+  },
+  "252308627": {
+    "transactions": [
+      {
+        "sig": "56BYvxeADzatzav9YTFdmrkEdpvy4pGEFvRNzpScDVvY2J2EXTs9nQXC84xGw6qgwjzTNGE3fYnJZrzD5Bo5f4hS",
+        "signer": "DCAK8tuwzsNowVA6eSojLHhHSDQMyECuSbu7KovyvYbm",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 1720133.054551878,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -0.8499999999999943,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4skqGLWXLdSBdaZFbretR1A7TxJy97qQrejUnWDQs4c5pAojyBqQ3KBeASmxePCVzo5bctWHFwF43FGYz3NFqKEH",
+        "signer": "GxQ6JaqhHmkgb1CukQ3yuquqfnyFo6oD33i5udYDXsQ7",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 3658176.566181617,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4rP9y89TRgZX8DuovMtpsPjUMAGpPpMm7eATjTaGJtt1gzg4bfZ5EyT6e7ak82LXSQHV6JtPgibEPe2ADR9sH1Zi",
+        "signer": "DCAK8tuwzsNowVA6eSojLHhHSDQMyECuSbu7KovyvYbm",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": -1720133.054551878,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.9574510420000024,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "33MGiPwU5pZen2oLqjgKLLMEueatbh5hkcfWHBWeJJiKV6qke9KjVt74fwoE9bn7hqdjX7GtPbNvVjV5BxCPYqwm",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.006994846999987203,
+            "pools": [
+              "FVahRzeovtD5Zbm8vcL65yAVxKMWzPQYdsz5u811qcGi",
+              "2QdhepnKRTLjjSqPL1PtKNwqrUkoLee5Gqs8bvZhRdMv"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4Nd8jSRrppy4rty7ybvtpcs8Y4JDUnvp5mfpJAG9UUNupxknD279oFht7c9NvYxhsiUeGSDefK8vHS8ipCrPBKWU",
+        "signer": "GjMPy2Hii8SVzx1sPkXVXeSq2p1tTHz2c6QhGhRFEyb",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 38.734387999999996,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ"
+            ]
+          },
+          "BYATmZ7ry2pewxW3213sczJYB7ZJzPr921uvcRcJYYZQ": {
+            "signer_change": -200000.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "51vhngwxa2HhHcWGbYJXcSia6Ln1YHAh6yq8zR99qV89MNjKQDY36MkLyExoXJoVG4Z19T4Dz8P9RpHfaerH26Hh",
+        "signer": "95PWQYG96KmCvrAy52c8rJBKm85kTtdrbkdNaBaGBAnr",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.5105860000039684,
+            "pools": [
+              "CrJao7TGHGq5BrS46Fn8joZLjTK9pU7ybgSSK4DNvLpC",
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2Qh45Yq6oD2DGM4LKJBWYwDffKVhr86TWrJA5ZrdqtPkzcav6NDb2utZVSbLg2CtDKyjU7AAh8fMskpPCMopMc8u",
+        "signer": "2LFwwLqqxztCU2bb98JAXtuubLNepFhSqx32Rh5C3rHj",
+        "mint_info": {
+          "BYATmZ7ry2pewxW3213sczJYB7ZJzPr921uvcRcJYYZQ": {
+            "signer_change": -106479.76268181996,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5AjiuTmnC9D8bQvsxuBVEGw79jzc7ZpcU2LsVNuszBDut8mUMWA9hxaiDd98fDHtifNYTwcEmSs5XvSEbEapzXcd",
+        "signer": "3e8mkhzrrL1yMNkAjo35jetd8AvryDHkR3ZYyCEZT1Bq",
+        "mint_info": {
+          "3mVSufEpzy8NVmTN7vjuT9Wy8D78Trqpg3EfebnhPTKJ": {
+            "signer_change": -62853.951314014,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "hNrqYdAHgznu1ZsqyUyNHvMyuSwRgKp6rLQsdzrdWdpooCXuYGyxzcA7MntpBzrQtndMBggPHbMTnspPSRwhcFQ",
+        "signer": "6kntKawNmZNKZqUHvRVGKMwp8LQU5upyhht7w1PL7dde",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -6300.0,
+            "pools": [
+              "8Ve9KtGNtLRxCQNAVfkHEP5GRZHjdj6BjB1RQFZewG6V"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 57.12006899600001,
+            "pools": [
+              "8Ve9KtGNtLRxCQNAVfkHEP5GRZHjdj6BjB1RQFZewG6V"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3ASebPaWiyYUby8sRJk6Jb99ZCPHKudh6NEWThKTjevH3ff5TkjBCK1TbXvrMKFJXqFt3zsf6FL6rfTbsHV29d65",
+        "signer": "D3Urar5hHByYq42fYwa8xuHoYGwgtQwByVwh26fEfKWV",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 74.62424399999873,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          },
+          "7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs": {
+            "signer_change": -1800.0,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2pm9wJWZGvYMQai1gZzhFcmL5sN8JkJUiGkztcKxDgmArsXzrxzrQA7B8rZ5BLkeGBhakAHC7GjjjgHM8JRRsgeS",
+        "signer": "3VYXsoEs3LNUx2v64m9Jf4FQ1wu1kRvpRLAb8ZGyvFtD",
+        "mint_info": {
+          "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ": {
+            "signer_change": -7000.0,
+            "pools": [
+              "62fdLmbNyfyo4f2VpAsuQ5c7yAGkvUavDyrn1pdpB3mc"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5XFdXwXCcAbvT8mVVCdfVqhrnsQZtaESofaUorSFwcgzPr579ZZ5amqEULi75wKXN6nXAKuaGMhLZo5eKw6mZi9F",
+        "signer": "A5t21BFJhxuJCKSRj9yUZ2pSTj4aPgGEFJ4XwwZ8acwt",
+        "mint_info": {
+          "6zv75iVdsKkBLbFGRAYRXbxk44QCpSd1FGCYDsAcJ4s7": {
+            "signer_change": -27119.401273,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "B4n46pVaqJPddZc8HyQqtcmr697GFWymBAmMSkBnNbFhgiC4RH4NBVG24MdtjzC64xorvTmawQpf1yLKDEjSjVa",
+        "signer": "HfBSTN8GsWJ7RcJLvEyyCpiLVJtgGNzi78zDJ4FJoEbC",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 249.00704799999994,
+            "pools": [
+              "AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD",
+              "BE3mobggFPH8HaW2WWzj5Y557fNTnZFGhVbrLxKkSUnF"
+            ]
+          },
+          "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey": {
+            "signer_change": -1117.110158005,
+            "pools": [
+              "ByXmPDEzK68zV2werup4fhhhUPwXDWD1PWBqkXEdbQyi"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4KHSg8qfbYnDJiGpNXuDGZJFWVYtGQ7AbvqrUjCbW6uf8PQQdLgG8GbUXa5cTfx6CzN4YyW8QYm8y93wmhG9Shp2",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 153.0363129999023,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -142.73964700000943,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2A4Mg5ycLARMotTpJwaJNAU2ScSsFTnERy7qyyCnJrXQxFJ1HJfCWZuuUW9cA2xoVz8DedJrUARxnTDp4oAs9bnG",
+        "signer": "HUA1vzg5G42utX9qDqfcxstdk1edrohbEUwCR3ESvry1",
+        "mint_info": {
+          "EJNn8mXgftCYJLdvauqtapQ3aes3NHJHoZGkdM9xgYaX": {
+            "signer_change": 485.70556,
+            "pools": [
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4dHjWo6GHVWCmxoBJndUbtnfsh1a9rS3jfUQXote3H8XbNQM1c6KhU3fJxc4UBqJQRPYPGHTLdX4HNUQiEj2nrPL",
+        "signer": "uA8SFSrLSsf2EcjSmGWRBswqbbgSw2xRBbs8BSUHccS",
+        "mint_info": {
+          "HQLDubGVBPEXLSLEjBCXT42Tt8ZwMXr1wdpV1747XfJo": {
+            "signer_change": -7449822.462917041,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2p1zEW8GnPgNYgbVa6TMZz8x31p6MxKo2sF9Zyv7VVk2NqHoKpuqjNYN3m8VssWSrtRF3cKT5fiTEW96YUuf9Cqz",
+        "signer": "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0004252459999634084,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "C2YDhV54iUSGWrgrrkCWgeuzmwFuo4UVtQaSKcG98Ubn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3oMQES8CXRCW1wr19NCmcfgTBoz2VNtDArPeArbwmuqUX3Trsfr9UtRxeY17KUBig1GJ9JCR5aXXJuCuw5NUqPow",
+        "signer": "7XhPgpj2w1dAVHtiGQigai3bxUjQqxZbmsn139oFj8Gi",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -300.0,
+            "pools": [
+              "6kT4MhDqKrkWikaGpFCvYsk45BUKXEe2gTpNGAR1YcjS"
+            ]
+          },
+          "G5PCBgyUXFjVWEEP35QkCPPUtfiYPWctqFWrpBQYCNj2": {
+            "signer_change": 2011767.684589463,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4UFSpaY3c9MkhDBZFNucPkVGQFCGYYxi2iwkuTxPs2nbZe9nE18A3C17jH8hKMcm3k6UVrTEs3nXE7aCQ2FgfPcb",
+        "signer": "Dn7h524qQeEA1Hy5tY7f58vjpio4woRK9Vu5AYMkz1ef",
+        "mint_info": {
+          "DVzrCErBzydh92bBzSJX1dKwVvb4omwhrvNz8CwRyxxV": {
+            "signer_change": 3940.438882999937,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2WYTrnkkwCfQ7Ah8iD2e6asBps49YWg7pk3VUWkPidMn6s2PnHabfJatPfgsSnFQbnJt1WYCu5Nh2sivhdrcnZji",
+        "signer": "777vevJt97Vb5PRdyDBxg489o9ZLKsEKnj8KasG4jrhE",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.027710999999726482,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "66MBAKumafQu2ecs7mURpjWYYnfQXTe5a6e6FqrGHTLbQvLEhty5YBUabZStyUtx79KBe6pzKCvtFWPJTfuweCFa",
+        "signer": "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 3.5486999991007906e-05,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "DCAK8tuwzsNowVA6eSojLHhHSDQMyECuSbu7KovyvYbm": 2
+    }
+  },
+  "252308628": {
+    "transactions": [
+      {
+        "sig": "iqUEYCPXtg81fyDw1hegdNb2nJByfGMYAsbcog8dJhEDQH1voFtXPfdCmxSH1wSHgHpujHwN9qJ8hHWFyCPDyTX",
+        "signer": "4SzMxc1GMP7zhHa5RNMZTucvQAaXS9x5yGBXeZDGv3Wy",
+        "mint_info": {
+          "65nTNuJGHme4PQvKQyJykKp1bJAkK4A8Q66sd2yBWugf": {
+            "signer_change": 8004829.717333999,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4RQqRkV3tk7CJcF5d7bbs34sSJerprZSLMcqEamGo3psYWDJe7K3x7CzJJiFkYBK1qPCkn6Mj2w35T9SPW1E15wg",
+        "signer": "7x6jH9XoMDFSh268aqwXCTqrbYgSRTNTf8qPRXye5xxs",
+        "mint_info": {
+          "8yJ15ee2AUQmwbWPxXLTTeBTzyMGn4MtSRKMqVHw1J1G": {
+            "signer_change": -194011.70171,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "u8Wf968vnGijUcyXSRifFcgFTSPKVm3bFf8RoVSWgWi52BpPKxMQkimYczpshhpyWPMcCNjUZ6FYcrU4EJpZYwV",
+        "signer": "4SzMxc1GMP7zhHa5RNMZTucvQAaXS9x5yGBXeZDGv3Wy",
+        "mint_info": {
+          "HXkbUADfocGyz2WrzJpjEfry8qyNDm5Kwiiq3Mz3tTi1": {
+            "signer_change": 896333.6849529999,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4pVGtLKwckWt2RQXeYy6SZoef5mEuworG8yJ1btnGiYXZ3UGYq4pU3tGWyQ1Eh6S7zXYsqotxocbqexeYqm2cSkx",
+        "signer": "CAWk36cnuwNrt3UEwC3FjCUsKuNxsqVVam9TjWVofzzx",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 360.0286690000212,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "35QUCm1zZJUvcNUvPsjSJxbK9T5zt5VGd5tEhJVMEBHF3161UDSEnEUvTsfBUtkge1m2SH1h2ntZiMUiJtk5yTAx",
+        "signer": "EWSHJzKpzjpwz9GuNKkXWMHXAiwtB7obSGhdFKu5QZku",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -7.04762899997877,
+            "pools": [
+              "26r1r4zgTLqgK2c1vB3At78RBtQD3F3cDCehaxUEmPaX"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5rt7QnzYtHQJopYJqhr6xKAgYrFNXnFFHiJ7K7gHdcLKmEHhhD26WfJtqRJvE9gHCPbt2gsnTzVjmcbijztRPY7y",
+        "signer": "4XfM8XKqB9tGEdqhysX5sYfRBXtUxXfUbicJJvYhwzhf",
+        "mint_info": {
+          "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz": {
+            "signer_change": 4438323.025334,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "57NgphDhymdgcajWWBbKZiHzC1HuZ5EjCHpTr2AsmWGcfYfA1jL7JTandtte91pPJTNXEjgQiH6HLrbdoEJTwASh",
+        "signer": "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.00624390999996649,
+            "pools": [
+              "4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "21jMU35TYw2P8fFM9dauryLRnQFNDUhf4UkmRHGrudu9Uo228LTEWpku4L3a5CLcFGerHfuZHDX5oKCYRRZHDMs7",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.003428958999847964,
+            "pools": [
+              "6qgyDW4fHvpTAmfNZvPAuETEbVwRKFVAuuHfNzvEmPkY",
+              "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "3NsU5h8mwNBSXuTVqHb9Cu7Yhea2tjxhvRv7P2SxFXatrxfZdebnKvTiy5m8pvJ4ycTvbE63xvbmSLxCS9bFtmQ6",
+        "signer": "GCWTca3JHiQS39EHug9YNtkr4ZRfh9F5xKQbAkjL6DYm",
+        "mint_info": {
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": -1491403.737767,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2ZDrFVNXRWxGeq3XLjXrmFYPEkm2jyPRxMJkxFXUHMeZDEkDMqUykauFKzd2mrzQwKc5qrCctAJNyNZqwnurrP7W",
+        "signer": "B41FLgPbPWV6LamPoUNwsyiX8WYuPD7LZbnJEcnzc1mf",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -100.0,
+            "pools": [
+              "4eeuhwqJoQHoDcyBasD6qobyXA7x7zpL1GT84FccnmmL"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5jk5RTAEsWVt8p8mGfN4v9BGtS3vbcDfFKTKEtz6pLrZQM2V1di1r14afhMoKhFk7A7gvTD9KgxdFBRc79fW7VGx",
+        "signer": "H3SsPcVhZWhRyupU87Hn95WrJaYdz4rWNpdaiS4BSwmm",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.6916920000003302,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U",
+              "3vywP3FiMt8vN65iidToPmsBFuhbFKm4ezC4LfRSFz4i"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "527utCzmi8JL9c4Ni7cKjCEpct1TycD7b5S3mirF4gFPwhYFSTaiMV26DVPnvLNiq7MVQ4RJZV8pgG3Qwrse7oDJ",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.001643035000142845,
+            "pools": [
+              "BwcqA5HfaJoSE5FvYo8ZzecD8TJiTYKaBB6Fb9rPenZc",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "29CqbNshMpiY6XBntKiwV6bktHM2scnDoKy9fy7WPxALeHf5oQ9FbLGnVsuCeMmrziswrBhy8MN6WbFCpB6ggiab",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 96.33972400000494,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -91.78732500000001,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "8RqR4aaLLemvqS8i6rFwQWr3LQN1TkSUzbDTbHoXRCnwCp4hd8Emtf3EqChrbsCf9NqgxDUHALpnmGLiEPiagFk",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2.875623000029009,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "45ih6BrfjUtJyq1MFZKaAcroscfuqvdkeamTTLMiyGTdV7y1Dhaywi5rGVurGFfx14pNxfokwthycHHt8ptqorfy",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 190.07674000000407,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -179.65663199999995,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "3EDQWf9Um2F2AYLzLoJTfQ4Jdra3irffHoVTeebY6pu1u1oF78f6TkCiQsYnCmJNGtWPfE7t1k31bHE48iZ7h2ea",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2.7020019999472424,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "4VSEa9bLtEzV6K3cB37DD9UQBoBJudbXu6Dm5NJDEMgjVhRGJyooA97YcD4oDeTVRimVpxqXVqdmewFt7kXCMYs8",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 190.06653399999777,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -179.646725,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "3D3T74Mmffi3A4aciBkKcrAqFJa5dEHn6hPo16E6BLtEuPV2XPPK5egbTFWuj2eiazWHFzdnAZKH3a7nQv5CraDJ",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2.5282740000402555,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "2smNx9qAHVrf6JSrLi7wecBro1oj9ud6jMPgLFrAHVmketzS7eWczsMfMY2GCkesDsB8gkPB6q5anHYWdvSrQP7L",
+        "signer": "Gz3TVKws6bqbRBGoNG94pJP2uyK9sK3Jr37YvaULswBo",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -70.0,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 76.38658599999872,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5RreqYBqZQcRS7KPPrgr2UbkduQ6QDyt1FXyT2PrQnymTAfUZGnJqurQ9gEBtaagUZzx6K7HNJZ6UtawQRVEPahP",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0010657679999894754,
+            "pools": [
+              "4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS",
+              "EZVkeboWeXygtq8LMyENHyXdF5wpYrtExRNH9UwB1qYw"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "3CEYfM3t6jPwM3bPWh3uE91Spjsj31bFGsobUYfx4GWtEmfLHG1vnHTpVHkzEm436MGWZX4k215AJHBGEz5fwUAg",
+        "signer": "Hp5AhXukY9kZMPMFvY4VsPYM7ePi21QDJqqm8YywX9mf",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": -539085.468458498,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.28852551299999973,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4HQ1v8c1R5DHJSodcXciTPKjxA43KAHm4ZoD9vWRKpLS4LR2PrmARz97MtwuMjKGjLBweCjRPG2fP2Cg4kciVu3q",
+        "signer": "GnRWVzHnXxqBLd2TwgVfe8o1KjPW8JuFCeXSMXQtNFP4",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.0325379999994766,
+            "pools": [
+              "CHkBz1nNFSy3b5DjDf3AbJBZLPKUiwSVaoQ8qv6epXr5",
+              "2QdhepnKRTLjjSqPL1PtKNwqrUkoLee5Gqs8bvZhRdMv"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3aLBbfSgF56pGhMDqzjT1efMi5Tu8kjTpTgjLs9KuqCxwjygMBFs4S355JmgVCHzygVecf1WzyBdPdvV9dr6p14P",
+        "signer": "jupoGAk6QVHBtEdEUAsFhLRPCi5MK48bJZTu5AvBv6S",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 203.61680000000342,
+            "pools": [
+              "Fg8kRMHMSR1bKHRinwKJLWitaCSmKaKeg69GhU6cZAPn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3AZwrV5kiHXHuoH1VLGTXB66oe8mMF2Zc8YV14AJUHjbynACn1NDU9d9FBNEPEFELhNaFESj27ptFQfGFnT47wfm",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0001168979999874864,
+            "pools": [
+              "6EvYr5vt6R74toqYK2Hfgcn2wnYfk14D2HRb9gPeKJnA",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4ZudLm5FoatbmAPEqgGfZMf5EVLEk6QoMkJZ34zcmRvrq9wyuABPQhCbUgyU1f3mhLirqQLdtqhEUtKzhGfi39oU",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.7416769999999815,
+            "pools": [
+              "DSUz3awR8fiLyHqjszTQnM56uHCNHoC5JQsYg5a8vXEF",
+              "AwBhvNXf5X5hNbC1jAqrJ7Stx5xLuG97xDjJ9PNy1h65"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "51aF1uKC2kQcDEy9E7DigzUrAGQi14rEcJcQpweLKc15cQg7jnte6mpEAd1jqSv3td7MP24HXPk1aSxe8pQwAgvh",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.006224195000001487,
+            "pools": [
+              "8Upw5t8UzzfSmgmC11HRvtZkV8bFwr38UKyj8HSxYiLV",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5cYnJz6ndWq6Y7eZRHxUPZYbKeS869ZnWdaYVYWdo3zcLjLDPwXvvYTc5zY44r6wVQPbKhJS8r3Mokb7kJjBmpkq",
+        "signer": "H3SsPcVhZWhRyupU87Hn95WrJaYdz4rWNpdaiS4BSwmm",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.26120799999989686,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U",
+              "HGFDmTWNC3JfZuGCt62Tzrnsh65MQQzfWiD42MWsf3Ax"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5AiSpotYezXqWKkbW4D7KLBP6ZPQiieDkL6sp2p7U6KRzrKQLaPj4VYyDnhAsqa6SQrxuDMiz9jnAK3JzWxG5NiT",
+        "signer": "ASx1wk74GLZsxVrYiBkNKiViPLjnJQVGxKrudRgPir4A",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1109.4963169998955,
+            "pools": [
+              "CTz5UMLQm2SRWHzQnU62Pi4yJqbNGjgRBHqqp6oDHfF7"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "24vcKy1z3hRo7iKocU9vb9PFTWDCfrNAbHivaw9wm5fKbiab87ZQURxWPfbhhajdGZBRc2HQRJjB9K9r1jfLnVaY",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 3.0984000005673806e-05,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2CC1avKwLap6vzL5fzHwLP5n3KuSNSeRpB1zkVWstKYNLcm96LKxDMQrb46RzsUwFq2mC5iwTjsX3XWynmJXHQ2L",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.44285300001502037,
+            "pools": [
+              "2tXTC9cw5zzyQkVho3R51M9cRdH1BSTgBUagcCo5P67a",
+              "EXHyQxMSttcvLPwjENnXCPZ8GmLjJYHtNBnAkcFeFKMn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "5T6XuE8NgERa4BrSSdedyTpbLzNuyS2kMrwEELCWCc7qfM4F7GrokAYmsXpRUP9NJH5g25EHTY5apUzqGUzRcKT",
+        "signer": "3R2JQwxorGF8HW7y8iDQQDmbwJEFzopdEwALtrVf5LRF",
+        "mint_info": {
+          "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof": {
+            "signer_change": -100.0,
+            "pools": [
+              "HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW",
+              "AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 624.5036130000008,
+            "pools": [
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5BNmVTxKE6jX4FC1oSUhC6cpTWcTYLcADdHUGNeGvky6LJJKc8izdYPJfAyJBArvzXYyV29beAMWziVMvEmv2fP4",
+        "signer": "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM",
+        "mint_info": {
+          "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux": {
+            "signer_change": -30.0,
+            "pools": [
+              "1koYvNEJ5gWXZ6V3re8xwXDHrEpHf4vNYrNGv4bhrqK"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 235.7151620000077,
+            "pools": [
+              "AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3T5frpr9QwuxMFogTtDmtfeH6PRn24XjfVfkCk2Bc6Yfc3KoAeFaZp7CzY9SCz4S26t3nRCtQfn3jQzBsVynX92v",
+        "signer": "146hJ6uBRqDW2tL6f74MSsQvmJt35fgNC6TZ4GkPvFVd",
+        "mint_info": {
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": 12016022.294191,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 371.903471412,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2S8VD2PD4rjkk83BJxAYJ5q2gZ7VKmy5ABybr1vCHmeevWfGwSy6PuXRxXX53CF43EtKPEp4ptyFocTPeWBgdUhX",
+        "signer": "3ThwgDzXSYUyEVHwB18Bzf1CRpe8DPPC88GDkoxpkx8Z",
+        "mint_info": {
+          "FRxRtXhiNJM2qJFBaR9YxifjzsTqje4WUr88tF18uThK": {
+            "signer_change": 600677.510199,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "41Pbj9esizM6PALwhxKREbwmmGKGu3pUz96jqRvBrMqUSkMd8yN13WBZxFc2tMbqLW4G95X1cadwRQdVzrGph6cF",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0030201080003280367,
+            "pools": [
+              "B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR",
+              "FFCfYM8GyV836cjxFeqgCxZ4ujPNQ1bg6TC6zhF2oUFZ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "3UEFnfhv1MnvjrvbmHvBJTo6Uy4qQoyoUDWq8QvV7JXZEcj4TaSBV6t5DwpqZG8dNU81XVT8W9jH9SzkPdf2UcmQ",
+        "signer": "DCAK8tuwzsNowVA6eSojLHhHSDQMyECuSbu7KovyvYbm",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -1.4678343100000006,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "45FA99wdhLGfUoaCWFzxcChgzq6kpFbT51Ay4zCLycHCETVWRECiyuKbpjJ23cpadCiWJBMjUcMyuizJWRkEwfJp",
+        "signer": "3QJcZvfav8Rx3rREtt4FrGCT1SRnLqyqPMtJ9ioC8BQt",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.24806397400000013,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "HoLFn9gVPHdtRPLuRkxQRXrYThMHTrsfdDPmozbWAtDE": {
+            "signer_change": -256205.65242299996,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "4SzMxc1GMP7zhHa5RNMZTucvQAaXS9x5yGBXeZDGv3Wy": 2,
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E": 4,
+      "H3SsPcVhZWhRyupU87Hn95WrJaYdz4rWNpdaiS4BSwmm": 2,
+      "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK": 4,
+      "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h": 3,
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT": 2
+    }
+  },
+  "252308629": {
+    "transactions": [
+      {
+        "sig": "5XrJ6Bg8dcx3xtPWdMYufrwMBg1p4kWDJQ1Xy4jVmJ12r7CT36B2iyuPA2ZU77R3GpqNRsJ6dZL1FeaHJu1jqpSa",
+        "signer": "H2cVPqrxcEU9BErcTvtC8XKBVDKTA9ixE1oTpxfh3mMM",
+        "mint_info": {
+          "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk": {
+            "signer_change": -5339547.69305,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1002.930522,
+            "pools": [
+              "2QdhepnKRTLjjSqPL1PtKNwqrUkoLee5Gqs8bvZhRdMv"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "CVAqtND4ARyBFL7FE7teXjQRacoxkeCdAkZKhJ2ebvpPrmFE2AJNajQzJosyC7W3stDWPYJnzhp1TyFTt2H2aSs",
+        "signer": "BoHG8iDU4PhSFafafiMCwvsNpeaHwPXQ2ZWSCctYUbnR",
+        "mint_info": {
+          "4rXpTDnD2GENrjSEt4XAxwH2EemvJhSD2aZPkxw841T9": {
+            "signer_change": -1338236.462107,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3nCWBcU4MD6AXqBRg4N41YwAyGzAdsyzdgS6dVaxaZikthvWva1ELpqyL9uKGeYitoL38eL3Vm5bygM5cXxSwaJj",
+        "signer": "69vivHgP332q5UycSiQYavQd3GzeFcSZvTSJwC5U58sr",
+        "mint_info": {
+          "AFXpUbQ6mmcg72NnQVokGvWFN2KV7cyBTiFV91EypRon": {
+            "signer_change": 92027.52116,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2hw8x4fBScLTVPp4qMchPrCE4phoyB7uwHCqbprFJuDHjhcMhPgxwYWxXLgbKwke6XUsaZQ9Yz6iQFSNZXQdxPvq",
+        "signer": "27v2FqqrYw3kQ3ySWenEew8qzoQEchQ8cRwXTjAVaZYv",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 3390.067232,
+            "pools": [
+              "6kT4MhDqKrkWikaGpFCvYsk45BUKXEe2gTpNGAR1YcjS"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2CvgssseKpCRepDu8DLPiXT3i79Tgt9E2zwfR6ZM6dfZPcU3S9j3vRcg8AgMWA7BDUnoUEoW3Szf5sDDJfQ17stW",
+        "signer": "G6QhtBHqusK8E1BdLPo8i1snE5JP6tY4BsDpuRjqDAR8",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 5.956834,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "7R3ZCZHf4y9E8oy41YJoYFSxVmQfUtcDBNFFgBRUh6zw"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4bA6X9smV7Y5gUoY8UXHEw9161GNbZnRQ8SLUNdwXW9CQNDRMemBpTx6UkReihTtMFMmKYsAS4wuSzZGgHDUymsQ",
+        "signer": "8eXPcjpyLoaKpvQAPMuedVK1V4RaJP2cKKCpaBGpD7Vp",
+        "mint_info": {
+          "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz": {
+            "signer_change": -39116178.706244,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2D1G2S9ttsCjyJjpF9dWw7ntKyd1LF2sS2koNmQv5j5wJ2wbnt4cojwZkfXjh1XuvFbuJEZhSTVzMuphVuzX7E8g",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.28188899997621775,
+            "pools": [
+              "AwBhvNXf5X5hNbC1jAqrJ7Stx5xLuG97xDjJ9PNy1h65",
+              "8qdAk17LVxKPecPCCRv5j8kBY5g73EvxdxLwo8t5nMYY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "4PrL5UW8t9TKueKXekKRym7iM4NYVMFA44v11K7HUG5B1nKW3sUteDMN2zi57F99ivMSGnrEB5xvqYpvJkcXvyka",
+        "signer": "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0021321710000847816,
+            "pools": [
+              "CU4fjRxtL2fz8abk717DG2RPRzKHPCbFm6ezGdAibFB2",
+              "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2inYsrN57rCqKDEdtqFjMMskE9iYgsmQdTvZG2m41DewU11rr9DU8dAtG2EHTaMkvF1tKS95kCoLm3osvH4dAT6u",
+        "signer": "BMQC6GP4t6Zk3q1FbF8g2cms8CuZuGu4RJeQHg8buXJx",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1253.896553999999,
+            "pools": [
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+              "85t45uvRgmQthW4rFEgArDdJYWaPv12J7gSKgf3Nx43"
+            ]
+          },
+          "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof": {
+            "signer_change": -200.00000000000006,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "85t45uvRgmQthW4rFEgArDdJYWaPv12J7gSKgf3Nx43"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "63x6hJqjmjupssoAKB4ev5ZJ6dKxMBxLqtgfwCtYFdgG5tYFeEcrdPPMw4ruRQt3MAeM66f4UT6onBLnHZer8eaH",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 150.41923999995925,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -141.68891799999983,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "541YcncoXjFqq5z8biD6PkX5BJvXkbiZRwN76QQVMmh53n5gtQuYrtk1bewrFxnHxPW87VXme8jWsFpZBeFRpXqJ",
+        "signer": "CAWk36cnuwNrt3UEwC3FjCUsKuNxsqVVam9TjWVofzzx",
+        "mint_info": {
+          "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6": {
+            "signer_change": -116248.0,
+            "pools": [
+              "45zpzzpZquaVv4BAdXfzNbuba7DAXV32d1sTrUh5wcnW"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 380.85045399999944,
+            "pools": [
+              "8JwS5zosnLFT84S1NebSp1HS6aeaxviXYS7jBh9PQ8vp"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4yhwrUD8RZrM4boXQ8yftB5kPfcCPyKBLAFR85uSbLT6vR3xViZ38pShoqmt2MNKNsDt8L18UoWCXS6hrXQFM3BN",
+        "signer": "9kvXeSLVk6Mi4Xto1gQC7prqi9ybrUy75NxFfDc251nH",
+        "mint_info": {
+          "4vqYQTjmKjxrWGtbL2tVkbAU1EVAz9JwcYtd2VE3PbVU": {
+            "signer_change": 532.9831820000036,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "BswuZvd2dcKbBXHETmMozuKKiYaWLZWh9HUvXcVtBtgx"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4JE838RzDPuZpkZmbec5wi39Gm1i28rJjHx67FxnoyFDFsUzGJskkaZreLxUXWQQ5BR7tFwnyAhg1hEFYdkRwD5Y",
+        "signer": "4GpUTD7PPoE2LJyXZf1mELhzitBdg3xaRMT3QNCi3CAH",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 83.346855,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB": {
+            "signer_change": -725.75,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2gQbaFjsfDyabyPfr7a4rDkGiDd9hV6aCmd4kEL9hYWfVZGiRWnMc3jauVAUGeTo4HsSV9pdbhcMh4NdVopcX4Sk",
+        "signer": "2Yki66uJDddQFu5uTWE6o3zyfuVh94UurkqPZrCzE8a9",
+        "mint_info": {
+          "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP": {
+            "signer_change": 18879.829913165006,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3rnCxxr8UP7x2kVAVYSNBiZuQnoPHBcpCxxWzcd3FAXCMVujo4vbp9AYH9En4Q7MQoncBRKaivtLMKMAP9pzZkY6",
+        "signer": "71WDyyCsZwyEYDV91Qrb212rdg6woCHYQhFnmZUBxiJ6",
+        "mint_info": {
+          "nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7": {
+            "signer_change": 2.4384299999999826,
+            "pools": [
+              "ZijFMobuYkg9pUGjVCQCSUZL8Hm1u369g2uSQAmL9EW",
+              "H3vkQqNVWySTD4c1Y91wtoT5iwxKSVtVLfC2rD8SgwTN",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3Mz2jFgdMTDEMyJ2TyRXnekMXtgd4rhRv1rfdS1o9yFQ2CgGCEvpHytLCGTWahBRpXiZTRFGEpw3E4nXFZ9DC4U3",
+        "signer": "8pQihy91afYRDMka7GCtw4EKAac1cgDJkubSbzV8mT21",
+        "mint_info": {
+          "HQLDubGVBPEXLSLEjBCXT42Tt8ZwMXr1wdpV1747XfJo": {
+            "signer_change": 6551248.83333632,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "44hmKZDwGDfwyChoBvnNe6Pj5dHtDr2qCdCxaAE9tXCLcpU7q1y8rxCbdfFqnY2NJTHstoTiiMnsFNXT4cfcrCao",
+        "signer": "CFpM6dExTnJQYRr8SKXn7NV3W1FyChFjksJeFV2zy6tw",
+        "mint_info": {
+          "9gwTegFJJErDpWJKjPfLr2g2zrE3nL1v5zpwbtsk3c6P": {
+            "signer_change": -360.576735281,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "Kw8xfKMsq96mL9Z9KPNhD8fiWqNCwXjEpm4YFZqTPzsGRt8TPUq9aKLmjkF1r9G8thEztSeGzp7kmAPziSVi2Uy",
+        "signer": "F6a3RKLCDDo7JRmBiQjzvB1rDh15atQjrkX6ovioPZdS",
+        "mint_info": {
+          "8iPC9NUaxNwFMoiAPneQtUfprgKEiS47s5XjYFXT5A9M": {
+            "signer_change": -549865.211642889,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "3aE2H3nrgVDC5YEWj9xG8ASdTzbnzyXvhDpWQPyk9ijg": {
+            "signer_change": 433727.30345576,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2R5UMz5kydskPXecybckgznDxeWgC1HxctG6HsiRkKEbUDNw6hfX4NwaVhvhDyqei6ohkeZS58F92kdLVLnM4o5N",
+        "signer": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "mint_info": {
+          "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3": {
+            "signer_change": -1679.0800000000745,
+            "pools": [
+              "HTz3a2LksfbbAvAjBVg5oRJtJV5CSd4s3DnDrDuvSrns"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3VkHpTEydNJb4MTjTCQs4xqkZQPZkdyVBQF28QWzL1r3Dpkk3jBtYEtrffSNx3dP5CtCviXnnvJLdtFMMtYfiV1s",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0031973309996828903,
+            "pools": [
+              "GcJckEnDiWjpjQ8sqDKuNZjJUKAFZSiuQZ9WmuQpC92a",
+              "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      },
+      {
+        "sig": "5Ya3UTE12hTLNjcXEuntEWXgd9Pa4qHZXoCqAXpvH5NauKvaxGYHFR8R5CnqmPbHWfbNAM64njxVKQeKdn6d8bCC",
+        "signer": "YGq8pB3zEa1veDTTCzjsgd48zLc326sqfhQfMjxRnAN",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -605.4999999999999,
+            "pools": [
+              "F1TVmk1LAaVDGDfEFJWfNLCh9wikZxv33e54ZPeRQzEh",
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3EMiyJoJZJoqXEdwWbapuaiCoFwGC1XNZZ42etdcahUKBXkJV6sL1nMsmNjKrwpfRBwX7eixNV5b9G4PLvFGZkRV",
+        "signer": "95PWQYG96KmCvrAy52c8rJBKm85kTtdrbkdNaBaGBAnr",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1.4203919999999925,
+            "pools": [
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ",
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3hNcHBPpwE22Xyyq81TpHLUe8jpkbC7G9gr3NG6Cb1TMwDrBxFjwkzhdqobooJ4HbckGjg2agbfubEL2r5ySuEgg",
+        "signer": "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0063804979999986244,
+            "pools": [
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5ARi2hP19MnBnxkAmqvd7Ma6jw683bVcFMSbFsV5TvbALZBxXgkrrTwcpBuZ2Hn9M2gn6oQ8utZy9wcL3NbwXs2y",
+        "signer": "jupoGAk6QVHBtEdEUAsFhLRPCi5MK48bJZTu5AvBv6S",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2.8972999999969034,
+            "pools": [
+              "Fg8kRMHMSR1bKHRinwKJLWitaCSmKaKeg69GhU6cZAPn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "22sdMJ8KVzPWjZVwBmNZemms8QChCJDBtWTja7HC8zT2W1gbMEkdibAsPvWsMawEeN6oVJcMnNb6nP6XFe5wF5vj",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.0554700000000139,
+            "pools": [
+              "FWGk2dvJizVnbU8wAZt7YwgmKsnDZRyHhxnaWHvg64gU",
+              "7j4Bq7SkbKEDJ9LjoDVFLbjpDaDxQNZKs8x2CvgcZRAY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "9L9Md1MycHCrrdT28guYeFnKPdhU9nUxbDPU1hwXAjLRbQ1VCwJSNCAYqgD9LDd4S6kfJhicen57LqCXo5tLpKn",
+        "signer": "D71c54RUPqNFzWHPHTQ2v4bXdLUF2xhwerdGUsfRBSF2",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.025634999999965657,
+            "pools": [
+              "2CdgwT798DG4WE6hp4PHGTG2HR5LMpyGbJNudsjdTJyw",
+              "CrJao7TGHGq5BrS46Fn8joZLjTK9pU7ybgSSK4DNvLpC"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "56ChBaTpt74aZ9MCP3VPr4kXAymHGnSd2XbpeBZsrYaynbVnSyjDab4m5U8uD2g3nMUNqs9f9bmD2WeTa9opGzRL",
+        "signer": "kpqUj83k4ieDRZjh7HMqrjkb5tkn84xy642t4Zm1WKe",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -76.45219999999995,
+            "pools": [
+              "6kT4MhDqKrkWikaGpFCvYsk45BUKXEe2gTpNGAR1YcjS"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 9158.566059999983,
+            "pools": [
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "SJQchxbxZ9JnmvxVoPgtjxsmwDDpKud3L3mkAhGkr7oNVtVXHfodyRbJH7oh8hjZbzQPVKJL2ptimVyF9CJZcUK",
+        "signer": "3P4CgzvSsKQChCCoZkmEiaiD3DiJd52cdQmvLYuW88dr",
+        "mint_info": {
+          "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4": {
+            "signer_change": -650.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 132.76341999999931,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4movCb8gKBYqvPTFsuJ5TZWNbnDGrB6HgwwgUSKhHpRNWcGUnxbYV94iZi4VAyxSfs9nz8eFitupNZbiNvtUJFKA",
+        "signer": "J6q6LiUi8qcnHw9chYD1wQQnLJche2h51KvuyCM2trVB",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 2040.096327999985,
+            "pools": [
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          },
+          "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs": {
+            "signer_change": -0.6108474199999998,
+            "pools": [
+              "AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E",
+              "C3km5MDqBiA3eVBsy8r6D8AtTr4J8j2TpRTiXaydkiCx"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "39CeHBzWDUJVBg5KnUED5L2oSWQj1BhwDzYoJeitx2uhKv2FcaJ3aQ7k5nVyCmCYVUfWHoWJeRumAksEGmkX8Rnc",
+        "signer": "Hr7xkK9z7BLh8Wthr3vKT142mQnVszFKkXuoLGFLyY6h",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 50.716499999994994,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          },
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -47.783953,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2fCJzX6WxLSdzZ6KRXY4QVLRpUqr44GPSrSLotydiQATywW3EhzMB37J5LSikopHM3XLXnEo9rawyeqh7UCYD3i8",
+        "signer": "GnRWVzHnXxqBLd2TwgVfe8o1KjPW8JuFCeXSMXQtNFP4",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.00984000000062224,
+            "pools": [
+              "95EzJXxAyUUQAbjzDm1rgW8PHSqz1DwgZ9bsMncPSfGH",
+              "BCuk3J7Djjn6WYzSBWrHyGM2cgpUeBBHQtxskgiqyv7p",
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4sapMTFNrqtGNKmgWLRKxjXWvaaZTcLQn61eki5Y5MVz1PQBmU7gjCFf7jaW8kRQS11zS8dAcSTVJpzU5XZQxeB1",
+        "signer": "6kntKawNmZNKZqUHvRVGKMwp8LQU5upyhht7w1PL7dde",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": -3500.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 3803.641,
+            "pools": [
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU",
+              "B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3AoWZJ7LApHY6HVsUZwXSTAfaFXZaMxVpuTp3hvRidWTP7mbTLVLLP8q9LTAs6wUL67QvChxFCLZZjvsv5Hv5mwn",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0019922470000892645,
+            "pools": [
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+              "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT"
+            ]
+          }
+        },
+        "signer_count_in_slot": 3
+      }
+    ],
+    "signer_counts": {
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E": 3
+    }
+  },
+  "252308630": {
+    "transactions": [
+      {
+        "sig": "2o6NJy8xqK3VPPZGYjTSf376PA7ErxjWJ31Jbhr9y462vQx4YXf7HfC5rwfVDm1ywkWRenF3Kvhf9z4XxmdNH8nJ",
+        "signer": "EFFq2ok4YiuSPSgEpxCN7CDLJoHbCtqgfUnm5pmeXctu",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 19131.686581,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          },
+          "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr": {
+            "signer_change": -269024.945886769,
+            "pools": [
+              "53nb67RHfUyfFD8BYUQrnx1A5Ro69aw14bYEaKQzzCed",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "626zz8g9y6jwdBge8iWi3mQSZhvaaxHm1gLCbc46GRup1SRrUgVz9JxjBFG2QTG2TJ5dc9DQNgTr5Y23QX7fxu15",
+        "signer": "pUEsyy8qH5jH6kYJzsWkM61wSkE8QpcRLs9fhbsMHMK",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.2211289100000613,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "63tPPpnjMQ2HN7NpBfmVMEC5xJQqQ9sszsXUzwCAoFDraNEkLZp4By7GTQ266tE4fGwgNNy6ebEaFh79F2NT2eat",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.028774800000064715,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+              "FoSDw2L5DmTuQTFe55gWPDXf88euaxAEKFre74CnvQbX"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2mVbdgETsxX5jzfLCWHA4tVxZky7djpQKkChts87ZVDXF5k9qVMbraFUxXGNAVAHwQ3CPYiCz1qNG8UEQUAQyG98",
+        "signer": "Dk5x7fv2GAa3cKfuA6fLD8iAd4b1v6Bszgs9xJbZjCzj",
+        "mint_info": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": 3000.0,
+            "pools": [
+              "DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -13.736082956000004,
+            "pools": [
+              "DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "rqdY7DMatcmGh3rShbyBZMEpAYmMaGd1WFomYFZZ3b8YUgU2a3VmHaqXFAr8NW5SCLa83tvG1kDRyGCFNHjyn5s",
+        "signer": "Dk5x7fv2GAa3cKfuA6fLD8iAd4b1v6Bszgs9xJbZjCzj",
+        "mint_info": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": -3000.0,
+            "pools": [
+              "GJoeZkV6e2yCRxsrCFWQ2xn1oJ4zVmd4dbdMLniKfZjY",
+              "B6gdaUULtsYStXrTwgo2diPXjkXrb8w5zUTEmLxwvado"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 13.767931087000008,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5t12yAUWaibc5bAT9gg8fKTEm2Nm3DhswmB2ksXBtKYP9hZcpTiaGCae88sZjdjMNDEnUVVuXP1JUL1fFMqpKqGi",
+        "signer": "HGEm41CaDc7625eB9iqJXvw3i3RGmWfv5XjxjHC22QHH",
+        "mint_info": {
+          "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4": {
+            "signer_change": 2800.6607104990003,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "hnv9Emo5b4xYuA4xVpQ9Epo5WZ5Npu2QyQwhyb9cfGPM5gT6vPFjTus49uGLqtr5sssjyBjWyAj6jUEZTbnHj5o",
+        "signer": "HCMRVfbhtQMRXGS6w4K5a57mwugy5m72VxGFkf3K4nt7",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.009495000005699694,
+            "pools": [
+              "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+              "H6Vb6qdn4pfg1tmqXhVK8WQocsfeUWRhTNZFMjeypsRE",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0031236280001394334,
+            "pools": [
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3jNoLumkfbiXkZCrhg7eMyBc5pqbDiqBWhDTqNLy6Uesy2L95uoVD8sQybcK6TzgTEd24M5T27Ca9oEJYoMQqn6f",
+        "signer": "4Nz69K3CdkGep92D5hxbkZjrAb1zYF567TrLcmwZUfm7",
+        "mint_info": {
+          "kCedEEJobUThRzErhu8VXFazRGuy1t3ucsVynQFQ6aW": {
+            "signer_change": -557.593208311,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5R8zbr9NQLTWfp5pBmy6ZpznWuSSgiX4AVSRR4LocoafSvGKp3UP1rgpxjCUmvyH442VbDSqbsdGZqvKWQbSdf9n",
+        "signer": "8aWD7hXzMXJL3pdD8LqAvfqxoCDicvBxrPu5SiePRNQp",
+        "mint_info": {
+          "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz": {
+            "signer_change": 89088601.798884,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "598FqTTC2pdndpeWVAuYVbxE4w5D9ZmCFAgMKzVmFNfYxdqyyyUyVhfzA5svNR498ZUGDzqH27rc7R3ukWTLe7he",
+        "signer": "GLcoKXZ4rUiNAXfQAEKyHGfmd3m8MeSL8LLVuiQJgBB2",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 4236.912231,
+            "pools": [
+              "4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4",
+              "62JkSDhZLgwLu8in73E46CPTzEf8hMGMxSNUw5r5mMA8"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2T2DqLFepW6fmHvJr1fDqkZDrjjiows35WX5N7pKPQ1JjUXRkkucdG4rhTsUcPuANrdgEoA4bpNGmjGdARCkgSLJ",
+        "signer": "DrpdSwL6UydCymoCVrcSoJG54s7SkAxZyEAwXrFvWTiy",
+        "mint_info": {
+          "E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE": {
+            "signer_change": -2269.597076209,
+            "pools": [
+              "7eZDEf5dVoTLgovRjjU9znvNAZ935kDK6A36rdBHp1T8"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 628.991338,
+            "pools": [
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "NAgRmX8iuNrko18J1PAHPSCminRL5yYWhBBfNFq3U5mpJHB7PVqYv8iGZAKVViCoQcBspqrkZHyHwUjzH2skzEa",
+        "signer": "3VYXsoEs3LNUx2v64m9Jf4FQ1wu1kRvpRLAb8ZGyvFtD",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 166.53692099999898,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          },
+          "7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs": {
+            "signer_change": -4000.0,
+            "pools": [
+              "DUFd5kFpJY6wzF1cLLfAk4yX4iaqTF8NCLdgEaZNQt5U"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "26GAwW6GbJ8nCzPdZR3EoJ5fK98gU8grTsMJzZRZonXtPHfQWP9xS8EiqXNZEusG7c8EBu3wbyDEwdNeDCgXmupu",
+        "signer": "HuwUw9bSZvtdaN2gnJkC4WR7XZfzBr9KQZeXGvL84q8a",
+        "mint_info": {
+          "6DNSN2BJsaPFdFFc1zP37kkeNe4Usc1Sqkzr9C9vPWcU": {
+            "signer_change": -0.0050000000000000044,
+            "pools": [
+              "FNanER7tVFAxZ46VqeXuLvYGEDWWYWvWLgPFoLheu5sn"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 302.79292700000224,
+            "pools": [
+              "FNanER7tVFAxZ46VqeXuLvYGEDWWYWvWLgPFoLheu5sn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "ZEwxDE6ERuA8GfXRs9hMGovPF3XdhwG5BCZdJ3khrN61pXsV44s53kBAqkvDbqK3R1s3mthR2QWU357NWtJ1ab4",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0001639850000003662,
+            "pools": [
+              "FkV4ABdju1xDGsAUP59AbeFtURC6EGizaB9MbSF7nDhe",
+              "Fxm9C6mGaRswSzQwpxW3MTjJbHzd6tvoWVYKWEmrHya6"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4YKHY2CswzRrKyBwjK7rkNS6DZRZyscppzSX8ccctfvNdyC6yZayVJFy3ygWPvGfTT2XC4dDmznaMELQKNVTBa2t",
+        "signer": "GS8E7WcrNL9dW8epVzUETnVvqJGz1ysc1uhNZhMCSaKS",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -251.85072000000218,
+            "pools": [
+              "9Jrju2Z5ocTKfV1wf1Dkqc2BSc4Dy3D3raFSwDEX7zpf"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2yGXkDxXuiKj3tDx56WaPDtgkKVnnLsEKohmCrK9hzEuZHeT2iZzcdnJWyJHrGiUKeEaGXRNTyGcEYp1huf3nXq8",
+        "signer": "LMJBL7FDh9uFcJCRgjbWsnDi9kmmz3wayMdxxTt99R5",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 4.181853,
+            "pools": [
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 4.21,
+            "pools": [
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4a3vYBBWj625nc485XRRcEKnQFydsF5dZ4AaUqPR733x4NseZfNBeJ9EdaY7ANav5nzeTHXAC2f3ZH8GXX6c3jur",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0009326649999934489,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "DGFNwo7t2gG5bSCvogqXJ1BxPjenvtNUrjemRQTzKH1P"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5Z6D6ioAibBHeiXUTmRuq17kqdrCSaS2ZjCCwBoUhD7WJGvWH8skF4FQozYevqrnfMKsBtiop1XZo8xhnTYrw4fS",
+        "signer": "HanJiSCHzC1DybeXxRrMzGiD5rY9WAXT6vLtYfqRPNgo",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0003154569999992418,
+            "pools": [
+              "8Upw5t8UzzfSmgmC11HRvtZkV8bFwr38UKyj8HSxYiLV",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "63KH6D2794CxykkynpS2Fw9wkt4TEupy1htqMmiigF9eBNcxhqobunekJ7SgXNMuC1Z9FUgPCzrMhnYbLuo47jD7",
+        "signer": "JUpE8FV2e6zBvfGPFP2UhPu6H5Qqxpdm5azVVV9Qbq2",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.08596400000010362,
+            "pools": [
+              "GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn",
+              "8cAUgRxXCUjkRtQfzsvCiAdtyV7xNTDmAF78Sd8vj1iv"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4jQZ2N4ev4pgsoaoqUrepPAMZAZmWE4Z63YbmjBfFrW8wEgnkSg3p5oBvnMZ1h2bNsjxJBhwFKgT5jAEhLR3HDzL",
+        "signer": "4gy9kKxyvbLBdodyMACDZBjEKVUupdCR85Qs1PGfqPzb",
+        "mint_info": {
+          "4TUNzcgp2fPD48fcW4seRjyqyDZMrPj4ZubnXFEsKeYk": {
+            "signer_change": 610.0194108001888,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4wxgCLhx54zLAhXnru3azTuZDbS92pMt3RQ7rGBdghvodVvDoEZrPzAtG7UVWirmtMXthLsH3SCnj3UnfJUk1hCK",
+        "signer": "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.006447545999890281,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2LQ9hnSiVg3duhwgfcjeecpskCHH2fErQ1Uof6KNXXPp9njeuS9ii4ddkWus1toSjLN3nCWUJewimYMsWXpDPerr",
+        "signer": "ASx1wk74GLZsxVrYiBkNKiViPLjnJQVGxKrudRgPir4A",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -37.978205999941565,
+            "pools": [
+              "CTz5UMLQm2SRWHzQnU62Pi4yJqbNGjgRBHqqp6oDHfF7"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "25RWRoZv6fJVjHh66YagTja9zotJtzBr8TuXBgWTq1KHbd5uU1m6q1LouFFkwCyGof3M26KceDqXKx6tCgpfjMCb",
+        "signer": "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0003614510000033988,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "DGFNwo7t2gG5bSCvogqXJ1BxPjenvtNUrjemRQTzKH1P"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "34bnmqA3jZ72aX9sSToo3GcRRatveaf3Cg3a4wwYpu3dj85go1KZ8CW5iyn8ENAwqHrQUXEmTfKAexSLYyDm1RJC",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 9.142800000461193e-05,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5FT5enYuhh7wfqMtxo1F3nC2gToXY7b2jFCrgHp9Gc28KBfNkJYXMnrzKUqYSTAXBgBj9zuj6jqd8cnQBd25Qx4c",
+        "signer": "HanKVSWPsL1We4x7uqm3B1NoRg7hxbU7wV8TTQ6yZBFr",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.03233200000022407,
+            "pools": [
+              "FWGk2dvJizVnbU8wAZt7YwgmKsnDZRyHhxnaWHvg64gU",
+              "5JYVSXAkbZNmikmFbdkvgY8z3bLoAGBZTjx5nqs29eQS"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2N9tpCaWg1tfvPQ5Nk5q4Hp9m8HkirGeFmvdhWkUpNEBiGAz2xB35jxzUMmdzeiAMdaKenESf8pFXaQssFKT8H2P",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0004849519999972074,
+            "pools": [
+              "Fxm9C6mGaRswSzQwpxW3MTjJbHzd6tvoWVYKWEmrHya6",
+              "FkV4ABdju1xDGsAUP59AbeFtURC6EGizaB9MbSF7nDhe"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5mE9EncFr1QQCZkAPSHj9EmQS9E8bpAPMChHVdBWsmZ3dFWN6xSVVXAhhHJay53knWCeeLwxw58v7PbXwSAXG1E2",
+        "signer": "EccxYg7rViwYfn9EMoNu7sUaV82QGyFt6ewiQaH1GYjv",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": 8.58889199999976,
+            "pools": [
+              "EHsdhNvcqe9WwzutDvR5K9XkDL6wnZrNWgbjEZZowbKi",
+              "H3vkQqNVWySTD4c1Y91wtoT5iwxKSVtVLfC2rD8SgwTN",
+              "3gpyRVcdbH6Jy1AR5Xz5hypNGyGWECLXM5eaA79z4GdQ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2NenioDW9cyMy54cA5MfdDZGzU4dsznffRJDZ7s84kJuX3TdeWU8fj11oZo9yVjcj7U1qdNSkSE2uqwdAPHMyHpd",
+        "signer": "4kH5sRStQiJKw5VaKuxaEYMSDnh8pSKwf5W33vz6JbHP",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.014873000000079628,
+            "pools": [
+              "JM78XNzeQRmZXDAP4DSq88ZdErbuSXSLE6fkRsVDKSu",
+              "HGw4exa5vdxhJHNVyyxhCc6ZwycwHQEVzpRXMDPDAmVP"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5oDocvd4U5EL4MLaPZSHPAtT87hfJy9XQXwGYC8GQst3QAMkxtw7H8BspCxSBaSQEv76zeQLjynkxbBM3nnEYzuo",
+        "signer": "CFLys5L8xjsNQ4j6RDrr4Woe2czP596ReMZpFVvGR5Xq",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0010329020000021671,
+            "pools": [
+              "B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR",
+              "FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "39aDg4Rd2Pd2mt2Pmy98betjtsQoZiuWhNEUgvawMQHJUfpJ8xe6E5Xr73UeArDAjZmctVMezX2gTof683Ldv2Li",
+        "signer": "Gaysqsw6RHiHRGbdBLr1eqkv9RNTGEDy48SXhi8dkm8q",
+        "mint_info": {
+          "JxxWsvm9jHt4ah7DT9NuLyVLYZcZLUdPD93PcPQ71Ka": {
+            "signer_change": -154501.819473882,
+            "pools": [
+              "3bewfTEgVes1uvczrS1Q8oWwHSWT4njuACH18TwzXFpQ",
+              "ASbMGsQx1RnqzVhFUv8VKrxn993XpZN4VWuBudpv69wJ",
+              "GVjewjrhuFScWut5bq9kpyReiKb7cemCpLCZzi3HCbwE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3Q5REsNEh4vdQDNgB3obwT4XehYWQ2HZWLQ3qPcxpkgSv6H1cRY6eGL4Au2KCESEAp6zbNNpfZJ4BnjTV7JiqUA8",
+        "signer": "GS8E7WcrNL9dW8epVzUETnVvqJGz1ysc1uhNZhMCSaKS",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -76.62746999999217,
+            "pools": [
+              "9Jrju2Z5ocTKfV1wf1Dkqc2BSc4Dy3D3raFSwDEX7zpf"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "5VmiPS8s6moutgC2fKKCo3BHZfVcMmtXgp77W4nNgi3nzKA44tuRV7UPNZcYca2ZCqR81Z9ZwA7964NYZguiqJrs",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.001027156999995782,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "Gvw2nJkjDa6mMkBghMcL3yMSGguxRhcFjMvNFHg6hnWSfU3VRZRXYV8D3214Dyoo9QoJQZ8HjoQsv5adVcGYHKF",
+        "signer": "66gtGDFy1Fhsw1uffKhbYgiTKRmga25SAw5N32v3tedd",
+        "mint_info": {
+          "AGm4a9uMszMxE8PoPCeB9WjQwtThu61JkXr6iJA9oPpK": {
+            "signer_change": -902500000.0,
+            "pools": [
+              "37MK9QQLCwfyCD33t5UuGSWbZz1Z8uWbJJGd4U5rCBma",
+              "Hjvcw2tNx5aZdJCZ5qBDgkcGZMA6cvsBWBhrvDAMY2FT"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2VV7YcpPvt5zTLfB88NiCaZnMBx8VkVyz3mYr4DJzGLnnR6xe2DmRFKZzTVNrRbm8iNoA3oUtYUQ8pPxuruTW3XD",
+        "signer": "Azv6MPxWSF3QPrVwuMYWhzAHomXHR21w1tWN3QFLYSmo",
+        "mint_info": {
+          "ChVzxWRmrTeSgwd3Ui3UumcN8KX7VK3WaD4KGeSKpypj": {
+            "signer_change": -10.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 13.760740999999996,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2DrZEpQwZ6mz8Y1qanbUzWZZPShQFTVjuoG75RTZawZbb6kT5ZZ5tE4KKQZfXMCSZ9YKs8ArZeTQDTVE1HTGYHMr",
+        "signer": "8HexheKiDDQt1zXLLZRj3ymqJCr11gFuqNooobwDZwg5",
+        "mint_info": {
+          "FS66v5XYtJAFo14LiPz5HT93EUMAHmYipCfQhLpU4ss8": {
+            "signer_change": -1450.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3vH3NkqZQUQVWJ38TmuiVqXzxCeKmb6zUxevd5vEsNhyvQmoCA2GzaNLfQ8xsTUvSvUAA1jCApknAgdbZbs8cf5V",
+        "signer": "6v3nv8BUJKpXvnBnD4ZvpDiG3u847ALLYyo1NACn2zmV",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.00046019499995963997,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "Dk5x7fv2GAa3cKfuA6fLD8iAd4b1v6Bszgs9xJbZjCzj": 2,
+      "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e": 2,
+      "GS8E7WcrNL9dW8epVzUETnVvqJGz1ysc1uhNZhMCSaKS": 2,
+      "6DBRRXagTDX4yzGSpSZZLUv4LWzSehHWdFxPt4jk8KfT": 2,
+      "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra": 2
+    }
+  },
+  "252308631": {
+    "transactions": [
+      {
+        "sig": "4dTL99c6Fgh7b2JjHxDuHoFEGK21nMygyP7QaPbyvcTiFW1TyqRfcyNJMoTK9aJ7kjnBT5Jz3UVhmr3iZvYZZkZU",
+        "signer": "CAWo55gDGzXvNfPjtwTf2yxGVPULRDBohBQwKLzA4JAc",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 48.304091000012704,
+            "pools": [
+              "5P6n5omLbLbP4kaPGL8etqQAHEx2UCkaUyvjLDnwV4EY"
+            ]
+          },
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": -1819816.7138001919,
+            "pools": [
+              "5P6n5omLbLbP4kaPGL8etqQAHEx2UCkaUyvjLDnwV4EY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3rcz9DqFowMvUSaBUA2fzrqq4P3dTykuR1v6Ah2dr7psKQAz8zjkfV6obkAFCRT544GrDLuhNi6He7djraSgrwP1",
+        "signer": "b6BJ4ZeSENQ8cWDpjdFdn91gaLQiNivHoUXzsYFhfS7",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 12589041.415632771,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -8.540301978999999,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "E1WiJ8YPrnMFSpAcrbV2xCpw9VJWWz1VjqyC7i6P4EktpYdwfQUxUnUzBzrFnEGbyc4NaKGJRma861LryCAunox",
+        "signer": "4Zq2AUYyFzP2wtkW9bjWEesWfhhUWAFQZE7bHaViGgMN",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 114579.780728632,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2VG5xe9SoBda8GtGY1VtVds5MdwbUvixX8SHPqEYTwnnrWwBHL7JnZA9LAuz5R9aqwjUwEVZ1TuLeQsP8vCUs6mw",
+        "signer": "b6BJ4ZeSENQ8cWDpjdFdn91gaLQiNivHoUXzsYFhfS7",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": -12589041.415632771,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 8.544692323,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "FSFtvroRGZMxmzjQZpU2JrFFHLZayD2rF2Prcj9rDfhPyDmJimCyLkpMpPiANCgn1pJ7StZykrAkULtcTxSdpuJ",
+        "signer": "2eGGGo7WFbYXdbAg6k8qkSp8g2N8YkGRWd9VgX5dT7tX",
+        "mint_info": {
+          "3mVSufEpzy8NVmTN7vjuT9Wy8D78Trqpg3EfebnhPTKJ": {
+            "signer_change": -2624169.506232166,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "eVyZ8gT1ZLE6T5DzBPCzadRSE6iKjkAGSPdByvyzDTtfea4knJd98YpZ4ozw3BsNpGZpz9ayGjEtWg9z3NhYZYC",
+        "signer": "FTZJgcAhzVfVpEq3RCig6VHCquDfV5FZSTyfntfp2kVi",
+        "mint_info": {
+          "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP": {
+            "signer_change": -4961.519611293,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "39tkvbhk9ANyaTHzehqg8U8FAfPGCHHwd9rK3XzreQRHBRtJw2RdU9krA7KkCENRZuJZt1TjYaVDpxPVULyxf5uF",
+        "signer": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -407660.9999999999,
+            "pools": [
+              "34eAPR1MFfk2ruH2TjPvGM57giRnYHpbLk76uSj3CyCN"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "b84pcq5NJFoW6gyUC8CrrQc8JtDaMNLewYM5zUqV7M7RJyBZFC4LUcqUJoe9fim4jiogcKHyW4garQtQ2VTVXj5",
+        "signer": "4VeAhvRaAkuoLjJjVHaMnVhp6HQ1khcKBp3sQiKT3nS6",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 787.4587349999997,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "3YD74MctB2RCNGaMUYQRGrTdPUFh6ZMHjWau5f6Br8mR"
+            ]
+          },
+          "H7ed7UgcLp3ax4X1CQ5WuWDn6d1pprfMMYiv5ejwLWWU": {
+            "signer_change": -19941593.937837,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "5WenwpskXoPw32N4Tzqfq4Lqm7z9WQdqNQddoEfNLTqf"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2HmfVjnLsDhD5MuFZPNc9ogBifijVA8eTEyJ83C6TYCHL1KBT2CD3faw3n2aWHz161RQNqSd7V8B4szMCDRzRMZk",
+        "signer": "4aZPjhQEQUN2kCRiSAHdbqKZX3p57GxXZ7YweFYXvgeh",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 3.0,
+            "pools": [
+              "28DKLUAJYXaF6r8gUDwPjijCSBa8j5LRcqhiQVzLV8Pm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "os3HX3dgyZMhhok7uUhz5hJNugAT6FztMBohmrGBXz6oQdqRcjqsurrD4TwfnFWbrjwrdCK3U7dPmxAPp5DJQPc",
+        "signer": "GZcjWQiXMQ5tw3TtHJx7tE8ni1adYsTXpGD3vE2odk6D",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -888.0,
+            "pools": [
+              "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2JmhUoVnrsU1Ny6bmp5DK3E896vbKKB5oLAUAQzstwmEG6Y2mxo1vpWYEP8QJF3tZ8jWa2csM52VnK7iya87g1zB",
+        "signer": "jg3ijxPaAAAF541x575hmeuifsZSeU3G1LaQ1fXQPLR",
+        "mint_info": {
+          "sasitfrUQb61jh6BSabzDkoyi9xgk8iC9qhoWBJH2C2": {
+            "signer_change": -459.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3CYwsoFt5dZHKWcnGKxfFifLWpwPYMLw9CEPeuaG5FjNpfehMjDGy7ab2aXku36upthFKmRuyDKDojteCKPM8XD1",
+        "signer": "Azv6MPxWSF3QPrVwuMYWhzAHomXHR21w1tWN3QFLYSmo",
+        "mint_info": {
+          "ChVzxWRmrTeSgwd3Ui3UumcN8KX7VK3WaD4KGeSKpypj": {
+            "signer_change": 10.348661569999877,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -14.314829000000003,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4EX2TTMXgDKYpUtYjRN5t6VecRqn287Tm1e4UUZwkiYHPBPzkKTe7ReqVZmEhSVNDqZ7AB6P7kKzDGCBbH4D86jU",
+        "signer": "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 72.9362620000029,
+            "pools": [
+              "AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD"
+            ]
+          },
+          "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL": {
+            "signer_change": -30.0,
+            "pools": [
+              "Eqv1tJGkLFeH4giGy8vqKxF4NJBHtGR5cGmKG6cpVy4Z"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "2e3tx8kZqfDZeNyohwY7gahxGGC1gkxscdxXtbxNfaJKMcqkQcx1pE9LHvNKnDAicq4Yu2WwuMpt4PLy3jputt8q",
+        "signer": "8Y1UU7NNGdaPCvuw4WnaeBh4ZQsiegsvfJoHHD4s2TAC",
+        "mint_info": {
+          "FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ": {
+            "signer_change": 2077.8719810000002,
+            "pools": [
+              "H8f9n2PfehUc73gRWSRTPXvqUhUHVywdAxcfEtYmmyAo"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -78.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "mrvdgTAEBx7P2Gr71KKaPkazvcXDMwFWybyzjZWBV15r5XZ4VuwAGe33ULa4vAA7dvrBh5sTQQs9iN8mA2ZrWwu",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.5929340000147931,
+            "pools": [
+              "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+              "247rD68jBH2zDxD75DxmKh7ZCdByaLU4PwjwqQiLLnWA"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4WteYCMtsREThdC2StcAVVJuAr6QJqeZaLjj3jTw1HHMN5jSuwrRvw6bi8aeSdvGETtLr11YWt6vKLYzqDd5Crta",
+        "signer": "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM",
+        "mint_info": {
+          "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux": {
+            "signer_change": -30.0,
+            "pools": [
+              "1koYvNEJ5gWXZ6V3re8xwXDHrEpHf4vNYrNGv4bhrqK"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 235.26658699999098,
+            "pools": [
+              "AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "3nTSCKzVvZqDSc2CXTeMy1TivjpiHZqw9vrNRCrQTWUHitYAf8tZnaPzHLJVsGQiiPdu8TmFws7cB3p4DG9fLmT",
+        "signer": "YUPaMvS8JBJ1qphcXpyxUvfsysGKwFTznsJ6bjcurSV",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.29439999999885913,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "8NyaPDJeC2eaBGpkRpZKnD9S448AZGgjSvumFe92DRK2"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "46r6WsHMH9bCgSmfyBLfqSiu5AMkTcjR1Voz2VXskewwFu6if21xjXz75oBGCbfdE5qtwbHettKmyk3pL4TeYQhN",
+        "signer": "5civ8nag6sdWWqqxu4oGwsNxAMXAPCSJbfevQGJ3QXNV",
+        "mint_info": {
+          "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj": {
+            "signer_change": 3.000000000006578e-09,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "8PSN1CQxfyZ7T4sM3HM3RAgF2Y6VCf4tKSc8xY73Tnq5"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4YzJ6mJzrxigWGnxvRG7agQreVYbggeTt6tZCGsDDsZ4MpZYEVzCSYsEY2UCoKAKXZfCBrMfcRNUb6KZdjdjrjSg",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.01130637400001433,
+            "pools": [
+              "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          }
+        },
+        "signer_count_in_slot": 2
+      },
+      {
+        "sig": "4oCwpBZz7ufR5fM8gXU4dvPhCWH9pujxKVjHn6tRgcNZhKfYY7rf1G8aWJ2Kuhmp3uTqfhC1Q6xhPc1xwaaJNtMY",
+        "signer": "GS8E7WcrNL9dW8epVzUETnVvqJGz1ysc1uhNZhMCSaKS",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -30.922239999999874,
+            "pools": [
+              "9Jrju2Z5ocTKfV1wf1Dkqc2BSc4Dy3D3raFSwDEX7zpf"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5GiLD6voQY4cbmKkAnXJ4RDpdxxNnxMzYx2SowYgnaN5zjm86nzjLWkspoPz7UdjAbsHiDKLZrCj98msDrXfcyL6",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.00014177200000276002,
+            "pools": [
+              "Fxm9C6mGaRswSzQwpxW3MTjJbHzd6tvoWVYKWEmrHya6",
+              "FkV4ABdju1xDGsAUP59AbeFtURC6EGizaB9MbSF7nDhe"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2nbFUerUByUMTyDMwMHTttcQE5FVvCwKn9f89sow836fsrYcD9SthgNiTg9EjjTrhfEq4EcKnuRUwxfKyN7VSxjc",
+        "signer": "b6BJ4ZeSENQ8cWDpjdFdn91gaLQiNivHoUXzsYFhfS7",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": -0.6060998800000021,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "AFXpUbQ6mmcg72NnQVokGvWFN2KV7cyBTiFV91EypRon": {
+            "signer_change": 553932.25045,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "63KDHSg3Pq8y9tTQrTGPoPv9ibpq23fxH9Z1NHK5FsxvqL2vSeQqkYvy24VrerrU1P5Erdk2mAPRbmabG8XZUkMu",
+        "signer": "1TYmWmTfyHky91HiyiuiNqfBRCwFGKcTjvzxQrQRA3q",
+        "mint_info": {
+          "AFXpUbQ6mmcg72NnQVokGvWFN2KV7cyBTiFV91EypRon": {
+            "signer_change": 452047.16984000057,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "SvCUL9fgCQwirj5S94XUqtyCotpCKFmJYcprFG4W8TMnkx24CLSZTDQzUANemY6J4UUvRMs8oihDnPH5eW1ayWL",
+        "signer": "b6BJ4ZeSENQ8cWDpjdFdn91gaLQiNivHoUXzsYFhfS7",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.6089830810000052,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "AFXpUbQ6mmcg72NnQVokGvWFN2KV7cyBTiFV91EypRon": {
+            "signer_change": -553932.25045,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 4
+      },
+      {
+        "sig": "63w7hAjvNNaE8WZZqvz4kYYHnAc2fjPPoSr6ZbGCmnnXQjg3XwEzUT1f99nKe5SyDnCijRcTzKX8pSykSsaXotPn",
+        "signer": "5nM1CTQwKXFZo5yJYC8J1pgj32JW6Fx8DpQAtPZ8aiLw",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1.0629180000105407,
+            "pools": [
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ",
+              "J4uBbeoWpZE8fH58PM1Fp9n9K6f1aThyeVCyRdJbaXqt"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2qNQ7dCdMT87Gfy6o9KtJA3hX48eLPPdodYtDAb1oLzqsB5MMq7vDVTzQTeL6i5nRrMQRYbdfEU4stNcwt3sKxZT",
+        "signer": "J6q6LiUi8qcnHw9chYD1wQQnLJche2h51KvuyCM2trVB",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 1642.095398000005,
+            "pools": [
+              "4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2eKGRMhcQmQDev3Xjp5sTMKqTiqnGGpsXxnqRpBQSbc5aTSZiFnWGH8w6Y26ah2CWd71nixf7JrU7fQF1XBeQQd3",
+        "signer": "RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB",
+        "mint_info": {
+          "8Wr94w46Eqcwt2g8CCRugg11pMjSsqZomQDLuLBhkjox": {
+            "signer_change": -362613223.716137,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {
+      "b6BJ4ZeSENQ8cWDpjdFdn91gaLQiNivHoUXzsYFhfS7": 4,
+      "CP1HhGWsBU8YD6fB3XQ1HgQhzC1iGWEXd6D8h9pK6JwM": 2,
+      "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E": 2
+    }
+  },
+  "252308632": {
+    "transactions": [
+      {
+        "sig": "yBxoqpb7rEo9Bvjy8uJKQg8XSGJYp4R1uG8wX6t65S2nZ9fKTaeMWYRD1BhQUiUQdfADykdF2PsBHVM2LLsw4uX",
+        "signer": "6uz3vwsFBmNt1waCCxubhV8dQU14BYzfZMg5PDahL75S",
+        "mint_info": {
+          "3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB": {
+            "signer_change": -25189.448600205,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4FTDStpWKCKDmWooyXdVJQVVz2uQ3VeGjWjNrHdg5QBv1LcxH2gD4CRPAP1tmDbKNDiHN5jv8q5qWkzU3jcqXPJ2",
+        "signer": "7hwosQf8YPQJedWKgCQBUeJVbwV6RyGpoU5f2ywWGwvi",
+        "mint_info": {
+          "7GaP5Wbm6vtdRHabnktF1UjJBMvVJQftgTS9Y8Zrs7qF": {
+            "signer_change": -500000.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3RH5RwssWnmkEyHVE7X8aTvmurkRQAepc89PWVHCNYfp4st31Yom2Y77Bf5LedPcuqBZMwcj4pW8DVJHhdQpB9TW",
+        "signer": "2mK8Jz51KGNDHcKGtMYxHVDKYpHsXoENLEnLQrs7ZG87",
+        "mint_info": {
+          "9Ctef5kPQFWCwqQDAiAqLCeZqavXBrseGVqbQgD4crhe": {
+            "signer_change": 245318.45662578708,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2ygxdUr75NyfjTbDfTTjNkttTQcb2Pdh7wgNHRTNo8H3R6nZJwWE9UCA6a3sNzXAmqYNnqnefZtDXHotS9v7j8By",
+        "signer": "TyrZ6SDVQGdMpnYtAgKGocvi1w1mdffhZENf1knyeqy",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 5.380929999999353,
+            "pools": [
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+              "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4u6YTBgB2h9h2SWqPCxoxfnBSkGUiqABUcPjF3EuEDbzauu5CGsp1GD7uP43LEm3bceif929dG1jvT1r46qFkUuT",
+        "signer": "2NN5VR5UVtRY7mAM18cnxcJ8qXwqWFxLrF2J5bJXBJoz",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 3.85125,
+            "pools": [
+              "Gr2jxm1anJStoG7k3xDRoMu74r8QZgVsWoLKFRgbg6J9",
+              "GFDko6sYw96a3nUmPqNLZwq7YstQ1u1SNUaVhnoCPW7o"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "25qVuuPuHNXjWzoByvPNDhdiTmYA2XYL2qW9EwxxXMRXhmFPjTcdimCoeMED21ysvovqstuHirVqivScPWzPGpbT",
+        "signer": "CAWo55gDGzXvNfPjtwTf2yxGVPULRDBohBQwKLzA4JAc",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 745.2684459999873,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU": {
+            "signer_change": -47660.13525761099,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5BMrfdmQi9aMjShFcpHR5oUbSq6g7h3NUDkXSvTU85enqjdqMEibD6TQ2hJzavvu2tT9ywxBbsmMuhEY6wcNyQ4v",
+        "signer": "ASx1wk74GLZsxVrYiBkNKiViPLjnJQVGxKrudRgPir4A",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 54.723648000042886,
+            "pools": [
+              "CTz5UMLQm2SRWHzQnU62Pi4yJqbNGjgRBHqqp6oDHfF7"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5CnxRzMNp81DpvnPGy9jTZmkssX1G8wppcVadU5RzKEvQoWp63Nsq7BWvsgzDoN2Shy8QobHWBbZCj7r6GbzDZxZ",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 8.269499999968843e-05,
+            "pools": [
+              "FsvGc8qSHGCsTEeRUSaF2kctpfzXBqVRFQjsiRresr3G",
+              "FFCfYM8GyV836cjxFeqgCxZ4ujPNQ1bg6TC6zhF2oUFZ"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "M7TZmbY6hvLrJpNSB8iCTVYjtNn7hRbdb1Vwu9yw3BX6xeSc74SdZTYaCm1KRfhMo9CxkANi9ae8EVQQkn5n5NH",
+        "signer": "4kH5sRStQiJKw5VaKuxaEYMSDnh8pSKwf5W33vz6JbHP",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 1.3905610000001616,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "DkZ6UMiH371Eb4dyU7oLmpkm2fyqttzyERwAKdZk7g6T"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5Gto3UuJ5WyYrfuhZDeLfSPKwFiiho3Bqz7GN3jD4De5EDtYJydiHfnp59rxxu1GZHTv1hj94U93HWt6N8WSJDpW",
+        "signer": "AJJiELXGgESCQDtWCicHo3FGmsttZv7BBGBxcjfKEEK5",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 505.65252899999996,
+            "pools": [
+              "45ruCyfdRkWpRNGEqWzjCiXRHkZs8WXCLQ67Pnpye7Hp",
+              "F1TVmk1LAaVDGDfEFJWfNLCh9wikZxv33e54ZPeRQzEh",
+              "3ESUFCnRNgZ7Mn2mPPUMmXYaKU8jpnV9VtA17M7t2mHQ"
+            ]
+          },
+          "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp": {
+            "signer_change": -317.9632,
+            "pools": [
+              "HAD8LGL8jBTAPe7fen5NAd5fckz3c4ezKJFqcDJC1aVa",
+              "FHMkYN2iHD344LRD2fxWzvVW4hRWkWoq5CriMhMbNr7W"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "Uis7tqxnrstDx6eiExH8W6XmhGe4dXe6b9k4Vq15w4Rqk39rsF3QEb3T9hzhYXAoAbtUK4voYQH8nXvsEx21mhM",
+        "signer": "J6q6LiUi8qcnHw9chYD1wQQnLJche2h51KvuyCM2trVB",
+        "mint_info": {
+          "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL": {
+            "signer_change": -652.1739130429996,
+            "pools": [
+              "G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 1590.7158209999907,
+            "pools": [
+              "FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC",
+              "AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3P8BiqnXtWt1Pf8fPcfxPGZoGEo6QZVPRJKnLectahroY8miZiP6BeAJHRb6jPxV9acdQMmWfYxHMKhHip1EPcWD",
+        "signer": "CAWk36cnuwNrt3UEwC3FjCUsKuNxsqVVam9TjWVofzzx",
+        "mint_info": {
+          "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof": {
+            "signer_change": 1367.3728727000002,
+            "pools": [
+              "AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -8593.515608999995,
+            "pools": [
+              "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5nonYz9FMV3ud2eUN47ZAkvjui2hTvX41vs1mdq77mibnpLBBww4eMKiAnGJ6U1bRULvniMz7p7ADiAgd8PRLrha",
+        "signer": "EccxYg7rViwYfn9EMoNu7sUaV82QGyFt6ewiQaH1GYjv",
+        "mint_info": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "signer_change": 16.228369999997085,
+            "pools": [
+              "6dtz6ewCQgZY3v1ge5wjkekMrM295pQUsf4FN3fAYaVo",
+              "H3vkQqNVWySTD4c1Y91wtoT5iwxKSVtVLfC2rD8SgwTN",
+              "EZVkeboWeXygtq8LMyENHyXdF5wpYrtExRNH9UwB1qYw"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4qiMzn2Vp1ErT4x1s7SzYSLRFh8RsP7iyyX6djXUjiMfcqEkbnHjhQWymvVysnWeARbEg713tqpTq8Ut8DX1e5o9",
+        "signer": "momXXbanL1qHS4q1RPSSv8jam59j1MM2vx1TfQf3e49",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.01184000000000296,
+            "pools": [
+              "8cAUgRxXCUjkRtQfzsvCiAdtyV7xNTDmAF78Sd8vj1iv",
+              "HyhMt7jPKJ1LLXQTm5wjf5f4kWqAeTeKQZvMq8TtZnPV",
+              "3YD74MctB2RCNGaMUYQRGrTdPUFh6ZMHjWau5f6Br8mR"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0019726720000008413,
+            "pools": [
+              "DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4PwLBTFkPRfhBJToG5B17vwL36AJid1uB25XtoGCZksTWFfYZDuKFM3XDSmxC82vZjT2Xv14VCCkWevcD6jsXKAn",
+        "signer": "71WDyyCsZwyEYDV91Qrb212rdg6woCHYQhFnmZUBxiJ6",
+        "mint_info": {
+          "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So": {
+            "signer_change": 7.000000024071085e-09,
+            "pools": [
+              "7WntnQxX4LPPZmy7hgwEbnaEJmAdUGzJL6BNRn6AQCTL",
+              "8vrC1FAnW6hQMwJuU5waZdRrBbDJTULqjpdc4GjDtKR6"
+            ]
+          },
+          "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1": {
+            "signer_change": 0.00035171800000000086,
+            "pools": [
+              "SoLEokaLDUDu5RGYouU8Dwbzzj628hxaF7MR6t3Chbx",
+              "8phK65jxmTPEN158xLgSr4oZvssw9SyTErpNZj3g7px4"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "33EywsCWUMUEGwHUANrDEa1Hnxc5yQxNHf7gTRuCC5THg59aHVv4zcZi3fNDB97tuytwPwfm2S34wv8mWvkZRBdM",
+        "signer": "jupoGAk6QVHBtEdEUAsFhLRPCi5MK48bJZTu5AvBv6S",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 84.1365000000078,
+            "pools": [
+              "Fg8kRMHMSR1bKHRinwKJLWitaCSmKaKeg69GhU6cZAPn"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2NVHFBTKomYbzQs6vzGxSio5jSroQDi2smcJsqa9A7cgXnEgRt8PkDDUuQVMj3QzBfFm5A5mLBwHuJ3jA4tBphFi",
+        "signer": "GS8E7WcrNL9dW8epVzUETnVvqJGz1ysc1uhNZhMCSaKS",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -326.8248200000089,
+            "pools": [
+              "9Jrju2Z5ocTKfV1wf1Dkqc2BSc4Dy3D3raFSwDEX7zpf"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4SRseVEARJ5iwNuqj4iGq6CnchBWWYfnzEeDPqnrD8zTX3wi6jxdB8LHDNGm3g7ZC3FzUP9YxjxsPGz623dkrobB",
+        "signer": "FreyaXYaCwVy86BdNECd7BXnqEvFUbt3p6d2B5eS5zDv",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.03788899999926798,
+            "pools": [
+              "JU8kmKzDHF9sXWsnoznaFDFezLsE5uomX2JkRMbmsQP",
+              "7ZecrakJ3B2NvVxf7hEjCzZy9bNDAW9wXrz9o6wPXbzD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5ApxcV2NpcAYqBfukRAmxuywBueoDzGVWP3tePsEDsFQCed1HhZU7DdDwvKbRFD5pDSR2dedWPQ692U9x3Rteb6j",
+        "signer": "NhiLaJ63BbechNdRnsnS57aA1bxh9eNfRDmnXNds6ra",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.014267999999901804,
+            "pools": [
+              "SFbN8RFxyrZGN8H7UoJyVqUk5UoiLMoVW146o9cJtt1",
+              "AwBhvNXf5X5hNbC1jAqrJ7Stx5xLuG97xDjJ9PNy1h65"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {}
+  },
+  "252308633": {
+    "transactions": [
+      {
+        "sig": "3hsBAgJMTbrmuFAhFHk5eLNoxEXByEAkzPC8EcSt2LAEYmBc7zEt9wYRzBTD2DuzeELx5zZfF4Phaamx3BdbhbJ8",
+        "signer": "23t5uhwqVwnJ3gkbj3NnkrN21wUSmFmRBfc3WMuV51KY",
+        "mint_info": {
+          "AjMQVdbaZ5N1Ue3i43YkFPdcDX1E6rC9XaJ8miQQmsNv": {
+            "signer_change": 92127.01622117194,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3fPHWVJnHWzodZZte2a1fCy3mLcu1GZwfhjMTzhzauDk9vqFPELqoYrdQryFpmQJGRYKGa69PFwy36zcA6fWRLi5",
+        "signer": "4eLUv6sdDCEUFU1ATXhNBHb3qa7rVzpv9NwHBfhL3qFA",
+        "mint_info": {
+          "3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB": {
+            "signer_change": -11708.866892099999,
+            "pools": [
+              "2uiiHiAwbsCrq1J5zaNnhhhfpxCP1k7cRQBCE9t4rKeW"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4Pbd1J4Y6ktwtZggCPuMecxyBv7DoCknY1Esrks8mRwhssYS7xMKF3EEJeo5ShYfWu18zVPbCNvMYWXr4hZh1PTK",
+        "signer": "E2siDSJuHzjRHwpXvyxHxgzXecKEGzR7NX5vM6n1f12B",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.008578536000015902,
+            "pools": [
+              "8WYai14B7KYtzz3MsK9e7SUpV5kz5EZEeBpPjGghZh4S",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4y1iVukFBG9ETDf9fAH8u3StXC2rN33KoKi5uYnCFez98eufY2239KpYLMTTZJ5c8hBJeRzgX6J5dYEneiaJuZqN",
+        "signer": "BerGz9jsBVEsVyNDy4TxYdz1LhN6HzxGCYJXbwqASq9e",
+        "mint_info": {
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 0.0017436689999996702,
+            "pools": [
+              "HADxKpvPWva1TErbWPns5DkmQBYmfDyG5vKtoyWaXNum",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "LudCoBmErqiAPWX4HkQZBncFUCtxzax8kcMTicV3N9gdjt5nDv3LBwiMo4cATx73P3wEqMjRdv7paRHNHPeVasR",
+        "signer": "Be9VVHfsDKo3gvqgqxNMYDUu8ahr9PnNYUAJHFGucq4n",
+        "mint_info": {
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": -37294.990733,
+            "pools": [
+              "3NeUgARDmFgnKtkJLqUcEUNCfknFCcGsFfMJCtx6bAgx",
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+              "4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 37300.719497,
+            "pools": [
+              "3NeUgARDmFgnKtkJLqUcEUNCfknFCcGsFfMJCtx6bAgx",
+              "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+              "4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5USoAiAH6fEo4nbN5DhNxh92bJtBRd2RF1sQx6SmoPyU2RKde3PQFzmRsRygZzzvmt41n9m7LEiJRHQK3pyaYpu4",
+        "signer": "6dT9AAuunAbPfpTceeYTi8XCkGDgZKwkQ3wxREW2UJ1T",
+        "mint_info": {
+          "7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs": {
+            "signer_change": -2000.0,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4b8cXW1nLFpronnZ7hVE62hKuoFy5tAhGXaxkVangi2QWXU8RNcE28iysGefD5Msn6zCUTNx5hmjd2gDPwtgna3T",
+        "signer": "ALz8oi3vxM3PggU2NGETEzmjKh2KLiyXgcMGJCeRAm7y",
+        "mint_info": {
+          "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4": {
+            "signer_change": -730.0,
+            "pools": [
+              "E86A8jsBmPDgWmeRShKRPvb72oHik6kKybtJGfQTNts5"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "547vhRpsx6Vwa9aJSXiuJH6mGyDn3cq1kyPsDwJFwHNYHd1qAsooo5GrU6RUKqqkCShGu5SuagrE5rET3NycRw2B",
+        "signer": "89JkfbGvfqp3x6QXBjaugPXUQ1r9iqL5tAMFXyaXzW96",
+        "mint_info": {
+          "34pv4EUxjMgbVBBQrjkbb8xRZyRX6PrMXAjSxTWRv4H9": {
+            "signer_change": 458462.096332487,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5HHjUjMZfQNn8tcNWSATkw7p8uiYH3cudZC8q7mAEgRTU2Ss5PBfmyooM3ymgyZRTy1yXUJFDZXfkfv1KM2XDyN4",
+        "signer": "BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 10.977757999993628,
+            "pools": [
+              "3tD34VtprDSkYCnATtQLCiVgTkECU3d12KtjupeR6N2X",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5SfeaVVu2HPWDGk56FznhWEDGRvcCtvgrkxTAoHqSueGyK17stDcpKRt1tsMnCvcbwAxb4SKYRwuWZnPcDf3jyUL",
+        "signer": "GrQ2x5zMzm71mKAqtUCfqSPWbFZYPvq5M665AwHhJNVD",
+        "mint_info": {
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn": {
+            "signer_change": -0.959504824,
+            "pools": [
+              "JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "cy9mUwEjnbU9A4eagGHUzLGy5wzKsTgecZkskL3CqKbEHf9HxR2iZpw2RELbSw7WG5GRcSHEYskkHfG6tC3dtEH",
+        "signer": "LpfjgtAe9JqQevzjNWbq1e3xfvssfWxFHXWxStaBwDC",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 10.259219,
+            "pools": [
+              "F1TVmk1LAaVDGDfEFJWfNLCh9wikZxv33e54ZPeRQzEh"
+            ]
+          },
+          "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs": {
+            "signer_change": -0.00304919,
+            "pools": [
+              "HTuQrvVrbAZrYsKRe6qCJ6ZxFGy5EEYb5uj6TmSN45q3"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4ojxCHycKrdUXvjF6j5aubrYu6Q1iccaRTbxxRU1KDnR2RWDSzAy9eKJ8NQ5dXSGfdfzW3iuP9ggkm9vXw13kav6",
+        "signer": "8yP6fWfUg4hLCCyKadvq1H2wbR6Bxc7M6XnWfj3D1vdA",
+        "mint_info": {
+          "F7uW7bcoaXxhPMPZ528FFSeqk8C5tDjBcJ8ue7UvjGf3": {
+            "signer_change": -202956.758941673,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "5Xf2LX3aVf1EAwZzEp848qox1PRpjALpYuVNar4KK3zG": {
+            "signer_change": 3218.778578927,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2hPN7RZg1NHsSVq8EY29ytJuKkFNnv1HDPHxLPkUE3AinjyFQSmkWn8zQTxdkuZTbJjrTPYyfBPEhjBrtELBhnAm",
+        "signer": "9Q7r2rxgjHNukxqV4WvQ8iSaQP6fbkTtXrmdFZYykHEf",
+        "mint_info": {
+          "4TUNzcgp2fPD48fcW4seRjyqyDZMrPj4ZubnXFEsKeYk": {
+            "signer_change": -613858.0780898,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          },
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+            "signer_change": 400.137295,
+            "pools": [
+              "BfxJcifavkCgznhvAtLsBHQpyNwaTMs2cR986qbH4fPh",
+              "AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3Yn7efZuTP4nLNuS5cywQUsnh7zYyaUD2rM1xoGBm7JwYcTKTT1scCvziz6SsoNvzqnfAY1RzHTdm8AhWWCarNy9",
+        "signer": "J5nvCdysjMiYXMV6EtwT8TERjYQEtrbiwRzDfjjL3tNg",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 9.976583,
+            "pools": [
+              "8PSN1CQxfyZ7T4sM3HM3RAgF2Y6VCf4tKSc8xY73Tnq5"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3HsDvPzqkYTgMgGCrWCwFBnuZAWa9wDXTthufxexa9aSxSSjnndrwJfXndvsnPysA1NVHHrtPPknrUzfeCes6ZFF",
+        "signer": "36dZB2YF9KoVF3hGmS3Hh6aVaYy5zVwDq6eax3h7UJyn",
+        "mint_info": {
+          "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+            "signer_change": 2000.0,
+            "pools": []
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2qcCcpEVEdW6QgSAFPUfuo4hEB7fnHSussZKvfGyhH54MEcxZBhCnvuaYSiFEJ5p8A8q5c5XQ5TyZhT1Di5ZpLYx",
+        "signer": "6K28SDnGMEoiDh4dwUp85mSevMoTbMPckvutpzEeirmS",
+        "mint_info": {
+          "kCedEEJobUThRzErhu8VXFazRGuy1t3ucsVynQFQ6aW": {
+            "signer_change": 299.954856144,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+              "ZG98FUCjb8mJ824Gbs6RsgVmr1FhXb2oNiJHa2dwmPd"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "5am8v5dxcdhk64knwAAGwZS924TB12tc77YMyRuQE7cDvcrhnHRYkAmJXWVcMVCtDoPXTuPmr1GbxcxGdwVGj3rY",
+        "signer": "2u9wVpb9pSk1jGj8p8uFpUhNVy5VrXdZSisjd1z6boF4",
+        "mint_info": {
+          "2c8TQe4TUf2doRXd3yQ1XEn7zhT1vWw1y41SXz6G4j7S": {
+            "signer_change": -432.88659116,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2pq9TN72tBSHq1fv2j4YWbHW48MyAtcpuvrxhosjFMemVHhXqvrqwQe3HPD4Wrsbfap3mHGreA9kYSuF9rH1TQC4",
+        "signer": "DBUcTEzHyZAX3aTdYtBN7QxUS7L7PrMUetLRGJniD3Ya",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": -70.0,
+            "pools": [
+              "uhKKk4hkdx1ZPZtLcTfEuhs3PwZh169bJB7jRrpvzrD"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3SKmLUTmGBgW4fZk7hwXNKPBdmUFw7CKfC29ykb5Dh1qQsBEvp6qqkpa4p5iJUfDaDEavnjgpuFNPNhm5PEPHpDq",
+        "signer": "8mtyFH3Zjm7Ve3bEL6aVjAQnxNJh79PWYfbGbM66WGpZ",
+        "mint_info": {
+          "H7ed7UgcLp3ax4X1CQ5WuWDn6d1pprfMMYiv5ejwLWWU": {
+            "signer_change": -1414705.384208,
+            "pools": [
+              "C5wdmudkJgTHiY7WF7MtygqB6GC3Mc7o8879Qe8sVk1j"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "2QtNygjr8vzQng9dWXSaLQX8ShScA1hCccj5YPR4Vp1XFtwpMPrXGXy6PovFB7uQ9krcyGu32yWeiL9K8Tx6ZoDf",
+        "signer": "4gtL5oX4NdriM4mi4H9NjmVzLixUywcAmd9Fije6n6D6",
+        "mint_info": {
+          "HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9": {
+            "signer_change": -30515.983396,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "4hPdnVqWjb6zyakjSA83Es3PxWZ1UxmE2qj4Wm7YmrFNK439eLpgG2Ubk6J9j1mFsuGE9qjV8kfPD3Y2EenA4fpZ",
+        "signer": "CAWk36cnuwNrt3UEwC3FjCUsKuNxsqVVam9TjWVofzzx",
+        "mint_info": {
+          "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL": {
+            "signer_change": -1000.0,
+            "pools": [
+              "AwBhvNXf5X5hNbC1jAqrJ7Stx5xLuG97xDjJ9PNy1h65"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 2437.6252289999975,
+            "pools": [
+              "AwBhvNXf5X5hNbC1jAqrJ7Stx5xLuG97xDjJ9PNy1h65"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "H25UHRe5z5Cj7X4ht2uj8XUPND2GvfviiEMkmy2WLTwS1QN2aAy9rdFw97dqmJPTvforExsYr1VFEPWTtnVyUJ8",
+        "signer": "FhjPdctbGsu9uBAh1JUouF3r6UroydCCpcm6tbUEMAfb",
+        "mint_info": {
+          "GB4oCKsqUpUigjqL2pk3mD6HPubhe2nUMf3VpQBTCmPb": {
+            "signer_change": -5118510.380487,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3TYAwiCTFSxDXPrA2TPPGNGZ3TyRdhF5xf5BWCygk7eopv3vBreV7d1MFGBk7FVSbwckt28aLu8AvE24PHYiaj17",
+        "signer": "BDruvVsChWKhViEX9M6AC5rzkidWqXhgn2VK8FSvy1Z3",
+        "mint_info": {
+          "vAnfwrzNPap4AuscDkPnriQhpVqfc5zfdhTRqytVeZ1": {
+            "signer_change": -975.0000000000002,
+            "pools": [
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3emeeHXo8DzLyqyvCf6JLfmNp2vhSThLQNrjK1Jg4KeXa9vZxohtKdCxZ711kfLqWG4BK2UUUV5mwjEEdtGwGWh9",
+        "signer": "moRseLnzCKEcy9nT3ktG7eMwW9qNcbvKuC44WfvCvXq",
+        "mint_info": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.03334299998823553,
+            "pools": [
+              "HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW",
+              "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "3BPZKK79u6QCP2s4uJh7xjfmFirSfKqpNPiN7Qrhh9HUtM1VWRq3AhPAraYmL2rMpdGPCvDvA4Ca8PgcBJRiXPoB",
+        "signer": "CmwPTro4ogHPhuG9Dozx1X7KiATNudF1rkem3BQmuPn7",
+        "mint_info": {
+          "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj": {
+            "signer_change": 4.999999999997411e-09,
+            "pools": [
+              "2AEWSvUds1wsufnsDPCXjFsJCMJH5SNNm7fSF4kxys9a",
+              "8PSN1CQxfyZ7T4sM3HM3RAgF2Y6VCf4tKSc8xY73Tnq5"
+            ]
+          },
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "signer_change": 0.0731670000000122,
+            "pools": [
+              "GgAqL1Lfs3zYZK6Gea9Bey5jmPbK8c4dmBbe5gPeYQEz",
+              "8PSN1CQxfyZ7T4sM3HM3RAgF2Y6VCf4tKSc8xY73Tnq5"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      },
+      {
+        "sig": "uTA1DMg6NXs8qa2WndmfADxe62wTR9PWiU9F2CzAvd8QGKyh88nz43vn6oVNU8UbEXPgSdFXELvAZoctNcoGsYf",
+        "signer": "AxjdyLn3FPWUtGSaH7CPopyABv1XPQMifB3Kp37JNhmE",
+        "mint_info": {
+          "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+            "signer_change": 74988000.0,
+            "pools": [
+              "51Cdt3oASXuVD88tAqJEeR6XH3PjQQ3xb7Cd22KaW2GK"
+            ]
+          },
+          "So11111111111111111111111111111111111111112": {
+            "signer_change": 7.943093714999804,
+            "pools": [
+              "51Cdt3oASXuVD88tAqJEeR6XH3PjQQ3xb7Cd22KaW2GK"
+            ]
+          }
+        },
+        "signer_count_in_slot": 1
+      }
+    ],
+    "signer_counts": {}
+  }
+}

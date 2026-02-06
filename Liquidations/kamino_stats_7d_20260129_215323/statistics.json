@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "fetch_time": "2026-01-29T22:23:53.597135",
+    "days_requested": 7,
+    "new_transactions": 113300,
+    "new_liquidations": 0,
+    "batches": 114,
+    "duration_seconds": 1829.503639
+  },
+  "cumulative": {
+    "total_transactions": 113300,
+    "total_fetches": 1
+  },
+  "type_counts": {
+    "REFRESH_OBLIGATION": 42982,
+    "DEPOSIT": 8314,
+    "REFRESH_RESERVE": 6793,
+    "WITHDRAW": 7072,
+    "SYNC_NATIVE": 713,
+    "UNKNOWN": 14429,
+    "TOKEN_MINT": 11857,
+    "STAKE": 6642,
+    "FLASH_REPAY_RESERVE_LIQUIDITY": 6929,
+    "WITHDRAW_OBLIGATION_COLLATERAL_AND_REDEEM_RESERVE_COLLATERAL": 339,
+    "WITHDRAW_UNSTAKED_DEPOSITS": 6346,
+    "DEPOSIT_RESERVE_LIQUIDITY_AND_OBLIGATION_COLLATERAL": 348,
+    "INIT_USER_METADATA": 99,
+    "INIT_OBLIGATION": 12,
+    "TRANSFER": 134,
+    "REFRESH_RESERVES_BATCH": 150,
+    "CLOSE_ACCOUNT": 42,
+    "BORROW_OBLIGATION_LIQUIDITY": 15,
+    "REPAY_OBLIGATION_LIQUIDITY": 11,
+    "EXECUTE_VAULT_TRANSACTION": 45,
+    "FLASH_LOAN_END": 26,
+    "REDEEM_RESERVE_COLLATERAL": 1,
+    "INIT_OBLIGATION_FARMS_FOR_RESERVE": 1
+  }
+}

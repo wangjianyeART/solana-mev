@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "total_transactions": 2,
+    "total_liquidations": 0,
+    "time_range_days": 7,
+    "fetch_time": "2026-01-29T21:40:55.649521",
+    "total_batches": 1
+  },
+  "type_counts": {
+    "NORMAL": 2
+  },
+  "liquidations": []
+}
