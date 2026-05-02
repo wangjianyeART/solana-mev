@@ -1,0 +1,14 @@
+metric,value
+total_candidates,32103
+reliable,29455
+reliable_pct,91.8%
+date_min,2025-04-15
+date_max,2026-04-14
+span_days,364
+direction_SOL_to_ETH,18087
+direction_ETH_to_SOL,14016
+subtype_full_clean,29455
+subtype_other,2648
+liq_dead,0
+liq_thin,0
+liq_healthy,0

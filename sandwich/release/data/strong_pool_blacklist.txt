@@ -1,0 +1,8 @@
+# pool/MM blacklist - 6 wallets
+# columns: wallet  n_bundles  dir_balance  mean_profit_sol  n_victims  tier_counts
+2p7DFCUYMHuia4ytJbyW8naMTWNRueCmFUU4Ww2LNHyT	7443	0.865	+0.00107	100	{'strong': 771, 'weak': 3616, 'probable': 1129, 'possible': 1927}
+TQY6RKt63GfxTY24pwwZwLj4kdnWbfbuGQdh5LvmCWk	4694	0.827	-0.00986	200	{'weak': 2368, 'possible': 1128, 'strong': 462, 'probable': 736}
+BG1nfzv3m4JYDFA3J5mdijW34epfBcyPnYykWZWhSmDt	2358	0.946	+0.00570	100	{'possible': 641, 'strong': 243, 'weak': 1107, 'probable': 367}
+Ck4RMNoxqWvSfE3t5Kgg6bVZFAWpKuGntybxgXCEERpN	406	0.637	+0.00005	179	{'weak': 209, 'strong': 42, 'probable': 62, 'possible': 93}
+FiwxgiUUyhsfEbNxwjTuydnb4yG5ZGoBYXrWAgSnW4fy	271	0.652	+0.00878	144	{'probable': 35, 'possible': 79, 'weak': 133, 'strong': 24}
+3vSC5JkEG8jeEui7r7UfjTmMQMYocv49Tna5UvLyJUcK	240	0.690	+0.00908	87	{'possible': 52, 'weak': 129, 'strong': 26, 'probable': 33}

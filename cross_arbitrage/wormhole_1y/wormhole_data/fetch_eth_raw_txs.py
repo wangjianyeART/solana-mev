@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+"""
+获取 eth_signatures.json 中所有交易的完整 raw 数据。
+
+对每个tx hash调用 eth_getTransactionByHash + eth_getTransactionReceipt，
+保存完整返回结果。边跑边保存，支持断点续跑。
+
+用法:
+    python wormhole_data/fetch_eth_raw_txs.py
+"""
+
+import requests
+import json
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+CHAINSTACK_URL = "https://ethereum-mainnet.core.chainstack.com/c6f9a8579dc240ea4e8c7d56d1236d0c"
+
+DIR = Path(__file__).parent / "use"
+INPUT = DIR / "signatures" / "eth_signatures.json"
+OUTPUT_DIR = DIR / "raw" / "eth_raw_txs"
+INDEX_FILE = DIR / "raw" / "eth_raw_index.json"
+
+
+def rpc_call(method, params):
+    for attempt in range(5):
+        try:
+            resp = requests.post(CHAINSTACK_URL, json={
+                "jsonrpc": "2.0", "id": 1,
+                "method": method, "params": params,
+            }, timeout=30)
+            data = resp.json()
+            if "error" in data:
+                code = data["error"].get("code", 0)
+                if code == 429:
+                    time.sleep(2 ** attempt)
+                    continue
+                return None
+            return data.get("result")
+        except Exception:
+            time.sleep(1)
+    return None
+
+
+def main():
+    OUTPUT_DIR.mkdir(exist_ok=True)
+
+    with open(INPUT, encoding="utf-8") as f:
+        data = json.load(f)
+
+    # 收集唯一tx hash
+    all_hashes = set()
+    for info in data["results"].values():
+        for tx in info.get("normal_txs", []):
+            if tx.get("hash"):
+                all_hashes.add(tx["hash"])
+        for tx in info.get("token_transfers", []):
+            if tx.get("hash"):
+                all_hashes.add(tx["hash"])
+
+    print(f"唯一交易: {len(all_hashes):,} 笔")
+
+    # 加载已完成的index
+    done_set = set()
+    if INDEX_FILE.exists():
+        with open(INDEX_FILE, encoding="utf-8") as f:
+            index = json.load(f)
+        done_set = set(index.get("completed", []))
+        print(f"已有 {len(done_set)} 笔，跳过")
+
+    print()
+
+    BATCH_SIZE = 500
+    hashes_sorted = sorted(all_hashes - done_set)
+    total = len(all_hashes)
+    to_do = len(hashes_sorted)
+    done = 0
+    errors = 0
+    batch = []
+    batch_num = len(done_set) // BATCH_SIZE
+    print(f"待处理: {to_do} 笔\n")
+
+    for txhash in hashes_sorted:
+        tx = rpc_call("eth_getTransactionByHash", [txhash])
+        receipt = rpc_call("eth_getTransactionReceipt", [txhash])
+
+        if tx and receipt:
+            batch.append({"hash": txhash, "transaction": tx, "receipt": receipt})
+        else:
+            batch.append({"hash": txhash, "transaction": tx, "receipt": receipt, "error": True})
+            errors += 1
+        done_set.add(txhash)
+        done += 1
+
+        if done % 100 == 0 or done == to_do:
+            print(f"  [{len(done_set)}/{total}]  本次{done}/{to_do}  失败{errors}", flush=True)
+
+        if len(batch) >= BATCH_SIZE:
+            batch_num += 1
+            out_path = OUTPUT_DIR / f"batch_{batch_num:04d}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(batch, f, indent=2, ensure_ascii=False)
+            print(f"    保存 {out_path.name} ({len(batch)}笔)", flush=True)
+            batch = []
+            with open(INDEX_FILE, "w", encoding="utf-8") as f:
+                json.dump({
+                    "total": total, "completed_count": len(done_set),
+                    "errors": errors, "completed": sorted(done_set),
+                    "updated": datetime.now(timezone.utc).isoformat(),
+                }, f, ensure_ascii=False)
+
+    if batch:
+        batch_num += 1
+        out_path = OUTPUT_DIR / f"batch_{batch_num:04d}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(batch, f, indent=2, ensure_ascii=False)
+        print(f"    保存 {out_path.name} ({len(batch)}笔)", flush=True)
+
+    with open(INDEX_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "total": total, "completed_count": len(done_set),
+            "errors": errors, "batch_files": batch_num,
+            "completed": sorted(done_set), "complete": True,
+            "updated": datetime.now(timezone.utc).isoformat(),
+        }, f, ensure_ascii=False)
+
+    print(f"\n{'=' * 60}")
+    print(f"  总交易: {len(done_set):,} 笔")
+    print(f"  失败: {errors}")
+    print(f"  文件数: {batch_num}")
+    total_size = sum(f.stat().st_size for f in OUTPUT_DIR.glob("batch_*.json")) / 1024 / 1024
+    print(f"  总大小: {total_size:.1f} MB")
+
+
+if __name__ == "__main__":
+    main()

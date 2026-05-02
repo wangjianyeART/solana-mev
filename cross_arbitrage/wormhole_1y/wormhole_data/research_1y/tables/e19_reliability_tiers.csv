@@ -1,0 +1,5 @@
+pnl_reliability,n,roi_median,roi_std,net_pnl_median,pct_net_positive,size_median
+reliable,28574,1.414,46.798,3.185,0.757,250.0
+reliable_after_dedup_failed,1163,33.89,198.389,124.241,0.659,520.811
+unreliable_asymmetric,804,-35.238,206.115,-252.22,0.243,987.523
+unreliable_partial_holdings,188,0.265,47.253,1.304,0.559,191.783

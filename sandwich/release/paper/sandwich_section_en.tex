@@ -1,0 +1,93 @@
+\documentclass[sigconf,nonacm,11pt]{acmart}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\setcopyright{none}
+\settopmatter{printacmref=false, printccs=false, printfolios=true}
+\acmConference[Working Paper]{Solana MEV Study}{2026}{Working Paper}
+
+\begin{document}
+\title{Identification and Anatomy of Sandwich Attacks on Solana Jito}
+\author{Anonymous}
+\affiliation{\institution{Working Paper}\city{}\country{}}
+\maketitle
+
+\section{Sandwich-Attack Identification}
+\label{sec:detection}
+
+Our dataset is the join of Jito bundle metadata and Helius enriched
+transaction data, comprising $3{,}783{,}142$ transactions across
+$1{,}260{,}686$ bundles. Each transaction supplies wallet-level flow
+through \texttt{tokenTransfers} and \texttt{nativeTransfers}.
+
+For every bundle of length $\geq 3$, we enumerate ordered triples
+$(i, k, j)$ and construct the wallet--asset signed-flow vector
+$\Delta_x(w, m) = \mathrm{inflow}_x(w, m) - \mathrm{outflow}_x(w, m)$
+per transaction.
+A wallet $W$ is flagged as a candidate attacker if there exists an
+asset pair $(b, q)$ such that $W$ executes mutually reversed swaps on
+$(b, q)$ between $x_i$ and $x_j$ (i.e., $\Delta_{x_i}(W, b)$ and
+$\Delta_{x_j}(W, b)$ have opposite signs and the quote flips
+correspondingly).
+We deliberately do \emph{not} require both legs to share a
+\texttt{feePayer}: in our sample $99.7\%$ of attackers use a dedicated
+tipper wallet, and any signer-based pre-filter would discard the
+overwhelming majority of true positives.
+
+Each candidate $(W, i, k, j)$ must additionally pass three economic
+filters: (i) \textbf{symmetry}, $|Q_f - Q_b|/\max(|Q_f|, |Q_b|) \leq 0.10$,
+ruling out one-sided liquidations and inventory dumps;
+(ii) \textbf{victim direction}: at least one wallet $V \neq W$ in some
+intermediate $x_k$ has a quote-asset flow aligned with $W$'s front leg;
+(iii) \textbf{positive base profit}.
+Two cleaning rules remove residual artefacts:
+R1 drops bundles whose flagged attacker is also a victim signer or
+aligned wallet (self-attacks);
+R2 blacklists wallets that appear as candidate attacker in $\geq 200$
+bundles with balanced direction ($\min(b,s)/\max(b,s) \geq 0.30$) and
+mean bundle profit within $\pm 0.01$ SOL---the empirical signature of
+two-sided market makers rather than opportunistic attackers.
+
+The pipeline identifies
+\textbf{$11{,}591$ confirmed Pattern-A sandwich attacks},
+spanning $12{,}916$ unique slots and $161$ unique attacker wallets;
+$5{,}060$ ($38.4\%$) realise positive net SOL profit.
+This count is approximately \emph{two orders of magnitude} larger
+than previously reported Pattern-A volumes on Solana, the gap being
+attributable almost entirely to dropping the implicit
+\texttt{feePayer}-equality assumption.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/sandwich_anatomy_col_en.pdf}
+  \caption{Four-axis anatomy of $11{,}591$ confirmed sandwiches.}
+  \label{fig:anatomy}
+\end{figure}
+
+Figure~\ref{fig:anatomy} dissects the confirmed sample along four
+dimensions.
+Panel~(A) is the joint decomposition of price-edge versus
+net-SOL profitability: although $75\%$ of attackers correctly position
+on the price spread, only $36\%$ realise positive net SOL profit; the
+doubly-profitable cell accounts for just $14.5\%$ of attempts.
+Most ``price-edge wins'' are erased by pool slippage and residual
+base-token inventory.
+Panel~(B) projects both $|\textit{profit}|$ and $\textit{tip}+\textit{fee}$
+onto the capital axis on log--log scales: the profit slope is
+$\approx 0.99$ (nearly linear in capital), whereas the cost slope is
+$\approx -0.28$ (essentially flat).
+Marginal cost is close to zero, granting capital-rich attackers a
+structural scale advantage.
+Panel~(C) shows that the market is highly concentrated
+(Gini $= 0.78$, top $1\%$ executes $11\%$ and top $10\%$ executes
+$79\%$), while two insets reveal that $86\%$ of attacks are
+front-buyer attacks and $99.2\%$ of bundles target only one victim.
+Panel~(D) plots the joint density of execution symmetry
+(\texttt{sym\_ratio}) and SOL profit:
+$sym\_ratio < 0.02$ yields positive expected profit, whereas
+$sym\_ratio > 0.05$ is loss-making on average---in the absence of
+bidding wars, what separates winners from losers is execution
+precision rather than tip aggression.
+
+\end{document}

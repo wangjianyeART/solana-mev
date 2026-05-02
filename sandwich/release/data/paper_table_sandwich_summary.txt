@@ -1,0 +1,35 @@
+======================================================================
+sandwich attack analysis — cleaned strong tier  (n=11,591)
+SOL-quoted subset                              (n=11,591)
+======================================================================
+
+Q1 / Q2  profitability:
+  by price-edge (sell_price > buy_price):      8711/11591 (75.2%)
+  by SOL net profit:                           4207/11591 (36.3%)
+  both:                                         1685/11591 (14.5%)
+
+Q3  cost composition (per bundle):
+  total Jito tip:                             0.1221 SOL
+  total tx fee:                               0.1936 SOL
+  total gross revenue (|edge|·capital, SOL):  255.94 SOL
+  cost / gross_revenue (median):              0.244%
+  cost is essentially negligible — main loss is execution slippage / inventory
+
+Q4  victims per bundle:
+  1 victim:                                  11500 (99.21%)
+  2 victim:                                     91 (0.79%)
+
+Q5  capital ↔ profit ↔ cost relationships:
+  capital deployed:  median 1.241 SOL,  p95 3.17 SOL
+  log-log slope  capital → |profit|  : 0.99  (≈1 means linear scaling)
+  log-log slope  capital → cost      : -0.28  (slope < 0.3 means cost ≈ flat regardless of size)
+
+attacker concentration:
+  unique attackers: 161
+  top 1% attackers (1 wallets) account for 10.9% of bundles
+  top 5% attackers (8 wallets) account for 53.6% of bundles
+  top 10% attackers (16 wallets) account for 78.7% of bundles
+
+direction split:
+  direction=buy  (sandwich quote BUYERS):  9966 (86.0%)
+  direction=sell (sandwich quote SELLERS):  1625 (14.0%)

@@ -1,0 +1,7 @@
+liquidity_category,direction,n,roi_median,roi_mean,net_pnl_median,net_pnl_sum,size_median,pct_net_positive
+dead_pool_exploit,ETH→SOL,2508,2.596,18.057,3.541,-41617.647,187.16,0.757
+dead_pool_exploit,SOL→ETH,3161,2.191,15.215,3.895,-2068173.644,200.0,0.865
+healthy_market_arb,ETH→SOL,2693,0.574,4.447,3.602,-207904.782,1100.0,0.696
+healthy_market_arb,SOL→ETH,3981,0.443,3.389,3.53,261501.084,1371.3,0.694
+thin_pool_arb,ETH→SOL,7411,1.955,5.107,2.822,-214949.093,190.167,0.759
+thin_pool_arb,SOL→ETH,9034,1.744,7.659,3.065,857836.04,200.0,0.864

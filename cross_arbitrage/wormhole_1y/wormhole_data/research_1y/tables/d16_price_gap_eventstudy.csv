@@ -1,0 +1,5 @@
+direction,stage,n,signed_gap_median,signed_gap_mean,signed_gap_p25,signed_gap_p75
+SOL→ETH,entry,8802,1.4413,2.3288,0.5268,2.8178
+SOL→ETH,exit,8789,1.2388,2.0616,0.3265,2.5889
+ETH→SOL,entry,6465,3.2138,5.6585,1.39,6.3061
+ETH→SOL,exit,6440,1.8252,3.4397,0.5448,4.1083

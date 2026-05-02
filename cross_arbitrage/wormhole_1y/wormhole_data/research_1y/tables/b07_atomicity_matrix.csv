@@ -1,0 +1,5 @@
+atomic_entry_same_block,atomic_exit_same_block,n,roi_med,size_med
+False,False,27441,1.424,250.0
+False,True,1194,1.488,250.0
+True,False,2065,1.435,479.142
+True,True,29,1.444,900.862

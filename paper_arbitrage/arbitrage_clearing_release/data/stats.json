@@ -1,0 +1,79 @@
+{
+  "total_records": 561659,
+  "wsol_records": 387884,
+  "first_month": "2025-04",
+  "last_month": "2026-03",
+  "first_date": "2025-04-04",
+  "last_date": "2026-03-03",
+  "unique_wallets": 4551,
+  "regime_counts": {
+    "non-bundle": 445327,
+    "single-tx bundle": 62233,
+    "multi-tx bundle": 54099
+  },
+  "wsol_regime_counts": {
+    "non-bundle": 310847,
+    "single-tx bundle": 41591,
+    "multi-tx bundle": 35446
+  },
+  "top_venues": [
+    [
+      "Orca Whirlpool",
+      246458
+    ],
+    [
+      "Meteora DLMM Program",
+      192765
+    ],
+    [
+      "Raydium CAMM",
+      169950
+    ],
+    [
+      "Raydium AMM v4",
+      67422
+    ],
+    [
+      "Meteora LB",
+      42172
+    ],
+    [
+      "PumpSwap",
+      37013
+    ],
+    [
+      "PancakeSwap",
+      31869
+    ],
+    [
+      "Meteora DAMM v2",
+      25751
+    ],
+    [
+      "GoonFi V2",
+      15397
+    ],
+    [
+      "SolFi v2",
+      14074
+    ],
+    [
+      "Saber Stable Swap",
+      6953
+    ],
+    [
+      "Jupiter v4",
+      85
+    ]
+  ],
+  "median_swap_count": 3.0,
+  "wsol_total_gross_sol": 162.138577015,
+  "wsol_total_net_sol": 152.229365531,
+  "wsol_median_net_lamports": 19526.0,
+  "bundle_tip_to_gross_pct": {
+    "single_tx_median": 15.360091517742813,
+    "single_tx_p90": 58.80274060978492,
+    "multi_tx_median": 22.390812784119873,
+    "multi_tx_p90": 76.30107624589213
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "worst10": [
+    "SOL→ETH|1ePEb73HZdp36NN5|0xf0c49b73833ca7",
+    "SOL→ETH|3pxE1vwz9RWw3BGu|0xea9723ea2474fa",
+    "SOL→ETH|62QcMQqZKBmNENaj|0x2c72704ce85c14",
+    "SOL→ETH|597qrTKLdvNPY6Jb|0x0ea70446c534d2",
+    "SOL→ETH|36EvX6heSh7uRuHU|0xc80d32e32ed0f6",
+    "ETH→SOL|5geHZ26JfLx1jmd7|0xe96e4585f6681d",
+    "ETH→SOL|3koyx9xJhXpmC61G|0xe81ef2b73c993d",
+    "ETH→SOL|3DygndUv2TAYctrE|0x6ac3772da63127",
+    "ETH→SOL|4bCXu2bBdLyosLHy|0x580ce79ae05fc9",
+    "ETH→SOL|64dvYM2rZ6ShGBQ7|0x7e881da32b1b2e"
+  ],
+  "best10": [
+    "SOL→ETH|5tpgDzcgDGWkt5fL|0x832b1b019d6526",
+    "SOL→ETH|2a24cqdcRj5H9AoA|0x85774100e50819",
+    "SOL→ETH|3mR5ZUugtr7wkyyu|0x1cbef1f00ffa17",
+    "ETH→SOL|2d3R42L3rirrAWPz|0xfa1b02f9606a05",
+    "SOL→ETH|4T9CVhXKK4qXmJ3K|0xac6f7793cbd1cd",
+    "ETH→SOL|3ATfbzbAHnTLpy6Y|0xe1e8c67bc1b171",
+    "SOL→ETH|4KywVpLRSvhFhUKz|0xf7cda6b1ca9e39",
+    "SOL→ETH|5TXMoTGLjCzj3ecd|0xe66050c465e613",
+    "SOL→ETH|3v7mVdVg1cRdzkPx|0x6595573e069b57",
+    "ETH→SOL|3debEYdqyfpgrB4h|0xab9132a226a68c"
+  ]
+}

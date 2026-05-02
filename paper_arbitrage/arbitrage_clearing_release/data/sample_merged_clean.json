@@ -1,0 +1,282 @@
+[
+  {
+    "signature": "62toZ44GL1J2GujbT3WADwG2J5PUm44pXxnj5SQxwLMpazMq6axft2NkXP97bvzDMHGPgW8vkxS21f3YYYfiChPW",
+    "time": "2026-03-02 07:59:58",
+    "slot": 403606135,
+    "wallet": "88P599VY9NLaagzX9dn7UEXz1uu5VfCuKKbSpN9YETLu",
+    "dexes": [
+      "Jupiter v6",
+      "Meteora DLMM Program",
+      "GoonFi V2"
+    ],
+    "swap_count": 3,
+    "circular_mints": [
+      "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    ],
+    "tx_fee_lamports": 5000,
+    "jito_tip_lamports": 0,
+    "sol_lamports": 0,
+    "native_lamports": -6000,
+    "arb_token_mints": [
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    ],
+    "arb_io": {
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+        "input_raw": 963392,
+        "output_raw": 964151,
+        "decimals": 6
+      }
+    },
+    "token_raw": {
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": 759,
+      "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g": 0,
+      "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij": 0
+    },
+    "cursor_ts": 1772409600,
+    "cursor_ts_str": "2026-03-02 00:00:00 UTC",
+    "in_bundle": true,
+    "bundle_id": "c423a0926c056d114a923a5f5b119d3fbe25e4235cb456288da9922b8e502534",
+    "bundle_slot": 403606135,
+    "bundle_validator": "pSoLoZx55zZz61gjxSTwHtwTg4yTwdm7ruBmyjbYgT2",
+    "bundle_tip_lamports": 1000,
+    "bundle_tx_count": 1,
+    "bundle_tx_index": 0,
+    "bundle_tx_signatures": [
+      "62toZ44GL1J2GujbT3WADwG2J5PUm44pXxnj5SQxwLMpazMq6axft2NkXP97bvzDMHGPgW8vkxS21f3YYYfiChPW"
+    ],
+    "bundle_timestamp": "2026-03-01T23:59:58+00:00",
+    "bundle_tippers": [
+      "88P599VY9NLaagzX9dn7UEXz1uu5VfCuKKbSpN9YETLu"
+    ],
+    "arb_cost_lamports": 5000,
+    "arb_gross_profit_raw": 759,
+    "arb_gross_profit_lamports": null,
+    "arb_net_profit_lamports": null,
+    "arb_gross_profit_rate_pct": 0.078784,
+    "arb_net_profit_rate_pct": null
+  },
+  {
+    "signature": "3WDNEkTt97spBWwcWxUUSKZZUF6zcYF3AjR46SpU2EGbyfPAgpoBM8EN55R6Fn6PVMqcMp5KtzMiGBFusBBNQZuM",
+    "time": "2026-03-02 07:59:57",
+    "slot": 403606133,
+    "wallet": "9kqgBFnSpUVFXoRTUBWiHGu2LhEJcdXhdFYdSRdwSaYL",
+    "dexes": [
+      "Jupiter v6",
+      "SolFi v2"
+    ],
+    "swap_count": 4,
+    "circular_mints": [
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "So11111111111111111111111111111111111111112"
+    ],
+    "tx_fee_lamports": 5000,
+    "jito_tip_lamports": 8304,
+    "sol_lamports": 21013,
+    "native_lamports": -13304,
+    "arb_token_mints": [
+      "So11111111111111111111111111111111111111112"
+    ],
+    "arb_io": {
+      "So11111111111111111111111111111111111111112": {
+        "input_raw": 83734840,
+        "output_raw": 83755853,
+        "decimals": 9
+      }
+    },
+    "token_raw": {
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": 0,
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": 0,
+      "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": 0
+    },
+    "cursor_ts": 1772409600,
+    "cursor_ts_str": "2026-03-02 00:00:00 UTC",
+    "in_bundle": true,
+    "bundle_id": "dcf6ca4ada053e1661f4d2bbe23733aa1ee94deb1bedd785b1a5830ebf41284d",
+    "bundle_slot": 403606133,
+    "bundle_validator": "pSoLoZx55zZz61gjxSTwHtwTg4yTwdm7ruBmyjbYgT2",
+    "bundle_tip_lamports": 8304,
+    "bundle_tx_count": 1,
+    "bundle_tx_index": 0,
+    "bundle_tx_signatures": [
+      "3WDNEkTt97spBWwcWxUUSKZZUF6zcYF3AjR46SpU2EGbyfPAgpoBM8EN55R6Fn6PVMqcMp5KtzMiGBFusBBNQZuM"
+    ],
+    "bundle_timestamp": "2026-03-01T23:59:57+00:00",
+    "bundle_tippers": [
+      "9kqgBFnSpUVFXoRTUBWiHGu2LhEJcdXhdFYdSRdwSaYL"
+    ],
+    "arb_cost_lamports": 13304,
+    "arb_gross_profit_lamports": 21013,
+    "arb_net_profit_lamports": 7709,
+    "arb_gross_profit_raw": null,
+    "arb_gross_profit_rate_pct": 0.025095,
+    "arb_net_profit_rate_pct": 0.009206
+  },
+  {
+    "signature": "3iBWqAA7bW2DMz7Fkw8LeeXNhjsVMXsWxz27DU9BUQVVziGZLbdZDjQ7e1VsQSXqZhj5Xhwxbve2VuGYJgDuaWWt",
+    "time": "2026-03-02 07:59:57",
+    "slot": 403606133,
+    "wallet": "TAPNDP5dFr9Vp47DFuddRxNVYmjUqgh8boiUrWFgMqi",
+    "dexes": [
+      "Jupiter v6",
+      "Orca Whirlpool"
+    ],
+    "swap_count": 3,
+    "circular_mints": [
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "So11111111111111111111111111111111111111112"
+    ],
+    "tx_fee_lamports": 5000,
+    "jito_tip_lamports": 0,
+    "sol_lamports": 68158,
+    "native_lamports": -2940628,
+    "arb_token_mints": [
+      "So11111111111111111111111111111111111111112"
+    ],
+    "arb_io": {
+      "So11111111111111111111111111111111111111112": {
+        "input_raw": 1347524158,
+        "output_raw": 1347592316,
+        "decimals": 9
+      }
+    },
+    "token_raw": {
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": 0,
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": 0
+    },
+    "cursor_ts": 1772409600,
+    "cursor_ts_str": "2026-03-02 00:00:00 UTC",
+    "in_bundle": true,
+    "bundle_id": "e7ebd5b919d03db6578480b4c43e755f64a890972f3f2e81b822a23a3800ab65",
+    "bundle_slot": 403606133,
+    "bundle_validator": "pSoLoZx55zZz61gjxSTwHtwTg4yTwdm7ruBmyjbYgT2",
+    "bundle_tip_lamports": 47858,
+    "bundle_tx_count": 2,
+    "bundle_tx_index": 0,
+    "bundle_tx_signatures": [
+      "3iBWqAA7bW2DMz7Fkw8LeeXNhjsVMXsWxz27DU9BUQVVziGZLbdZDjQ7e1VsQSXqZhj5Xhwxbve2VuGYJgDuaWWt",
+      "29fSu5XTbnvSu1cRZ3wFmQQA28xptRECiJDaqeUQtqqMgZKBVdB4gX1CRevyuWh4nuo45wJDrtnSgode773qNwws"
+    ],
+    "bundle_timestamp": "2026-03-01T23:59:57+00:00",
+    "bundle_tippers": [
+      "GTH5TJWK4iDWTxt57Cj5baYgzAHw8yrtZV38xyjW5TRS"
+    ],
+    "arb_cost_lamports": 52858,
+    "arb_gross_profit_lamports": 68158,
+    "arb_net_profit_lamports": 15300,
+    "arb_gross_profit_raw": null,
+    "arb_gross_profit_rate_pct": 0.005058,
+    "arb_net_profit_rate_pct": 0.001135
+  },
+  {
+    "signature": "2RreKQ5cWhQUiCSefFkevsNqKALgR2xCUfzVedxfB5PPy8Ve51j1RZDtHSx7WE8ujoVSHWCLSUxGda6oXT1REK7R",
+    "time": "2026-03-02 07:59:57",
+    "slot": 403606133,
+    "wallet": "CEA2p2K6S5YAtpDFKAtY9QzaFLGigqmK9czJ8xRxjP99",
+    "dexes": [
+      "Jupiter v6",
+      "Meteora DLMM Program"
+    ],
+    "swap_count": 3,
+    "circular_mints": [
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "So11111111111111111111111111111111111111112"
+    ],
+    "tx_fee_lamports": 8735,
+    "jito_tip_lamports": 0,
+    "sol_lamports": 205090,
+    "native_lamports": -8735,
+    "arb_token_mints": [
+      "So11111111111111111111111111111111111111112"
+    ],
+    "arb_io": {
+      "So11111111111111111111111111111111111111112": {
+        "input_raw": 100000000,
+        "output_raw": 100205090,
+        "decimals": 9
+      }
+    },
+    "token_raw": {
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": 0
+    },
+    "cursor_ts": 1772409600,
+    "cursor_ts_str": "2026-03-02 00:00:00 UTC",
+    "in_bundle": false,
+    "bundle_id": null,
+    "bundle_slot": null,
+    "bundle_validator": null,
+    "bundle_tip_lamports": null,
+    "bundle_tx_count": null,
+    "bundle_tx_index": null,
+    "bundle_tx_signatures": null,
+    "bundle_timestamp": null,
+    "bundle_tippers": null,
+    "arb_cost_lamports": 8735,
+    "arb_gross_profit_lamports": 205090,
+    "arb_net_profit_lamports": 196355,
+    "arb_gross_profit_raw": null,
+    "arb_gross_profit_rate_pct": 0.20509,
+    "arb_net_profit_rate_pct": 0.196355
+  },
+  {
+    "signature": "2UkVaVGh9gke1Jd5o686DCp4QFQXtrLc1qwMJTRmxqZ1VsKk8HnieHmYXcVjSDfafgm8FTMdC7iVLPmM2yKhBAui",
+    "time": "2026-03-02 07:59:57",
+    "slot": 403606131,
+    "wallet": "NNNmq2kyMRToN1vXWLU6wnXXWqkoQxV3PKi9DWXFyha",
+    "dexes": [
+      "Jupiter v6",
+      "Meteora DLMM Program"
+    ],
+    "swap_count": 3,
+    "circular_mints": [
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "So11111111111111111111111111111111111111112"
+    ],
+    "tx_fee_lamports": 5000,
+    "jito_tip_lamports": 0,
+    "sol_lamports": 20589,
+    "native_lamports": -2893770,
+    "arb_token_mints": [
+      "So11111111111111111111111111111111111111112"
+    ],
+    "arb_io": {
+      "So11111111111111111111111111111111111111112": {
+        "input_raw": 24025192,
+        "output_raw": 24045781,
+        "decimals": 9
+      }
+    },
+    "token_raw": {
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": 0,
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": 0
+    },
+    "cursor_ts": 1772409600,
+    "cursor_ts_str": "2026-03-02 00:00:00 UTC",
+    "in_bundle": true,
+    "bundle_id": "84fd88c887f65e31b4df0eed833a18f7e5d896a84fc3593634a371cc9471aba5",
+    "bundle_slot": 403606131,
+    "bundle_validator": "2m1A2WM1vte7RWz5xTTw4i1SiXmngVtXhqFERaUjoAAb",
+    "bundle_tip_lamports": 1000,
+    "bundle_tx_count": 2,
+    "bundle_tx_index": 0,
+    "bundle_tx_signatures": [
+      "2UkVaVGh9gke1Jd5o686DCp4QFQXtrLc1qwMJTRmxqZ1VsKk8HnieHmYXcVjSDfafgm8FTMdC7iVLPmM2yKhBAui",
+      "5n2pMMFitMcM6H3gwqEY4akkTas28AVkzKgrAqFHqXeXHwqE1WUFKSeH8YC2HnfnHadpKF5jgiW9TWCBvAE7cPQA"
+    ],
+    "bundle_timestamp": "2026-03-01T23:59:57+00:00",
+    "bundle_tippers": [
+      "J8Z8f3ijJNY85VWr6hYSDqNAWqm22ztjZqKZNcR5d84i"
+    ],
+    "arb_cost_lamports": 6000,
+    "arb_gross_profit_lamports": 20589,
+    "arb_net_profit_lamports": 14589,
+    "arb_gross_profit_raw": null,
+    "arb_gross_profit_rate_pct": 0.085698,
+    "arb_net_profit_rate_pct": 0.060724
+  }
+]

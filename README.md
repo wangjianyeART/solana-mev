@@ -99,6 +99,22 @@ Each fetched transaction contains:
 
 Detects sandwich attacks (front-running + back-running) within Solana slots by analyzing token balance changes.
 
+### Paper Release Artifact
+
+The paper-ready sandwich dataset and reproducible analysis pipeline is in
+`sandwich/release/`. It includes the recall-wide candidate set (stored as
+`sandwiches_recall_wide.jsonl.gz` for GitHub compatibility), cleaned strong
+sandwich records, pre-rendered figures, the paper section, and five pipeline
+scripts.
+
+Start here:
+
+```bash
+cd sandwich/release
+python3 pipeline/3_clean_strong.py
+python3 pipeline/4_build_academic_figures.py
+```
+
 ### Detection Algorithm
 
 1. Extract per-transaction token balance changes (signer vs pool)
@@ -149,6 +165,20 @@ Each detected sandwich attack:
 
 Detects and analyzes atomic arbitrage transactions for SOL, USDC, and USDT.
 
+### Arbitrage Clearing Release
+
+The paper-ready arbitrage clearing artifact is in
+`paper_arbitrage/arbitrage_clearing_release/`. It contains the release README,
+pipeline scripts, key derived data, figures, and the paper section for the
+arbitrage clearing analysis.
+
+Start here:
+
+```bash
+cd paper_arbitrage/arbitrage_clearing_release
+python3 pipeline/07_make_figures.py
+```
+
 ### Workflow
 
 ```
@@ -195,6 +225,22 @@ Step 5: Visualization           →  plot_profit_chain_length.py, explore_profit
 ## 4. cross_arbitrage/ — Cross-Chain Bridge Analysis
 
 Analyzes cross-chain bridge activity between Solana and Ethereum to study cross-chain arbitrage opportunities.
+
+### Wormhole Portal One-Year Artifact
+
+The reproducible one-year Wormhole Portal cross-chain arbitrage artifact is in
+`cross_arbitrage/wormhole_1y/`. It contains the data provenance README,
+collection/parsing/matching/PnL scripts, the primary 10% gap-threshold candidate
+dataset, experiment tables, and figure-generation scripts centered on
+`wormhole_data/research_1y/`.
+
+Start here:
+
+```bash
+cd cross_arbitrage/wormhole_1y
+python wormhole_data/research_1y/scripts/common_loader.py
+python wormhole_data/research_1y/scripts/a_macro.py
+```
 
 ### Scripts (in `bridge/` subdirectory)
 

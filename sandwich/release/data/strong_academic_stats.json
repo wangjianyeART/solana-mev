@@ -1,0 +1,48 @@
+{
+  "n": 13165,
+  "unit_profitable": 10203,
+  "unit_profitable_share": 0.7750094948727687,
+  "total_profitable": 5060,
+  "total_profitable_share": 0.3843524496771743,
+  "unit_total_cross": {
+    "True_True": 2499,
+    "True_False": 7704,
+    "False_False": 401,
+    "False_True": 2561
+  },
+  "multi_victim": 107,
+  "multi_victim_share": 0.008127611090011394,
+  "victim_count_distribution": {
+    "1": 13058,
+    "2": 107
+  },
+  "profit_sol": {
+    "gross_gain": 354.8068805410014,
+    "gross_loss_abs": 548.4618531219999,
+    "sum": -193.6549725809998,
+    "mean": -0.014709834605469032,
+    "median": -0.00939777,
+    "p10": -0.13047114900000012,
+    "p90": 0.09206960299999989
+  },
+  "capital_sol": {
+    "sum": 17582.418036738985,
+    "mean": 1.3355425778001508,
+    "median": 1.033021145,
+    "p90": 2.608392668
+  },
+  "fee_tip": {
+    "fee_sum_sol": 0.144470000000009,
+    "tip_sum_sol": 0.14293800000000942,
+    "explicit_cost_sum_sol": 0.2874080000000017,
+    "explicit_cost_mean_sol": 2.1831219141663632e-05,
+    "cost_to_capital_median": 1.1071860693929273e-05,
+    "cost_to_capital_p90": 8.08571423629517e-05,
+    "cost_to_abs_profit_median_capped10": 0.00028684599374195925
+  },
+  "capital_profit_corr_logcap_profit": -0.06990325789145485,
+  "capital_absprofit_corr_loglog": 0.6903596457460228,
+  "bot_count": 172,
+  "top_bot_attack_share": 0.5681731864793012,
+  "top_bot_profit": -145.2610535579999
+}

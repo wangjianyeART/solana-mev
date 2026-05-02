@@ -1,0 +1,30 @@
+Recall-oriented sandwich classification
+input:  /Volumes/data/sandwish/data/sandwiches_a.jsonl
+output: data/sandwiches_recall_wide.jsonl
+thresholds: strong<=0.1, probable<=0.25, possible<=0.5, weak<=1.0
+
+total candidates read: 194,609
+kept recall sample:    139,700 (71.78%)
+  strong  :  13,165 (  9.4% of kept), SOL profit>0=5,060, SOL profit<=0=8,105
+  probable:  18,851 ( 13.5% of kept), SOL profit>0=6,961, SOL profit<=0=11,890
+  possible:  32,656 ( 23.4% of kept), SOL profit>0=12,479, SOL profit<=0=20,177
+  weak    :  75,028 ( 53.7% of kept), SOL profit>0=32,090, SOL profit<=0=42,938
+  excluded: 54,909
+
+old verdicts in input:
+  rejected_dump                 173,857
+  sandwich_confirmed             10,199
+  rejected_opposite_direction     7,594
+  rejected_no_profit              2,959
+
+old verdict composition by new tier:
+  strong:
+    sandwich_confirmed           10,199
+    rejected_no_profit            2,959
+    rejected_dump                     7
+  probable:
+    rejected_dump                18,851
+  possible:
+    rejected_dump                32,656
+  weak:
+    rejected_dump                75,028

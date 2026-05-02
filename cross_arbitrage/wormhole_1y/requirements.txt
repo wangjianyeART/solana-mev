@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+matplotlib
+scikit-learn
+shap
+requests
+base58
+ijson
+pyarrow

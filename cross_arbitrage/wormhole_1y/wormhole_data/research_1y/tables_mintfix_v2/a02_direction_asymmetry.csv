@@ -1,0 +1,3 @@
+direction,n,size_median,size_mean,roi_median,roi_mean,net_pnl_median,net_pnl_sum,time_diff_median,fully_atomic_rate
+ETH→SOL,14016,241.84,1125.432,1.55,7.37,3.052,-864658.78,1011.0,0.001
+SOL→ETH,18087,297.333,1167.364,1.315,8.188,3.188,-899430.657,34.0,0.001

@@ -1,0 +1,120 @@
+{
+  "n": 13165,
+  "slot_min": 404649506,
+  "slot_max": 405313988,
+  "unique_slots": 12916,
+  "unique_attackers": 172,
+  "positive": 5060,
+  "non_positive": 8105,
+  "non_positive_share": 0.6156475503228257,
+  "profit_sol": {
+    "mean": -0.014709834605469032,
+    "median": -0.00939777,
+    "p25": -0.05744957900000003,
+    "p75": 0.02262622599999997,
+    "sum": -193.6549725809998
+  },
+  "capital_sol": {
+    "mean": 1.3355425778001508,
+    "median": 1.033021145,
+    "p25": 0.469132163,
+    "p75": 2.008841523,
+    "sum": 17582.418036738985
+  },
+  "sym_ratio": {
+    "mean": 0.04871304975313317,
+    "median": 0.0489,
+    "p25": 0.0222,
+    "p75": 0.0744
+  },
+  "victim_counts": {
+    "1": 13058,
+    "2": 107
+  },
+  "same_signer": {
+    "True": 123,
+    "False": 13042
+  },
+  "old_verdict": {
+    "sandwich_confirmed": 10199,
+    "rejected_no_profit": 2959,
+    "rejected_dump": 7
+  },
+  "top_attackers_by_count": [
+    [
+      "FdwZuVoSbU3ThVoWsZjexNxRvD41hCENHshJAu4ZEUjn",
+      {
+        "attacks": 1263,
+        "profit": -36.133710875999995
+      }
+    ],
+    [
+      "D8E7NhWJ2jh5d7Jp9P18UKvWRswithtHPiGkRGEvqcja",
+      {
+        "attacks": 800,
+        "profit": -24.313932523999995
+      }
+    ],
+    [
+      "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+      {
+        "attacks": 774,
+        "profit": -10.977603763999998
+      }
+    ],
+    [
+      "2p7DFCUYMHuia4ytJbyW8naMTWNRueCmFUU4Ww2LNHyT",
+      {
+        "attacks": 771,
+        "profit": 2.3203378679999984
+      }
+    ],
+    [
+      "D5hcK5FzSRJypx957ukzFuzc22sxzXftrNhoFRUf7tr",
+      {
+        "attacks": 765,
+        "profit": -4.640248551
+      }
+    ],
+    [
+      "3keZFUmB2zLWVQhXStdHDuC2ELdNbQayzDT3ni5P3QXv",
+      {
+        "attacks": 745,
+        "profit": -2.708218509999995
+      }
+    ],
+    [
+      "6gVjApZGh1rpNH9x5SbbX376Lo2QabxfE3N1bbdFUfUm",
+      {
+        "attacks": 696,
+        "profit": -9.855139495999993
+      }
+    ],
+    [
+      "EfNRFLHAz7EJr4HAU6FzbuAjAxdCVPGsDuvjD6crBvkU",
+      {
+        "attacks": 659,
+        "profit": -33.580384254999956
+      }
+    ],
+    [
+      "AxL1LoFoFewShkrkaDHKvj2RdsDoUbeTUYy1qBwHcyV4",
+      {
+        "attacks": 506,
+        "profit": -8.37529872999999
+      }
+    ],
+    [
+      "5n43oUo32cCmb1B6oL7F1CYPe1Nd3LXBmdVKcb6kYit9",
+      {
+        "attacks": 501,
+        "profit": -16.99685472
+      }
+    ]
+  ],
+  "top_attack_share": {
+    "0.01": 0.09593619445499431,
+    "0.05": 0.4916824914546145,
+    "0.1": 0.7731105203190277
+  }
+}

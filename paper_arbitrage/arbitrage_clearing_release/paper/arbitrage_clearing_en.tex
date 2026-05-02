@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[hidelinks]{hyperref}
+
+\title{Section Draft: Arbitrage Clearing on Solana}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Arbitrage Clearing}
+
+\paragraph{Data source.}
+We study arbitrage clearing on Solana using transaction-level data collected from the Jupiter v6 routing program. The raw transaction history is obtained through the Helius standard Solana RPC. For each sampled cursor, we query signatures involving Jupiter v6, retrieve the corresponding parsed transactions, and reconstruct account-level native SOL balance changes, SPL-token balance changes, invoked programs, fees, and token-flow paths. We then query Jito's public bundle API by transaction signature and merge the returned bundle identifier, validator, landed tip, transaction count, and transaction position into the arbitrage records. The final cleaned dataset contains 561,659 arbitrage records, covers April 4, 2025 through March 3, 2026, and includes 4,551 unique wallets. The observation window contains a 159-day gap between September 9, 2025 and February 14, 2026; therefore, monthly comparisons around the gap should be interpreted as descriptive rather than continuous time-series evidence.
+
+\paragraph{Arbitrage identification.}
+We define a candidate arbitrage as a Jupiter-routed transaction in which at least one token mint appears on both sides of the trade path. Operationally, the parser reconstructs token-level inputs and outputs from pre/post token balances, removes non-DEX system programs, and marks a transaction as circular when the same mint has positive input and positive output within the same transaction. We require the path to involve at least two DEX venues, which excludes ordinary one-hop swaps routed through Jupiter. We then apply a second cleaning pass to remove false positives: records are dropped when the wSOL balance change is consistent with a one-way swap, when wSOL is only received without being re-entered into the path, or when any token input/output ratio is too imbalanced to represent a closed arbitrage loop. For wSOL-denominated arbitrages, gross profit is measured by the arbitrageur's SOL balance increase and net profit subtracts transaction fees and, for multi-transaction Jito bundles, the landed bundle tip:
+\[
+\pi^{net}_i =
+\begin{cases}
+\Delta SOL_i - fee_i - tip^{bundle}_i, & \text{if } i \text{ is in a multi-tx bundle},\\
+\Delta SOL_i - fee_i, & \text{otherwise}.
+\end{cases}
+\]
+This distinction avoids double-counting single-transaction tips, which are already embedded in the transaction-level SOL balance change.
+
+\paragraph{Empirical evidence.}
+Figure~\ref{fig:settlement_channels} shows that arbitrage clearing uses three settlement channels: non-bundle transactions, single-transaction Jito bundles, and multi-transaction Jito bundles. Of all cleaned records, 445,327 are non-bundle transactions, 62,233 are single-transaction bundles, and 54,099 are multi-transaction bundles. Bundle use is not stable across the sample: it is high at the beginning and end of the observation window, while the mid-2025 period is mostly non-bundle. This pattern suggests that bundle submission is a strategic clearing choice rather than a fixed property of arbitrage opportunities.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/fig1_settlement_channels.pdf}
+  \caption{Monthly arbitrage counts by settlement channel. The shaded area marks the 159-day data gap.}
+  \label{fig:settlement_channels}
+\end{figure}
+
+Figure~\ref{fig:dex_venues} reports the DEX venues that appear in detected arbitrage paths. Orca Whirlpool, Meteora DLMM, and Raydium CAMM dominate the venue set, appearing in 246,458, 192,765, and 169,950 arbitrages, respectively. This concentration indicates that Solana arbitrage clearing is anchored in a small set of high-liquidity AMM venues, while smaller venues mostly serve as peripheral legs in the arbitrage path. The median detected path contains three swap instructions, consistent with short circular routes rather than long multi-hop search paths.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/fig2_dex_venues.pdf}
+  \caption{Top DEX venues appearing in detected arbitrage paths, excluding the Jupiter router itself.}
+  \label{fig:dex_venues}
+\end{figure}
+
+Figure~\ref{fig:tip_to_gross} focuses on the wSOL subset, where profits and clearing costs are directly comparable in lamports. The wSOL sample contains 387,884 arbitrages with total gross profit of 162.14 SOL and total corrected net profit of 152.23 SOL. Among Jito-settled wSOL arbitrages, the median tip-to-gross ratio is 15.36\% for single-transaction bundles and 22.39\% for multi-transaction bundles; the corresponding 90th percentiles are 58.80\% and 76.30\%. Thus, bundle clearing often consumes a meaningful fraction of gross profit, especially for multi-transaction bundles where the searcher prices the inclusion of an entire bundle rather than only a single swap transaction.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.72\linewidth]{figures/fig3_tip_to_gross.pdf}
+  \caption{Distribution of Jito tip paid relative to gross profit for wSOL bundle arbitrages. Values are clipped at 400\% for readability.}
+  \label{fig:tip_to_gross}
+\end{figure}
+
+Taken together, the evidence shows that arbitrage on Solana clears through a compact but heterogeneous infrastructure. Price discrepancies are mainly closed on a few large DEX venues, while transaction inclusion is cleared either through ordinary execution or through Jito bundles. The economics of clearing are therefore two-layered: arbitrageurs first realize a price improvement across DEX pools, then pay execution fees and, when using Jito, an inclusion tip that can materially reduce realized profit.
+
+\end{document}

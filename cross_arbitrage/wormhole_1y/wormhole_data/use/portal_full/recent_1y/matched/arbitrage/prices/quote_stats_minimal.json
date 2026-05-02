@@ -1,0 +1,56 @@
+{
+  "mode": "minimal_buy_sell_only",
+  "total_candidates": 342749,
+  "stable_quote_count": 360778,
+  "bridge_side_missing": 2482,
+  "sol_unique_pairs": 13507,
+  "sol_unique_tokens": 192,
+  "sol_cached_hit": 5322,
+  "sol_to_fetch": 8185,
+  "eth_tokens": 180,
+  "eth_cached_hit": 0,
+  "eth_to_fetch": 180,
+  "unresolved_count": 14794,
+  "unresolved_top": [
+    [
+      "ETH:wPOKT",
+      7740
+    ],
+    [
+      "ETH:cbBTC",
+      2090
+    ],
+    [
+      "ETH:OSAK",
+      1191
+    ],
+    [
+      "ETH:CULT",
+      624
+    ],
+    [
+      "ETH:aEthWBTC",
+      519
+    ],
+    [
+      "ETH:LBTC",
+      437
+    ],
+    [
+      "ETH:Mog",
+      207
+    ],
+    [
+      "ETH:aEthtBTC",
+      164
+    ],
+    [
+      "ETH:BTC.b",
+      154
+    ],
+    [
+      "ETH:weETH",
+      116
+    ]
+  ]
+}

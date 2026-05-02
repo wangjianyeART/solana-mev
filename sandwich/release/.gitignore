@@ -1,0 +1,24 @@
+# secrets
+.env
+.chainstack_rpc
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# raw caches not shipped (recreate via fetch scripts if needed)
+data/tx_cache/
+data/sandwiches_a.jsonl
