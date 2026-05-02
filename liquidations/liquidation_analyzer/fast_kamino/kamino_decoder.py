@@ -962,7 +962,7 @@ def main():
     parser = argparse.ArgumentParser(description='Kamino Lending 协议解析器')
     parser.add_argument(
         '--idl',
-        default='/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_lending_idl.json',
+        default='liquidations/liquidation_analyzer/fast_kamino/kamino_lending_idl.json',
         help='IDL 文件路径'
     )
     parser.add_argument(

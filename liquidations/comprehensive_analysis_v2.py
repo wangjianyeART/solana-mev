@@ -490,8 +490,8 @@ def main():
     print(f"✓ IDL 加载成功: {idl.get('name', 'unknown')} v{idl.get('version', 'unknown')}")
 
     # 分析所有交易
-    folder_path = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_data_7d_20260129_215323/"
-    output_dir = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/"
+    folder_path = "liquidations/kamino_data_7d_20260129_215323/"
+    output_dir = "liquidations/"
 
     print("\n" + "=" * 80)
     # check_liquidations=True 表示通过 RPC 检查候选清算交易

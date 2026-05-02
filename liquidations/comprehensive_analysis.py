@@ -335,8 +335,8 @@ def main():
             print(f"  - {name}")
 
     # 分析所有交易
-    folder_path = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_data_7d_20260129_215323/"
-    output_dir = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/"
+    folder_path = "liquidations/kamino_data_7d_20260129_215323/"
+    output_dir = "liquidations/"
 
     print("\n" + "=" * 80)
     stats, type_examples = analyze_all_transactions(folder_path, idl)

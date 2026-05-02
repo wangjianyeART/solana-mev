@@ -24,7 +24,7 @@ All headline statistics are reproduced from the shipped pipeline; see
 ## Folder layout
 
 ```
-arbitrage_clearing_release/
+clearing_release/
 ├── README.md
 ├── paper/                              # the section text and rendered PDF
 │   └── arbitrage_clearing_en.{tex,pdf}
@@ -187,7 +187,7 @@ All scripts use relative paths, so you must `cd` into this directory
 first:
 
 ```bash
-cd arbitrage_clearing_release/
+cd clearing_release/
 
 python pipeline/01_build_cursors.py        # ~hours, writes cursors/cursors.json
 python pipeline/02_fetch_arbitrages.py     # the big step (long-running, resumable)

@@ -1,7 +1,7 @@
 import json
 import sys
 
-file_path = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_lending.json"
+file_path = "liquidations/kamino_lending.json"
 
 try:
     with open(file_path, 'r') as f:

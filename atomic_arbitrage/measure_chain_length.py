@@ -1,5 +1,5 @@
 """
-交易链长度检测：遍历 datasource/data 下所有交易，按 log 中 transfer 出现次数/2 计算链长度。
+交易链长度检测：遍历 data_collection/data 下所有交易，按 log 中 transfer 出现次数/2 计算链长度。
 输出每笔交易的 (sig, slot, chain_length)，用于与套利利润做对照或全量分布分析。
 """
 import json
@@ -9,7 +9,7 @@ import sys
 
 sys.stdout.reconfigure(line_buffering=True)
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "datasource", "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data_collection", "data")
 OUTPUT_JSON = os.path.join(os.path.dirname(
     __file__), "chain_length_by_tx.json")
 OUTPUT_CSV = os.path.join(os.path.dirname(__file__), "chain_length_by_tx.csv")

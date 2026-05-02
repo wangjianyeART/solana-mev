@@ -170,14 +170,14 @@ def print_analysis_results(all_types, descriptions, suspicious_transactions, typ
     """)
 
 if __name__ == "__main__":
-    folder_path = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_data_7d_20260129_215323/"
+    folder_path = "liquidations/kamino_data_7d_20260129_215323/"
 
     print("开始深度分析...\n")
     all_types, descriptions, suspicious_transactions, type_examples = analyze_liquidation_patterns(folder_path)
     print_analysis_results(all_types, descriptions, suspicious_transactions, type_examples)
 
     # 保存可疑交易到文件
-    output_file = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/suspicious_transactions.json"
+    output_file = "liquidations/suspicious_transactions.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump({
             'total_suspicious': len(suspicious_transactions),

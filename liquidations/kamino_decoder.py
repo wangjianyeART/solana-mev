@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 Kamino Lending Protocol Standalone Parser
-Fully parses all Kamino protocol instructions based on the IDL
+Fully parses all Kamino protocol instructions based on IDL
 
 Features:
 1. Parse all Kamino instructions (lending, liquidation, flash loan, etc.)
-2. Decode instruction arguments (u64, u128, pubkey, bytes, etc.)
+2. Decode instruction parameters (u64, u128, pubkey, bytes, etc.)
 3. Map account names
 4. Support batch transaction parsing
-5. Extract key liquidation/lending information
+5. Extract liquidation/lending key information
 
 Program ID: KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD
 """
@@ -123,7 +123,7 @@ FLASH_LOAN_INSTRUCTIONS = {
 
 
 # ============================================================================
-# Data Class Definitions
+# Dataclass Definitions
 # ============================================================================
 
 @dataclass
@@ -155,7 +155,7 @@ class ParsedTransaction:
 
 
 # ============================================================================
-# Core Decoder Class
+# Core Parser Class
 # ============================================================================
 
 class KaminoDecoder:
@@ -166,7 +166,7 @@ class KaminoDecoder:
         Initialize the decoder
 
         Args:
-            idl_path: Path to the IDL file; uses default path if None
+            idl_path: IDL file path; uses default path if None
         """
         self.idl = None
         self.instruction_map: Dict[bytes, Dict[str, Any]] = {}
@@ -188,9 +188,9 @@ class KaminoDecoder:
         # Build instruction mapping
         self._build_instruction_map()
 
-        print(f"[OK] Loaded IDL: {self.idl.get('name')} v{self.idl.get('version')}")
-        print(f"[OK] Instruction count: {len(self.instruction_map)}")
-        print(f"[OK] Type count: {len(self.types_map)}")
+        print(f"Loaded IDL: {self.idl.get('name')} v{self.idl.get('version')}")
+        print(f"Instruction count: {len(self.instruction_map)}")
+        print(f"Type count: {len(self.types_map)}")
 
     def _build_types_map(self) -> None:
         """Build type mapping"""
@@ -214,7 +214,7 @@ class KaminoDecoder:
             flat_accounts = self._flatten_accounts(
                 instruction.get('accounts', []))
 
-            # 创建指令信息（使用原始 camelCase 名称）
+            # Create instruction info (using original camelCase name)
             instruction_info_base = {
                 'name': name,
                 'args': instruction.get('args', []),
@@ -222,7 +222,7 @@ class KaminoDecoder:
                 'original_accounts': instruction.get('accounts', []),
             }
 
-            # 计算 camelCase discriminator
+            # Compute camelCase discriminator
             discriminator_camel = self._compute_discriminator(name)
             instruction_info = instruction_info_base.copy()
             instruction_info['discriminator'] = discriminator_camel
@@ -232,7 +232,7 @@ class KaminoDecoder:
             self.instruction_map_hex[discriminator_camel.hex(
             )] = instruction_info
 
-            # 也计算 snake_case discriminator（如果不同）
+            # Also compute snake_case discriminator (if different)
             snake_name = self._camel_to_snake(name)
             if snake_name != name:
                 discriminator_snake = self._compute_discriminator(snake_name)
@@ -250,19 +250,19 @@ class KaminoDecoder:
 
     def _flatten_accounts(self, accounts: List[Dict], prefix: str = '') -> List[Dict]:
         """
-        展开嵌套的账户结构
-        Anchor IDL 中的账户可能是嵌套的（如 depositAccounts, farmsAccounts）
+        Flatten nested account structures
+        Accounts in Anchor IDL can be nested (e.g., depositAccounts, farmsAccounts)
         """
         flat_accounts = []
 
         for acc in accounts:
             if 'accounts' in acc:
-                # 嵌套账户组
+                # Nested account group
                 nested_prefix = f"{prefix}{acc['name']}." if prefix else f"{acc['name']}."
                 flat_accounts.extend(self._flatten_accounts(
                     acc['accounts'], nested_prefix))
             else:
-                # 普通账户
+                # Regular account
                 acc_copy = acc.copy()
                 acc_copy['full_name'] = f"{prefix}{acc['name']}" if prefix else acc['name']
                 flat_accounts.append(acc_copy)
@@ -272,14 +272,14 @@ class KaminoDecoder:
     @staticmethod
     def _compute_discriminator(instruction_name: str) -> bytes:
         """
-        计算 Anchor 指令的 discriminator
+        Compute Anchor instruction discriminator
         discriminator = sha256("global:{instruction_name}")[:8]
         """
         preimage = f"global:{instruction_name}".encode()
         return hashlib.sha256(preimage).digest()[:8]
 
     def get_instruction_type(self, instruction_name: str) -> str:
-        """获取指令类型分类"""
+        """Get instruction type classification"""
         if instruction_name in LIQUIDATION_INSTRUCTIONS:
             return 'liquidation'
         elif instruction_name in BORROW_INSTRUCTIONS:
@@ -301,17 +301,17 @@ class KaminoDecoder:
         accounts: Optional[List[str]] = None
     ) -> Optional[ParsedInstruction]:
         """
-        解码指令数据
+        Decode instruction data
 
         Args:
-            data: Base58 编码的数据或原始字节
-            accounts: 账户地址列表
+            data: Base58-encoded data or raw bytes
+            accounts: List of account addresses
 
         Returns:
-            ParsedInstruction 或 None
+            ParsedInstruction or None
         """
         try:
-            # 转换为字节
+            # Convert to bytes
             if isinstance(data, str):
                 data_bytes = base58_decode(data)
             else:
@@ -320,7 +320,7 @@ class KaminoDecoder:
             if len(data_bytes) < 8:
                 return None
 
-            # 提取 discriminator
+            # Extract discriminator
             discriminator = data_bytes[:8]
 
             if discriminator not in self.instruction_map:
@@ -328,12 +328,12 @@ class KaminoDecoder:
 
             instruction_info = self.instruction_map[discriminator]
 
-            # 解析参数
+            # Parse arguments
             params_data = data_bytes[8:]
             parsed_args = self._parse_args(
                 params_data, instruction_info['args'])
 
-            # 映射账户
+            # Map accounts
             mapped_accounts = []
             if accounts:
                 for i, acc_info in enumerate(instruction_info['accounts']):
@@ -358,19 +358,19 @@ class KaminoDecoder:
             )
 
         except Exception as e:
-            print(f"解码错误: {e}")
+            print(f"Decode error: {e}")
             return None
 
     def _parse_args(self, data: bytes, args_spec: List[Dict]) -> Dict[str, Any]:
         """
-        解析指令参数
+        Parse instruction arguments
 
         Args:
-            data: 参数数据字节
-            args_spec: 参数规范
+            data: Argument data bytes
+            args_spec: Argument specification
 
         Returns:
-            解析后的参数字典
+            Parsed argument dictionary
         """
         parsed = {}
         offset = 0
@@ -384,146 +384,146 @@ class KaminoDecoder:
                 parsed[arg_name] = value
                 offset += consumed
             except Exception as e:
-                parsed[arg_name] = f"<解析错误: {e}>"
+                parsed[arg_name] = f"<parse error: {e}>"
                 break
 
         return parsed
 
     def _parse_type(self, data: bytes, type_spec: Any) -> Tuple[Any, int]:
         """
-        解析单个类型
+        Parse a single type
 
         Args:
-            data: 数据字节
-            type_spec: 类型规范
+            data: Data bytes
+            type_spec: Type specification
 
         Returns:
-            (解析值, 消耗字节数)
+            (parsed value, bytes consumed)
         """
         if isinstance(type_spec, str):
-            # 基本类型
+            # Primitive type
             return self._parse_primitive(data, type_spec)
 
         elif isinstance(type_spec, dict):
             if 'array' in type_spec:
-                # 数组类型 [element_type, size]
+                # Array type [element_type, size]
                 elem_type, size = type_spec['array']
                 return self._parse_fixed_array(data, elem_type, size)
 
             elif 'vec' in type_spec:
-                # 动态数组
+                # Dynamic array
                 elem_type = type_spec['vec']
                 return self._parse_vec(data, elem_type)
 
             elif 'option' in type_spec:
-                # 可选类型
+                # Optional type
                 inner_type = type_spec['option']
                 return self._parse_option(data, inner_type)
 
             elif 'defined' in type_spec:
-                # 自定义类型
+                # Custom type
                 type_name = type_spec['defined']
                 if type_name in self.types_map:
                     return self._parse_defined_type(data, self.types_map[type_name])
                 else:
-                    return f"<未知类型: {type_name}>", 0
+                    return f"<unknown type: {type_name}>", 0
 
-        return f"<无法解析: {type_spec}>", 0
+        return f"<cannot parse: {type_spec}>", 0
 
     def _parse_primitive(self, data: bytes, type_name: str) -> Tuple[Any, int]:
-        """解析基本类型"""
+        """Parse primitive type"""
         if type_name == 'u8':
             if len(data) < 1:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return data[0], 1
 
         elif type_name == 'u16':
             if len(data) < 2:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<H', data[:2])[0], 2
 
         elif type_name == 'u32':
             if len(data) < 4:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<I', data[:4])[0], 4
 
         elif type_name == 'u64':
             if len(data) < 8:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<Q', data[:8])[0], 8
 
         elif type_name == 'u128':
             if len(data) < 16:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             low = struct.unpack('<Q', data[:8])[0]
             high = struct.unpack('<Q', data[8:16])[0]
             return (high << 64) | low, 16
 
         elif type_name == 'i8':
             if len(data) < 1:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<b', data[:1])[0], 1
 
         elif type_name == 'i16':
             if len(data) < 2:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<h', data[:2])[0], 2
 
         elif type_name == 'i32':
             if len(data) < 4:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<i', data[:4])[0], 4
 
         elif type_name == 'i64':
             if len(data) < 8:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return struct.unpack('<q', data[:8])[0], 8
 
         elif type_name == 'i128':
             if len(data) < 16:
-                raise ValueError("数据不足")
-            # 处理有符号 128 位整数
+                raise ValueError("Insufficient data")
+            # Handle signed 128-bit integer
             low = struct.unpack('<Q', data[:8])[0]
             high = struct.unpack('<q', data[8:16])[0]
             return (high << 64) | low, 16
 
         elif type_name == 'bool':
             if len(data) < 1:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return data[0] != 0, 1
 
         elif type_name == 'publicKey':
             if len(data) < 32:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             return base58_encode(data[:32]), 32
 
         elif type_name == 'string':
-            # Borsh 字符串格式: 4字节长度 + 内容
+            # Borsh string format: 4-byte length + content
             if len(data) < 4:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             length = struct.unpack('<I', data[:4])[0]
             if len(data) < 4 + length:
-                raise ValueError("字符串数据不足")
+                raise ValueError("Insufficient string data")
             return data[4:4+length].decode('utf-8'), 4 + length
 
         elif type_name == 'bytes':
-            # 动态字节数组
+            # Dynamic byte array
             if len(data) < 4:
-                raise ValueError("数据不足")
+                raise ValueError("Insufficient data")
             length = struct.unpack('<I', data[:4])[0]
             if len(data) < 4 + length:
-                raise ValueError("字节数据不足")
+                raise ValueError("Insufficient byte data")
             return data[4:4+length].hex(), 4 + length
 
         else:
-            return f"<未知基本类型: {type_name}>", 0
+            return f"<unknown primitive type: {type_name}>", 0
 
     def _parse_fixed_array(self, data: bytes, elem_type: Any, size: int) -> Tuple[Any, int]:
-        """解析固定大小数组"""
+        """Parse fixed-size array"""
         if elem_type == 'u8':
-            # 优化：直接处理 u8 数组
+            # Optimization: handle u8 arrays directly
             if len(data) < size:
-                raise ValueError(f"数据不足: 需要 {size} 字节")
+                raise ValueError(f"Insufficient data: need {size} bytes")
             return data[:size].hex(), size
 
         result = []
@@ -537,9 +537,9 @@ class KaminoDecoder:
         return result, offset
 
     def _parse_vec(self, data: bytes, elem_type: Any) -> Tuple[Any, int]:
-        """解析动态数组 (Vec)"""
+        """Parse dynamic array (Vec)"""
         if len(data) < 4:
-            raise ValueError("数据不足")
+            raise ValueError("Insufficient data")
 
         length = struct.unpack('<I', data[:4])[0]
         offset = 4
@@ -553,9 +553,9 @@ class KaminoDecoder:
         return result, offset
 
     def _parse_option(self, data: bytes, inner_type: Any) -> Tuple[Any, int]:
-        """解析 Option 类型"""
+        """Parse Option type"""
         if len(data) < 1:
-            raise ValueError("数据不足")
+            raise ValueError("Insufficient data")
 
         is_some = data[0] != 0
 
@@ -566,7 +566,7 @@ class KaminoDecoder:
         return value, 1 + consumed
 
     def _parse_defined_type(self, data: bytes, type_def: Dict) -> Tuple[Any, int]:
-        """解析自定义类型"""
+        """Parse custom type"""
         kind = type_def.get('kind')
 
         if kind == 'struct':
@@ -574,10 +574,10 @@ class KaminoDecoder:
         elif kind == 'enum':
             return self._parse_enum(data, type_def.get('variants', []))
 
-        return f"<未知类型定义: {kind}>", 0
+        return f"<unknown type definition: {kind}>", 0
 
     def _parse_struct(self, data: bytes, fields: List[Dict]) -> Tuple[Dict, int]:
-        """解析结构体"""
+        """Parse struct"""
         result = {}
         offset = 0
 
@@ -592,19 +592,19 @@ class KaminoDecoder:
         return result, offset
 
     def _parse_enum(self, data: bytes, variants: List[Dict]) -> Tuple[Any, int]:
-        """解析枚举"""
+        """Parse enum"""
         if len(data) < 1:
-            raise ValueError("数据不足")
+            raise ValueError("Insufficient data")
 
         variant_index = data[0]
 
         if variant_index >= len(variants):
-            return f"<无效枚举索引: {variant_index}>", 1
+            return f"<invalid enum index: {variant_index}>", 1
 
         variant = variants[variant_index]
         variant_name = variant['name']
 
-        # 检查是否有关联数据
+        # Check if there is associated data
         if 'fields' in variant:
             value, consumed = self._parse_struct(data[1:], variant['fields'])
             return {variant_name: value}, 1 + consumed
@@ -617,17 +617,17 @@ class KaminoDecoder:
         accounts: Optional[List[str]] = None
     ) -> Optional[ParsedInstruction]:
         """
-        解码指令数据，包括未知指令
+        Decode instruction data, including unknown instructions
 
         Args:
-            data: Base58 编码的数据或原始字节
-            accounts: 账户地址列表
+            data: Base58-encoded data or raw bytes
+            accounts: List of account addresses
 
         Returns:
-            ParsedInstruction 或 None
+            ParsedInstruction or None
         """
         try:
-            # 转换为字节
+            # Convert to bytes
             if isinstance(data, str):
                 data_bytes = base58_decode(data)
             else:
@@ -643,13 +643,13 @@ class KaminoDecoder:
                     instruction_type='unknown',
                 )
 
-            # 提取 discriminator
+            # Extract discriminator
             discriminator = data_bytes[:8]
 
             if discriminator in self.instruction_map:
                 return self.decode_instruction_data(data, accounts)
 
-            # 未知指令 - 仍然返回基本信息
+            # Unknown instruction - still return basic info
             mapped_accounts = []
             if accounts:
                 for i, addr in enumerate(accounts):
@@ -679,10 +679,10 @@ class KaminoDecoder:
         tx: Dict[str, Any]
     ) -> ParsedTransaction:
         """
-        解析完整交易
+        Parse a complete transaction
 
         Args:
-            tx: 交易数据（包含 signature, slot, timestamp, instructions 等）
+            tx: Transaction data (containing signature, slot, timestamp, instructions, etc.)
 
         Returns:
             ParsedTransaction
@@ -691,10 +691,10 @@ class KaminoDecoder:
         slot = tx.get('slot', 0)
         timestamp = tx.get('timestamp', 0) or tx.get('blockTime', 0)
 
-        # Helius API 返回的 type 字段
+        # Type field returned by Helius API
         helius_type = tx.get('type', '')
 
-        # 转换时间戳
+        # Convert timestamp
         if timestamp:
             dt_str = datetime.fromtimestamp(timestamp).isoformat()
         else:
@@ -710,31 +710,31 @@ class KaminoDecoder:
             program_id = instr.get('programId', '')
 
             if program_id == KAMINO_LENDING_PROGRAM_ID:
-                # 解析 Kamino 指令
+                # Parse Kamino instruction
                 data = instr.get('data', '')
                 accounts = instr.get('accounts', [])
 
-                # 先尝试正常解码
+                # Try normal decoding first
                 parsed = self.decode_instruction_data(data, accounts)
 
                 if parsed:
                     parsed_instructions.append(parsed)
                     kamino_instructions.append(parsed)
                 else:
-                    # 尝试获取未知指令信息
+                    # Try to get unknown instruction info
                     parsed = self.decode_instruction_data_with_unknown(
                         data, accounts)
                     if parsed:
                         parsed_instructions.append(parsed)
                         unknown_instructions.append(parsed)
 
-        # 判断是否为清算交易（通过 IDL 或 Helius type）
+        # Determine if it's a liquidation transaction (via IDL or Helius type)
         is_liquidation = (
             any(instr.instruction_type == 'liquidation' for instr in kamino_instructions) or
             'LIQUIDAT' in helius_type.upper()
         )
 
-        # 判断是否为闪电贷
+        # Determine if it's a flash loan
         is_flash_loan = (
             any(instr.instruction_type == 'flash_loan' for instr in kamino_instructions) or
             'FLASH' in helius_type.upper()
@@ -757,7 +757,7 @@ class KaminoDecoder:
         )
 
     def list_all_instructions(self) -> List[Dict[str, Any]]:
-        """列出所有指令及其 discriminator"""
+        """List all instructions and their discriminators"""
         result = []
 
         for disc_bytes, info in self.instruction_map.items():
@@ -772,7 +772,7 @@ class KaminoDecoder:
         return sorted(result, key=lambda x: x['name'])
 
     def list_liquidation_instructions(self) -> List[Dict[str, Any]]:
-        """列出所有清算相关指令"""
+        """List all liquidation-related instructions"""
         return [
             instr for instr in self.list_all_instructions()
             if instr['type'] == 'liquidation'
@@ -780,11 +780,11 @@ class KaminoDecoder:
 
 
 # ============================================================================
-# 批量处理工具
+# Batch Processing Tools
 # ============================================================================
 
 class KaminoBatchProcessor:
-    """Kamino 批量交易处理器"""
+    """Kamino Batch Transaction Processor"""
 
     def __init__(self, decoder: KaminoDecoder):
         self.decoder = decoder
@@ -805,8 +805,8 @@ class KaminoBatchProcessor:
         }
 
     def process_file(self, file_path: str) -> List[ParsedTransaction]:
-        """处理单个 JSON 文件"""
-        # 尝试不同的编码
+        """Process a single JSON file"""
+        # Try different encodings
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -823,7 +823,7 @@ class KaminoBatchProcessor:
         for tx in transactions:
             self.stats['total_transactions'] += 1
 
-            # 统计 Helius 类型
+            # Count Helius types
             helius_type = tx.get('type', 'UNKNOWN')
             self.stats['helius_type_counts'][helius_type] = \
                 self.stats['helius_type_counts'].get(helius_type, 0) + 1
@@ -838,12 +838,12 @@ class KaminoBatchProcessor:
                 if parsed.is_flash_loan:
                     self.stats['flash_loans'] += 1
 
-                # 统计解析和未知指令
+                # Count parsed and unknown instructions
                 self.stats['parsed_instructions'] += parsed.kamino_instruction_count - \
                     parsed.unknown_instruction_count
                 self.stats['unknown_instructions'] += parsed.unknown_instruction_count
 
-                # 统计指令类型
+                # Count instruction types
                 for instr in parsed.kamino_instructions:
                     instr_name = instr['name']
                     self.stats['instruction_counts'][instr_name] = \
@@ -859,14 +859,14 @@ class KaminoBatchProcessor:
                     elif instr_type == 'withdraw':
                         self.stats['withdrawals'] += 1
                     elif instr_type == 'unknown':
-                        # 记录未知 discriminator
+                        # Record unknown discriminator
                         disc = instr.get('discriminator', '')
                         if disc:
                             self.stats['unknown_discriminators'][disc] = \
                                 self.stats['unknown_discriminators'].get(
                                     disc, 0) + 1
 
-                # 统计所有解析的指令
+                # Count all parsed instructions
                 for instr in parsed.instructions:
                     if instr.get('instruction_type') != 'unknown':
                         instr_name = instr['name']
@@ -879,50 +879,50 @@ class KaminoBatchProcessor:
         return results
 
     def process_directory(self, dir_path: str, pattern: str = "*.json") -> List[ParsedTransaction]:
-        """处理目录中的所有 JSON 文件"""
+        """Process all JSON files in a directory"""
         folder = Path(dir_path)
         json_files = sorted(folder.glob(pattern))
 
         all_results = []
 
         for i, json_file in enumerate(json_files, 1):
-            print(f"[{i}/{len(json_files)}] 处理 {json_file.name}...")
+            print(f"[{i}/{len(json_files)}] Processing {json_file.name}...")
 
             try:
                 results = self.process_file(str(json_file))
                 all_results.extend(results)
             except Exception as e:
-                print(f"  错误: {e}")
+                print(f"  Error: {e}")
 
         return all_results
 
     def get_stats(self) -> Dict[str, Any]:
-        """获取统计信息"""
+        """Get statistics"""
         return self.stats
 
     def print_stats(self) -> None:
-        """打印统计信息"""
+        """Print statistics"""
         print("\n" + "=" * 60)
-        print("Kamino 交易统计")
+        print("Kamino Transaction Statistics")
         print("=" * 60)
 
-        print(f"\n总体统计:")
-        print(f"  总交易数: {self.stats['total_transactions']:,}")
-        print(f"  Kamino 交易: {self.stats['kamino_transactions']:,}")
-        print(f"  清算交易: {self.stats['liquidations']:,}")
-        print(f"  闪电贷交易: {self.stats['flash_loans']:,}")
+        print(f"\nOverall Statistics:")
+        print(f"  Total transactions: {self.stats['total_transactions']:,}")
+        print(f"  Kamino transactions: {self.stats['kamino_transactions']:,}")
+        print(f"  Liquidation transactions: {self.stats['liquidations']:,}")
+        print(f"  Flash loan transactions: {self.stats['flash_loans']:,}")
 
-        print(f"\n操作统计:")
-        print(f"  借款: {self.stats['borrows']:,}")
-        print(f"  还款: {self.stats['repays']:,}")
-        print(f"  存款: {self.stats['deposits']:,}")
-        print(f"  取款: {self.stats['withdrawals']:,}")
+        print(f"\nOperation Statistics:")
+        print(f"  Borrows: {self.stats['borrows']:,}")
+        print(f"  Repays: {self.stats['repays']:,}")
+        print(f"  Deposits: {self.stats['deposits']:,}")
+        print(f"  Withdrawals: {self.stats['withdrawals']:,}")
 
-        print(f"\n指令解析统计:")
-        print(f"  已识别指令: {self.stats['parsed_instructions']:,}")
-        print(f"  未识别指令: {self.stats['unknown_instructions']:,}")
+        print(f"\nInstruction Parsing Statistics:")
+        print(f"  Identified instructions: {self.stats['parsed_instructions']:,}")
+        print(f"  Unidentified instructions: {self.stats['unknown_instructions']:,}")
 
-        print(f"\nHelius 类型分布 (前15):")
+        print(f"\nHelius Type Distribution (top 15):")
         sorted_types = sorted(
             self.stats['helius_type_counts'].items(),
             key=lambda x: x[1],
@@ -931,7 +931,7 @@ class KaminoBatchProcessor:
         for t, count in sorted_types[:15]:
             print(f"  {t}: {count:,}")
 
-        print(f"\n已识别指令分布 (前15):")
+        print(f"\nIdentified Instruction Distribution (top 15):")
         sorted_counts = sorted(
             self.stats['instruction_counts'].items(),
             key=lambda x: x[1],
@@ -941,7 +941,7 @@ class KaminoBatchProcessor:
             print(f"  {name}: {count:,}")
 
         if self.stats['unknown_discriminators']:
-            print(f"\n未识别的 Discriminators (前10):")
+            print(f"\nUnidentified Discriminators (top 10):")
             sorted_unknown = sorted(
                 self.stats['unknown_discriminators'].items(),
                 key=lambda x: x[1],
@@ -952,59 +952,59 @@ class KaminoBatchProcessor:
 
 
 # ============================================================================
-# 主函数和命令行接口
+# Main Function and CLI
 # ============================================================================
 
 def main():
-    """主函数"""
+    """Main function"""
     import argparse
 
-    parser = argparse.ArgumentParser(description='Kamino Lending 协议解析器')
+    parser = argparse.ArgumentParser(description='Kamino Lending Protocol Parser')
     parser.add_argument(
         '--idl',
-        default='/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_lending_idl.json',
-        help='IDL 文件路径'
+        default='liquidations/kamino_lending_idl.json',
+        help='IDL file path'
     )
     parser.add_argument(
         '--mode',
         choices=['info', 'decode', 'batch'],
         default='info',
-        help='运行模式: info=显示信息, decode=解码数据, batch=批量处理'
+        help='Run mode: info=show info, decode=decode data, batch=batch process'
     )
     parser.add_argument(
         '--data',
-        help='要解码的 Base58 数据 (decode 模式)'
+        help='Base58 data to decode (decode mode)'
     )
     parser.add_argument(
         '--file',
-        help='要处理的 JSON 文件 (batch 模式)'
+        help='JSON file to process (batch mode)'
     )
     parser.add_argument(
         '--dir',
-        help='要处理的目录 (batch 模式)'
+        help='Directory to process (batch mode)'
     )
     parser.add_argument(
         '--output',
-        help='输出文件路径'
+        help='Output file path'
     )
     parser.add_argument(
         '--pattern',
         default='*.json',
-        help='文件匹配模式 (batch 模式)'
+        help='File matching pattern (batch mode)'
     )
 
     args = parser.parse_args()
 
     print("=" * 60)
-    print("Kamino Lending 协议解析器")
+    print("Kamino Lending Protocol Parser")
     print("=" * 60)
 
-    # 初始化解码器
+    # Initialize decoder
     decoder = KaminoDecoder(args.idl)
 
     if args.mode == 'info':
-        # 显示所有指令信息
-        print("\n所有指令列表:")
+        # Show all instruction info
+        print("\nAll Instructions:")
         print("-" * 60)
 
         instructions = decoder.list_all_instructions()
@@ -1014,11 +1014,11 @@ def main():
             print(f"  {instr['name']:<50} {type_marker}")
             print(f"    Discriminator: {instr['discriminator_hex']}")
             print(
-                f"    参数数量: {instr['arg_count']}, 账户数量: {instr['account_count']}")
+                f"    Arg count: {instr['arg_count']}, Account count: {instr['account_count']}")
 
-        print(f"\n共 {len(instructions)} 个指令")
+        print(f"\nTotal: {len(instructions)} instructions")
 
-        print("\n\n清算相关指令:")
+        print("\n\nLiquidation-related Instructions:")
         print("-" * 60)
         for instr in decoder.list_liquidation_instructions():
             print(f"  {instr['name']}")
@@ -1026,49 +1026,49 @@ def main():
 
     elif args.mode == 'decode':
         if not args.data:
-            print("错误: decode 模式需要 --data 参数")
+            print("Error: decode mode requires --data argument")
             return
 
-        print(f"\n解码数据: {args.data}")
+        print(f"\nDecoding data: {args.data}")
         print("-" * 60)
 
         result = decoder.decode_instruction_data(args.data)
 
         if result:
-            print(f"✓ 指令名称: {result.name}")
-            print(f"  类型: {result.instruction_type}")
+            print(f"Instruction name: {result.name}")
+            print(f"  Type: {result.instruction_type}")
             print(f"  Discriminator: {result.discriminator}")
 
             if result.args:
-                print(f"\n  参数:")
+                print(f"\n  Arguments:")
                 for name, value in result.args.items():
                     print(f"    {name}: {value}")
         else:
-            print("❌ 无法解码指令")
+            print("Unable to decode instruction")
 
     elif args.mode == 'batch':
         processor = KaminoBatchProcessor(decoder)
 
         if args.dir:
-            print(f"\n处理目录: {args.dir}")
+            print(f"\nProcessing directory: {args.dir}")
             results = processor.process_directory(args.dir, args.pattern)
         elif args.file:
-            print(f"\n处理文件: {args.file}")
+            print(f"\nProcessing file: {args.file}")
             results = processor.process_file(args.file)
         else:
-            print("错误: batch 模式需要 --file 或 --dir 参数")
+            print("Error: batch mode requires --file or --dir argument")
             return
 
-        # 打印统计
+        # Print statistics
         processor.print_stats()
 
-        # 保存结果
+        # Save results
         if args.output:
-            print(f"\n保存结果到: {args.output}")
+            print(f"\nSaving results to: {args.output}")
             with open(args.output, 'w', encoding='utf-8') as f:
                 for tx in results:
                     f.write(json.dumps(asdict(tx), ensure_ascii=False) + '\n')
-            print(f"✓ 已保存 {len(results)} 条记录")
+            print(f"Saved {len(results)} records")
 
 
 if __name__ == "__main__":

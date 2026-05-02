@@ -1,5 +1,5 @@
 """
-Batch detect sandwich attacks in all JSON files under datasource/data, tallying successful and failed transactions.
+Batch detect sandwich attacks in all JSON files under data_collection/data, tallying successful and failed transactions.
 """
 import json
 import os
@@ -11,7 +11,7 @@ from collections import defaultdict
 sys.stdout.reconfigure(line_buffering=True)
 
 # Data directory
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "datasource", "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data_collection", "data")
 OUTPUT_PATH = os.path.join(os.path.dirname(
     __file__), "batch_sandwich_summary.json")
 

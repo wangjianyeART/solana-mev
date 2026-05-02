@@ -101,8 +101,8 @@ def save_results(transaction_types, output_file):
 
 if __name__ == "__main__":
     # 设置文件夹路径
-    folder_path = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_data_7d_20260129_215323/"
-    output_file = "/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/transaction_types_statistics.json"
+    folder_path = "liquidations/kamino_data_7d_20260129_215323/"
+    output_file = "liquidations/transaction_types_statistics.json"
 
     # 分析交易类型
     transaction_types = analyze_transaction_types(folder_path)

@@ -17,7 +17,7 @@ and figures supporting the paper section.
 ## Layout
 
 ```
-release/
+paper_release/
 ├── README.md                  this file
 ├── LICENSE                    MIT
 ├── .env.example               API-key template (only needed to recollect raw data)
@@ -70,7 +70,7 @@ python3 pipeline/5_build_anatomy_figure.py
 python3 pipeline/4_build_academic_figures.py
 ```
 
-All scripts use paths relative to the repo root, run them from `release/`.
+All scripts use paths relative to the repo root, run them from `paper_release/`.
 No API key is needed for the shipped pipeline.
 
 ---

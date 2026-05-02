@@ -1,5 +1,5 @@
 """
-Batch detect arbitrage transactions in all JSON files under datasource/data folder and aggregate statistics.
+Batch detect arbitrage transactions in all JSON files under data_collection/data folder and aggregate statistics.
 """
 import json
 import os
@@ -11,7 +11,7 @@ from detect_arbitrage import analyze_file
 sys.stdout.reconfigure(line_buffering=True)
 
 # Data directory
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "datasource", "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data_collection", "data")
 OUTPUT_PATH = os.path.join(os.path.dirname(
     __file__), "batch_arbitrage_summary.json")
 

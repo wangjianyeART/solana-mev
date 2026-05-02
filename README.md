@@ -5,14 +5,18 @@ This repository contains the data collection, detection, and analysis code accom
 ## Repository Structure
 
 ```
-opensource/
-├── datasource/          # Data collection: volatility sampling & transaction fetching
-├── sandwich/            # Sandwich attack detection
-├── paper_arbitrage/     # On-chain arbitrage detection & profit analysis
-├── cross_arbitrage/     # Cross-chain bridge analysis (Solana ↔ Ethereum)
-├── Liquidations/        # Lending protocol liquidation analysis (Kamino, MarginFi, Jupiter)
-├── liquidation_paper/   # Streamlined Kamino liquidation pipeline (paper version)
-└── analyzer/            # Aggregated statistics & visualization
+solana-mev/
+├── data_collection/                # Volatility sampling and Solana transaction fetching
+├── sandwich/                       # Sandwich detection plus paper-ready release artifact
+│   └── paper_release/
+├── atomic_arbitrage/               # Same-chain atomic arbitrage detection and clearing study
+│   └── clearing_release/
+├── cross_chain_arbitrage/          # Solana-Ethereum bridge and Wormhole Portal analysis
+│   ├── bridge_assets/
+│   └── wormhole_portal_1y_release/
+├── liquidations/                   # Multi-protocol liquidation analysis
+├── liquidation_release/            # Streamlined Kamino liquidation paper pipeline
+└── aggregate_analysis/             # Aggregated statistics and publication visualizations
 ```
 
 ## Prerequisites
@@ -36,7 +40,7 @@ HELIUS_API_KEY=your_helius_api_key
 
 ---
 
-## 1. datasource/ — Data Collection Pipeline
+## 1. data_collection/ — Data Collection Pipeline
 
 This module samples time periods by market volatility and fetches raw Solana transaction data for analysis.
 
@@ -102,7 +106,7 @@ Detects sandwich attacks (front-running + back-running) within Solana slots by a
 ### Paper Release Artifact
 
 The paper-ready sandwich dataset and reproducible analysis pipeline is in
-`sandwich/release/`. It includes the recall-wide candidate set (stored as
+`sandwich/paper_release/`. It includes the recall-wide candidate set (stored as
 `sandwiches_recall_wide.jsonl.gz` for GitHub compatibility), cleaned strong
 sandwich records, pre-rendered figures, the paper section, and five pipeline
 scripts.
@@ -110,7 +114,7 @@ scripts.
 Start here:
 
 ```bash
-cd sandwich/release
+cd sandwich/paper_release
 python3 pipeline/3_clean_strong.py
 python3 pipeline/4_build_academic_figures.py
 ```
@@ -161,21 +165,21 @@ Each detected sandwich attack:
 
 ---
 
-## 3. paper_arbitrage/ — On-Chain Arbitrage Detection
+## 3. atomic_arbitrage/ — On-Chain Arbitrage Detection
 
 Detects and analyzes atomic arbitrage transactions for SOL, USDC, and USDT.
 
 ### Arbitrage Clearing Release
 
 The paper-ready arbitrage clearing artifact is in
-`paper_arbitrage/arbitrage_clearing_release/`. It contains the release README,
+`atomic_arbitrage/clearing_release/`. It contains the release README,
 pipeline scripts, key derived data, figures, and the paper section for the
 arbitrage clearing analysis.
 
 Start here:
 
 ```bash
-cd paper_arbitrage/arbitrage_clearing_release
+cd atomic_arbitrage/clearing_release
 python3 pipeline/07_make_figures.py
 ```
 
@@ -222,14 +226,14 @@ Step 5: Visualization           →  plot_profit_chain_length.py, explore_profit
 
 ---
 
-## 4. cross_arbitrage/ — Cross-Chain Bridge Analysis
+## 4. cross_chain_arbitrage/ — Cross-Chain Bridge Analysis
 
 Analyzes cross-chain bridge activity between Solana and Ethereum to study cross-chain arbitrage opportunities.
 
 ### Wormhole Portal One-Year Artifact
 
 The reproducible one-year Wormhole Portal cross-chain arbitrage artifact is in
-`cross_arbitrage/wormhole_1y/`. It contains the data provenance README,
+`cross_chain_arbitrage/wormhole_portal_1y_release/`. It contains the data provenance README,
 collection/parsing/matching/PnL scripts, the primary 10% gap-threshold candidate
 dataset, experiment tables, and figure-generation scripts centered on
 `wormhole_data/research_1y/`.
@@ -237,12 +241,12 @@ dataset, experiment tables, and figure-generation scripts centered on
 Start here:
 
 ```bash
-cd cross_arbitrage/wormhole_1y
+cd cross_chain_arbitrage/wormhole_portal_1y_release
 python wormhole_data/research_1y/scripts/common_loader.py
 python wormhole_data/research_1y/scripts/a_macro.py
 ```
 
-### Scripts (in `bridge/` subdirectory)
+### Scripts (in `bridge_assets/` subdirectory)
 
 | Script | Purpose | Usage |
 |--------|---------|-------|
@@ -265,14 +269,14 @@ python wormhole_data/research_1y/scripts/a_macro.py
 
 ---
 
-## 5. Liquidations/ — Lending Protocol Liquidation Analysis
+## 5. liquidations/ — Lending Protocol Liquidation Analysis
 
 Multi-protocol liquidation MEV analysis supporting **Kamino**, **MarginFi**, and **Jupiter Lend**.
 
 ### Architecture
 
 ```
-Liquidations/
+liquidations/
 ├── main.py                      # Unified multi-protocol monitor
 ├── config.py                    # Protocol addresses & configuration
 ├── liquidation_analyzer/
@@ -312,7 +316,7 @@ Step 3: Analyze  — Calculate costs (gas, priority fee, flash loan fee) and net
 
 ```bash
 # Full Kamino pipeline (scan 5000 recent signatures)
-cd Liquidations/liquidation_analyzer/fast_kamino
+cd liquidations/liquidation_analyzer/fast_kamino
 python main.py --limit 5000
 
 # Run individual steps
@@ -367,18 +371,18 @@ Each liquidation analysis includes:
 
 ---
 
-## 6. liquidation_paper/ — Paper-Version Kamino Pipeline
+## 6. liquidation_release/ — Paper-Version Kamino Pipeline
 
-A self-contained copy of the Kamino liquidation pipeline used for the paper's analysis. Same 3-step architecture as `Liquidations/liquidation_analyzer/fast_kamino/`.
+A self-contained copy of the Kamino liquidation pipeline used for the paper's analysis. Same 3-step architecture as `liquidations/liquidation_analyzer/fast_kamino/`.
 
 ```bash
-cd liquidation_paper/fast_kamino
+cd liquidation_release/fast_kamino
 python main.py --limit 5000
 ```
 
 ---
 
-## 7. analyzer/ — Aggregated Analysis & Visualization
+## 7. aggregate_analysis/ — Aggregated Analysis & Visualization
 
 Produces the final statistics and figures used in the paper, reading from pre-computed summary data.
 
@@ -440,19 +444,19 @@ Produces the final statistics and figures used in the paper, reading from pre-co
 ## End-to-End Workflow
 
 ```
-1. datasource/getmins.py          ──→  Sample volatile time periods
-2. datasource/utc_slot.py         ──→  Map to Solana slots
-3. datasource/batch_gettx.py      ──→  Fetch raw transaction data
+1. data_collection/getmins.py          ──→  Sample volatile time periods
+2. data_collection/utc_slot.py         ──→  Map to Solana slots
+3. data_collection/batch_gettx.py      ──→  Fetch raw transaction data
          │
          ├──→ sandwich/batch_sandwich.py        ──→  Detect sandwich attacks
-         ├──→ paper_arbitrage/batch_detect.py   ──→  Detect arbitrage
-         ├──→ paper_arbitrage/batch_liquidation.py ──→ Detect liquidations (from logs)
+         ├──→ atomic_arbitrage/batch_detect.py   ──→  Detect arbitrage
+         ├──→ atomic_arbitrage/batch_liquidation.py ──→ Detect liquidations (from logs)
          │
-         └──→ analyzer/                         ──→  Merge, compute stats, visualize
+         └──→ aggregate_analysis/                         ──→  Merge, compute stats, visualize
               ├── calc_*.py                     ──→  Statistical summaries
               └── plot_*.py                     ──→  Publication figures
 
-Liquidations/ (independent pipeline)
+liquidations/ (independent pipeline)
          └──→ step1 → step2 → step3            ──→  Protocol-level liquidation profit analysis
 ```
 

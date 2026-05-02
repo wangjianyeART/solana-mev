@@ -1,5 +1,5 @@
 """
-Batch scan all JSON transaction logs in datasource/data folder and count transactions containing liquidation-related keywords.
+Batch scan all JSON transaction logs in data_collection/data folder and count transactions containing liquidation-related keywords.
 """
 import json
 import os
@@ -10,7 +10,7 @@ import sys
 sys.stdout.reconfigure(line_buffering=True)
 
 # Data directory
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "datasource", "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data_collection", "data")
 OUTPUT_PATH = os.path.join(os.path.dirname(
     __file__), "batch_liquidation_summary.json")
 

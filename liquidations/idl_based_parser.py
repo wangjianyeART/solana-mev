@@ -357,15 +357,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--data-dir",
-        default="/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_data_7d_20260129_215323/",
+        default="liquidations/kamino_data_7d_20260129_215323/",
     )
     parser.add_argument(
         "--idl-path",
-        default="/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_lending_idl.json",
+        default="liquidations/kamino_lending_idl.json",
     )
     parser.add_argument(
         "--output",
-        default="/Volumes/T7 Shield/solana_rug_research/mev_solana/Liquidations/kamino_idl_parsed.jsonl",
+        default="liquidations/kamino_idl_parsed.jsonl",
     )
     args = parser.parse_args()
 
